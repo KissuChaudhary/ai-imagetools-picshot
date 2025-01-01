@@ -6,6 +6,27 @@
       "cta1": "Commencer",
       "cta2": "En savoir plus"
     },
+    "whyChoose": {
+      "title": "Pourquoi choisir Champai",
+      "features": {
+        "fastImage": {
+          "title": "Génération Rapide d'Images",
+          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+        },
+        "quality": {
+          "title": "Contenu de Haute Qualité",
+          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+        },
+        "language": {
+          "title": "Plus de 30 Langues Ajoutées",
+          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+        },
+        "support": {
+          "title": "Support 24/7",
+          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+        }
+      }
+    },
     "features": {
       "title": "Nos outils alimentés par l'IA",
       "colorize": "Coloriser",

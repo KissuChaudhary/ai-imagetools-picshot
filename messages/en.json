@@ -6,6 +6,27 @@
       "cta1": "Get Started",
       "cta2": "Learn More"
     },
+    "whyChoose": {
+      "title": "Why Choose Champai",
+      "features": {
+        "fastImage": {
+          "title": "Fast Image Generate",
+          "description": "Find your dream content and generate with ai magic tools"
+        },
+        "quality": {
+          "title": "High Quality Content",
+          "description": "Find your dream content and generate with ai magic tools"
+        },
+        "language": {
+          "title": "30+ Language Added",
+          "description": "Find your dream content and generate with ai magic tools"
+        },
+        "support": {
+          "title": "24/7 Hours Support",
+          "description": "Find your dream content and generate with ai magic tools"
+        }
+      }
+    },
     "features": {
       "title": "Our AI-Powered Tools",
       "colorize": "Colorize",

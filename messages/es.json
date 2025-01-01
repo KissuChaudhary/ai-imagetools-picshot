@@ -6,6 +6,27 @@
       "cta1": "Comenzar",
       "cta2": "Saber más"
     },
+    "whyChoose": {
+      "title": "¿Por qué elegir Champai?",
+      "features": {
+        "fastImage": {
+          "title": "Generación Rápida de Imágenes",
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+        },
+        "quality": {
+          "title": "Contenido de Alta Calidad",
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+        },
+        "language": {
+          "title": "Más de 30 Idiomas Añadidos",
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+        },
+        "support": {
+          "title": "Soporte 24/7",
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+        }
+      }
+    },
     "features": {
       "title": "Nuestras herramientas impulsadas por IA",
       "colorize": "Colorear",
@@ -24,7 +45,7 @@
   "Header": {
     "colorize": "Colorear",
     "enhance": "Mejorar",
-    "removeBg": "Eliminar fondo"
+    "removeBg": "Eliminar Fondo"
   },
   "Footer": {
     "product": "Producto",
