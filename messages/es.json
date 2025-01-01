@@ -1,0 +1,36 @@
+{
+  "Index": {
+    "hero": {
+      "title": "Transforma tus imágenes con IA",
+      "subtitle": "Libera el poder de la inteligencia artificial para mejorar, colorear y editar tus fotos",
+      "cta1": "Comenzar",
+      "cta2": "Saber más"
+    },
+    "features": {
+      "title": "Nuestras herramientas impulsadas por IA",
+      "colorize": "Colorear",
+      "colorizeDesc": "Da vida a las fotos en blanco y negro con colores vibrantes",
+      "enhance": "Mejorar",
+      "enhanceDesc": "Mejora la calidad y resolución de la imagen con IA",
+      "removeBg": "Eliminar fondo",
+      "removeBgDesc": "Elimina fácilmente los fondos de cualquier imagen"
+    },
+    "cta": {
+      "title": "¿Listo para transformar tus imágenes?",
+      "subtitle": "Únete a miles de usuarios satisfechos y comienza a mejorar tus fotos hoy",
+      "button": "Pruébalo gratis"
+    }
+  },
+  "Header": {
+    "colorize": "Colorear",
+    "enhance": "Mejorar",
+    "removeBg": "Eliminar fondo"
+  },
+  "Footer": {
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "followUs": "Síguenos"
+  }
+}
+

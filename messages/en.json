@@ -1,0 +1,36 @@
+{
+  "Index": {
+    "hero": {
+      "title": "Transform Your Images with AI",
+      "subtitle": "Unleash the power of artificial intelligence to enhance, colorize, and edit your photos",
+      "cta1": "Get Started",
+      "cta2": "Learn More"
+    },
+    "features": {
+      "title": "Our AI-Powered Tools",
+      "colorize": "Colorize",
+      "colorizeDesc": "Bring black and white photos to life with vibrant colors",
+      "enhance": "Enhance",
+      "enhanceDesc": "Improve image quality and resolution with AI",
+      "removeBg": "Remove Background",
+      "removeBgDesc": "Easily remove backgrounds from any image"
+    },
+    "cta": {
+      "title": "Ready to Transform Your Images?",
+      "subtitle": "Join thousands of satisfied users and start enhancing your photos today",
+      "button": "Try It Free"
+    }
+  },
+  "Header": {
+    "colorize": "Colorize",
+    "enhance": "Enhance",
+    "removeBg": "Remove Background"
+  },
+  "Footer": {
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "followUs": "Follow Us"
+  }
+}
+

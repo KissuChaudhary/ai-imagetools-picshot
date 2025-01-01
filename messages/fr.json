@@ -1,0 +1,36 @@
+{
+  "Index": {
+    "hero": {
+      "title": "Transformez vos images avec l'IA",
+      "subtitle": "Libérez la puissance de l'intelligence artificielle pour améliorer, coloriser et éditer vos photos",
+      "cta1": "Commencer",
+      "cta2": "En savoir plus"
+    },
+    "features": {
+      "title": "Nos outils alimentés par l'IA",
+      "colorize": "Coloriser",
+      "colorizeDesc": "Donnez vie aux photos en noir et blanc avec des couleurs vibrantes",
+      "enhance": "Améliorer",
+      "enhanceDesc": "Améliorez la qualité et la résolution de l'image avec l'IA",
+      "removeBg": "Supprimer l'arrière-plan",
+      "removeBgDesc": "Supprimez facilement les arrière-plans de n'importe quelle image"
+    },
+    "cta": {
+      "title": "Prêt à transformer vos images ?",
+      "subtitle": "Rejoignez des milliers d'utilisateurs satisfaits et commencez à améliorer vos photos dès aujourd'hui",
+      "button": "Essayez gratuitement"
+    }
+  },
+  "Header": {
+    "colorize": "Coloriser",
+    "enhance": "Améliorer",
+    "removeBg": "Supprimer l'arrière-plan"
+  },
+  "Footer": {
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "followUs": "Suivez-nous"
+  }
+}
+
