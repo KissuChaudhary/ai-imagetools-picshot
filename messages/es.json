@@ -10,7 +10,7 @@
     "colorize": "Colorear",
     "enhance": "Mejorar",
     "removeBg": "Eliminar Fondo",
-    "company": "Empresa",
+    "company": "Compañía",
     "about": "Acerca de",
     "blog": "Blog",
     "contact": "Contacto",
@@ -21,57 +21,57 @@
   },
   "Index": {
     "hero": {
-      "title": "Transforma Tus Fotos con el Poder de la IA",
-      "description": "Crea, edita y transforma tus visuales fácilmente con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de imágenes y generar obras de arte impresionantes, ofrecemos todo lo que necesitas para dar vida a tu creatividad.",
-      "newFeature": "Generador de Arte AI Gratis",
-      "lovedBy": "Amado por más de 2k+ clientes",
-      "cta": "Crea tu primer arte con IA"
+      "title": "Transforma tus fotos con el poder de la IA",
+      "description": "Crea, edita y transforma tus imágenes fácilmente con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de las imágenes y generar arte impresionante, te ofrecemos todo lo que necesitas para dar vida a tu creatividad.",
+      "newFeature": "Generador de Arte IA Gratis",
+      "lovedBy": "Querido por más de 2,000 clientes",
+      "cta": "Crea tu primer Arte IA"
     },
     "whyChoose": {
-      "title": "Por Qué Elegir Champai",
+      "title": "¿Por qué elegir Champai?",
       "features": {
         "fastImage": {
           "title": "Generación Rápida de Imágenes",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
         },
         "quality": {
           "title": "Contenido de Alta Calidad",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
         },
         "language": {
           "title": "Más de 30 Idiomas Añadidos",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
         },
         "support": {
           "title": "Soporte 24/7",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
         }
       }
     },
     "aiTools": {
       "title": "Herramientas Impulsadas por IA",
-      "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a lograr resultados profesionales en segundos.",
+      "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a obtener resultados profesionales en segundos.",
       "exploreMore": "Explorar Más",
       "tools": {
         "image-generator": {
           "title": "Generador de Imágenes IA",
-          "description": "Crea imágenes únicas y sorprendentes a partir de descripciones de texto con tecnología avanzada de IA."
+          "description": "Crea imágenes únicas y sorprendentes a partir de descripciones textuales con la avanzada tecnología de IA."
         },
         "background-remover": {
-          "title": "Eliminador de Fondos",
-          "description": "Elimina fondos de imágenes al instante con precisión y exactitud."
+          "title": "Eliminar Fondo",
+          "description": "Elimina instantáneamente los fondos de las imágenes con precisión y exactitud."
         },
         "image-upscaler": {
-          "title": "Amplificador de Imágenes",
-          "description": "Mejora la resolución de la imagen sin perder calidad utilizando tecnología de IA."
+          "title": "Mejorador de Imágenes",
+          "description": "Mejora la resolución de las imágenes sin perder calidad gracias a la tecnología IA."
         },
         "photo-colorizer": {
-          "title": "Colorizador de Fotos",
-          "description": "Da vida a fotos en blanco y negro con colorización impulsada por IA."
+          "title": "Coloreador de Fotos",
+          "description": "Devuelve la vida a las fotos en blanco y negro con la colorización impulsada por IA."
         },
         "photo-restorer": {
           "title": "Restaurador de Fotos",
-          "description": "Restaura fotos antiguas y dañadas a su antigua gloria."
+          "description": "Restaura fotos antiguas y dañadas a su gloria pasada."
         },
         "image-enhancer": {
           "title": "Mejorador de Imágenes",
@@ -79,28 +79,123 @@
         },
         "avatar-generator": {
           "title": "Generador de Avatares",
-          "description": "Crea avatares personalizados utilizando algoritmos avanzados de IA."
+          "description": "Crea avatares personalizados usando avanzados algoritmos de IA."
         },
         "face-swap": {
           "title": "Intercambio de Caras",
-          "description": "Intercambia caras en fotos sin problemas con precisión de IA."
+          "description": "Intercambia caras en las fotos con precisión de IA."
         },
         "headshot-generator": {
           "title": "Generador de Retratos",
-          "description": "Genera retratos profesionales con tecnología de IA."
+          "description": "Genera retratos profesionales con la tecnología de IA."
         },
         "object-remover": {
-          "title": "Eliminador de Objetos",
-          "description": "Elimina objetos no deseados de las fotos con relleno inteligente de IA."
+          "title": "Eliminar Objeto",
+          "description": "Elimina objetos no deseados de las fotos con el relleno inteligente de IA."
         }
       }
     },
-  
-    "cta": {
-      "title": "¿Listo para Transformar Tus Imágenes?",
-      "subtitle": "Únete a miles de usuarios satisfechos y comienza a mejorar tus fotos hoy",
-      "button": "Pruébalo Gratis"
+    "features": {
+      "title": "Nuestras Herramientas Impulsadas por IA",
+      "colorize": "Colorear",
+      "colorizeDesc": "Devuelve la vida a las fotos en blanco y negro con colores vibrantes.",
+      "enhance": "Mejorar",
+      "enhanceDesc": "Mejora la calidad y la resolución de las imágenes gracias a la IA.",
+      "removeBg": "Eliminar Fondo",
+      "removeBgDesc": "Elimina fácilmente los fondos de cualquier imagen."
+    },
+   "cta": {
+  "title": "¿Listo para transformar tu proceso creativo?",
+  "subtitle": "Únete a miles de creadores que ya están utilizando nuestra plataforma para dar vida a sus ideas. Comienza tu camino hoy con una prueba gratuita.",
+  "button": "Comenzar",
+  "secondaryButton": "Saber más",
+  "stats": {
+    "users": "10K+",
+    "assets": "500K+",
+    "satisfaction": "99.9%",
+    "usersLabel": "Usuarios activos",
+    "assetsLabel": "Activos creados",
+    "satisfactionLabel": "Satisfacción del cliente"
+  }
+},
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "description": "Encuentra las respuestas a las preguntas comunes sobre nuestras herramientas de imagen impulsadas por IA.",
+      "categories": {
+        "general": {
+          "title": "Preguntas Generales",
+          "items": {
+            "what-is": {
+              "question": "¿Qué es Picshot IA?",
+              "answer": "Picshot IA es una plataforma en línea que ofrece herramientas impulsadas por IA de forma gratuita para editar, mejorar y crear imágenes impresionantes. Desde eliminar fondos hasta generar arte IA, simplificamos tu flujo de trabajo creativo."
+            },
+            "free": {
+              "question": "¿Las herramientas de Picshot IA son gratuitas?",
+              "answer": "¡Sí! Picshot IA es gratuito para usar y obtienes tres generaciones por día para cada herramienta disponible."
+            },
+            "signup": {
+              "question": "¿Es necesario registrarse para usar las herramientas?",
+              "answer": "No, no necesitas registrarte. Cada herramienta está disponible de forma gratuita y puedes usar cada herramienta 3 veces al día."
+            },
+            "tools": {
+              "question": "¿Qué tipo de herramientas IA ofrece Picshot IA?",
+              "answer": {
+                "intro": "Ofrecemos:",
+                "items": {
+                  "bgRemover": "Eliminar Fondo IA",
+                  "enhancer": "Mejorador de Imágenes",
+                  "artGenerator": "Generador de Arte IA",
+                  "restorer": "Restaurador de Fotos",
+                  "avatarGenerator": "Generador de Avatares",
+                  "objectRemover": "Eliminar Objeto, y más."
+                }
+              }
+            }
+          }
+        },
+        "usage": {
+          "title": "Uso y Compatibilidad",
+          "items": {
+            "textToImage": {
+              "question": "¿Puedo generar imágenes a partir de texto?",
+              "answer": "¡Sí! Nuestro Generador de Imágenes IA puede crear visuales únicos a partir de descripciones textuales, perfecto para proyectos creativos o profesionales."
+            },
+            "bgRemover": {
+              "question": "¿Eliminar Fondo funciona en todas las imágenes?",
+              "answer": "Sí, Eliminar Fondo está diseñado para trabajar con todas las imágenes, proporcionando resultados limpios y precisos."
+            },
+            "mobile": {
+              "question": "¿Son compatibles las herramientas de Picshot IA con dispositivos móviles?",
+              "answer": "Nuestra plataforma funciona perfectamente tanto en escritorios como en dispositivos móviles."
+            },
+            "formats": {
+              "question": "¿Qué formatos de imagen son compatibles?",
+              "answer": "Admitimos los formatos más comunes, incluidos JPG, PNG y BMP, para carga y descarga."
+            }
+          }
+        },
+        "other": {
+          "title": "Otras Preguntas",
+          "items": {
+            "speed": {
+              "question": "¿Cuánto tiempo tarda en generarse el resultado?",
+              "answer": "Nuestras herramientas IA proporcionan resultados en segundos, asegurando un proceso de edición rápido y eficiente."
+            },
+            "security": {
+              "question": "¿Mis datos están seguros con Picshot IA?",
+              "answer": "Sí, priorizamos tu privacidad y utilizamos cifrado seguro para proteger tus datos. Las imágenes cargadas no se almacenan en nuestros servidores."
+            },
+            "privacy": {
+              "question": "¿Se utilizarán mis imágenes en otros lugares?",
+              "answer": "No, tus imágenes se procesan de forma segura y no almacenamos ninguna de tus imágenes."
+            },
+            "support": {
+              "question": "¿Qué debo hacer si la herramienta no funciona como se esperaba?",
+              "answer": "Puedes contactar con nuestro soporte por correo electrónico a support@picshotai.com. Te ayudaremos a resolver tu problema rápidamente."
+            }
+          }
+        }
+      }
     }
   }
 }
-

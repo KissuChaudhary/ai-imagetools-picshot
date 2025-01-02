@@ -1,17 +1,11 @@
 import { Suspense } from 'react';
 import HeroSection from '@/components/HeroSection';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
-import { CallToAction } from '@/components/CallToAction';
+import CallToAction from "@/components/CallToAction";
 import { AIToolsSection } from '@/components/AIToolsSection';
-import { setRequestLocale } from 'next-intl/server';
+import { FAQSection } from '@/components/FAQSection';
 
-export default async function Page({
-  params
-}: {
-  params: {locale: string}
-}) {
-  setRequestLocale(params.locale);
-  
+export default async function Page() {
   return <HomeContent />;
 }
 
@@ -22,10 +16,12 @@ function HomeContent() {
         <Suspense fallback={<div>Loading...</div>}>
           <HeroSection />
         </Suspense>
-        <AIToolsSection />
         <WhyChooseUs />
+        <AIToolsSection />
+        <FAQSection />
         <CallToAction />
       </main>
     </div>
   );
 }
+

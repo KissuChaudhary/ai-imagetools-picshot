@@ -95,12 +95,107 @@
         }
       }
     },
-   
+    "features": {
+      "title": "Our AI-Powered Tools",
+      "colorize": "Colorize",
+      "colorizeDesc": "Bring black and white photos to life with vibrant colors",
+      "enhance": "Enhance",
+      "enhanceDesc": "Improve image quality and resolution with AI",
+      "removeBg": "Remove Background",
+      "removeBgDesc": "Easily remove backgrounds from any image"
+    },
     "cta": {
-      "title": "Ready to Transform Your Images?",
-      "subtitle": "Join thousands of satisfied users and start enhancing your photos today",
-      "button": "Try It Free"
+      "title": "Ready to transform your creative process?",
+      "subtitle": "Join thousands of creators who are already using our platform to bring their ideas to life. Start your journey today with a free trial.",
+      "button": "Get started",
+      "secondaryButton": "Learn more",
+      "stats": {
+        "users": "10K+",
+        "assets": "500K+",
+        "satisfaction": "99.9%",
+        "usersLabel": "Active users",
+        "assetsLabel": "Assets created",
+        "satisfactionLabel": "Customer satisfaction"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to common questions about our AI-powered image tools.",
+      "categories": {
+        "general": {
+          "title": "General Questions",
+          "items": {
+            "what-is": {
+              "question": "What is Picshot AI?",
+              "answer": "Picshot AI is an online platform offering free AI-powered tools to edit, enhance, and create stunning images. From removing backgrounds to generating AI art, we simplify your creative workflow."
+            },
+            "free": {
+              "question": "Are Picshot AI tools free to use?",
+              "answer": "Yes! Picshot AI Free to use and you get three generations per day for each tool present on Picshot AI."
+            },
+            "signup": {
+              "question": "Do I need to sign up to use the tools?",
+              "answer": "No, You don't need to sign up. Each tool is provided free of cost here, and you can use each tool 3 times a day only."
+            },
+            "tools": {
+              "question": "What kind of AI tools does Picshot AI offer?",
+              "answer": {
+                "intro": "We provide:",
+                "items": {
+                  "bgRemover": "AI Background Remover",
+                  "enhancer": "Image Enhancer",
+                  "artGenerator": "AI Art Generator",
+                  "restorer": "Photo Restorer",
+                  "avatarGenerator": "Avatar Generator",
+                  "objectRemover": "Object Remover, and more"
+                }
+              }
+            }
+          }
+        },
+        "usage": {
+          "title": "Usage and Compatibility",
+          "items": {
+            "textToImage": {
+              "question": "Can I generate images from text?",
+              "answer": "Yes! Our AI Image Generator can create unique visuals based on text descriptions, perfect for creative projects or professional use."
+            },
+            "bgRemover": {
+              "question": "Does the Background Remover work on all images?",
+              "answer": "Yes, the Background Remover is designed to handle any image, delivering clean and precise results."
+            },
+            "mobile": {
+              "question": "Are Picshot AI tools mobile-friendly?",
+              "answer": "Our platform works seamlessly on desktop and mobile devices."
+            },
+            "formats": {
+              "question": "What image formats are supported?",
+              "answer": "We support most common formats, including JPG, PNG, and BMP, for uploads and downloads."
+            }
+          }
+        },
+        "other": {
+          "title": "Other Questions",
+          "items": {
+            "speed": {
+              "question": "How quickly are the results generated?",
+              "answer": "Our AI tools deliver results within seconds, ensuring a fast and efficient editing process."
+            },
+            "security": {
+              "question": "Is my data secure with Picshot AI?",
+              "answer": "Yes, we prioritize your privacy and use secure encryption to protect your data. Uploaded images are not stored anywhere on our servers."
+            },
+            "privacy": {
+              "question": "Will my images be used elsewhere?",
+              "answer": "No, your images are processed securely and we don't store any of your images."
+            },
+            "support": {
+              "question": "What should I do if the tool doesn't work as expected?",
+              "answer": "You can contact our support via email support@picshotai.com. We'll help resolve your issue quickly."
+            }
+          }
+        }
+      }
     }
   }
 }
-
