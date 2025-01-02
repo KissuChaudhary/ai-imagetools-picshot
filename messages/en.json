@@ -1,10 +1,31 @@
 {
+  "Header": {
+    "title": "AI Image Tools",
+    "colorize": "Colorize",
+    "enhance": "Enhance",
+    "removeBg": "Remove Background"
+  },
+  "Footer": {
+    "product": "Product",
+    "colorize": "Colorize",
+    "enhance": "Enhance",
+    "removeBg": "Remove Background",
+    "company": "Company",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "followUs": "Follow Us"
+  },
   "Index": {
     "hero": {
-      "title": "Transform Your Images with AI",
-      "subtitle": "Unleash the power of artificial intelligence to enhance, colorize, and edit your photos",
-      "cta1": "Get Started",
-      "cta2": "Learn More"
+      "title": "Transform Your Photos with the Power of AI",
+      "description": "From LinkedIn headshots to Instagram influencer photos, our state-of-the-art technology ensures you always look your best. Create, edit, and generate images effortlessly.",
+      "newFeature": "Try new flux model",
+      "lovedBy": "Loved by 1k+ customers",
+      "cta": "Create Your First AI Model"
     },
     "whyChoose": {
       "title": "Why Choose Champai",
@@ -41,17 +62,6 @@
       "subtitle": "Join thousands of satisfied users and start enhancing your photos today",
       "button": "Try It Free"
     }
-  },
-  "Header": {
-    "colorize": "Colorize",
-    "enhance": "Enhance",
-    "removeBg": "Remove Background"
-  },
-  "Footer": {
-    "product": "Product",
-    "company": "Company",
-    "legal": "Legal",
-    "followUs": "Follow Us"
   }
 }
 

@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 
-export function CallToAction() {
+export const CallToAction = () => {
   const t = useTranslations('Index.cta');
 
   return (
@@ -38,5 +38,5 @@ export function CallToAction() {
       </div>
     </section>
   );
-}
+};
 

@@ -1,41 +1,38 @@
 import Link from "next/link"
-import { Dictionary } from "@/lib/dictionary"
+import { useTranslations } from 'next-intl'
 
-type FooterProps = {
-  dict: Dictionary['Footer']
-  lang: string
-}
+export function Footer() {
+  const t = useTranslations('Footer')
 
-export function Footer({ dict, lang }: FooterProps) {
   return (
     <footer className="bg-gray-100">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">{dict.product}</h3>
+            <h3 className="font-bold mb-4">{t('product')}</h3>
             <ul className="space-y-2">
-              <li><Link href={`/${lang}/colorize`}>Colorize</Link></li>
-              <li><Link href={`/${lang}/enhance`}>Enhance</Link></li>
-              <li><Link href={`/${lang}/remove-bg`}>Remove Background</Link></li>
+              <li><Link href="/colorize">{t('colorize')}</Link></li>
+              <li><Link href="/enhance">{t('enhance')}</Link></li>
+              <li><Link href="/remove-bg">{t('removeBg')}</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-bold mb-4">{dict.company}</h3>
+            <h3 className="font-bold mb-4">{t('company')}</h3>
             <ul className="space-y-2">
-              <li><Link href={`/${lang}/about`}>About</Link></li>
-              <li><Link href={`/${lang}/blog`}>Blog</Link></li>
-              <li><Link href={`/${lang}/contact`}>Contact</Link></li>
+              <li><Link href="/about">{t('about')}</Link></li>
+              <li><Link href="/blog">{t('blog')}</Link></li>
+              <li><Link href="/contact">{t('contact')}</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-bold mb-4">{dict.legal}</h3>
+            <h3 className="font-bold mb-4">{t('legal')}</h3>
             <ul className="space-y-2">
-              <li><Link href={`/${lang}/privacy`}>Privacy Policy</Link></li>
-              <li><Link href={`/${lang}/terms`}>Terms of Service</Link></li>
+              <li><Link href="/privacy">{t('privacyPolicy')}</Link></li>
+              <li><Link href="/terms">{t('termsOfService')}</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-bold mb-4">{dict.followUs}</h3>
+            <h3 className="font-bold mb-4">{t('followUs')}</h3>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">Facebook</span>

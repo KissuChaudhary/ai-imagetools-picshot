@@ -47,11 +47,11 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ToastProvider>
             <div className="flex min-h-screen flex-col">
-              <Header dict={messages.Header} lang={locale} />
+              <Header />
               <main className="flex-1">
                 {children}
               </main>
-              <Footer dict={messages.Footer} lang={locale} />
+              <Footer />
             </div>
           </ToastProvider>
         </NextIntlClientProvider>
@@ -60,4 +60,3 @@ export default async function LocaleLayout({
     </html>
   )
 }
-

@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { Hero } from '@/components/Hero';
+import HeroSection from '@/components/HeroSection';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
 import { Features } from '@/components/Features';
 import { CallToAction } from '@/components/CallToAction';
@@ -21,7 +21,7 @@ function HomeContent() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
         <Suspense fallback={<div>Loading...</div>}>
-          <Hero />
+          <HeroSection />
         </Suspense>
         <WhyChooseUs />
         <Features />

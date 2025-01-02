@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Wand2, ImageIcon, Eraser } from 'lucide-react';
 
-export function Features() {
+export const Features = () => {
   const t = useTranslations('Index.features');
 
   const features = [
@@ -35,5 +35,5 @@ export function Features() {
       </div>
     </section>
   );
-}
+};
 

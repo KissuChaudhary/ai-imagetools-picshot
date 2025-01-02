@@ -1,87 +1,85 @@
 'use client'
 
-import { motion } from 'framer-motion'
-import { ImageIcon, QrCode, Languages, Clock } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { useEffect } from 'react'
+import { Zap, Award, Globe, HeadphonesIcon } from 'lucide-react'
 
-
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2
-    }
-  }
-}
-
-const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 }
-}
+const features = [
+  { icon: Zap, key: 'fastImage' },
+  { icon: Award, key: 'quality' },
+  { icon: Globe, key: 'language' },
+  { icon: HeadphonesIcon, key: 'support' }
+]
 
 export function WhyChooseUs() {
   const t = useTranslations('Index.whyChoose')
+  const controls = useAnimation()
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  })
 
-  const features = [
-    {
-      icon: ImageIcon,
-      title: t('features.fastImage.title'),
-      description: t('features.fastImage.description')
-    },
-    {
-      icon: QrCode,
-      title: t('features.quality.title'),
-      description: t('features.quality.description')
-    },
-    {
-      icon: Languages,
-      title: t('features.language.title'),
-      description: t('features.language.description')
-    },
-    {
-      icon: Clock,
-      title: t('features.support.title'),
-      description: t('features.support.description')
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible')
     }
-  ]
+  }, [controls, inView])
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  }
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+    },
+  }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-24 bg-background">
       <div className="container mx-auto px-4">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-center mb-16"
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-primary"
         >
-          <span className="text-blue-500 mr-2">✧</span>
           {t('title')}
-          <span className="text-blue-500 ml-2">✧</span>
         </motion.h2>
 
-        <motion.div 
-          variants={container}
+        <motion.div
+          ref={ref}
+          variants={containerVariants}
           initial="hidden"
-          whileInView="show"
-          viewport={{ once: true }}
+          animate={controls}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
-          {features.map((feature, index) => (
+          {features.map(({ icon: Icon, key }) => (
             <motion.div
-              key={index}
-              variants={item}
-              className="relative p-6 rounded-2xl bg-white border border-gray-100 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              key={key}
+              variants={itemVariants}
+              className="group"
             >
-              <div className="mb-4">
-                <feature.icon className="w-10 h-10 text-blue-500" />
+              <div className="relative p-6 bg-card rounded-lg overflow-hidden transition-all duration-300 group-hover:shadow-lg border border-border">
+                <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
+                <Icon className="w-12 h-12 mb-4 text-primary group-hover:text-secondary transition-colors duration-300" />
+                <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
+                  {t(`features.${key}.title`)}
+                </h3>
+                <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                  {t(`features.${key}.description`)}
+                </p>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600">
-                {feature.description}
-              </p>
             </motion.div>
           ))}
         </motion.div>

@@ -1,13 +1,34 @@
 {
+  "Header": {
+    "title": "Herramientas de Imagen IA",
+    "colorize": "Colorear",
+    "enhance": "Mejorar",
+    "removeBg": "Eliminar Fondo"
+  },
+  "Footer": {
+    "product": "Producto",
+    "colorize": "Colorear",
+    "enhance": "Mejorar",
+    "removeBg": "Eliminar Fondo",
+    "company": "Empresa",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "followUs": "Síguenos"
+  },
   "Index": {
     "hero": {
-      "title": "Transforma tus imágenes con IA",
-      "subtitle": "Libera el poder de la inteligencia artificial para mejorar, colorear y editar tus fotos",
-      "cta1": "Comenzar",
-      "cta2": "Saber más"
+      "title": "Transforma Tus Fotos con el Poder de la IA",
+      "description": "Desde fotos de perfil de LinkedIn hasta fotos de influencers de Instagram, nuestra tecnología de vanguardia asegura que siempre te veas mejor. Crea, edita y genera imágenes sin esfuerzo.",
+      "newFeature": "Prueba el nuevo modelo flux",
+      "lovedBy": "Amado por más de 1000 clientes",
+      "cta": "Crea Tu Primer Modelo de IA"
     },
     "whyChoose": {
-      "title": "¿Por qué elegir Champai?",
+      "title": "Por Qué Elegir Champai",
       "features": {
         "fastImage": {
           "title": "Generación Rápida de Imágenes",
@@ -28,30 +49,18 @@
       }
     },
     "features": {
-      "title": "Nuestras herramientas impulsadas por IA",
+      "title": "Nuestras Herramientas Impulsadas por IA",
       "colorize": "Colorear",
-      "colorizeDesc": "Da vida a las fotos en blanco y negro con colores vibrantes",
+      "colorizeDesc": "Da vida a fotos en blanco y negro con colores vibrantes",
       "enhance": "Mejorar",
       "enhanceDesc": "Mejora la calidad y resolución de la imagen con IA",
-      "removeBg": "Eliminar fondo",
+      "removeBg": "Eliminar Fondo",
       "removeBgDesc": "Elimina fácilmente los fondos de cualquier imagen"
     },
     "cta": {
-      "title": "¿Listo para transformar tus imágenes?",
+      "title": "¿Listo para Transformar Tus Imágenes?",
       "subtitle": "Únete a miles de usuarios satisfechos y comienza a mejorar tus fotos hoy",
-      "button": "Pruébalo gratis"
+      "button": "Pruébalo Gratis"
     }
-  },
-  "Header": {
-    "colorize": "Colorear",
-    "enhance": "Mejorar",
-    "removeBg": "Eliminar Fondo"
-  },
-  "Footer": {
-    "product": "Producto",
-    "company": "Empresa",
-    "legal": "Legal",
-    "followUs": "Síguenos"
   }
 }
-

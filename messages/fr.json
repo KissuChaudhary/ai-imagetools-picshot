@@ -1,57 +1,66 @@
 {
+  "Header": {
+    "title": "Outils d'Image IA",
+    "colorize": "Coloriser",
+    "enhance": "Améliorer",
+    "removeBg": "Supprimer l'Arrière-plan"
+  },
+  "Footer": {
+    "product": "Produit",
+    "colorize": "Coloriser",
+    "enhance": "Améliorer",
+    "removeBg": "Supprimer l'Arrière-plan",
+    "company": "Entreprise",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation",
+    "followUs": "Suivez-nous"
+  },
   "Index": {
     "hero": {
-      "title": "Transformez vos images avec l'IA",
-      "subtitle": "Libérez la puissance de l'intelligence artificielle pour améliorer, coloriser et éditer vos photos",
-      "cta1": "Commencer",
-      "cta2": "En savoir plus"
+      "title": "Transformez Vos Photos avec la Puissance de l'IA",
+      "description": "Des photos de profil LinkedIn aux photos d'influenceurs Instagram, notre technologie de pointe garantit que vous ayez toujours la meilleure apparence. Créez, éditez et générez des images sans effort.",
+      "newFeature": "Essayez le nouveau modèle flux",
+      "lovedBy": "Aimé par plus de 1000 clients",
+      "cta": "Créez Votre Premier Modèle IA"
     },
     "whyChoose": {
-      "title": "Pourquoi choisir Champai",
+      "title": "Pourquoi Choisir Champai",
       "features": {
         "fastImage": {
           "title": "Génération Rapide d'Images",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
         },
         "quality": {
           "title": "Contenu de Haute Qualité",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
         },
         "language": {
           "title": "Plus de 30 Langues Ajoutées",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
         },
         "support": {
           "title": "Support 24/7",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
         }
       }
     },
     "features": {
-      "title": "Nos outils alimentés par l'IA",
+      "title": "Nos Outils Alimentés par l'IA",
       "colorize": "Coloriser",
       "colorizeDesc": "Donnez vie aux photos en noir et blanc avec des couleurs vibrantes",
       "enhance": "Améliorer",
       "enhanceDesc": "Améliorez la qualité et la résolution de l'image avec l'IA",
-      "removeBg": "Supprimer l'arrière-plan",
+      "removeBg": "Supprimer l'Arrière-plan",
       "removeBgDesc": "Supprimez facilement les arrière-plans de n'importe quelle image"
     },
     "cta": {
-      "title": "Prêt à transformer vos images ?",
+      "title": "Prêt à Transformer Vos Images ?",
       "subtitle": "Rejoignez des milliers d'utilisateurs satisfaits et commencez à améliorer vos photos dès aujourd'hui",
-      "button": "Essayez gratuitement"
+      "button": "Essayez Gratuitement"
     }
-  },
-  "Header": {
-    "colorize": "Coloriser",
-    "enhance": "Améliorer",
-    "removeBg": "Supprimer l'arrière-plan"
-  },
-  "Footer": {
-    "product": "Produit",
-    "company": "Entreprise",
-    "legal": "Mentions légales",
-    "followUs": "Suivez-nous"
   }
 }
-
