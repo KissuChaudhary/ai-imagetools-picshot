@@ -1,62 +1,101 @@
 {
   "Header": {
-    "title": "Outils d'Image IA",
+    "title": "Outils d'Images AI",
     "colorize": "Coloriser",
     "enhance": "Améliorer",
-    "removeBg": "Supprimer l'Arrière-plan"
+    "removeBg": "Supprimer l'Arrière-Plan"
   },
   "Footer": {
     "product": "Produit",
     "colorize": "Coloriser",
     "enhance": "Améliorer",
-    "removeBg": "Supprimer l'Arrière-plan",
+    "removeBg": "Supprimer l'Arrière-Plan",
     "company": "Entreprise",
-    "about": "À propos",
+    "about": "À Propos",
     "blog": "Blog",
     "contact": "Contact",
-    "legal": "Mentions légales",
+    "legal": "Légal",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions d'Utilisation",
-    "followUs": "Suivez-nous"
+    "followUs": "Suivez-Nous"
   },
   "Index": {
     "hero": {
       "title": "Transformez Vos Photos avec la Puissance de l'IA",
-      "description": "Des photos de profil LinkedIn aux photos d'influenceurs Instagram, notre technologie de pointe garantit que vous ayez toujours la meilleure apparence. Créez, éditez et générez des images sans effort.",
-      "newFeature": "Essayez le nouveau modèle flux",
-      "lovedBy": "Aimé par plus de 1000 clients",
-      "cta": "Créez Votre Premier Modèle IA"
+      "description": "Créez, éditez et transformez vos visuels facilement avec nos outils alimentés par l'IA. De la suppression des arrière-plans à l'amélioration de la qualité des images et la création d'œuvres d'art époustouflantes, nous vous offrons tout ce dont vous avez besoin pour donner vie à votre créativité.",
+      "newFeature": "Générateur d'Art AI Gratuit",
+      "lovedBy": "Adoré par plus de 2 000 clients",
+      "cta": "Créez Votre Premier Art AI"
     },
     "whyChoose": {
       "title": "Pourquoi Choisir Champai",
       "features": {
         "fastImage": {
           "title": "Génération Rapide d'Images",
-          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
+          "description": "Trouvez votre contenu de rêve et générez-le avec nos outils magiques d'IA"
         },
         "quality": {
           "title": "Contenu de Haute Qualité",
-          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
+          "description": "Trouvez votre contenu de rêve et générez-le avec nos outils magiques d'IA"
         },
         "language": {
-          "title": "Plus de 30 Langues Ajoutées",
-          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
+          "title": "Ajout de Plus de 30 Langues",
+          "description": "Trouvez votre contenu de rêve et générez-le avec nos outils magiques d'IA"
         },
         "support": {
           "title": "Support 24/7",
-          "description": "Trouvez le contenu de vos rêves et générez avec des outils magiques d'IA"
+          "description": "Trouvez votre contenu de rêve et générez-le avec nos outils magiques d'IA"
         }
       }
     },
-    "features": {
-      "title": "Nos Outils Alimentés par l'IA",
-      "colorize": "Coloriser",
-      "colorizeDesc": "Donnez vie aux photos en noir et blanc avec des couleurs vibrantes",
-      "enhance": "Améliorer",
-      "enhanceDesc": "Améliorez la qualité et la résolution de l'image avec l'IA",
-      "removeBg": "Supprimer l'Arrière-plan",
-      "removeBgDesc": "Supprimez facilement les arrière-plans de n'importe quelle image"
+    "aiTools": {
+      "title": "Outils Alimentés par l'IA",
+      "description": "Transformez votre flux de travail créatif avec notre suite d'outils alimentés par l'IA. Chaque outil est conçu pour vous aider à obtenir des résultats professionnels en quelques secondes.",
+      "exploreMore": "Explorer Plus",
+      "tools": {
+        "image-generator": {
+          "title": "Générateur d'Images AI",
+          "description": "Créez des images uniques et époustouflantes à partir de descriptions textuelles avec une technologie AI avancée."
+        },
+        "background-remover": {
+          "title": "Suppresseur d'Arrière-Plan",
+          "description": "Supprimez instantanément les arrière-plans des images avec précision et exactitude."
+        },
+        "image-upscaler": {
+          "title": "Agrandisseur d'Image",
+          "description": "Améliorez la résolution des images sans perdre en qualité grâce à la technologie AI."
+        },
+        "photo-colorizer": {
+          "title": "Coloriseur de Photos",
+          "description": "Donnez vie aux photos en noir et blanc grâce à la colorisation alimentée par l'IA."
+        },
+        "photo-restorer": {
+          "title": "Restauration de Photos",
+          "description": "Restaurez les photos anciennes et endommagées à leur splendeur d'origine."
+        },
+        "image-enhancer": {
+          "title": "Améliorateur d'Image",
+          "description": "Améliorez automatiquement vos photos pour obtenir des résultats de qualité professionnelle."
+        },
+        "avatar-generator": {
+          "title": "Générateur d'Avatar",
+          "description": "Créez des avatars personnalisés à l'aide d'algorithmes avancés d'IA."
+        },
+        "face-swap": {
+          "title": "Échange de Visages",
+          "description": "Échangez facilement les visages dans les photos avec précision AI."
+        },
+        "headshot-generator": {
+          "title": "Générateur de Portraits",
+          "description": "Générez des portraits professionnels avec la technologie AI."
+        },
+        "object-remover": {
+          "title": "Suppresseur d'Objets",
+          "description": "Supprimez les objets indésirables des photos avec un remplissage intelligent par IA."
+        }
+      }
     },
+  
     "cta": {
       "title": "Prêt à Transformer Vos Images ?",
       "subtitle": "Rejoignez des milliers d'utilisateurs satisfaits et commencez à améliorer vos photos dès aujourd'hui",

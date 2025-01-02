@@ -34,7 +34,7 @@ export default function LocaleSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="w-[200px]">
+        <Button variant="outline" className="py-2">
           <span>{currentLanguage.flag}</span>
           <span className="ml-2">{currentLanguage.name}</span>
         </Button>

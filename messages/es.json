@@ -22,10 +22,10 @@
   "Index": {
     "hero": {
       "title": "Transforma Tus Fotos con el Poder de la IA",
-      "description": "Desde fotos de perfil de LinkedIn hasta fotos de influencers de Instagram, nuestra tecnología de vanguardia asegura que siempre te veas mejor. Crea, edita y genera imágenes sin esfuerzo.",
-      "newFeature": "Prueba el nuevo modelo flux",
-      "lovedBy": "Amado por más de 1000 clientes",
-      "cta": "Crea Tu Primer Modelo de IA"
+      "description": "Crea, edita y transforma tus visuales fácilmente con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de imágenes y generar obras de arte impresionantes, ofrecemos todo lo que necesitas para dar vida a tu creatividad.",
+      "newFeature": "Generador de Arte AI Gratis",
+      "lovedBy": "Amado por más de 2k+ clientes",
+      "cta": "Crea tu primer arte con IA"
     },
     "whyChoose": {
       "title": "Por Qué Elegir Champai",
@@ -48,15 +48,54 @@
         }
       }
     },
-    "features": {
-      "title": "Nuestras Herramientas Impulsadas por IA",
-      "colorize": "Colorear",
-      "colorizeDesc": "Da vida a fotos en blanco y negro con colores vibrantes",
-      "enhance": "Mejorar",
-      "enhanceDesc": "Mejora la calidad y resolución de la imagen con IA",
-      "removeBg": "Eliminar Fondo",
-      "removeBgDesc": "Elimina fácilmente los fondos de cualquier imagen"
+    "aiTools": {
+      "title": "Herramientas Impulsadas por IA",
+      "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a lograr resultados profesionales en segundos.",
+      "exploreMore": "Explorar Más",
+      "tools": {
+        "image-generator": {
+          "title": "Generador de Imágenes IA",
+          "description": "Crea imágenes únicas y sorprendentes a partir de descripciones de texto con tecnología avanzada de IA."
+        },
+        "background-remover": {
+          "title": "Eliminador de Fondos",
+          "description": "Elimina fondos de imágenes al instante con precisión y exactitud."
+        },
+        "image-upscaler": {
+          "title": "Amplificador de Imágenes",
+          "description": "Mejora la resolución de la imagen sin perder calidad utilizando tecnología de IA."
+        },
+        "photo-colorizer": {
+          "title": "Colorizador de Fotos",
+          "description": "Da vida a fotos en blanco y negro con colorización impulsada por IA."
+        },
+        "photo-restorer": {
+          "title": "Restaurador de Fotos",
+          "description": "Restaura fotos antiguas y dañadas a su antigua gloria."
+        },
+        "image-enhancer": {
+          "title": "Mejorador de Imágenes",
+          "description": "Mejora automáticamente tus fotos para obtener resultados de calidad profesional."
+        },
+        "avatar-generator": {
+          "title": "Generador de Avatares",
+          "description": "Crea avatares personalizados utilizando algoritmos avanzados de IA."
+        },
+        "face-swap": {
+          "title": "Intercambio de Caras",
+          "description": "Intercambia caras en fotos sin problemas con precisión de IA."
+        },
+        "headshot-generator": {
+          "title": "Generador de Retratos",
+          "description": "Genera retratos profesionales con tecnología de IA."
+        },
+        "object-remover": {
+          "title": "Eliminador de Objetos",
+          "description": "Elimina objetos no deseados de las fotos con relleno inteligente de IA."
+        }
+      }
     },
+  
     "cta": {
       "title": "¿Listo para Transformar Tus Imágenes?",
       "subtitle": "Únete a miles de usuarios satisfechos y comienza a mejorar tus fotos hoy",
@@ -64,3 +103,4 @@
     }
   }
 }
+

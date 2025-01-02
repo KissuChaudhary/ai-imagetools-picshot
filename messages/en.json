@@ -22,10 +22,10 @@
   "Index": {
     "hero": {
       "title": "Transform Your Photos with the Power of AI",
-      "description": "From LinkedIn headshots to Instagram influencer photos, our state-of-the-art technology ensures you always look your best. Create, edit, and generate images effortlessly.",
-      "newFeature": "Try new flux model",
-      "lovedBy": "Loved by 1k+ customers",
-      "cta": "Create Your First AI Model"
+      "description": "Create, edit, and transform your visuals effortlessly with our AI-powered tools. From removing backgrounds to enhancing image quality and generating stunning artwork, we provide everything you need to bring your creativity to life.",
+      "newFeature": "Free AI Art Generator",
+      "lovedBy": "Loved by 2k+ customers",
+      "cta": "Create Your First AI Art"
     },
     "whyChoose": {
       "title": "Why Choose Champai",
@@ -48,15 +48,54 @@
         }
       }
     },
-    "features": {
-      "title": "Our AI-Powered Tools",
-      "colorize": "Colorize",
-      "colorizeDesc": "Bring black and white photos to life with vibrant colors",
-      "enhance": "Enhance",
-      "enhanceDesc": "Improve image quality and resolution with AI",
-      "removeBg": "Remove Background",
-      "removeBgDesc": "Easily remove backgrounds from any image"
+    "aiTools": {
+      "title": "AI-Powered Tools",
+      "description": "Transform your creative workflow with our suite of AI-powered tools. Each tool is designed to help you achieve professional results in seconds.",
+      "exploreMore": "Explore More",
+      "tools": {
+        "image-generator": {
+          "title": "AI Image Generator",
+          "description": "Create stunning, unique images from text descriptions with advanced AI technology."
+        },
+        "background-remover": {
+          "title": "Background Remover",
+          "description": "Remove backgrounds from images instantly with precision and accuracy."
+        },
+        "image-upscaler": {
+          "title": "Image Upscaler",
+          "description": "Enhance image resolution without losing quality using AI technology."
+        },
+        "photo-colorizer": {
+          "title": "Photo Colorizer",
+          "description": "Bring black and white photos to life with AI-powered colorization."
+        },
+        "photo-restorer": {
+          "title": "Photo Restorer",
+          "description": "Restore old and damaged photos to their former glory."
+        },
+        "image-enhancer": {
+          "title": "Image Enhancer",
+          "description": "Automatically enhance your photos for professional-quality results."
+        },
+        "avatar-generator": {
+          "title": "Avatar Generator",
+          "description": "Create personalized avatars using advanced AI algorithms."
+        },
+        "face-swap": {
+          "title": "Face Swap",
+          "description": "Seamlessly swap faces in photos with AI precision."
+        },
+        "headshot-generator": {
+          "title": "Headshot Generator",
+          "description": "Generate professional headshots with AI technology."
+        },
+        "object-remover": {
+          "title": "Object Remover",
+          "description": "Remove unwanted objects from photos with intelligent AI filling."
+        }
+      }
     },
+   
     "cta": {
       "title": "Ready to Transform Your Images?",
       "subtitle": "Join thousands of satisfied users and start enhancing your photos today",

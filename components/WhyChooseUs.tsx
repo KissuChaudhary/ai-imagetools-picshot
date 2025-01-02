@@ -47,7 +47,7 @@ export function WhyChooseUs() {
 
   return (
     <section className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-3 sm:px-4 md:px-6 max-w-7xl">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
