@@ -21,14 +21,14 @@
   },
   "Index": {
     "hero": {
-      "title": "Transforma tus fotos con el poder de la IA",
+      "title": "Deja que la IA lleve tus fotos al siguiente nivel",
       "description": "Crea, edita y transforma tus imágenes fácilmente con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de las imágenes y generar arte impresionante, te ofrecemos todo lo que necesitas para dar vida a tu creatividad.",
       "newFeature": "Generador de Arte IA Gratis",
       "lovedBy": "Querido por más de 2,000 clientes",
       "cta": "Crea tu primer Arte IA"
     },
     "whyChoose": {
-      "title": "¿Por qué elegir Champai?",
+      "title": "¿Por qué elegir Picshot AI",
       "features": {
         "fastImage": {
           "title": "Generación Rápida de Imágenes",
@@ -48,8 +48,31 @@
         }
       }
     },
+    "whoCanUse": {
+      "welcome": "BIENVENIDO A PICSHOT AI",
+      "title": "Quién Puede Usar",
+      "titleHighlight": "Picshot AI",
+      "subtitle": "Transforma tu visión creativa con mejora de imágenes impulsada por IA",
+      "eCommerce": {
+        "title": "Comercio Electrónico",
+        "description": "Perfecto para fotografía de productos y tiendas en línea"
+      },
+      "realEstate": {
+        "title": "Bienes Raíces",
+        "description": "Mejora las fotos de propiedades para mejores listados"
+      },
+      "education": {
+        "title": "Educación",
+        "description": "Crea contenido visual atractivo para el aprendizaje"
+      },
+      "socialMedia": {
+        "title": "Redes Sociales",
+        "description": "Destaca con contenido de aspecto profesional"
+      }
+    },
     "aiTools": {
-      "title": "Herramientas Impulsadas por IA",
+      "title": "Impulsado por IA",  
+"titleHighlight1": "Herramientas",
       "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a obtener resultados profesionales en segundos.",
       "exploreMore": "Explorar Más",
       "tools": {
@@ -106,16 +129,15 @@
     },
    "cta": {
   "title": "¿Listo para transformar tu proceso creativo?",
-  "subtitle": "Únete a miles de creadores que ya están utilizando nuestra plataforma para dar vida a sus ideas. Comienza tu camino hoy con una prueba gratuita.",
-  "button": "Comenzar",
-  "secondaryButton": "Saber más",
+  "subtitle": "Únete a miles de creadores que ya están usando nuestra plataforma para dar vida a sus ideas. Usa todo gratis.",
+  "button": "Mejora tus fotos ahora",
   "stats": {
     "users": "10K+",
     "assets": "500K+",
     "satisfaction": "99.9%",
     "usersLabel": "Usuarios activos",
     "assetsLabel": "Activos creados",
-    "satisfactionLabel": "Satisfacción del cliente"
+    "satisfactionLabel": "Satisfacción del usuario"
   }
 },
     "faq": {

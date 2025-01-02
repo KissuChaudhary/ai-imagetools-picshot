@@ -107,7 +107,7 @@ export function AIToolsSection() {
       <div className="container mx-auto px-3 sm:px-4 md:px-6 max-w-7xl">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-5xl text-white">
-            {t('title')}
+          <span className="text-cyan-400">{t('title')}</span> {t('titleHighlight1')}
           </h2>
           <p className="max-w-[900px] text-sm sm:text-base text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             {t('description')}

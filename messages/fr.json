@@ -21,14 +21,14 @@
   },
   "Index": {
     "hero": {
-      "title": "Transformez vos photos avec la puissance de l'IA",
+      "title": "Laissez l'IA porter vos photos au niveau supérieur",
       "description": "Créez, éditez et transformez vos visuels facilement avec nos outils alimentés par IA. De la suppression des arrière-plans à l'amélioration de la qualité des images et à la génération d'œuvres d'art époustouflantes, nous vous fournissons tout ce dont vous avez besoin pour donner vie à votre créativité.",
       "newFeature": "Générateur d'Art IA Gratuit",
       "lovedBy": "Apprécié par plus de 2 000 clients",
       "cta": "Créez votre premier Art IA"
     },
     "whyChoose": {
-      "title": "Pourquoi choisir Champai",
+      "title": "Pourquoi choisir Picshot AI",
       "features": {
         "fastImage": {
           "title": "Génération d'Image Rapide",
@@ -48,8 +48,31 @@
         }
       }
     },
+    "whoCanUse": {
+      "welcome": "BIENVENUE SUR PICSHOT AI",
+      "title": "Qui Peut Utiliser",
+      "titleHighlight": "Picshot AI",
+      "subtitle": "Transformez votre vision créative avec l'amélioration d'image alimentée par l'IA",
+      "eCommerce": {
+        "title": "Commerce Électronique",
+        "description": "Parfait pour la photographie de produits et les boutiques en ligne"
+      },
+      "realEstate": {
+        "title": "Immobilier",
+        "description": "Améliorez les photos de propriétés pour de meilleures annonces"
+      },
+      "education": {
+        "title": "Éducation",
+        "description": "Créez du contenu visuel attrayant pour l'apprentissage"
+      },
+      "socialMedia": {
+        "title": "Médias Sociaux",
+        "description": "Démarquez-vous avec un contenu d'apparence professionnelle"
+      }
+    },
     "aiTools": {
-      "title": "Outils Alimentés par IA",
+      "title": "Propulsé par l'IA",  
+"titleHighlight1": "Outils",
       "description": "Transformez votre flux de travail créatif avec notre suite d'outils alimentés par IA. Chaque outil est conçu pour vous aider à obtenir des résultats professionnels en quelques secondes.",
       "exploreMore": "Explorer Plus",
       "tools": {
@@ -106,16 +129,15 @@
     },
     "cta": {
   "title": "Prêt à transformer votre processus créatif ?",
-  "subtitle": "Rejoignez des milliers de créateurs qui utilisent déjà notre plateforme pour donner vie à leurs idées. Commencez votre parcours dès aujourd'hui avec un essai gratuit.",
-  "button": "Commencer",
-  "secondaryButton": "En savoir plus",
+  "subtitle": "Rejoignez des milliers de créateurs qui utilisent déjà notre plateforme pour donner vie à leurs idées. Utilisez tout gratuitement.",
+  "button": "Améliorez vos photos maintenant",
   "stats": {
     "users": "10K+",
     "assets": "500K+",
     "satisfaction": "99.9%",
     "usersLabel": "Utilisateurs actifs",
     "assetsLabel": "Ressources créées",
-    "satisfactionLabel": "Satisfaction client"
+    "satisfactionLabel": "Satisfaction de l'utilisateur"
   }
 }
 ,

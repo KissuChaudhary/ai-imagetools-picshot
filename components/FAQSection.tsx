@@ -8,7 +8,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Sparkles } from 'lucide-react'
 
 interface FAQItem {
   id: string
@@ -119,11 +118,10 @@ export function FAQSection() {
       <div className="container px-4 md:px-6 mx-auto max-w-7xl">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
           <div className="flex items-center space-x-2 text-primary">
-            <Sparkles className="w-6 h-6" />
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            <h2 className="text-2xl sm:text-3xl sm:text-5xl font-bold tracking-tighter">
               {t('title')}
             </h2>
-            <Sparkles className="w-6 h-6" />
+            
           </div>
           <p className="max-w-[900px] text-zinc-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             {t('description')}

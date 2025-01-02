@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Button } from "./ui/button";
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Sparkle } from 'lucide-react';
 import Image from "next/image";
 import Marquee from "./ui/marquee";
 import AnimatedGradientText from "./ui/animated-gradient-text";
@@ -109,10 +109,10 @@ const HeroSection = () => {
           <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </AnimatedGradientText>
         <h1 className="text-3xl font-extrabold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-foreground">
-          {t('title')}
+          {t('title')} 
         </h1>
 
-        <p className="mx-auto max-w-3xl text-muted-foreground text-sm xs:text-base sm:text-lg md:text-xl mb-8">
+        <p className="mx-auto max-w-3xl text-gray-700 text-sm xs:text-base sm:text-lg md:text-xl mb-8">
           {t('description')}
         </p>
         <div className="flex items-center space-x-2 mb-4">
@@ -131,7 +131,7 @@ const HeroSection = () => {
         </div>
         <Link href="/login?state=signup">
           <Button className="rounded-md text-base h-12">
-            ✨ {t('cta')} ✨
+            <Sparkle /> {t('cta')} <Sparkle />
           </Button>
         </Link>
       </div>

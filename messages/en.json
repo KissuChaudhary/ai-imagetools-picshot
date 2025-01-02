@@ -21,14 +21,14 @@
   },
   "Index": {
     "hero": {
-      "title": "Transform Your Photos with the Power of AI",
+      "title": "Let AI Take Your Photos to the Next Level",
       "description": "Create, edit, and transform your visuals effortlessly with our AI-powered tools. From removing backgrounds to enhancing image quality and generating stunning artwork, we provide everything you need to bring your creativity to life.",
       "newFeature": "Free AI Art Generator",
       "lovedBy": "Loved by 2k+ customers",
       "cta": "Create Your First AI Art"
     },
     "whyChoose": {
-      "title": "Why Choose Champai",
+      "title": "Why Choose Picshot AI",
       "features": {
         "fastImage": {
           "title": "Fast Image Generate",
@@ -48,8 +48,31 @@
         }
       }
     },
+    "whoCanUse": {
+      "welcome": "WELCOME TO PICSHOT AI",
+      "title": "Who Can Use",
+      "titleHighlight": "Picshot AI",
+      "subtitle": "Transform your creative vision with AI-powered image enhancement",
+      "eCommerce": {
+        "title": "eCommerce",
+        "description": "Perfect for product photography and online stores"
+      },
+      "realEstate": {
+        "title": "Real Estate",
+        "description": "Enhance property photos for better listings"
+      },
+      "education": {
+        "title": "Education",
+        "description": "Create engaging visual content for learning"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "description": "Stand out with professional-looking content"
+      }
+    },
     "aiTools": {
-      "title": "AI-Powered Tools",
+      "title": "AI-Powered ",
+      "titleHighlight1": "Tools" ,
       "description": "Transform your creative workflow with our suite of AI-powered tools. Each tool is designed to help you achieve professional results in seconds.",
       "exploreMore": "Explore More",
       "tools": {
@@ -106,16 +129,15 @@
     },
     "cta": {
       "title": "Ready to transform your creative process?",
-      "subtitle": "Join thousands of creators who are already using our platform to bring their ideas to life. Start your journey today with a free trial.",
-      "button": "Get started",
-      "secondaryButton": "Learn more",
+      "subtitle": "Join thousands of creators who are already using our platform to bring their ideas to life. Use everything for Free.",
+      "button": "Enhance Your Photos Now",
       "stats": {
         "users": "10K+",
         "assets": "500K+",
         "satisfaction": "99.9%",
         "usersLabel": "Active users",
         "assetsLabel": "Assets created",
-        "satisfactionLabel": "Customer satisfaction"
+        "satisfactionLabel": "User satisfaction"
       }
     },
     "faq": {

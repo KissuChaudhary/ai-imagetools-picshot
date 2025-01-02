@@ -4,6 +4,8 @@ import { WhyChooseUs } from '@/components/WhyChooseUs';
 import CallToAction from "@/components/CallToAction";
 import { AIToolsSection } from '@/components/AIToolsSection';
 import { FAQSection } from '@/components/FAQSection';
+import WhoCanUse from '@/components/WhoCanUse';
+
 
 export default async function Page() {
   return <HomeContent />;
@@ -16,8 +18,9 @@ function HomeContent() {
         <Suspense fallback={<div>Loading...</div>}>
           <HeroSection />
         </Suspense>
-        <WhyChooseUs />
         <AIToolsSection />
+        <WhyChooseUs />
+        <WhoCanUse />
         <FAQSection />
         <CallToAction />
       </main>

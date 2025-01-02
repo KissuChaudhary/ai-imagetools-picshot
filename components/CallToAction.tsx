@@ -47,7 +47,7 @@ export default function CallToAction() {
 
           <div className="mx-auto max-w-2xl text-center">
             <motion.h2 
-              className="text-3xl font-semibold tracking-tight sm:text-4xl text-gray-900"
+              className="text-2xl sm:text-3xl sm:text-5xl font-bold tracking-tight text-gray-900"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -68,13 +68,11 @@ export default function CallToAction() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              <Button size="lg" className="group bg-indigo-600 hover:bg-indigo-700 text-white">
+              <Button size="lg" className="group text-white">
                 {t('button')}
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button variant="outline" size="lg" className="border-indigo-600 text-indigo-600 hover:bg-indigo-50">
-                {t('secondaryButton')}
-              </Button>
+              
             </motion.div>
           </div>
 
@@ -96,7 +94,7 @@ export default function CallToAction() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <dt className="text-4xl font-semibold tracking-tight text-indigo-600">{stat.value}</dt>
+                <dt className="text-4xl font-semibold tracking-tight">{stat.value}</dt>
                 <dd className="text-sm text-gray-600">{stat.label}</dd>
               </motion.div>
             ))}
