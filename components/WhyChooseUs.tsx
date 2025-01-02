@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { ImageIcon, QrCode, Languages, Clock } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
-const featureIcons = [ImageIcon, QrCode, Languages, Clock]
 
 const container = {
   hidden: { opacity: 0 },
