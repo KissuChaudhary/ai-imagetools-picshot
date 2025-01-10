@@ -8,7 +8,7 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { motion, AnimatePresence } from 'framer-motion'
 import AIImageLoader from './AIImageLoader'
-import { Upload, X, AlertCircle, Download, RefreshCw } from 'lucide-react'
+import { Upload, X, AlertCircle, Download } from 'lucide-react'
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 const ALLOWED_FILE_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
