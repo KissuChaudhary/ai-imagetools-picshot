@@ -66,7 +66,7 @@ const tools: Tool[] = [
     href: '/tools/ai-image-enhancer',
   },
   {
-    id: 'avatar-generator',
+    id: 'caption-generator',
     title: 'AI Image Caption Generator',
     description: 'Create personalized avatars using advanced AI algorithms.',
     icon: <UserCircle className="w-8 h-8" />,
@@ -74,7 +74,7 @@ const tools: Tool[] = [
     href: '/tools/ai-image-caption-generator',
   },
   {
-    id: 'face-swap',
+    id: 'image-to-text',
     title: 'AI Image to Text Converter',
     description: 'Seamlessly swap faces in photos with AI precision.',
     icon: <Switch className="w-8 h-8" />,
