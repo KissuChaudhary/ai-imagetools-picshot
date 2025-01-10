@@ -102,14 +102,14 @@
           "title": "Améliorateur d'Images",
           "description": "Améliorez automatiquement vos photos pour des résultats de qualité professionnelle."
         },
-        "avatar-generator": {
-          "title": "Générateur d'Avatars",
-          "description": "Créez des avatars personnalisés en utilisant des algorithmes IA avancés."
-        },
-        "face-swap": {
-          "title": "Échange de Visages",
-          "description": "Échangez des visages sur des photos de manière transparente avec une précision IA."
-        },
+        "caption-generator": {
+  "title": "Générateur de Légendes IA",
+  "description": "Créez des légendes pour vos images sur les réseaux sociaux et professionnelles."
+},
+"image-to-text": {
+  "title": "Convertisseur Image en Texte IA",
+  "description": "Le meilleur outil OCR gratuit pour extraire du texte de vos images."
+},
         "headshot-generator": {
           "title": "Générateur de Portraits",
           "description": "Générez des portraits professionnels avec la technologie IA."
