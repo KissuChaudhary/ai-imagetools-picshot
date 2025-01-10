@@ -34,7 +34,7 @@ export default function AIImageToTextConverter() {
       if (response.ok) {
         const data = await response.json()
         setUsedCredits(data.usageCount || 0)
-        setIsLimitReached(data.usageCount >= 5)
+        setIsLimitReached(data.usageCount >= 10)
       }
     } catch (error) {
       console.error('Error fetching usage count:', error)
@@ -130,7 +130,7 @@ export default function AIImageToTextConverter() {
         }
         
         setUsedCredits(data.usageCount)
-        setIsLimitReached(data.usageCount >= 5)
+        setIsLimitReached(data.usageCount >= 10)
         fetchUsageCount()
         setIsProcessing(false)
         setProcessingProgress(100)
@@ -245,7 +245,7 @@ export default function AIImageToTextConverter() {
               <div className="flex items-center gap-2">
                 <span className="font-bold text-primary">{usedCredits}</span>
                 <span className="text-muted-foreground">/</span>
-                <span className="text-muted-foreground">5</span>
+                <span className="text-muted-foreground">10</span>
               </div>
             </div>
           </form>
