@@ -102,13 +102,13 @@
           "title": "Image Enhancer",
           "description": "Automatically enhance your photos for professional-quality results."
         },
-        "avatar-generator": {
-          "title": "Avatar Generator",
-          "description": "Create personalized avatars using advanced AI algorithms."
+        "caption-generator": {
+          "title": "AI Image Caption Generator",
+          "description": "Create captions for your social media and business images."
         },
-        "face-swap": {
-          "title": "Face Swap",
-          "description": "Seamlessly swap faces in photos with AI precision."
+        "image-to-text": {
+          "title": "AI Image to Text Converter",
+          "description": "Best free OCR tool to extract text from your images."
         },
         "headshot-generator": {
           "title": "Headshot Generator",

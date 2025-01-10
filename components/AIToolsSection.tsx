@@ -67,19 +67,19 @@ const tools: Tool[] = [
   },
   {
     id: 'avatar-generator',
-    title: 'Avatar Generator',
+    title: 'AI Image Caption Generator',
     description: 'Create personalized avatars using advanced AI algorithms.',
     icon: <UserCircle className="w-8 h-8" />,
     glowColor: 'from-pink-500',
-    href: '/tools/avatar-generator',
+    href: '/tools/ai-image-caption-generator',
   },
   {
     id: 'face-swap',
-    title: 'Face Swap',
+    title: 'AI Image to Text Converter',
     description: 'Seamlessly swap faces in photos with AI precision.',
     icon: <Switch className="w-8 h-8" />,
     glowColor: 'from-orange-500',
-    href: '/tools/face-swap',
+    href: '/tools/image-to-text-converter',
   },
   {
     id: 'headshot-generator',
