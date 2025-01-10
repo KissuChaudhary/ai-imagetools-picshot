@@ -130,9 +130,9 @@ export default function AIImageUpscaler() {
         fetchUsageCount()
         checkPredictionStatus()
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Error:', err)
-      setError(err.message)
+      setError(err instanceof Error ? err.message : t('processingError'))
       setIsProcessing(false)
     }
   }

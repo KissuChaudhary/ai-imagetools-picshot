@@ -163,10 +163,10 @@ export default function AIImageGenerator() {
       setSessionCredits(prevCredits => prevCredits + 1)
       setIsLimitReached(data.usageCount >= 3)
       fetchUsageCount() // Fetch updated usage count after successful API call
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Error:', err)
       setIsGenerating(false)
-      setFlaggedError(err.message)
+      setFlaggedError(err instanceof Error ? err.message : t('generateError'))
     }
   }
 
