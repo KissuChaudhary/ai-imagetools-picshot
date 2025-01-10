@@ -3,14 +3,15 @@
     "title": "Herramientas de Imagen IA",
     "colorize": "Colorear",
     "enhance": "Mejorar",
-    "removeBg": "Eliminar Fondo"
+    "removeBg": "Eliminar Fondo",
+    "AIimageGenerator": "Generador de Imágenes IA"
   },
   "Footer": {
     "product": "Producto",
     "colorize": "Colorear",
     "enhance": "Mejorar",
     "removeBg": "Eliminar Fondo",
-    "company": "Compañía",
+    "company": "Empresa",
     "about": "Acerca de",
     "blog": "Blog",
     "contact": "Contacto",
@@ -19,32 +20,33 @@
     "termsOfService": "Términos de Servicio",
     "followUs": "Síguenos"
   },
+  
   "Index": {
     "hero": {
-      "title": "Deja que la IA lleve tus fotos al siguiente nivel",
-      "description": "Crea, edita y transforma tus imágenes fácilmente con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de las imágenes y generar arte impresionante, te ofrecemos todo lo que necesitas para dar vida a tu creatividad.",
-      "newFeature": "Generador de Arte IA Gratis",
-      "lovedBy": "Querido por más de 2,000 clientes",
-      "cta": "Crea tu primer Arte IA"
+      "title": "Deja que la IA Lleve tus Fotos al Siguiente Nivel",
+      "description": "Crea, edita y transforma tus imágenes sin esfuerzo con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de la imagen y generar impresionantes obras de arte, proporcionamos todo lo que necesitas para dar vida a tu creatividad.",
+      "newFeature": "Generador de Arte IA Gratuito",
+      "lovedBy": "Amado por más de 2000 clientes",
+      "cta": "Crea tu Primer Arte IA"
     },
     "whyChoose": {
-      "title": "¿Por qué elegir Picshot AI",
+      "title": "Por qué Elegir Picshot AI",
       "features": {
         "fastImage": {
           "title": "Generación Rápida de Imágenes",
-          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
         },
         "quality": {
           "title": "Contenido de Alta Calidad",
-          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
         },
         "language": {
           "title": "Más de 30 Idiomas Añadidos",
-          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
         },
         "support": {
           "title": "Soporte 24/7",
-          "description": "Encuentra tu contenido soñado y créalo con nuestras mágicas herramientas de IA."
+          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
         }
       }
     },
@@ -71,30 +73,30 @@
       }
     },
     "aiTools": {
-      "title": "Impulsado por IA",  
-"titleHighlight1": "Herramientas",
-      "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a obtener resultados profesionales en segundos.",
+      "title": "Herramientas Impulsadas por ",
+      "titleHighlight1": "IA" ,
+      "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a lograr resultados profesionales en segundos.",
       "exploreMore": "Explorar Más",
       "tools": {
         "image-generator": {
           "title": "Generador de Imágenes IA",
-          "description": "Crea imágenes únicas y sorprendentes a partir de descripciones textuales con la avanzada tecnología de IA."
+          "description": "Crea imágenes impresionantes y únicas a partir de descripciones de texto con tecnología IA avanzada."
         },
         "background-remover": {
-          "title": "Eliminar Fondo",
-          "description": "Elimina instantáneamente los fondos de las imágenes con precisión y exactitud."
+          "title": "Eliminador de Fondos",
+          "description": "Elimina fondos de imágenes al instante con precisión y exactitud."
         },
         "image-upscaler": {
-          "title": "Mejorador de Imágenes",
-          "description": "Mejora la resolución de las imágenes sin perder calidad gracias a la tecnología IA."
+          "title": "Ampliador de Imágenes",
+          "description": "Mejora la resolución de la imagen sin perder calidad utilizando tecnología IA."
         },
         "photo-colorizer": {
           "title": "Coloreador de Fotos",
-          "description": "Devuelve la vida a las fotos en blanco y negro con la colorización impulsada por IA."
+          "description": "Da vida a fotos en blanco y negro con colorización impulsada por IA."
         },
         "photo-restorer": {
           "title": "Restaurador de Fotos",
-          "description": "Restaura fotos antiguas y dañadas a su gloria pasada."
+          "description": "Restaura fotos antiguas y dañadas a su antigua gloria."
         },
         "image-enhancer": {
           "title": "Mejorador de Imágenes",
@@ -102,74 +104,74 @@
         },
         "avatar-generator": {
           "title": "Generador de Avatares",
-          "description": "Crea avatares personalizados usando avanzados algoritmos de IA."
+          "description": "Crea avatares personalizados utilizando algoritmos IA avanzados."
         },
         "face-swap": {
           "title": "Intercambio de Caras",
-          "description": "Intercambia caras en las fotos con precisión de IA."
+          "description": "Intercambia caras en fotos sin problemas con precisión IA."
         },
         "headshot-generator": {
           "title": "Generador de Retratos",
-          "description": "Genera retratos profesionales con la tecnología de IA."
+          "description": "Genera retratos profesionales con tecnología IA."
         },
         "object-remover": {
-          "title": "Eliminar Objeto",
-          "description": "Elimina objetos no deseados de las fotos con el relleno inteligente de IA."
+          "title": "Eliminador de Objetos",
+          "description": "Elimina objetos no deseados de fotos con relleno inteligente IA."
         }
       }
     },
     "features": {
       "title": "Nuestras Herramientas Impulsadas por IA",
       "colorize": "Colorear",
-      "colorizeDesc": "Devuelve la vida a las fotos en blanco y negro con colores vibrantes.",
+      "colorizeDesc": "Da vida a fotos en blanco y negro con colores vibrantes",
       "enhance": "Mejorar",
-      "enhanceDesc": "Mejora la calidad y la resolución de las imágenes gracias a la IA.",
+      "enhanceDesc": "Mejora la calidad y resolución de la imagen con IA",
       "removeBg": "Eliminar Fondo",
-      "removeBgDesc": "Elimina fácilmente los fondos de cualquier imagen."
+      "removeBgDesc": "Elimina fácilmente fondos de cualquier imagen"
     },
-   "cta": {
-  "title": "¿Listo para transformar tu proceso creativo?",
-  "subtitle": "Únete a miles de creadores que ya están usando nuestra plataforma para dar vida a sus ideas. Usa todo gratis.",
-  "button": "Mejora tus fotos ahora",
-  "stats": {
-    "users": "10K+",
-    "assets": "500K+",
-    "satisfaction": "99.9%",
-    "usersLabel": "Usuarios activos",
-    "assetsLabel": "Activos creados",
-    "satisfactionLabel": "Satisfacción del usuario"
-  }
-},
+    "cta": {
+      "title": "¿Listo para transformar tu proceso creativo?",
+      "subtitle": "Únete a miles de creadores que ya están usando nuestra plataforma para dar vida a sus ideas. Usa todo gratis.",
+      "button": "Mejora tus Fotos Ahora",
+      "stats": {
+        "users": "10K+",
+        "assets": "500K+",
+        "satisfaction": "99.9%",
+        "usersLabel": "Usuarios activos",
+        "assetsLabel": "Activos creados",
+        "satisfactionLabel": "Satisfacción del usuario"
+      }
+    },
     "faq": {
       "title": "Preguntas Frecuentes",
-      "description": "Encuentra las respuestas a las preguntas comunes sobre nuestras herramientas de imagen impulsadas por IA.",
+      "description": "Encuentra respuestas a preguntas comunes sobre nuestras herramientas de imagen impulsadas por IA.",
       "categories": {
         "general": {
           "title": "Preguntas Generales",
           "items": {
             "what-is": {
-              "question": "¿Qué es Picshot IA?",
-              "answer": "Picshot IA es una plataforma en línea que ofrece herramientas impulsadas por IA de forma gratuita para editar, mejorar y crear imágenes impresionantes. Desde eliminar fondos hasta generar arte IA, simplificamos tu flujo de trabajo creativo."
+              "question": "¿Qué es Picshot AI?",
+              "answer": "Picshot AI es una plataforma en línea que ofrece herramientas gratuitas impulsadas por IA para editar, mejorar y crear imágenes impresionantes. Desde eliminar fondos hasta generar arte IA, simplificamos tu flujo de trabajo creativo."
             },
             "free": {
-              "question": "¿Las herramientas de Picshot IA son gratuitas?",
-              "answer": "¡Sí! Picshot IA es gratuito para usar y obtienes tres generaciones por día para cada herramienta disponible."
+              "question": "¿Las herramientas de Picshot AI son gratuitas?",
+              "answer": "¡Sí! Picshot AI es gratuito y obtienes tres generaciones por día para cada herramienta presente en Picshot AI."
             },
             "signup": {
-              "question": "¿Es necesario registrarse para usar las herramientas?",
-              "answer": "No, no necesitas registrarte. Cada herramienta está disponible de forma gratuita y puedes usar cada herramienta 3 veces al día."
+              "question": "¿Necesito registrarme para usar las herramientas?",
+              "answer": "No, no necesitas registrarte. Cada herramienta se proporciona de forma gratuita aquí, y puedes usar cada herramienta 3 veces al día solamente."
             },
             "tools": {
-              "question": "¿Qué tipo de herramientas IA ofrece Picshot IA?",
+              "question": "¿Qué tipo de herramientas IA ofrece Picshot AI?",
               "answer": {
-                "intro": "Ofrecemos:",
+                "intro": "Proporcionamos:",
                 "items": {
-                  "bgRemover": "Eliminar Fondo IA",
+                  "bgRemover": "Eliminador de Fondos IA",
                   "enhancer": "Mejorador de Imágenes",
                   "artGenerator": "Generador de Arte IA",
                   "restorer": "Restaurador de Fotos",
                   "avatarGenerator": "Generador de Avatares",
-                  "objectRemover": "Eliminar Objeto, y más."
+                  "objectRemover": "Eliminador de Objetos, y más"
                 }
               }
             }
@@ -180,19 +182,19 @@
           "items": {
             "textToImage": {
               "question": "¿Puedo generar imágenes a partir de texto?",
-              "answer": "¡Sí! Nuestro Generador de Imágenes IA puede crear visuales únicos a partir de descripciones textuales, perfecto para proyectos creativos o profesionales."
+              "answer": "¡Sí! Nuestro Generador de Imágenes IA puede crear visuales únicos basados en descripciones de texto, perfecto para proyectos creativos o uso profesional."
             },
             "bgRemover": {
-              "question": "¿Eliminar Fondo funciona en todas las imágenes?",
-              "answer": "Sí, Eliminar Fondo está diseñado para trabajar con todas las imágenes, proporcionando resultados limpios y precisos."
+              "question": "¿El Eliminador de Fondos funciona en todas las imágenes?",
+              "answer": "Sí, el Eliminador de Fondos está diseñado para manejar cualquier imagen, entregando resultados limpios y precisos."
             },
             "mobile": {
-              "question": "¿Son compatibles las herramientas de Picshot IA con dispositivos móviles?",
-              "answer": "Nuestra plataforma funciona perfectamente tanto en escritorios como en dispositivos móviles."
+              "question": "¿Las herramientas de Picshot AI son compatibles con dispositivos móviles?",
+              "answer": "Nuestra plataforma funciona perfectamente en dispositivos de escritorio y móviles."
             },
             "formats": {
               "question": "¿Qué formatos de imagen son compatibles?",
-              "answer": "Admitimos los formatos más comunes, incluidos JPG, PNG y BMP, para carga y descarga."
+              "answer": "Admitimos la mayoría de los formatos comunes, incluyendo JPG, PNG y BMP, para cargas y descargas."
             }
           }
         },
@@ -200,24 +202,280 @@
           "title": "Otras Preguntas",
           "items": {
             "speed": {
-              "question": "¿Cuánto tiempo tarda en generarse el resultado?",
-              "answer": "Nuestras herramientas IA proporcionan resultados en segundos, asegurando un proceso de edición rápido y eficiente."
+              "question": "¿Qué tan rápido se generan los resultados?",
+              "answer": "Nuestras herramientas IA entregan resultados en segundos, asegurando un proceso de edición rápido y eficiente."
             },
             "security": {
-              "question": "¿Mis datos están seguros con Picshot IA?",
-              "answer": "Sí, priorizamos tu privacidad y utilizamos cifrado seguro para proteger tus datos. Las imágenes cargadas no se almacenan en nuestros servidores."
+              "question": "¿Mis datos están seguros con Picshot AI?",
+              "answer": "Sí, priorizamos tu privacidad y usamos encriptación segura para proteger tus datos. Las imágenes cargadas no se almacenan en ningún lugar de nuestros servidores."
             },
             "privacy": {
-              "question": "¿Se utilizarán mis imágenes en otros lugares?",
+              "question": "¿Mis imágenes se usarán en otro lugar?",
               "answer": "No, tus imágenes se procesan de forma segura y no almacenamos ninguna de tus imágenes."
             },
             "support": {
-              "question": "¿Qué debo hacer si la herramienta no funciona como se esperaba?",
-              "answer": "Puedes contactar con nuestro soporte por correo electrónico a support@picshotai.com. Te ayudaremos a resolver tu problema rápidamente."
+              "question": "¿Qué debo hacer si la herramienta no funciona como se espera?",
+              "answer": "Puedes contactar a nuestro soporte por correo electrónico a support@picshotai.com. Te ayudaremos a resolver tu problema rápidamente."
             }
           }
         }
       }
+    },
+    "AIImageGenerator": {
+      "title": "Generador de Imágenes IA Realistas 100% Gratuito",
+      "promptLabel": "Prompt",
+      "promptPlaceholder": "Ingresa tu descripción de imagen",
+      "negativePromptLabel": "Prompt Negativo",
+      "negativePromptPlaceholder": "Especifica cosas que no quieres ver en el resultado",
+      "imageSizeLabel": "Tamaño de Imagen",
+      "imageSizePlaceholder": "Selecciona el tamaño de imagen",
+      "portraitSize": "Retrato (512x768)",
+      "squareSize": "Cuadrado (512x512)",
+      "landscapeSize": "Paisaje (768x512)",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "¡Felicidades! Has alcanzado oficialmente tu límite de generación de imágenes para hoy. No más magia para ti. ¡Inténtalo de nuevo mañana, si puedes esperar tanto!",
+      "errorTitle": "Error",
+      "promptError": "Por favor, proporciona un prompt para la generación de imágenes.",
+      "limitReachedError": "Has alcanzado el límite diario de generación de imágenes.",
+      "generateError": "Error al generar la imagen",
+      "generatingButton": "Generando...",
+      "generateButton": "Generar Imagen",
+      "resetButton": "Reiniciar",
+      "generating": "Generando",
+      "generatedImageAlt": "Imagen generada",
+      "downloadButton": "Descargar",
+      "imagePreviewPlaceholder": "Tu Arte Aparecerá Aquí..."
+    },
+    "AIImageGeneratorPage": {
+      "metadata": {
+        "title": "Generador de Imágenes IA | Crea Impresionantes Imágenes Generadas por IA",
+        "description": "Genera imágenes de alta calidad impulsadas por IA sin esfuerzo con nuestro Generador de Imágenes IA. Perfecto para artistas, marketers y creadores de contenido."
+      },
+      "whatIsTitle": "¿Qué es el Generador de Imágenes IA?",
+      "whatIsDescription": "Nuestro Generador de Imágenes IA es una herramienta de vanguardia que utiliza inteligencia artificial avanzada para crear imágenes únicas y de alta calidad basadas en tus descripciones de texto. Es perfecto para artistas, diseñadores, marketers y cualquiera que busque dar vida visualmente a sus ideas.",
+      "benefitsTitle": "Beneficios de Usar Nuestro Generador de Imágenes IA",
+      "timeSavingTitle": "Ahorro de Tiempo",
+      "timeSavingDescription": "Genera imágenes complejas en segundos, ahorrando horas de trabajo de diseño manual.",
+      "creativeFreedomTitle": "Libertad Creativa",
+      "creativeFreedomDescription": "Explora posibilidades infinitas con la creación de imágenes asistida por IA.",
+      "highQualityTitle": "Salida de Alta Calidad",
+      "highQualityDescription": "Produce imágenes de calidad profesional adecuadas para diversas aplicaciones.",
+      "easyToUseTitle": "Fácil de Usar",
+      "easyToUseDescription": "No se requieren habilidades de diseño - solo describe lo que quieres ver.",
+      "versatileApplicationsTitle": "Aplicaciones Versátiles",
+      "versatileApplicationsDescription": "Crea imágenes para redes sociales, marketing, proyectos artísticos y más.",
+      "howToUseTitle": "Cómo Usar Nuestro Generador de Imágenes IA",
+      "step1Title": "Ingresa Tu Prompt",
+      "step1Description": "Describe la imagen que quieres crear en detalle. Cuanto más específico seas, mejores serán los resultados.",
+      "step2Title": "Elige el Tamaño de la Imagen",
+      "step2Description": "Selecciona entre formatos de retrato, paisaje o cuadrado según tus necesidades.",
+      "step3Title": "Genera la Imagen",
+      "step3Description": "Haz clic en el botón 'Generar Imagen' y espera a que la IA haga su magia.",
+      "step4Title": "Descarga y Usa",
+      "step4Description": "Una vez generada, puedes descargar tu imagen y usarla para tus proyectos."
+    },
+    "AIBackgroundRemover": {
+      "title": "Eliminador de Fondos IA",
+      "description": "Elimina fondos de tus imágenes con precisión IA",
+      "removeBackgroundButton": "Eliminar Fondo",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "downloadButton": "Descargar",
+      "uploadPrompt": "Sube una imagen para eliminar su fondo",
+      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor, selecciona un archivo de imagen",
+      "processingError": "Error al procesar la imagen",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario para la eliminación de fondos. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy"
+    },
+    "AIBackgroundRemoverPage": {
+      "metadata": {
+        "title": "Eliminador de Fondos IA | Elimina Fondos de Imágenes Instantáneamente",
+        "description": "Elimina fondos de tus imágenes sin esfuerzo con nuestra herramienta impulsada por IA. Perfecto para comercio electrónico, diseño gráfico y más."
+      }
+    },
+    "AIImageUpscaler": {
+  "title": "Amplificador de Imágenes con IA",
+  "description": "Mejora tus imágenes con ampliación potenciada por IA",
+  "upscaleButton": "Ampliar Imagen",
+  "processingButton": "Procesando...",
+  "resetButton": "Reiniciar",
+  "downloadButton": "Descargar",
+  "uploadPrompt": "Sube una imagen para ampliar",
+  "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+  "selectFileButton": "Seleccionar Archivo",
+  "supportedFormats": "Formatos soportados: {formats}",
+  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+  "noFileError": "Por favor, selecciona un archivo de imagen",
+  "processingError": "Error al procesar la imagen",
+  "limitReachedTitle": "Límite Diario Alcanzado",
+  "limitReachedDescription": "Has alcanzado el límite diario de ampliación de imágenes. ¡Inténtalo de nuevo mañana!",
+  "errorTitle": "Error",
+  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+  "creditsUsed": "Créditos Usados Hoy",
+  "scaleLabel": "Factor de Ampliación",
+  "selectScale": "Selecciona el factor de escala",
+  "downloadError": "Error al descargar la imagen"
+},
+"AIImageUpscalerPage": {
+  "metadata": {
+    "title": "Amplificador de Imágenes con IA | Mejora la Resolución de Imágenes Instantáneamente",
+    "description": "Amplía y mejora tus imágenes con nuestra herramienta potenciada por IA. Perfecto para mejorar fotos de baja resolución y crear impresiones de alta calidad."
+  }
+},
+"AIPhotoColorizer": {
+  "title": "Colorizador de Fotos con IA",
+  "description": "Da vida a tus fotos en blanco y negro con colorización potenciada por IA",
+  "colorizeButton": "Colorizar Foto",
+  "processingButton": "Procesando...",
+  "resetButton": "Reiniciar",
+  "downloadButton": "Descargar",
+  "uploadPrompt": "Sube una foto en blanco y negro para colorizar",
+  "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
+  "selectFileButton": "Seleccionar Archivo",
+  "supportedFormats": "Formatos soportados: {formats}",
+  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+  "noFileError": "Por favor, selecciona un archivo de foto",
+  "processingError": "Error al procesar la foto",
+  "limitReachedTitle": "Límite Diario Alcanzado",
+  "limitReachedDescription": "Has alcanzado el límite diario de colorización de fotos. ¡Inténtalo de nuevo mañana!",
+  "errorTitle": "Error",
+  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+  "creditsUsed": "Créditos Usados Hoy",
+  "downloadError": "Error al descargar la imagen"
+},
+"AIPhotoColorizerPage": {
+  "metadata": {
+    "title": "Colorizador de Fotos con IA | Da Vida a las Fotos en Blanco y Negro",
+    "description": "Transforma tus fotos en blanco y negro en imágenes vibrantes y coloridas con nuestra herramienta de colorización potenciada por IA. Perfecto para restaurar fotos antiguas y dar nueva vida a imágenes históricas."
+  }
+},
+"AIPhotoRestorer": {
+  "title": "Restaurador de Fotos con IA",
+  "description": "Restaura y mejora fotos antiguas o dañadas con IA",
+  "restoreButton": "Restaurar Foto",
+  "processingButton": "Procesando...",
+  "resetButton": "Reiniciar",
+  "downloadButton": "Descargar",
+  "uploadPrompt": "Sube una foto para restaurar",
+  "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
+  "selectFileButton": "Seleccionar Archivo",
+  "supportedFormats": "Formatos soportados: {formats}",
+  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+  "noFileError": "Por favor, selecciona un archivo de foto",
+  "processingError": "Error al procesar la foto",
+  "limitReachedTitle": "Límite Diario Alcanzado",
+  "limitReachedDescription": "Has alcanzado el límite diario de restauración de fotos. ¡Inténtalo de nuevo mañana!",
+  "errorTitle": "Error",
+  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+  "creditsUsed": "Créditos Usados Hoy",
+  "downloadError": "Error al descargar la imagen"
+},
+"AIPhotoRestorerPage": {
+  "metadata": {
+    "title": "Restaurador de Fotos con IA | Mejora y Restaura Fotos Antiguas",
+    "description": "Devuelve la vida a tus fotos antiguas o dañadas con nuestra herramienta de restauración de fotos potenciada por IA. Perfecto para preservar recuerdos y mejorar imágenes históricas."
+  }
+},
+"AIImageEnhancer": {
+  "title": "Mejorador de Imágenes con IA",
+  "description": "Mejora y aumenta la calidad de tus imágenes con IA",
+  "enhanceButton": "Mejorar Imagen",
+  "processingButton": "Procesando...",
+  "resetButton": "Reiniciar",
+  "downloadButton": "Descargar",
+  "uploadPrompt": "Sube una imagen para mejorar",
+  "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+  "selectFileButton": "Seleccionar Archivo",
+  "supportedFormats": "Formatos soportados: {formats}",
+  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+  "noFileError": "Por favor, selecciona un archivo de imagen",
+  "processingError": "Error al procesar la imagen",
+  "limitReachedTitle": "Límite Diario Alcanzado",
+  "limitReachedDescription": "Has alcanzado el límite diario de mejora de imágenes. ¡Inténtalo de nuevo mañana!",
+  "errorTitle": "Error",
+  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+  "creditsUsed": "Créditos Usados Hoy",
+  "downloadError": "Error al descargar la imagen"
+},
+"AIImageEnhancerPage": {
+  "metadata": {
+    "title": "Mejorador de Imágenes con IA | Mejora la Calidad de las Imágenes",
+    "description": "Mejora y aumenta la calidad de tus imágenes con nuestra herramienta de mejora de imágenes potenciada por IA. Perfecto para nitidez, reducción de ruido y ampliación de tus fotos."
+  }
+},
+"AIImageToTextConverter": {
+    "title": "Convertidor de Imagen a Texto con IA",
+    "description": "Extrae texto de imágenes usando OCR potenciado por IA",
+    "extractTextButton": "Extraer Texto",
+    "processingButton": "Procesando...",
+    "resetButton": "Reiniciar",
+    "copyButton": "Copiar Texto",
+    "copiedButton": "¡Copiado!",
+    "uploadPrompt": "Sube una imagen para extraer texto",
+    "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+    "selectFileButton": "Seleccionar Archivo",
+    "supportedFormats": "Formatos soportados: {formats}",
+    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+    "noFileError": "Por favor selecciona un archivo de imagen",
+    "processingError": "Error al procesar la imagen",
+    "limitReachedTitle": "Límite Diario Alcanzado",
+    "limitReachedDescription": "Has alcanzado el límite diario para OCR. ¡Inténtalo de nuevo mañana!",
+    "errorTitle": "Error",
+    "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
+    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+    "creditsUsed": "Créditos Usados Hoy",
+    "extractedTextTitle": "Texto Extraído",
+    "extractedTextPlaceholder": "El texto extraído aparecerá aquí",
+    "noTextDetected": "No se detectó texto en la imagen. Por favor intenta con otra imagen."
+  },
+  "AIImageToTextConverterPage": {
+    "metadata": {
+      "title": "Convertidor de Imagen a Texto con IA | Extrae Texto de Imágenes",
+      "description": "Convierte imágenes a texto con nuestra herramienta de OCR potenciada por IA. Perfecto para digitalizar documentos, extraer texto de capturas de pantalla y más."
     }
+  },
+  "AIImageCaptionGenerator": {
+    "title": "Generador de Subtítulos para Imágenes con IA",
+    "description": "Genera subtítulos para imágenes usando IA",
+    "generateCaptionButton": "Generar Subtítulo",
+    "processingButton": "Procesando...",
+    "resetButton": "Reiniciar",
+    "copyButton": "Copiar Subtítulo",
+    "copiedButton": "¡Copiado!",
+    "uploadPrompt": "Sube una imagen para generar un subtítulo",
+    "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+    "selectFileButton": "Seleccionar Archivo",
+    "supportedFormats": "Formatos soportados: {formats}",
+    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+    "noFileError": "Por favor selecciona un archivo de imagen",
+    "processingError": "Error al procesar la imagen",
+    "limitReachedTitle": "Límite Diario Alcanzado",
+    "limitReachedDescription": "Has alcanzado el límite diario para generar subtítulos. ¡Inténtalo de nuevo mañana!",
+    "errorTitle": "Error",
+    "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
+    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+    "creditsUsed": "Créditos Usados Hoy",
+    "generatedCaptionTitle": "Subtítulo Generado",
+    "generatedCaptionPlaceholder": "El subtítulo generado aparecerá aquí",
+    "noCaptionGenerated": "No se pudo generar un subtítulo para esta imagen. Por favor intenta con otra imagen."
+  },
+  "AIImageCaptionGeneratorPage": {
+    "metadata": {
+      "title": "Generador de Subtítulos para Imágenes con IA | Genera Subtítulos para Imágenes",
+      "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
+    }
+  }
   }
 }

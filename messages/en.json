@@ -3,7 +3,8 @@
     "title": "AI Image Tools",
     "colorize": "Colorize",
     "enhance": "Enhance",
-    "removeBg": "Remove Background"
+    "removeBg": "Remove Background",
+    "AIimageGenerator": "AI Image Generator"
   },
   "Footer": {
     "product": "Product",
@@ -19,6 +20,7 @@
     "termsOfService": "Terms of Service",
     "followUs": "Follow Us"
   },
+  
   "Index": {
     "hero": {
       "title": "Let AI Take Your Photos to the Next Level",
@@ -218,6 +220,263 @@
           }
         }
       }
+    },
+    "AIImageGenerator": {
+      "title": "100% Free Realistic AI Image Generator",
+      "promptLabel": "Prompt",
+      "promptPlaceholder": "Enter your image description",
+      "negativePromptLabel": "Negative Prompt",
+      "negativePromptPlaceholder": "Specify things to not see in the output",
+      "imageSizeLabel": "Image Size",
+      "imageSizePlaceholder": "Select image size",
+      "portraitSize": "Portrait (512x768)",
+      "squareSize": "Square (512x512)",
+      "landscapeSize": "Landscape (768x512)",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "Congrats! You have officially hit your image generation limit for today. No more magic for you. Try again tomorrow, if you can wait that long!",
+      "errorTitle": "Error",
+      "promptError": "Please provide a prompt for image generation.",
+      "limitReachedError": "You have reached the daily limit for image generation.",
+      "generateError": "Failed to generate image",
+      "generatingButton": "Generating...",
+      "generateButton": "Generate Image",
+      "resetButton": "Reset",
+      "generating": "Generating",
+      "generatedImageAlt": "Generated image",
+      "downloadButton": "Download",
+      "imagePreviewPlaceholder": "Your Art Will Appear Here..."
+    },
+    "AIImageGeneratorPage": {
+      "metadata": {
+        "title": "AI Image Generator | Create Stunning AI-Generated Images",
+        "description": "Generate high-quality, AI-driven images effortlessly with our AI Image Generator. Perfect for artists, marketers, and content creators."
+      },
+      "whatIsTitle": "What is AI Image Generator?",
+      "whatIsDescription": "Our AI Image Generator is a cutting-edge tool that uses advanced artificial intelligence to create unique, high-quality images based on your text descriptions. It's perfect for artists, designers, marketers, and anyone looking to bring their ideas to life visually.",
+      "benefitsTitle": "Benefits of Using Our AI Image Generator",
+      "timeSavingTitle": "Time-Saving",
+      "timeSavingDescription": "Generate complex images in seconds, saving hours of manual design work.",
+      "creativeFreedomTitle": "Creative Freedom",
+      "creativeFreedomDescription": "Explore endless possibilities with AI-assisted image creation.",
+      "highQualityTitle": "High-Quality Output",
+      "highQualityDescription": "Produce professional-grade images suitable for various applications.",
+      "easyToUseTitle": "Easy to Use",
+      "easyToUseDescription": "No design skills required - just describe what you want to see.",
+      "versatileApplicationsTitle": "Versatile Applications",
+      "versatileApplicationsDescription": "Create images for social media, marketing, art projects, and more.",
+      "howToUseTitle": "How to Use Our AI Image Generator",
+      "step1Title": "Enter Your Prompt",
+      "step1Description": "Describe the image you want to create in detail. The more specific you are, the better the results.",
+      "step2Title": "Choose Image Size",
+      "step2Description": "Select from portrait, landscape, or square formats to suit your needs.",
+      "step3Title": "Generate Image",
+      "step3Description": "Click the 'Generate Image' button and wait for the AI to work its magic.",
+      "step4Title": "Download and Use",
+      "step4Description": "Once generated, you can download your image and use it for your projects."
+    },
+    "AIBackgroundRemover": {
+    "title": "AI Background Remover",
+    "description": "Remove backgrounds from your images with AI precision",
+    "removeBackgroundButton": "Remove Background",
+    "processingButton": "Processing...",
+    "resetButton": "Reset",
+    "downloadButton": "Download",
+    "uploadPrompt": "Upload an image to remove its background",
+    "dragDropPrompt": "Drag and drop your image here, or click to select",
+    "selectFileButton": "Select File",
+    "supportedFormats": "Supported formats: {formats}",
+    "maxFileSize": "Max file size: {size}MB",
+    "noFileError": "Please select an image file",
+    "processingError": "Error processing the image",
+    "limitReachedTitle": "Daily Limit Reached",
+    "limitReachedDescription": "You've reached the daily limit for background removal. Try again tomorrow!",
+    "errorTitle": "Error",
+    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+    "creditsUsed": "Credits Used Today"
+  },
+  "AIBackgroundRemoverPage": {
+    "metadata": {
+      "title": "AI Background Remover | Remove Image Backgrounds Instantly",
+      "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more."
+    }
+  },
+  "AIImageUpscaler": {
+      "title": "AI Image Upscaler",
+      "description": "Enhance your images with AI-powered upscaling",
+      "upscaleButton": "Upscale Image",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "downloadButton": "Download",
+      "uploadPrompt": "Upload an image to upscale",
+      "dragDropPrompt": "Drag and drop your image here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select an image file",
+      "processingError": "Error processing the image",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for image upscaling. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "scaleLabel": "Upscale Factor",
+      "selectScale": "Select scale factor",
+      "downloadError": "Error downloading the image"
+    },
+    "AIImageUpscalerPage": {
+      "metadata": {
+        "title": "AI Image Upscaler | Enhance Image Resolution Instantly",
+        "description": "Upscale and enhance your images with our AI-powered tool. Perfect for improving low-resolution photos and creating high-quality prints."
+      }
+    },
+    "AIPhotoColorizer": {
+      "title": "AI Photo Colorizer",
+      "description": "Bring your black and white photos to life with AI-powered colorization",
+      "colorizeButton": "Colorize Photo",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "downloadButton": "Download",
+      "uploadPrompt": "Upload a black and white photo to colorize",
+      "dragDropPrompt": "Drag and drop your photo here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select a photo file",
+      "processingError": "Error processing the photo",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for photo colorization. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "downloadError": "Error downloading the image"
+    },
+    "AIPhotoColorizerPage": {
+      "metadata": {
+        "title": "AI Photo Colorizer | Bring Black and White Photos to Life",
+        "description": "Transform your black and white photos into vibrant, colorful images with our AI-powered colorization tool. Perfect for restoring old photos and adding new life to historical images."
+      }
+    },
+    "AIPhotoRestorer": {
+      "title": "AI Photo Restorer",
+      "description": "Restore and enhance old or damaged photos with AI",
+      "restoreButton": "Restore Photo",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "downloadButton": "Download",
+      "uploadPrompt": "Upload a photo to restore",
+      "dragDropPrompt": "Drag and drop your photo here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select a photo file",
+      "processingError": "Error processing the photo",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for photo restoration. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "downloadError": "Error downloading the image"
+    },
+    "AIPhotoRestorerPage": {
+      "metadata": {
+        "title": "AI Photo Restorer | Enhance and Restore Old Photos",
+        "description": "Bring your old or damaged photos back to life with our AI-powered photo restoration tool. Perfect for preserving memories and enhancing historical images."
+      }
+    },
+    "AIImageEnhancer": {
+      "title": "AI Image Enhancer",
+      "description": "Enhance and improve the quality of your images with AI",
+      "enhanceButton": "Enhance Image",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "downloadButton": "Download",
+      "uploadPrompt": "Upload an image to enhance",
+      "dragDropPrompt": "Drag and drop your image here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select an image file",
+      "processingError": "Error processing the image",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for image enhancement. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "downloadError": "Error downloading the image"
+    },
+    "AIImageEnhancerPage": {
+      "metadata": {
+        "title": "AI Image Enhancer | Improve Image Quality",
+        "description": "Enhance and improve the quality of your images with our AI-powered image enhancement tool. Perfect for sharpening, denoising, and upscaling your photos."
+      }
+    },
+    "AIImageToTextConverter": {
+      "title": "AI Image to Text Converter",
+      "description": "Extract text from images using AI-powered OCR",
+      "extractTextButton": "Extract Text",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "copyButton": "Copy Text",
+      "copiedButton": "Copied!",
+      "uploadPrompt": "Upload an image to extract text",
+      "dragDropPrompt": "Drag and drop your image here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select an image file",
+      "processingError": "Error processing the image",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for OCR. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "extractedTextTitle": "Extracted Text",
+      "extractedTextPlaceholder": "Extracted text will appear here",
+      "noTextDetected": "No text detected in the image. Please try a different image."
+    },
+    "AIImageToTextConverterPage": {
+      "metadata": {
+        "title": "AI Image to Text Converter | Extract Text from Images",
+        "description": "Convert images to text with our AI-powered OCR tool. Perfect for digitizing documents, extracting text from screenshots, and more."
+      }
+    },
+    "AIImageCaptionGenerator": {
+      "title": "AI Image Caption Generator",
+      "description": "Generate captions for images using AI",
+      "generateCaptionButton": "Generate Caption",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "copyButton": "Copy Caption",
+      "copiedButton": "Copied!",
+      "uploadPrompt": "Upload an image to generate a caption",
+      "dragDropPrompt": "Drag and drop your image here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select an image file",
+      "processingError": "Error processing the image",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for image captioning. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today",
+      "generatedCaptionTitle": "Generated Caption",
+      "generatedCaptionPlaceholder": "Generated caption will appear here",
+      "noCaptionGenerated": "Unable to generate a caption for this image. Please try a different image."
+    },
+    "AIImageCaptionGeneratorPage": {
+      "metadata": {
+        "title": "AI Image Caption Generator | Generate Captions for Images",
+        "description": "Generate accurate and descriptive captions for your images using our AI-powered tool. Perfect for content creators, social media managers, and more."
+      }
     }
   }
 }
+

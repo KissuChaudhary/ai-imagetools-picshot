@@ -23,7 +23,7 @@ const tools: Tool[] = [
     description: 'Create stunning, unique images from text descriptions with advanced AI technology.',
     icon: <ImageIcon className="w-8 h-8" />,
     glowColor: 'from-purple-500',
-    href: '/tools/image-generator',
+    href: '/tools/ai-image-generator',
   },
   {
     id: 'background-remover',
@@ -31,7 +31,7 @@ const tools: Tool[] = [
     description: 'Remove backgrounds from images instantly with precision and accuracy.',
     icon: <Eraser className="w-8 h-8" />,
     glowColor: 'from-blue-500',
-    href: '/tools/background-remover',
+    href: '/tools/ai-background-remover',
   },
   {
     id: 'image-upscaler',
@@ -39,7 +39,7 @@ const tools: Tool[] = [
     description: 'Enhance image resolution without losing quality using AI technology.',
     icon: <Maximize className="w-8 h-8" />,
     glowColor: 'from-green-500',
-    href: '/tools/image-upscaler',
+    href: '/tools/ai-image-upscaler',
   },
   {
     id: 'photo-colorizer',
@@ -47,7 +47,7 @@ const tools: Tool[] = [
     description: 'Bring black and white photos to life with AI-powered colorization.',
     icon: <Palette className="w-8 h-8" />,
     glowColor: 'from-yellow-500',
-    href: '/tools/photo-colorizer',
+    href: '/tools/ai-photo-colorizer',
   },
   {
     id: 'photo-restorer',
@@ -55,7 +55,7 @@ const tools: Tool[] = [
     description: 'Restore old and damaged photos to their former glory.',
     icon: <History className="w-8 h-8" />,
     glowColor: 'from-red-500',
-    href: '/tools/photo-restorer',
+    href: '/tools/ai-photo-restorer',
   },
   {
     id: 'image-enhancer',
@@ -63,7 +63,7 @@ const tools: Tool[] = [
     description: 'Automatically enhance your photos for professional-quality results.',
     icon: <Sparkles className="w-8 h-8" />,
     glowColor: 'from-indigo-500',
-    href: '/tools/image-enhancer',
+    href: '/tools/ai-image-enhancer',
   },
   {
     id: 'avatar-generator',

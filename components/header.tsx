@@ -19,6 +19,7 @@ export function Header() {
     { href: '/colorize', label: t('colorize') },
     { href: '/enhance', label: t('enhance') },
     { href: '/remove-bg', label: t('removeBg') },
+    { href: '/tools/ai-image-generator', label: t('AIimageGenerator') },
   ]
 
   return (
