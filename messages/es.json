@@ -483,6 +483,7 @@
     "removeObjectButton": "Eliminar Objeto",
     "processingButton": "Procesando...",
     "resetButton": "Reiniciar",
+    "previewImageAlt": "Image for object removal",
     "downloadButton": "Descargar",
     "uploadPrompt": "Sube una foto para eliminar objetos",
     "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
