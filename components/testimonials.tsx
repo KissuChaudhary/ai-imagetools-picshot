@@ -107,7 +107,7 @@ export function TestimonialsSection() {
                       <p className="text-sm text-gray-400">{t(testimonial.roleKey)}</p>
                     </div>
                   </div>
-                  <p className="text-gray-300 text-sm leading-tight flex-grow text-justify">"{t(testimonial.contentKey)}"</p>
+                  <p className="text-gray-300 text-sm leading-tight flex-grow text-justify">{t(testimonial.contentKey)}</p>
                   <div className="mt-4">
                     <StarRating rating={testimonial.rating} />
                   </div>
