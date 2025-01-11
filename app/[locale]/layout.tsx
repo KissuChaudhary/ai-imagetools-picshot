@@ -10,6 +10,7 @@ import "@/app/globals.css"
 import {getMessages} from '@/lib/get-messages'
 import {setRequestLocale} from 'next-intl/server';
 
+
 const inter = Inter({ subsets: ["latin"] })
 
 export function generateStaticParams() {

@@ -476,6 +476,202 @@
         "title": "AI Image Caption Generator | Generate Captions for Images",
         "description": "Generate accurate and descriptive captions for your images using our AI-powered tool. Perfect for content creators, social media managers, and more."
       }
+    },
+    "AIObjectRemover": {
+    "title": "AI Object Remover",
+    "description": "Remove unwanted objects from your photos with AI-powered precision",
+    "removeObjectButton": "Remove Object",
+    "processingButton": "Processing...",
+    "previewImageAlt": "Image for object removal",
+    "resetButton": "Reset",
+    "downloadButton": "Download",
+    "uploadPrompt": "Upload a photo to remove objects",
+    "dragDropPrompt": "Drag and drop your photo here, or click to select",
+    "selectFileButton": "Select File",
+    "supportedFormats": "Supported formats: {formats}",
+    "maxFileSize": "Max file size: {size}MB",
+    "noFileError": "Please select a photo file",
+    "noMaskError": "Please draw a mask around the object to remove",
+    "processingError": "Error processing the photo",
+    "limitReachedTitle": "Daily Limit Reached",
+    "limitReachedDescription": "You've reached the daily limit for object removal. Try again tomorrow!",
+    "errorTitle": "Error",
+    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+    "creditsUsed": "Credits Used Today",
+    "downloadError": "Error downloading the image",
+    "generateMaskButton": "Generate Mask",
+    "drawMaskPrompt": "Draw a mask around the object you want to remove"
+  },
+  "AIObjectRemoverPage": {
+    "metadata": {
+      "title": "AI Object Remover | Remove Unwanted Objects from Photos",
+      "description": "Easily remove unwanted objects from your photos with our AI-powered object removal tool. Perfect for cleaning up images and enhancing your photos."
+    }
+  },
+  "ImageComparisonSlider": {
+      "imageAltBefore": "Before: Low resolution image",
+      "imageAltAfter": "After: High resolution image",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Why Settle for Low-Resolution Images?",
+      "heroParagraph1": "In a world where visual content is king, image quality can make or break your first impression. Whether it's for social media, your online store, or a professional portfolio, crisp, high-resolution images capture attention and convey professionalism.",
+      "heroParagraph2": "With Lexistock AI, you don't have to compromise on quality. Our AI-driven image upscaler transforms your low-resolution photos into stunning, high-definition visuals in just a few clicks.",
+      "upscaleButton": "Upscale Your Image",
+      "featuresTitle": "Unlock the Power of AI Image Upscaling",
+      "features": {
+        "highResolution": {
+          "title": "High-Resolution Output",
+          "description": "Instantly upscale your images to 4K resolution, ensuring every detail shines."
+        },
+        "fastProcessing": {
+          "title": "Fast Processing",
+          "description": "Our AI works at lightning speed, delivering enhanced images in seconds."
+        },
+        "userFriendly": {
+          "title": "User-Friendly",
+          "description": "No technical skills needed. Simply drag, drop, and let our AI do the magic."
+        },
+        "freeToUse": {
+          "title": "Free to Use",
+          "description": "Enjoy top-tier image upscaling without spending a dime."
+        }
+      },
+      "stepsTitle": "Three Simple Steps to Upscale Your Images",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Image",
+          "description": "Drag and drop your photo into our uploader or select it from your device."
+        },
+        "chooseLevel": {
+          "title": "Choose Upscaling Level",
+          "description": "Select the enhancement level you need—2x or 4x—based on your project requirements."
+        },
+        "download": {
+          "title": "Download the Enhanced Image",
+          "description": "Instantly download your beautifully upscaled image and use it wherever you like."
+        }
+      },
+      "useCasesTitle": "Perfect for Every Need",
+      "useCases": {
+        "photography": {
+          "title": "Photography",
+          "description": "Give your portfolio the edge by showcasing every detail with high-resolution images."
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Impress potential buyers with crystal-clear product images that stand out."
+        },
+        "personalUse": {
+          "title": "Personal Use",
+          "description": "Create eye-catching social media posts with enhanced visuals."
+        },
+        "businessPresentations": {
+          "title": "Business Presentations",
+          "description": "Make your presentations pop with high-quality visuals that grab attention."
+        }
+      },
+      "aiUpscalingTitle": "What is AI Image Upscaling and How Does It Work?",
+      "aiUpscalingParagraph1": "AI image upscaling refers to the process of increasing the resolution and quality of an image using artificial intelligence. Traditional upscaling methods often result in blurry or pixelated images, but AI-powered tools, like Lexistock AI, leverage machine learning algorithms to predict and enhance details in your photos. This means you get sharper, clearer images that look natural and professional.",
+      "aiUpscalingParagraph2": "AI image upscaling is particularly useful for photographers, graphic designers, e-commerce businesses, and anyone who needs high-quality visuals. By analyzing patterns and textures in your images, AI can fill in missing details, resulting in a crisper and more defined image.",
+      "benefitsTitle": "Benefits of Using AI for Image Enhancement",
+      "benefitsParagraph": "Why should you consider AI for your image upscaling needs? Here are some compelling reasons:",
+      "benefits": {
+        "benefit1": "Enhanced Detail and Clarity: AI technology improves image quality by refining edges, reducing noise, and bringing out hidden details.",
+        "benefit2": "Time-Saving: Forget manual editing! AI handles the heavy lifting, letting you focus on what matters most.",
+        "benefit3": "Cost-Efficiency: With free tools like Lexistock AI, you can achieve professional-quality results without investing in expensive software.",
+        "benefit4": "Versatility: Whether you're enhancing photos for social media, a website, or a print project, AI upscaling ensures your images look their best in any context."
+      },
+      "misconceptionsTitle": "Common Misconceptions About AI Image Upscaling",
+      "misconceptionsParagraph1": "Many people think AI image upscaling is only for tech-savvy users or professionals, but that's far from the truth. Lexistock AI is designed with simplicity in mind, making it accessible to everyone, regardless of their technical background.",
+      "misconceptionsParagraph2": "Another myth is that AI upscaling is only beneficial for low-resolution images. In reality, even high-quality images can benefit from AI enhancements, as the technology can refine and sharpen details that might not be visible at first glance.",
+      "whyChooseTitle": "Why Choose Lexistock AI for Your Image Upscaling Needs?",
+      "whyChooseParagraph1": "Lexistock AI stands out in the crowded market of image upscaling tools. Here's why:",
+      "whyChoose": {
+        "reason1": "Cutting-Edge AI Technology: Our tool uses the latest advancements in AI to deliver superior image quality.",
+        "reason2": "User-Centric Design: We believe in keeping things simple. Our interface is intuitive, ensuring a seamless experience for every user.",
+        "reason3": "Fast and Free: Get professional-grade image enhancements in seconds, all at no cost."
+      },
+      "whyChooseParagraph2": "Whether you're a business owner looking to enhance product images or a hobbyist wanting to improve personal photos, Lexistock AI offers a reliable and efficient solution.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the Lexistock AI Image Upscaler?",
+          "answer": "The Lexistock AI Image Upscaler is a free online tool that allows users to upscale images by 2x or 4x while maintaining high-quality precision. It utilizes advanced AI technology to enhance image resolution without compromising on detail."
+        },
+        {
+          "question": "How does the Lexistock AI Image Upscaler work?",
+          "answer": "Lexistock's upscaling tool employs sophisticated algorithms that analyze the original image and intelligently add pixels to increase its resolution. This process enhances clarity and detail, resulting in a sharper, high-resolution image."
+        },
+        {
+          "question": "What types of images can I upscale using Lexistock?",
+          "answer": "You can upscale various types of images using Lexistock, including photographs, digital art, and graphics. The tool is versatile and designed to handle different formats effectively."
+        },
+        {
+          "question": "Is there a limit to the size of images I can upload?",
+          "answer": "Lexistock typically allows users to upload images within standard file size limits. While specific limitations may vary, most common image formats like JPG and PNG are supported for upscaling."
+        },
+        {
+          "question": "How long does it take to upscale an image with Lexistock?",
+          "answer": "The upscaling process with Lexistock is usually quick, often taking just a few seconds to complete. Users can expect their high-resolution images to be ready almost immediately after uploading."
+        },
+        {
+          "question": "Can I upscale multiple images at once using Lexistock?",
+          "answer": "Yes, Lexistock offers batch processing capabilities that enable users to upscale multiple images simultaneously. This feature is particularly useful for photographers or designers working with large sets of images."
+        },
+        {
+          "question": "Will upscaling an image with Lexistock affect its quality?",
+          "answer": "No, the Lexistock AI Image Upscaler is designed to enhance image quality during the upscaling process. It aims to preserve original details and prevent pixelation, resulting in a clearer final product."
+        },
+        {
+          "question": "Do I need any special skills to use the Lexistock AI Image Upscaler?",
+          "answer": "No special skills are required to use Lexistock's upscaling tool. The interface is user-friendly, allowing anyone to easily upload images and initiate the upscaling process with just a few clicks."
+        },
+        {
+          "question": "Is there a cost associated with using the Lexistock AI Image Upscaler?",
+          "answer": "Lexistock offers its image upscaling service for free, making it accessible for anyone looking to enhance their images without incurring costs."
+        },
+        {
+          "question": "Can I download my upscaled images directly from Lexistock?",
+          "answer": "Yes, once the upscaling process is complete, users can easily download their enhanced images directly from the Lexistock platform for immediate use."
+        }
+      ]
+    },
+    "TestimonialsSection": {
+      "title": "What Users Are Saying About Lexistock AI",
+      "averageRating": "4.5 average rating from 1200+ users worldwide.",
+      "testimonials": [
+        {
+          "name": "Pooja Vishwas",
+          "role": "E-commerce Entrepreneur",
+          "content": "The background remover is incredible. Quick and professional results every time!"
+        },
+        {
+          "name": "Jason M",
+          "role": "Social Media Influencer",
+          "content": "Super easy to enhance photos and make my feed pop. Love it!"
+        },
+        {
+          "name": "Olivia G",
+          "role": "Photographer",
+          "content": "The upscaler saved my blurry shots. So simple, so effective."
+        },
+        {
+          "name": "Laura S",
+          "role": "Digital Artist",
+          "content": "The tools are intuitive, and the results are always spot on. A must-have!"
+        },
+        {
+          "name": "Danny M",
+          "role": "Small Business Owner",
+          "content": "Fast and reliable. It’s my go-to for image edits."
+        },
+        {
+          "name": "Rohit Chauhdary",
+          "role": "Content Creator",
+          "content": "Lexistock AI is the best platform I’ve used for quick and clean edits!"
+        }
+      ]
     }
   }
 }

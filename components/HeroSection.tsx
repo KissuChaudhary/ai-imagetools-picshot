@@ -129,7 +129,7 @@ const HeroSection = () => {
           </div>{" "}
           <span className="text-sm font-medium text-muted-foreground">{t('lovedBy')}</span>
         </div>
-        <Link href="/login?state=signup">
+        <Link href="/tools/ai-image-generator">
           <Button className="rounded-md text-base h-12">
             <Sparkle /> {t('cta')} <Sparkle />
           </Button>

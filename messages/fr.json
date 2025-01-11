@@ -476,6 +476,201 @@
       "title": "Générateur de Légendes pour Images avec IA | Générer des Légendes pour Images",
       "description": "Générez des légendes précises et descriptives pour vos images avec notre outil alimenté par IA. Parfait pour les créateurs de contenu, les gestionnaires de réseaux sociaux et plus encore."
     }
-  }
+  },
+  "AIObjectRemover": {
+    "title": "Suppression d'Objets par IA",
+    "description": "Supprimez les objets indésirables de vos photos avec une précision alimentée par l'IA",
+    "removeObjectButton": "Supprimer l'Objet",
+    "processingButton": "Traitement en cours...",
+    "resetButton": "Réinitialiser",
+    "downloadButton": "Télécharger",
+    "uploadPrompt": "Téléchargez une photo pour supprimer des objets",
+    "dragDropPrompt": "Faites glisser et déposez votre photo ici, ou cliquez pour sélectionner",
+    "selectFileButton": "Sélectionner un Fichier",
+    "supportedFormats": "Formats pris en charge : {formats}",
+    "maxFileSize": "Taille maximale du fichier : {size}MB",
+    "noFileError": "Veuillez sélectionner un fichier photo",
+    "noMaskError": "Veuillez dessiner un masque autour de l'objet à supprimer",
+    "processingError": "Erreur lors du traitement de la photo",
+    "limitReachedTitle": "Limite Quotidienne Atteinte",
+    "limitReachedDescription": "Vous avez atteint la limite quotidienne de suppression d'objets. Réessayez demain !",
+    "errorTitle": "Erreur",
+    "invalidFileType": "Type de fichier invalide. Veuillez télécharger une image JPEG, PNG ou WebP.",
+    "fileTooLarge": "Le fichier est trop volumineux. La taille maximale est de {maxSize}MB.",
+    "creditsUsed": "Crédits Utilisés Aujourd'hui",
+    "downloadError": "Erreur lors du téléchargement de l'image",
+    "generateMaskButton": "Générer le Masque",
+    "drawMaskPrompt": "Dessinez un masque autour de l'objet que vous souhaitez supprimer"
+  },
+  "AIObjectRemoverPage": {
+    "metadata": {
+      "title": "Suppression d'Objets par IA | Supprimez les Objets Indésirables des Photos",
+      "description": "Supprimez facilement les objets indésirables de vos photos avec notre outil de suppression d'objets alimenté par l'IA. Parfait pour nettoyer les images et améliorer vos photos."
+    }
+  },
+  "ImageComparisonSlider": {
+      "imageAltBefore": "Avant : Image basse résolution",
+      "imageAltAfter": "Après : Image haute résolution",
+      "beforeLabel": "Avant",
+      "afterLabel": "Après",
+      "heroTitle": "Pourquoi se contenter d'images basse résolution ?",
+      "heroParagraph1": "Dans un monde où le contenu visuel est roi, la qualité de l'image peut faire ou défaire votre première impression. Que ce soit pour les réseaux sociaux, votre boutique en ligne ou un portfolio professionnel, des images nettes et haute résolution captent l'attention et transmettent du professionnalisme.",
+      "heroParagraph2": "Avec Lexistock AI, vous n'avez pas à faire de compromis sur la qualité. Notre amélioration d'image alimentée par l'IA transforme vos photos basse résolution en visuels impressionnants en haute définition en quelques clics seulement.",
+      "upscaleButton": "Améliorez votre image",
+      "featuresTitle": "Libérez la puissance de l'amélioration d'image par IA",
+      "features": {
+        "highResolution": {
+          "title": "Sortie Haute Résolution",
+          "description": "Améliorez instantanément vos images en résolution 4K, garantissant que chaque détail brille."
+        },
+        "fastProcessing": {
+          "title": "Traitement Rapide",
+          "description": "Notre IA travaille à une vitesse fulgurante, livrant des images améliorées en quelques secondes."
+        },
+        "userFriendly": {
+          "title": "Facile à Utiliser",
+          "description": "Aucune compétence technique n'est requise. Glissez-déposez simplement votre image et laissez notre IA faire la magie."
+        },
+        "freeToUse": {
+          "title": "Gratuit à Utiliser",
+          "description": "Profitez d'une amélioration d'image de qualité sans dépenser un centime."
+        }
+      },
+      "stepsTitle": "Trois étapes simples pour améliorer vos images",
+      "steps": {
+        "upload": {
+          "title": "Téléchargez votre image",
+          "description": "Glissez et déposez votre photo dans notre téléchargeur ou sélectionnez-la depuis votre appareil."
+        },
+        "chooseLevel": {
+          "title": "Choisissez le niveau d'amélioration",
+          "description": "Sélectionnez le niveau d'amélioration dont vous avez besoin — 2x ou 4x — en fonction des exigences de votre projet."
+        },
+        "download": {
+          "title": "Téléchargez l'image améliorée",
+          "description": "Téléchargez instantanément votre image magnifiquement améliorée et utilisez-la où vous le souhaitez."
+        }
+      },
+      "useCasesTitle": "Parfait pour chaque besoin",
+      "useCases": {
+        "photography": {
+          "title": "Photographie",
+          "description": "Donnez à votre portfolio un avantage en mettant en valeur chaque détail avec des images haute résolution."
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Impressionnez les acheteurs potentiels avec des images de produits nettes qui se distinguent."
+        },
+        "personalUse": {
+          "title": "Utilisation Personnelle",
+          "description": "Créez des publications sur les réseaux sociaux accrocheuses avec des visuels améliorés."
+        },
+        "businessPresentations": {
+          "title": "Présentations Professionnelles",
+          "description": "Faites ressortir vos présentations avec des visuels de haute qualité qui attirent l'attention."
+        }
+      },
+      "aiUpscalingTitle": "Qu'est-ce que l'amélioration d'image par IA et comment cela fonctionne-t-il ?",
+      "aiUpscalingParagraph1": "L'amélioration d'image par IA fait référence au processus d'augmentation de la résolution et de la qualité d'une image à l'aide de l'intelligence artificielle. Les méthodes traditionnelles d'amélioration d'image entraînent souvent des images floues ou pixelisées, mais les outils alimentés par l'IA, comme Lexistock AI, utilisent des algorithmes d'apprentissage automatique pour prédire et améliorer les détails de vos photos. Cela signifie que vous obtenez des images plus nettes et plus claires qui ont l'air naturelles et professionnelles.",
+      "aiUpscalingParagraph2": "L'amélioration d'image par IA est particulièrement utile pour les photographes, les graphistes, les entreprises de commerce électronique et toute personne ayant besoin de visuels de haute qualité. En analysant les motifs et les textures de vos images, l'IA peut remplir les détails manquants, ce qui donne une image plus nette et plus définie.",
+      "benefitsTitle": "Avantages de l'utilisation de l'IA pour l'amélioration des images",
+      "benefitsParagraph": "Pourquoi devriez-vous envisager l'IA pour vos besoins d'amélioration d'image ? Voici quelques raisons convaincantes :",
+      "benefits": {
+        "benefit1": "Détails et Clarté Améliorés : La technologie IA améliore la qualité de l'image en affinant les bords, en réduisant le bruit et en mettant en valeur les détails cachés.",
+        "benefit2": "Gain de Temps : Oubliez l'édition manuelle ! L'IA prend en charge le travail lourd, vous permettant de vous concentrer sur ce qui compte vraiment.",
+        "benefit3": "Rentabilité : Avec des outils gratuits comme Lexistock AI, vous pouvez obtenir des résultats de qualité professionnelle sans investir dans des logiciels coûteux.",
+        "benefit4": "Polyvalence : Que vous amélioriez des photos pour les réseaux sociaux, un site Web ou un projet d'impression, l'amélioration d'image par IA garantit que vos images soient toujours les meilleures dans n'importe quel contexte."
+      },
+      "misconceptionsTitle": "Idées fausses sur l'amélioration d'image par IA",
+      "misconceptionsParagraph1": "Beaucoup de gens pensent que l'amélioration d'image par IA est réservée aux utilisateurs technophiles ou aux professionnels, mais c'est loin d'être le cas. Lexistock AI est conçu avec la simplicité en tête, le rendant accessible à tous, quel que soit leur niveau technique.",
+      "misconceptionsParagraph2": "Un autre mythe est que l'amélioration d'image par IA n'est utile que pour les images basse résolution. En réalité, même les images de haute qualité peuvent bénéficier des améliorations de l'IA, car la technologie peut affiner et affiner les détails qui pourraient ne pas être visibles au premier coup d'œil.",
+      "whyChooseTitle": "Pourquoi choisir Lexistock AI pour vos besoins d'amélioration d'image ?",
+      "whyChooseParagraph1": "Lexistock AI se distingue sur le marché encombré des outils d'amélioration d'image. Voici pourquoi :",
+      "whyChoose": {
+        "reason1": "Technologie IA de pointe : Notre outil utilise les dernières avancées de l'IA pour offrir une qualité d'image supérieure.",
+        "reason2": "Conception axée sur l'utilisateur : Nous croyons en la simplicité. Notre interface est intuitive, garantissant une expérience fluide pour chaque utilisateur.",
+        "reason3": "Rapide et Gratuit : Obtenez des améliorations d'image de qualité professionnelle en quelques secondes, le tout gratuitement."
+      },
+      "whyChooseParagraph2": "Que vous soyez un propriétaire d'entreprise cherchant à améliorer des images de produits ou un amateur voulant améliorer des photos personnelles, Lexistock AI offre une solution fiable et efficace.",
+      "faqTitle": "Questions fréquemment posées",
+      "faq": [
+        {
+          "question": "Qu'est-ce que le Lexistock AI Image Upscaler ?",
+          "answer": "Le Lexistock AI Image Upscaler est un outil en ligne gratuit qui permet aux utilisateurs d'améliorer les images de 2x ou 4x tout en maintenant une grande précision de qualité. Il utilise une technologie IA avancée pour améliorer la résolution des images sans compromettre les détails."
+        },
+        {
+          "question": "Comment fonctionne le Lexistock AI Image Upscaler ?",
+          "answer": "L'outil d'amélioration de Lexistock utilise des algorithmes sophistiqués qui analysent l'image d'origine et ajoutent intelligemment des pixels pour augmenter sa résolution. Ce processus améliore la clarté et les détails, offrant une image plus nette et haute résolution."
+        },
+        {
+          "question": "Quels types d'images puis-je améliorer avec Lexistock ?",
+          "answer": "Vous pouvez améliorer divers types d'images avec Lexistock, notamment des photographies, des œuvres d'art numériques et des graphiques. L'outil est polyvalent et conçu pour gérer différents formats efficacement."
+        },
+        {
+          "question": "Y a-t-il une limite à la taille des images que je peux télécharger ?",
+          "answer": "Lexistock permet généralement aux utilisateurs de télécharger des images dans les limites de taille de fichier standard. Bien que des limitations spécifiques puissent varier, la plupart des formats d'image courants comme JPG et PNG sont pris en charge pour l'amélioration."
+        },
+        {
+          "question": "Combien de temps faut-il pour améliorer une image avec Lexistock ?",
+          "answer": "Le processus d'amélioration avec Lexistock est généralement rapide, prenant souvent quelques secondes pour être terminé. Les utilisateurs peuvent s'attendre à ce que leurs images haute résolution soient prêtes presque immédiatement après le téléchargement."
+        },
+        {
+          "question": "Puis-je améliorer plusieurs images en même temps avec Lexistock ?",
+          "answer": "Oui, Lexistock propose des capacités de traitement par lots permettant aux utilisateurs d'améliorer plusieurs images simultanément. Cette fonctionnalité est particulièrement utile pour les photographes ou les concepteurs travaillant avec de grands ensembles d'images."
+        },
+        {
+          "question": "L'amélioration d'une image avec Lexistock affectera-t-elle sa qualité ?",
+          "answer": "Non, le Lexistock AI Image Upscaler est conçu pour améliorer la qualité de l'image pendant le processus d'amélioration. Il vise à préserver les détails originaux et à éviter la pixellisation, offrant ainsi un produit final plus clair."
+        },
+        {
+          "question": "Ai-je besoin de compétences spéciales pour utiliser le Lexistock AI Image Upscaler ?",
+          "answer": "Aucune compétence particulière n'est nécessaire pour utiliser l'outil d'amélioration de Lexistock. L'interface est conviviale, permettant à tout utilisateur de télécharger facilement des images et d'initier le processus d'amélioration en quelques clics."
+        },
+        {
+          "question": "Y a-t-il un coût associé à l'utilisation du Lexistock AI Image Upscaler ?",
+          "answer": "Lexistock propose son service d'amélioration d'image gratuitement, ce qui le rend accessible à tous ceux qui souhaitent améliorer leurs images sans frais."
+        },
+        {
+          "question": "Puis-je télécharger mes images améliorées directement depuis Lexistock ?",
+          "answer": "Oui, une fois le processus d'amélioration terminé, les utilisateurs peuvent facilement télécharger leurs images améliorées directement depuis la plateforme Lexistock pour une utilisation immédiate."
+        }
+      ]
+    },
+"TestimonialsSection": {
+      "title": "Que disent les utilisateurs de Lexistock AI ?",
+      "averageRating": "Note moyenne de 4,5 par plus de 1200 utilisateurs dans le monde.",
+      "testimonials": [
+        {
+          "name": "Pooja Vishwas",
+          "role": "Entrepreneuse en e-commerce",
+          "content": "Le retrait de fond est incroyable. Rapide et toujours professionnel !"
+        },
+        {
+          "name": "Jason M",
+          "role": "Influenceur sur les réseaux sociaux",
+          "content": "Super facile d'améliorer les photos et de rendre mon feed génial. J’adore !"
+        },
+        {
+          "name": "Olivia G",
+          "role": "Photographe",
+          "content": "L'outil de mise à l'échelle a sauvé mes photos floues. Simple et efficace."
+        },
+        {
+          "name": "Laura S",
+          "role": "Artiste numérique",
+          "content": "Les outils sont intuitifs et les résultats toujours parfaits. Indispensable !"
+        },
+        {
+          "name": "Danny M",
+          "role": "Propriétaire de petite entreprise",
+          "content": "Rapide et fiable. Mon choix préféré pour éditer des images."
+        },
+        {
+          "name": "Rohit Chauhdary",
+          "role": "Créatrice de contenu",
+          "content": "Lexistock AI est la meilleure plateforme que j'ai utilisée pour des retouches rapides et propres !"
+        }
+      ]
+    }
   }
 }

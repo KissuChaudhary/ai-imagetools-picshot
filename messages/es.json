@@ -476,6 +476,201 @@
       "title": "Generador de Subtítulos para Imágenes con IA | Genera Subtítulos para Imágenes",
       "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
     }
-  }
+  },
+  "AIObjectRemover": {
+    "title": "Eliminador de Objetos con IA",
+    "description": "Elimina objetos no deseados de tus fotos con precisión impulsada por IA",
+    "removeObjectButton": "Eliminar Objeto",
+    "processingButton": "Procesando...",
+    "resetButton": "Reiniciar",
+    "downloadButton": "Descargar",
+    "uploadPrompt": "Sube una foto para eliminar objetos",
+    "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
+    "selectFileButton": "Seleccionar Archivo",
+    "supportedFormats": "Formatos soportados: {formats}",
+    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+    "noFileError": "Por favor, selecciona un archivo de foto",
+    "noMaskError": "Por favor, dibuja una máscara alrededor del objeto a eliminar",
+    "processingError": "Error al procesar la foto",
+    "limitReachedTitle": "Límite Diario Alcanzado",
+    "limitReachedDescription": "Has alcanzado el límite diario de eliminación de objetos. ¡Inténtalo de nuevo mañana!",
+    "errorTitle": "Error",
+    "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+    "creditsUsed": "Créditos Usados Hoy",
+    "downloadError": "Error al descargar la imagen",
+    "generateMaskButton": "Generar Máscara",
+    "drawMaskPrompt": "Dibuja una máscara alrededor del objeto que quieres eliminar"
+  },
+  "AIObjectRemoverPage": {
+    "metadata": {
+      "title": "Eliminador de Objetos con IA | Elimina Objetos No Deseados de Fotos",
+      "description": "Elimina fácilmente objetos no deseados de tus fotos con nuestra herramienta de eliminación de objetos impulsada por IA. Perfecto para limpiar imágenes y mejorar tus fotos."
+    }
+  },
+  "ImageComparisonSlider": {
+  "imageAltBefore": "Antes: Imagen de baja resolución",
+  "imageAltAfter": "Después: Imagen de alta resolución",
+  "beforeLabel": "Antes",
+  "afterLabel": "Después",
+  "heroTitle": "¿Por qué conformarse con imágenes de baja resolución?",
+  "heroParagraph1": "En un mundo donde el contenido visual es clave, la calidad de la imagen puede hacer o deshacer tu primera impresión. Ya sea para redes sociales, tu tienda en línea o un portafolio profesional, las imágenes nítidas de alta resolución capturan la atención y transmiten profesionalismo.",
+  "heroParagraph2": "Con Lexistock AI, no tienes que comprometer la calidad. Nuestro escalador de imágenes impulsado por IA transforma tus fotos de baja resolución en impresionantes imágenes en alta definición con solo unos pocos clics.",
+  "upscaleButton": "Mejorar tu imagen",
+  "featuresTitle": "Desbloquea el poder de la mejora de imágenes con IA",
+  "features": {
+    "highResolution": {
+      "title": "Salida en alta resolución",
+      "description": "Mejora instantáneamente tus imágenes a resolución 4K, asegurando que cada detalle brille."
+    },
+    "fastProcessing": {
+      "title": "Procesamiento rápido",
+      "description": "Nuestra IA trabaja a una velocidad vertiginosa, entregando imágenes mejoradas en segundos."
+    },
+    "userFriendly": {
+      "title": "Fácil de usar",
+      "description": "No se necesitan habilidades técnicas. Simplemente arrastra, suelta y deja que nuestra IA haga la magia."
+    },
+    "freeToUse": {
+      "title": "Gratis para usar",
+      "description": "Disfruta de la mejora de imágenes de alta calidad sin gastar un centavo."
+    }
+  },
+  "stepsTitle": "Tres sencillos pasos para mejorar tus imágenes",
+  "steps": {
+    "upload": {
+      "title": "Sube tu imagen",
+      "description": "Arrastra y suelta tu foto en nuestro cargador o selecciónala desde tu dispositivo."
+    },
+    "chooseLevel": {
+      "title": "Selecciona el nivel de mejora",
+      "description": "Elige el nivel de mejora que necesites: 2x o 4x, según los requisitos de tu proyecto."
+    },
+    "download": {
+      "title": "Descarga la imagen mejorada",
+      "description": "Descarga al instante tu imagen mejorada y utilízala donde quieras."
+    }
+  },
+  "useCasesTitle": "Perfecto para todas las necesidades",
+  "useCases": {
+    "photography": {
+      "title": "Fotografía",
+      "description": "Dale ventaja a tu portafolio mostrando cada detalle con imágenes en alta resolución."
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "description": "Impresiona a los compradores potenciales con imágenes nítidas de tus productos que destacan."
+    },
+    "personalUse": {
+      "title": "Uso personal",
+      "description": "Crea publicaciones llamativas en redes sociales con imágenes mejoradas."
+    },
+    "businessPresentations": {
+      "title": "Presentaciones de negocios",
+      "description": "Haz que tus presentaciones resalten con visuales de alta calidad que atraigan la atención."
+    }
+  },
+  "aiUpscalingTitle": "¿Qué es la mejora de imágenes con IA y cómo funciona?",
+  "aiUpscalingParagraph1": "La mejora de imágenes con IA se refiere al proceso de aumentar la resolución y calidad de una imagen utilizando inteligencia artificial. Los métodos tradicionales de mejora a menudo resultan en imágenes borrosas o pixeladas, pero las herramientas impulsadas por IA, como Lexistock AI, aprovechan los algoritmos de aprendizaje automático para predecir y mejorar los detalles en tus fotos. Esto significa que obtienes imágenes más nítidas y claras que se ven naturales y profesionales.",
+  "aiUpscalingParagraph2": "La mejora de imágenes con IA es especialmente útil para fotógrafos, diseñadores gráficos, negocios de comercio electrónico y cualquier persona que necesite visuales de alta calidad. Al analizar patrones y texturas en tus imágenes, la IA puede rellenar detalles faltantes, lo que da como resultado una imagen más nítida y definida.",
+  "benefitsTitle": "Beneficios de usar IA para mejorar imágenes",
+  "benefitsParagraph": "¿Por qué deberías considerar la IA para tus necesidades de mejora de imágenes? Aquí tienes algunas razones convincentes:",
+  "benefits": {
+    "benefit1": "Detalle y claridad mejorados: La tecnología de IA mejora la calidad de la imagen refinando los bordes, reduciendo el ruido y sacando a relucir los detalles ocultos.",
+    "benefit2": "Ahorro de tiempo: ¡Olvídate de la edición manual! La IA se encarga del trabajo pesado, permitiéndote concentrarte en lo que más importa.",
+    "benefit3": "Eficiencia de costos: Con herramientas gratuitas como Lexistock AI, puedes obtener resultados de calidad profesional sin invertir en software costoso.",
+    "benefit4": "Versatilidad: Ya sea que estés mejorando fotos para redes sociales, un sitio web o un proyecto de impresión, la mejora de imágenes con IA asegura que tus imágenes se vean lo mejor posible en cualquier contexto."
+  },
+  "misconceptionsTitle": "Conceptos erróneos comunes sobre la mejora de imágenes con IA",
+  "misconceptionsParagraph1": "Mucha gente piensa que la mejora de imágenes con IA es solo para usuarios expertos en tecnología o profesionales, pero eso está lejos de ser cierto. Lexistock AI está diseñado con la simplicidad en mente, lo que lo hace accesible para todos, sin importar su nivel técnico.",
+  "misconceptionsParagraph2": "Otro mito es que la mejora de imágenes con IA solo es beneficiosa para imágenes de baja resolución. En realidad, incluso las imágenes de alta calidad pueden beneficiarse de las mejoras de IA, ya que la tecnología puede refinar y agudizar los detalles que podrían no ser visibles a simple vista.",
+  "whyChooseTitle": "¿Por qué elegir Lexistock AI para tus necesidades de mejora de imágenes?",
+  "whyChooseParagraph1": "Lexistock AI destaca en el abarrotado mercado de herramientas de mejora de imágenes. Aquí tienes por qué:",
+  "whyChoose": {
+    "reason1": "Tecnología de IA de vanguardia: Nuestra herramienta utiliza los últimos avances en IA para ofrecer una calidad de imagen superior.",
+    "reason2": "Diseño centrado en el usuario: Creemos en mantener las cosas simples. Nuestra interfaz es intuitiva, lo que garantiza una experiencia fluida para cada usuario.",
+    "reason3": "Rápido y gratuito: Obtén mejoras de imágenes de calidad profesional en segundos, todo sin costo alguno."
+  },
+  "whyChooseParagraph2": "Ya seas un dueño de negocio que quiere mejorar las imágenes de productos o un aficionado que quiere mejorar fotos personales, Lexistock AI ofrece una solución confiable y eficiente.",
+  "faqTitle": "Preguntas frecuentes",
+  "faq": [
+    {
+      "question": "¿Qué es el escalador de imágenes Lexistock AI?",
+      "answer": "El escalador de imágenes Lexistock AI es una herramienta en línea gratuita que permite a los usuarios mejorar imágenes 2x o 4x manteniendo una alta precisión de calidad. Utiliza tecnología avanzada de IA para mejorar la resolución de las imágenes sin comprometer los detalles."
+    },
+    {
+      "question": "¿Cómo funciona el escalador de imágenes Lexistock AI?",
+      "answer": "La herramienta de escalado de Lexistock emplea algoritmos sofisticados que analizan la imagen original y agregan píxeles de manera inteligente para aumentar su resolución. Este proceso mejora la claridad y el detalle, resultando en una imagen más nítida y de alta resolución."
+    },
+    {
+      "question": "¿Qué tipos de imágenes puedo mejorar usando Lexistock?",
+      "answer": "Puedes mejorar varios tipos de imágenes usando Lexistock, incluidas fotografías, arte digital y gráficos. La herramienta es versátil y está diseñada para manejar diferentes formatos de manera efectiva."
+    },
+    {
+      "question": "¿Hay un límite para el tamaño de las imágenes que puedo subir?",
+      "answer": "Lexistock generalmente permite a los usuarios subir imágenes dentro de límites estándar de tamaño de archivo. Si bien las limitaciones específicas pueden variar, la mayoría de los formatos de imagen comunes como JPG y PNG son compatibles para la mejora."
+    },
+    {
+      "question": "¿Cuánto tiempo toma mejorar una imagen con Lexistock?",
+      "answer": "El proceso de mejora con Lexistock suele ser rápido, a menudo tomando solo unos segundos para completarse. Los usuarios pueden esperar que sus imágenes de alta resolución estén listas casi de inmediato después de la carga."
+    },
+    {
+      "question": "¿Puedo mejorar varias imágenes a la vez usando Lexistock?",
+      "answer": "Sí, Lexistock ofrece capacidades de procesamiento por lotes que permiten a los usuarios mejorar varias imágenes simultáneamente. Esta característica es especialmente útil para fotógrafos o diseñadores que trabajan con grandes conjuntos de imágenes."
+    },
+    {
+      "question": "¿Mejorará la calidad de una imagen el uso de Lexistock?",
+      "answer": "No, el escalador de imágenes Lexistock AI está diseñado para mejorar la calidad de las imágenes durante el proceso de escalado. Su objetivo es preservar los detalles originales y evitar la pixelación, resultando en un producto final más claro."
+    },
+    {
+      "question": "¿Necesito habilidades especiales para usar el escalador de imágenes Lexistock AI?",
+      "answer": "No se requieren habilidades especiales para usar la herramienta de escalado de Lexistock. La interfaz es fácil de usar, lo que permite a cualquier persona subir imágenes e iniciar el proceso de mejora con solo unos clics."
+    },
+    {
+      "question": "¿Hay un costo asociado con el uso del escalador de imágenes Lexistock AI?",
+      "answer": "Lexistock ofrece su servicio de mejora de imágenes de manera gratuita, lo que lo hace accesible para cualquiera que desee mejorar sus imágenes sin incurrir en costos."
+    },
+    {
+      "question": "¿Puedo descargar mis imágenes mejoradas directamente desde Lexistock?",
+      "answer": "Sí, una vez que el proceso de mejora se complete, los usuarios pueden descargar fácilmente sus imágenes mejoradas directamente desde la plataforma Lexistock para su uso inmediato."
+    }
+  ]
+},
+"TestimonialsSection": {
+      "title": "¿Qué dicen los usuarios sobre Lexistock AI?",
+      "averageRating": "Calificación promedio de 4.5 de más de 1200 usuarios en todo el mundo.",
+      "testimonials": [
+        {
+          "name": "Pooja Vishwas",
+          "role": "Emprendedora de E-commerce",
+          "content": "El removedor de fondos es increíble. ¡Resultados rápidos y profesionales siempre!"
+        },
+        {
+          "name": "Jason M",
+          "role": "Influencer de redes sociales",
+          "content": "Súper fácil mejorar fotos y hacer que mi feed destaque. ¡Me encanta!"
+        },
+        {
+          "name": "Olivia G",
+          "role": "Fotógrafa",
+          "content": "El escalador salvó mis fotos borrosas. Simple y efectivo."
+        },
+        {
+          "name": "Laura S",
+          "role": "Artista digital",
+          "content": "Las herramientas son intuitivas y los resultados siempre perfectos. ¡Indispensable!"
+        },
+        {
+          "name": "Danny M",
+          "role": "Pequeño empresario",
+          "content": "Rápido y confiable. Mi opción favorita para editar imágenes."
+        },
+        {
+          "name": "Rohit Chauhdary",
+          "role": "Creadora de contenido",
+          "content": "¡Lexistock AI es la mejor plataforma que he usado para ediciones rápidas y limpias!"
+        }
+      ]
+    }
   }
 }

@@ -5,7 +5,11 @@ const withNextIntl = createNextIntlPlugin();
 
 const config: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
+  },
   images: {
     remotePatterns: [
       {
@@ -17,12 +21,18 @@ const config: NextConfig = {
         hostname: 'api.stability.ai',
       },
     ],
-    domains: ['fal.media', 'replicate.delivery'],
+    domains: ['fal.media', 'replicate.delivery', 'replicate.com'],
     unoptimized: true,
   },
   env: {
     KV_REST_API_URL: process.env.KV_REST_API_URL,
     KV_REST_API_TOKEN: process.env.KV_REST_API_TOKEN,
+  },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals.push('sharp')
+    }
+    return config
   },
 };
 
