@@ -21,6 +21,7 @@ export async function getDictionary(locale: string): Promise<Dictionary> {
   }
 }
 
+/*
 // Example usage (you can remove this in production)
 async function test() {
   const enDictionary = await getDictionary('en');
@@ -34,4 +35,4 @@ async function test() {
 
 // Uncomment the line below to run the test
 // test();
-
+*/
