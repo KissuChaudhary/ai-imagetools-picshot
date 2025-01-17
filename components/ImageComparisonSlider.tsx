@@ -255,7 +255,7 @@ export default function ImageComparisonSlider() {
           <h2 className="text-3xl font-bold mb-8">
             {t('aiUpscalingTitle')}
           </h2>
-          <div className="space-y-6 text-muted-foreground">
+          <div className="space-y-6">
             <p>{t('aiUpscalingParagraph1')}</p>
             <p>{t('aiUpscalingParagraph2')}</p>
           </div>
@@ -263,7 +263,7 @@ export default function ImageComparisonSlider() {
           <h2 className="text-3xl font-bold mt-12 mb-8">
             {t('benefitsTitle')}
           </h2>
-          <div className="space-y-6 text-muted-foreground">
+          <div className="space-y-6 ">
             <p>{t('benefitsParagraph')}</p>
             <ul className="list-disc pl-6 space-y-2">
               {['benefit1', 'benefit2', 'benefit3', 'benefit4'].map((key, index) => (
@@ -275,7 +275,7 @@ export default function ImageComparisonSlider() {
           <h2 className="text-3xl font-bold mt-12 mb-8">
             {t('misconceptionsTitle')}
           </h2>
-          <div className="space-y-6 text-muted-foreground">
+          <div className="space-y-6 ">
             <p>{t('misconceptionsParagraph1')}</p>
             <p>{t('misconceptionsParagraph2')}</p>
           </div>
@@ -283,7 +283,7 @@ export default function ImageComparisonSlider() {
           <h2 className="text-3xl font-bold mt-12 mb-8">
             {t('whyChooseTitle')}
           </h2>
-          <div className="space-y-6 text-muted-foreground">
+          <div className="space-y-6">
             <p>{t('whyChooseParagraph1')}</p>
             <ul className="list-disc pl-6 space-y-2">
               {['reason1', 'reason2', 'reason3'].map((key, index) => (

@@ -11,9 +11,9 @@ export function Footer() {
           <div>
             <h3 className="font-bold mb-4">{t('product')}</h3>
             <ul className="space-y-2">
-              <li><Link href="/colorize">{t('colorize')}</Link></li>
-              <li><Link href="/enhance">{t('enhance')}</Link></li>
-              <li><Link href="/remove-bg">{t('removeBg')}</Link></li>
+              <li><Link href="/tools/ai-photo-colorizer">{t('colorize')}</Link></li>
+              <li><Link href="/tools/ai-image-enhancer">{t('enhance')}</Link></li>
+              <li><Link href="/tools/ai-photo-colorizer">{t('removeBg')}</Link></li>
             </ul>
           </div>
           <div>

@@ -16,9 +16,9 @@ export function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
   const navItems = [
-    { href: '/colorize', label: t('colorize') },
-    { href: '/enhance', label: t('enhance') },
-    { href: '/remove-bg', label: t('removeBg') },
+    { href: '/tools/ai-photo-colorizer', label: t('colorize') },
+    { href: '/tools/ai-image-enhancer', label: t('enhance') },
+    { href: '/tools/ai-background-remover', label: t('removeBg') },
     { href: '/tools/ai-image-generator', label: t('AIimageGenerator') },
   ]
 
