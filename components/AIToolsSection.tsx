@@ -89,14 +89,6 @@ const tools: Tool[] = [
     glowColor: 'from-teal-500',
     href: '/tools/headshot-generator',
   },
-  {
-    id: 'object-remover',
-    title: 'Object Remover',
-    description: 'Remove unwanted objects from photos with intelligent AI filling.',
-    icon: <XCircle className="w-8 h-8" />,
-    glowColor: 'from-cyan-500',
-    href: '/tools/object-remover',
-  },
 ]
 
 export function AIToolsSection() {
