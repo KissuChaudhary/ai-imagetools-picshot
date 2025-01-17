@@ -672,24 +672,7 @@
           "content": "Lexistock AI is the best platform I've used for quick and clean edits!"
         }
       ]
-    },
-    "Schema": {
-    "siteName": "Lexistock AI",
-    "siteDescription": "AI-powered image editing and generation tools",
-    "defaultAppName": "AI Image Tool",
-    "defaultAppDescription": "An AI-powered image editing tool",
-    "defaultAppCategory": "ImageEditing"
-  },
-  "Index": {
-    "AIBackgroundRemoverPage": {
-      "metadata": {
-        "title": "AI Background Remover | Remove Image Backgrounds Instantly",
-        "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more.",
-        "name": "AI Background Remover",
-        "appDescription": "Remove backgrounds from your images with AI precision"
-      }
     }
-  }
   }
 }
 
