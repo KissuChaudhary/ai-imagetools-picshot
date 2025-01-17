@@ -113,11 +113,8 @@
         "headshot-generator": {
           "title": "Headshot Generator",
           "description": "Generate professional headshots with AI technology."
-        },
-        "object-remover": {
-          "title": "Object Remover",
-          "description": "Remove unwanted objects from photos with intelligent AI filling."
         }
+        
       }
     },
     "features": {
@@ -170,8 +167,7 @@
                   "enhancer": "Image Enhancer",
                   "artGenerator": "AI Art Generator",
                   "restorer": "Photo Restorer",
-                  "avatarGenerator": "Avatar Generator",
-                  "objectRemover": "Object Remover, and more"
+                  "avatarGenerator": "Avatar Generator, and more"
                 }
               }
             }
@@ -477,38 +473,6 @@
         "description": "Generate accurate and descriptive captions for your images using our AI-powered tool. Perfect for content creators, social media managers, and more."
       }
     },
-    "AIObjectRemover": {
-    "title": "AI Object Remover",
-    "description": "Remove unwanted objects from your photos with AI-powered precision",
-    "removeObjectButton": "Remove Object",
-    "processingButton": "Processing...",
-    "previewImageAlt": "Image for object removal",
-    "resetButton": "Reset",
-    "downloadButton": "Download",
-    "uploadPrompt": "Upload a photo to remove objects",
-    "dragDropPrompt": "Drag and drop your photo here, or click to select",
-    "selectFileButton": "Select File",
-    "supportedFormats": "Supported formats: {formats}",
-    "maxFileSize": "Max file size: {size}MB",
-    "noFileError": "Please select a photo file",
-    "noMaskError": "Please draw a mask around the object to remove",
-    "processingError": "Error processing the photo",
-    "limitReachedTitle": "Daily Limit Reached",
-    "limitReachedDescription": "You've reached the daily limit for object removal. Try again tomorrow!",
-    "errorTitle": "Error",
-    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
-    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
-    "creditsUsed": "Credits Used Today",
-    "downloadError": "Error downloading the image",
-    "generateMaskButton": "Generate Mask",
-    "drawMaskPrompt": "Draw a mask around the object you want to remove"
-  },
-  "AIObjectRemoverPage": {
-    "metadata": {
-      "title": "AI Object Remover | Remove Unwanted Objects from Photos",
-      "description": "Easily remove unwanted objects from your photos with our AI-powered object removal tool. Perfect for cleaning up images and enhancing your photos."
-    }
-  },
   "ImageComparisonSlider": {
       "imageAltBefore": "Before: Low resolution image",
       "imageAltAfter": "After: High resolution image",

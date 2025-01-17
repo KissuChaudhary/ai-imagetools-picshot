@@ -113,10 +113,6 @@
         "headshot-generator": {
           "title": "Générateur de Portraits",
           "description": "Générez des portraits professionnels avec la technologie IA."
-        },
-        "object-remover": {
-          "title": "Suppresseur d'Objets",
-          "description": "Supprimez les objets indésirables des photos avec un remplissage intelligent par IA."
         }
       }
     },
@@ -170,8 +166,8 @@
                   "enhancer": "Améliorateur d'Images",
                   "artGenerator": "Générateur d'Art IA",
                   "restorer": "Restaurateur de Photos",
-                  "avatarGenerator": "Générateur d'Avatars",
-                  "objectRemover": "Suppresseur d'Objets, et plus encore"
+                  "avatarGenerator": "Générateur d'Avatars, et plus encore"
+                  
                 }
               }
             }
@@ -477,38 +473,7 @@
       "description": "Générez des légendes précises et descriptives pour vos images avec notre outil alimenté par IA. Parfait pour les créateurs de contenu, les gestionnaires de réseaux sociaux et plus encore."
     }
   },
-  "AIObjectRemover": {
-    "title": "Suppression d'Objets par IA",
-    "description": "Supprimez les objets indésirables de vos photos avec une précision alimentée par l'IA",
-    "removeObjectButton": "Supprimer l'Objet",
-    "processingButton": "Traitement en cours...",
-    "resetButton": "Réinitialiser",
-    "previewImageAlt": "Image for object removal",
-    "downloadButton": "Télécharger",
-    "uploadPrompt": "Téléchargez une photo pour supprimer des objets",
-    "dragDropPrompt": "Faites glisser et déposez votre photo ici, ou cliquez pour sélectionner",
-    "selectFileButton": "Sélectionner un Fichier",
-    "supportedFormats": "Formats pris en charge : {formats}",
-    "maxFileSize": "Taille maximale du fichier : {size}MB",
-    "noFileError": "Veuillez sélectionner un fichier photo",
-    "noMaskError": "Veuillez dessiner un masque autour de l'objet à supprimer",
-    "processingError": "Erreur lors du traitement de la photo",
-    "limitReachedTitle": "Limite Quotidienne Atteinte",
-    "limitReachedDescription": "Vous avez atteint la limite quotidienne de suppression d'objets. Réessayez demain !",
-    "errorTitle": "Erreur",
-    "invalidFileType": "Type de fichier invalide. Veuillez télécharger une image JPEG, PNG ou WebP.",
-    "fileTooLarge": "Le fichier est trop volumineux. La taille maximale est de {maxSize}MB.",
-    "creditsUsed": "Crédits Utilisés Aujourd'hui",
-    "downloadError": "Erreur lors du téléchargement de l'image",
-    "generateMaskButton": "Générer le Masque",
-    "drawMaskPrompt": "Dessinez un masque autour de l'objet que vous souhaitez supprimer"
-  },
-  "AIObjectRemoverPage": {
-    "metadata": {
-      "title": "Suppression d'Objets par IA | Supprimez les Objets Indésirables des Photos",
-      "description": "Supprimez facilement les objets indésirables de vos photos avec notre outil de suppression d'objets alimenté par l'IA. Parfait pour nettoyer les images et améliorer vos photos."
-    }
-  },
+
   "ImageComparisonSlider": {
       "imageAltBefore": "Avant : Image basse résolution",
       "imageAltAfter": "Après : Image haute résolution",

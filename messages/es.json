@@ -113,10 +113,6 @@
         "headshot-generator": {
           "title": "Generador de Retratos",
           "description": "Genera retratos profesionales con tecnología IA."
-        },
-        "object-remover": {
-          "title": "Eliminador de Objetos",
-          "description": "Elimina objetos no deseados de fotos con relleno inteligente IA."
         }
       }
     },
@@ -170,8 +166,8 @@
                   "enhancer": "Mejorador de Imágenes",
                   "artGenerator": "Generador de Arte IA",
                   "restorer": "Restaurador de Fotos",
-                  "avatarGenerator": "Generador de Avatares",
-                  "objectRemover": "Eliminador de Objetos, y más"
+                  "avatarGenerator": "Generador de Avatares, y más "
+                  
                 }
               }
             }
@@ -477,38 +473,7 @@
       "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
     }
   },
-  "AIObjectRemover": {
-    "title": "Eliminador de Objetos con IA",
-    "description": "Elimina objetos no deseados de tus fotos con precisión impulsada por IA",
-    "removeObjectButton": "Eliminar Objeto",
-    "processingButton": "Procesando...",
-    "resetButton": "Reiniciar",
-    "previewImageAlt": "Image for object removal",
-    "downloadButton": "Descargar",
-    "uploadPrompt": "Sube una foto para eliminar objetos",
-    "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
-    "selectFileButton": "Seleccionar Archivo",
-    "supportedFormats": "Formatos soportados: {formats}",
-    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-    "noFileError": "Por favor, selecciona un archivo de foto",
-    "noMaskError": "Por favor, dibuja una máscara alrededor del objeto a eliminar",
-    "processingError": "Error al procesar la foto",
-    "limitReachedTitle": "Límite Diario Alcanzado",
-    "limitReachedDescription": "Has alcanzado el límite diario de eliminación de objetos. ¡Inténtalo de nuevo mañana!",
-    "errorTitle": "Error",
-    "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-    "creditsUsed": "Créditos Usados Hoy",
-    "downloadError": "Error al descargar la imagen",
-    "generateMaskButton": "Generar Máscara",
-    "drawMaskPrompt": "Dibuja una máscara alrededor del objeto que quieres eliminar"
-  },
-  "AIObjectRemoverPage": {
-    "metadata": {
-      "title": "Eliminador de Objetos con IA | Elimina Objetos No Deseados de Fotos",
-      "description": "Elimina fácilmente objetos no deseados de tus fotos con nuestra herramienta de eliminación de objetos impulsada por IA. Perfecto para limpiar imágenes y mejorar tus fotos."
-    }
-  },
+
   "ImageComparisonSlider": {
   "imageAltBefore": "Antes: Imagen de baja resolución",
   "imageAltAfter": "Después: Imagen de alta resolución",
