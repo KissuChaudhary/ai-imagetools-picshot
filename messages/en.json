@@ -30,7 +30,7 @@
       "cta": "Create Your First AI Art"
     },
     "whyChoose": {
-      "title": "Why Choose Picshot AI",
+      "title": "Why Choose Lexistock AI",
       "features": {
         "fastImage": {
           "title": "Fast Image Generate",
@@ -51,9 +51,9 @@
       }
     },
     "whoCanUse": {
-      "welcome": "WELCOME TO PICSHOT AI",
+      "welcome": "WELCOME TO Lexistock AI",
       "title": "Who Can Use",
-      "titleHighlight": "Picshot AI",
+      "titleHighlight": "Lexistock AI",
       "subtitle": "Transform your creative vision with AI-powered image enhancement",
       "eCommerce": {
         "title": "eCommerce",
@@ -150,19 +150,19 @@
           "title": "General Questions",
           "items": {
             "what-is": {
-              "question": "What is Picshot AI?",
-              "answer": "Picshot AI is an online platform offering free AI-powered tools to edit, enhance, and create stunning images. From removing backgrounds to generating AI art, we simplify your creative workflow."
+              "question": "What is Lexistock AI?",
+              "answer": "Lexistock AI is an online platform offering free AI-powered tools to edit, enhance, and create stunning images. From removing backgrounds to generating AI art, we simplify your creative workflow."
             },
             "free": {
-              "question": "Are Picshot AI tools free to use?",
-              "answer": "Yes! Picshot AI Free to use and you get three generations per day for each tool present on Picshot AI."
+              "question": "Are Lexistock AI tools free to use?",
+              "answer": "Yes! Lexistock AI Free to use and you get three generations per day for each tool present on Lexistock AI."
             },
             "signup": {
               "question": "Do I need to sign up to use the tools?",
               "answer": "No, You don't need to sign up. Each tool is provided free of cost here, and you can use each tool 3 times a day only."
             },
             "tools": {
-              "question": "What kind of AI tools does Picshot AI offer?",
+              "question": "What kind of AI tools does Lexistock AI offer?",
               "answer": {
                 "intro": "We provide:",
                 "items": {
@@ -189,7 +189,7 @@
               "answer": "Yes, the Background Remover is designed to handle any image, delivering clean and precise results."
             },
             "mobile": {
-              "question": "Are Picshot AI tools mobile-friendly?",
+              "question": "Are Lexistock AI tools mobile-friendly?",
               "answer": "Our platform works seamlessly on desktop and mobile devices."
             },
             "formats": {
@@ -206,7 +206,7 @@
               "answer": "Our AI tools deliver results within seconds, ensuring a fast and efficient editing process."
             },
             "security": {
-              "question": "Is my data secure with Picshot AI?",
+              "question": "Is my data secure with Lexistock AI?",
               "answer": "Yes, we prioritize your privacy and use secure encryption to protect your data. Uploaded images are not stored anywhere on our servers."
             },
             "privacy": {
@@ -672,7 +672,24 @@
           "content": "Lexistock AI is the best platform I've used for quick and clean edits!"
         }
       ]
+    },
+    "Schema": {
+    "siteName": "Lexistock AI",
+    "siteDescription": "AI-powered image editing and generation tools",
+    "defaultAppName": "AI Image Tool",
+    "defaultAppDescription": "An AI-powered image editing tool",
+    "defaultAppCategory": "ImageEditing"
+  },
+  "Index": {
+    "AIBackgroundRemoverPage": {
+      "metadata": {
+        "title": "AI Background Remover | Remove Image Backgrounds Instantly",
+        "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more.",
+        "name": "AI Background Remover",
+        "appDescription": "Remove backgrounds from your images with AI precision"
+      }
     }
+  }
   }
 }
 

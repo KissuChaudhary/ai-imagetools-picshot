@@ -10,7 +10,6 @@ import "@/app/globals.css"
 import {getMessages} from '@/lib/get-messages'
 import {setRequestLocale} from 'next-intl/server';
 
-
 const inter = Inter({ subsets: ["latin"] })
 
 export function generateStaticParams() {
@@ -25,10 +24,7 @@ export default async function LocaleLayout({
   params: Promise<{locale: string}>
 }) {
   const { locale } = await params;
-
-  // Enable static rendering
   setRequestLocale(locale);
-
   const messages = await getMessages(locale);
 
   if (!messages) {
@@ -36,18 +32,17 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className={inter.className}>
-      <head>
+    <html lang={locale} className={`${inter.className}`} suppressHydrationWarning>
+      <body className="min-h-screen bg-background antialiased">
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_CLIENT_ID"
           crossOrigin="anonymous"
+          strategy="lazyOnload"
         />
-      </head>
-      <body className="bg-background text-text">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ToastProvider>
-            <div className="flex min-h-screen flex-col">
+            <div className="relative flex min-h-screen flex-col">
               <Header />
               <main className="flex-1">
                 {children}

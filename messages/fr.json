@@ -30,7 +30,7 @@
       "cta": "Créez votre Premier Art IA"
     },
     "whyChoose": {
-      "title": "Pourquoi Choisir Picshot AI",
+      "title": "Pourquoi Choisir Lexistock AI",
       "features": {
         "fastImage": {
           "title": "Génération Rapide d'Images",
@@ -51,9 +51,9 @@
       }
     },
     "whoCanUse": {
-      "welcome": "BIENVENUE SUR PICSHOT AI",
+      "welcome": "BIENVENUE SUR Lexistock AI",
       "title": "Qui Peut Utiliser",
-      "titleHighlight": "Picshot AI",
+      "titleHighlight": "Lexistock AI",
       "subtitle": "Transformez votre vision créative avec l'amélioration d'image alimentée par l'IA",
       "eCommerce": {
         "title": "E-commerce",
@@ -150,19 +150,19 @@
           "title": "Questions Générales",
           "items": {
             "what-is": {
-              "question": "Qu'est-ce que Picshot AI ?",
-              "answer": "Picshot AI est une plateforme en ligne offrant des outils gratuits alimentés par l'IA pour éditer, améliorer et créer des images époustouflantes. De la suppression d'arrière-plans à la génération d'art IA, nous simplifions votre flux de travail créatif."
+              "question": "Qu'est-ce que Lexistock AI ?",
+              "answer": "Lexistock AI est une plateforme en ligne offrant des outils gratuits alimentés par l'IA pour éditer, améliorer et créer des images époustouflantes. De la suppression d'arrière-plans à la génération d'art IA, nous simplifions votre flux de travail créatif."
             },
             "free": {
-              "question": "Les outils Picshot AI sont-ils gratuits ?",
-              "answer": "Oui ! Picshot AI est gratuit et vous obtenez trois générations par jour pour chaque outil présent sur Picshot AI."
+              "question": "Les outils Lexistock AI sont-ils gratuits ?",
+              "answer": "Oui ! Lexistock AI est gratuit et vous obtenez trois générations par jour pour chaque outil présent sur Lexistock AI."
             },
             "signup": {
               "question": "Dois-je m'inscrire pour utiliser les outils ?",
               "answer": "Non, vous n'avez pas besoin de vous inscrire. Chaque outil est fourni gratuitement ici, et vous pouvez utiliser chaque outil 3 fois par jour seulement."
             },
             "tools": {
-              "question": "Quels types d'outils IA Picshot AI propose-t-il ?",
+              "question": "Quels types d'outils IA Lexistock AI propose-t-il ?",
               "answer": {
                 "intro": "Nous fournissons :",
                 "items": {
@@ -189,7 +189,7 @@
               "answer": "Oui, le Suppresseur d'Arrière-plan est conçu pour traiter n'importe quelle image, offrant des résultats propres et précis."
             },
             "mobile": {
-              "question": "Les outils Picshot AI sont-ils compatibles avec les appareils mobiles ?",
+              "question": "Les outils Lexistock AI sont-ils compatibles avec les appareils mobiles ?",
               "answer": "Notre plateforme fonctionne parfaitement sur les appareils de bureau et mobiles."
             },
             "formats": {
@@ -206,7 +206,7 @@
               "answer": "Nos outils IA fournissent des résultats en quelques secondes, assurant un processus d'édition rapide et efficace."
             },
             "security": {
-              "question": "Mes données sont-elles sécurisées avec Picshot AI ?",
+              "question": "Mes données sont-elles sécurisées avec Lexistock AI ?",
               "answer": "Oui, nous priorisons votre confidentialité et utilisons un chiffrement sécurisé pour protéger vos données. Les images téléversées ne sont stockées nulle part sur nos serveurs."
             },
             "privacy": {

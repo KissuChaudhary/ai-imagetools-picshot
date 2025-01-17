@@ -35,7 +35,7 @@ export function Header() {
               <Link 
                 key={item.href} 
                 href={item.href} 
-                className={`text-sm hover:text-white transition-colors ${pathname.includes(item.href) ? 'text-white font-semibold' : 'text-gray-400'}`}
+                className={`text-sm hover:text-white transition-colors ${pathname.includes(item.href) ? 'text-white font-semibold' : 'text-gray-200'}`}
               >
                 {item.label}
               </Link>
