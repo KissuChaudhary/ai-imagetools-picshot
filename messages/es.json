@@ -31,7 +31,7 @@
     "copyright": "© {year} Lexistock AI. Todos los derechos reservados.",
     "madeInIndia": "#HechoEnIndia"
   },
-  
+
   "Index": {
     "hero": {
       "title": "Deja que la IA Lleve tus Fotos al Siguiente Nivel",
@@ -39,6 +39,44 @@
       "newFeature": "Generador de Arte IA Gratuito",
       "lovedBy": "Amado por más de 2000 clientes",
       "cta": "Crea tu Primer Arte IA"
+    },
+    "aiTool": {
+      "backgroundRemover": {
+        "category": "Eliminador de Fondos AI",
+        "title": "Eliminar Fondo 🎯",
+        "subtitle": "Elimina el Fondo de Imágenes al Instante",
+        "description": "Tecnología avanzada de AI que elimina con precisión los fondos de cualquier imagen en segundos",
+        "features": [
+          { "text": "Procesa imágenes por lotes con un solo clic" },
+          { "text": "Perfecto para fotos de productos y retratos" },
+          { "text": "Descarga en formato PNG con fondo transparente" }
+        ],
+        "button": "Eliminar Fondo"
+      },
+      "photoColorizer": {
+        "category": "Colorizador de Fotos AI",
+        "title": "Colorear Fotos 🎨",
+        "subtitle": "Dale Vida a Fotos en Blanco y Negro",
+        "description": "Transforma tus antiguas fotos en blanco y negro en recuerdos vibrantes y coloridos",
+        "features": [
+          { "text": "Colores auténticos y de aspecto natural" },
+          { "text": "Preserva la calidad original de la imagen" },
+          { "text": "Procesa múltiples fotos por lotes" }
+        ],
+        "button": "Colorear Fotos"
+      },
+      "photoEnhancer": {
+        "category": "Mejorador de Fotos AI",
+        "title": "Mejorar Fotos ✨",
+        "subtitle": "Haz que Cada Foto Sea Perfecta",
+        "description": "Mejora automáticamente tus fotos con herramientas impulsadas por AI para obtener resultados profesionales",
+        "features": [
+          { "text": "Mejora la claridad y nitidez" },
+          { "text": "Corrige la iluminación y exposición" },
+          { "text": "Elimina el ruido y los artefactos" }
+        ],
+        "button": "Mejorar Fotos"
+      }
     },
     "whyChoose": {
       "title": "Por qué Elegir Lexistock AI",
@@ -85,7 +123,7 @@
     },
     "aiTools": {
       "title": "Herramientas Impulsadas por ",
-      "titleHighlight1": "IA" ,
+      "titleHighlight1": "IA",
       "description": "Transforma tu flujo de trabajo creativo con nuestra suite de herramientas impulsadas por IA. Cada herramienta está diseñada para ayudarte a lograr resultados profesionales en segundos.",
       "exploreMore": "Explorar Más",
       "tools": {
@@ -114,13 +152,13 @@
           "description": "Mejora automáticamente tus fotos para obtener resultados de calidad profesional."
         },
         "caption-generator": {
-  "title": "Generador de Subtítulos con IA",
-  "description": "Crea subtítulos para tus imágenes de redes sociales y negocios."
-},
-"image-to-text": {
-  "title": "Convertidor de Imagen a Texto con IA",
-  "description": "El mejor OCR gratuito para extraer texto de tus imágenes."
-}
+          "title": "Generador de Subtítulos con IA",
+          "description": "Crea subtítulos para tus imágenes de redes sociales y negocios."
+        },
+        "image-to-text": {
+          "title": "Convertidor de Imagen a Texto con IA",
+          "description": "El mejor OCR gratuito para extraer texto de tus imágenes."
+        }
       }
     },
     "features": {
@@ -153,18 +191,18 @@
       }
     },
     "amazingArt": {
-    "title": "100% Generador de Imágenes Realistas con IA Gratis",
-    "subtitle": "Crea imágenes impresionantes generadas por IA con simples indicaciones de texto. Controla los resultados con indicaciones negativas y elige entre múltiples tamaños.",
-    "features": {
-      "aiPoweredCreativity": "Convierte indicaciones de texto en Arte AI",
-      "customizableParameters": "Ajusta indicaciones, tamaño y proporción",
-      "speedEfficiency": "Crea imágenes en segundos.",
-      "flexibleUsage": "Perfecto para todos",
-      "costEfficiency": "Completamente gratis de usar",
-      "userFriendly": "Fácil para principiantes y profesionales"
+      "title": "100% Generador de Imágenes Realistas con IA Gratis",
+      "subtitle": "Crea imágenes impresionantes generadas por IA con simples indicaciones de texto. Controla los resultados con indicaciones negativas y elige entre múltiples tamaños.",
+      "features": {
+        "aiPoweredCreativity": "Convierte indicaciones de texto en Arte AI",
+        "customizableParameters": "Ajusta indicaciones, tamaño y proporción",
+        "speedEfficiency": "Crea imágenes en segundos.",
+        "flexibleUsage": "Perfecto para todos",
+        "costEfficiency": "Completamente gratis de usar",
+        "userFriendly": "Fácil para principiantes y profesionales"
+      },
+      "button": "Comienza a Crear"
     },
-    "button": "Comienza a Crear"
-  },
     "faq": {
       "title": "Preguntas Frecuentes",
       "description": "Encuentra respuestas a preguntas comunes sobre nuestras herramientas de imagen impulsadas por IA.",
@@ -194,7 +232,6 @@
                   "artGenerator": "Generador de Arte IA",
                   "restorer": "Restaurador de Fotos",
                   "avatarGenerator": "Generador de Avatares, y más "
-                  
                 }
               }
             }
@@ -325,1059 +362,1059 @@
       }
     },
     "AIImageUpscaler": {
-  "title": "Amplificador de Imágenes con IA",
-  "description": "Mejora tus imágenes con ampliación potenciada por IA",
-  "upscaleButton": "Ampliar Imagen",
-  "processingButton": "Procesando...",
-  "resetButton": "Reiniciar",
-  "downloadButton": "Descargar",
-  "uploadPrompt": "Sube una imagen para ampliar",
-  "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
-  "selectFileButton": "Seleccionar Archivo",
-  "supportedFormats": "Formatos soportados: {formats}",
-  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-  "noFileError": "Por favor, selecciona un archivo de imagen",
-  "processingError": "Error al procesar la imagen",
-  "limitReachedTitle": "Límite Diario Alcanzado",
-  "limitReachedDescription": "Has alcanzado el límite diario de ampliación de imágenes. ¡Inténtalo de nuevo mañana!",
-  "errorTitle": "Error",
-  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-  "creditsUsed": "Créditos Usados Hoy",
-  "scaleLabel": "Factor de Ampliación",
-  "selectScale": "Selecciona el factor de escala",
-  "downloadError": "Error al descargar la imagen"
-},
-"AIImageUpscalerPage": {
-  "metadata": {
-    "title": "Amplificador de Imágenes con IA | Mejora la Resolución de Imágenes Instantáneamente",
-    "description": "Amplía y mejora tus imágenes con nuestra herramienta potenciada por IA. Perfecto para mejorar fotos de baja resolución y crear impresiones de alta calidad."
-  }
-},
-"AIPhotoColorizer": {
-  "title": "Colorizador de Fotos con IA",
-  "description": "Da vida a tus fotos en blanco y negro con colorización potenciada por IA",
-  "colorizeButton": "Colorizar Foto",
-  "processingButton": "Procesando...",
-  "resetButton": "Reiniciar",
-  "downloadButton": "Descargar",
-  "uploadPrompt": "Sube una foto en blanco y negro para colorizar",
-  "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
-  "selectFileButton": "Seleccionar Archivo",
-  "supportedFormats": "Formatos soportados: {formats}",
-  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-  "noFileError": "Por favor, selecciona un archivo de foto",
-  "processingError": "Error al procesar la foto",
-  "limitReachedTitle": "Límite Diario Alcanzado",
-  "limitReachedDescription": "Has alcanzado el límite diario de colorización de fotos. ¡Inténtalo de nuevo mañana!",
-  "errorTitle": "Error",
-  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-  "creditsUsed": "Créditos Usados Hoy",
-  "downloadError": "Error al descargar la imagen"
-},
-"AIPhotoColorizerPage": {
-  "metadata": {
-    "title": "Colorizador de Fotos con IA | Da Vida a las Fotos en Blanco y Negro",
-    "description": "Transforma tus fotos en blanco y negro en imágenes vibrantes y coloridas con nuestra herramienta de colorización potenciada por IA. Perfecto para restaurar fotos antiguas y dar nueva vida a imágenes históricas."
-  }
-},
-"AIPhotoRestorer": {
-  "title": "Restaurador de Fotos con IA",
-  "description": "Restaura y mejora fotos antiguas o dañadas con IA",
-  "restoreButton": "Restaurar Foto",
-  "processingButton": "Procesando...",
-  "resetButton": "Reiniciar",
-  "downloadButton": "Descargar",
-  "uploadPrompt": "Sube una foto para restaurar",
-  "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
-  "selectFileButton": "Seleccionar Archivo",
-  "supportedFormats": "Formatos soportados: {formats}",
-  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-  "noFileError": "Por favor, selecciona un archivo de foto",
-  "processingError": "Error al procesar la foto",
-  "limitReachedTitle": "Límite Diario Alcanzado",
-  "limitReachedDescription": "Has alcanzado el límite diario de restauración de fotos. ¡Inténtalo de nuevo mañana!",
-  "errorTitle": "Error",
-  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-  "creditsUsed": "Créditos Usados Hoy",
-  "downloadError": "Error al descargar la imagen"
-},
-"AIPhotoRestorerPage": {
-  "metadata": {
-    "title": "Restaurador de Fotos con IA | Mejora y Restaura Fotos Antiguas",
-    "description": "Devuelve la vida a tus fotos antiguas o dañadas con nuestra herramienta de restauración de fotos potenciada por IA. Perfecto para preservar recuerdos y mejorar imágenes históricas."
-  }
-},
-"AIImageEnhancer": {
-  "title": "Mejorador de Imágenes con IA",
-  "description": "Mejora y aumenta la calidad de tus imágenes con IA",
-  "enhanceButton": "Mejorar Imagen",
-  "processingButton": "Procesando...",
-  "resetButton": "Reiniciar",
-  "downloadButton": "Descargar",
-  "uploadPrompt": "Sube una imagen para mejorar",
-  "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
-  "selectFileButton": "Seleccionar Archivo",
-  "supportedFormats": "Formatos soportados: {formats}",
-  "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-  "noFileError": "Por favor, selecciona un archivo de imagen",
-  "processingError": "Error al procesar la imagen",
-  "limitReachedTitle": "Límite Diario Alcanzado",
-  "limitReachedDescription": "Has alcanzado el límite diario de mejora de imágenes. ¡Inténtalo de nuevo mañana!",
-  "errorTitle": "Error",
-  "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-  "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-  "creditsUsed": "Créditos Usados Hoy",
-  "downloadError": "Error al descargar la imagen"
-},
-"AIImageEnhancerPage": {
-  "metadata": {
-    "title": "Mejorador de Imágenes con IA | Mejora la Calidad de las Imágenes",
-    "description": "Mejora y aumenta la calidad de tus imágenes con nuestra herramienta de mejora de imágenes potenciada por IA. Perfecto para nitidez, reducción de ruido y ampliación de tus fotos."
-  }
-},
-"AIImageToTextConverter": {
-    "title": "Convertidor de Imagen a Texto con IA",
-    "description": "Extrae texto de imágenes usando OCR potenciado por IA",
-    "extractTextButton": "Extraer Texto",
-    "processingButton": "Procesando...",
-    "resetButton": "Reiniciar",
-    "copyButton": "Copiar Texto",
-    "copiedButton": "¡Copiado!",
-    "uploadPrompt": "Sube una imagen para extraer texto",
-    "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
-    "selectFileButton": "Seleccionar Archivo",
-    "supportedFormats": "Formatos soportados: {formats}",
-    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-    "noFileError": "Por favor selecciona un archivo de imagen",
-    "processingError": "Error al procesar la imagen",
-    "limitReachedTitle": "Límite Diario Alcanzado",
-    "limitReachedDescription": "Has alcanzado el límite diario para OCR. ¡Inténtalo de nuevo mañana!",
-    "errorTitle": "Error",
-    "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
-    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-    "creditsUsed": "Créditos Usados Hoy",
-    "extractedTextTitle": "Texto Extraído",
-    "extractedTextPlaceholder": "El texto extraído aparecerá aquí",
-    "noTextDetected": "No se detectó texto en la imagen. Por favor intenta con otra imagen."
-  },
-  "AIImageToTextConverterPage": {
-    "metadata": {
-      "title": "Convertidor de Imagen a Texto con IA | Extrae Texto de Imágenes",
-      "description": "Convierte imágenes a texto con nuestra herramienta de OCR potenciada por IA. Perfecto para digitalizar documentos, extraer texto de capturas de pantalla y más."
-    }
-  },
-"AIImageCaptionGenerator": {
-    "title": "Generador de Subtítulos para Imágenes con IA",
-    "description": "Genera subtítulos para imágenes usando IA",
-    "generateCaptionButton": "Generar Subtítulo",
-    "processingButton": "Procesando...",
-    "resetButton": "Reiniciar",
-    "copyButton": "Copiar Subtítulo",
-    "copiedButton": "¡Copiado!",
-    "uploadPrompt": "Sube una imagen para generar un subtítulo",
-    "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
-    "selectFileButton": "Seleccionar Archivo",
-    "supportedFormats": "Formatos soportados: {formats}",
-    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-    "noFileError": "Por favor selecciona un archivo de imagen",
-    "processingError": "Error al procesar la imagen",
-    "limitReachedTitle": "Límite Diario Alcanzado",
-    "limitReachedDescription": "Has alcanzado el límite diario para generar subtítulos. ¡Inténtalo de nuevo mañana!",
-    "errorTitle": "Error",
-    "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
-    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-    "creditsUsed": "Créditos Usados Hoy",
-    "generatedCaptionTitle": "Subtítulo Generado",
-    "generatedCaptionPlaceholder": "El subtítulo generado aparecerá aquí",
-    "noCaptionGenerated": "No se pudo generar un subtítulo para esta imagen. Por favor intenta con otra imagen."
-  },
-"AIImageCaptionGeneratorPage": {
-    "metadata": {
-      "title": "Generador de Subtítulos para Imágenes con IA | Genera Subtítulos para Imágenes",
-      "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
-    }
-  },
+      "title": "Amplificador de Imágenes con IA",
+      "description": "Mejora tus imágenes con ampliación potenciada por IA",
+      "upscaleButton": "Ampliar Imagen",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "downloadButton": "Descargar",
+      "uploadPrompt": "Sube una imagen para ampliar",
+      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor, selecciona un archivo de imagen",
+      "processingError": "Error al procesar la imagen",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario de ampliación de imágenes. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "scaleLabel": "Factor de Ampliación",
+      "selectScale": "Selecciona el factor de escala",
+      "downloadError": "Error al descargar la imagen"
+    },
+    "AIImageUpscalerPage": {
+      "metadata": {
+        "title": "Amplificador de Imágenes con IA | Mejora la Resolución de Imágenes Instantáneamente",
+        "description": "Amplía y mejora tus imágenes con nuestra herramienta potenciada por IA. Perfecto para mejorar fotos de baja resolución y crear impresiones de alta calidad."
+      }
+    },
+    "AIPhotoColorizer": {
+      "title": "Colorizador de Fotos con IA",
+      "description": "Da vida a tus fotos en blanco y negro con colorización potenciada por IA",
+      "colorizeButton": "Colorizar Foto",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "downloadButton": "Descargar",
+      "uploadPrompt": "Sube una foto en blanco y negro para colorizar",
+      "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor, selecciona un archivo de foto",
+      "processingError": "Error al procesar la foto",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario de colorización de fotos. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "downloadError": "Error al descargar la imagen"
+    },
+    "AIPhotoColorizerPage": {
+      "metadata": {
+        "title": "Colorizador de Fotos con IA | Da Vida a las Fotos en Blanco y Negro",
+        "description": "Transforma tus fotos en blanco y negro en imágenes vibrantes y coloridas con nuestra herramienta de colorización potenciada por IA. Perfecto para restaurar fotos antiguas y dar nueva vida a imágenes históricas."
+      }
+    },
+    "AIPhotoRestorer": {
+      "title": "Restaurador de Fotos con IA",
+      "description": "Restaura y mejora fotos antiguas o dañadas con IA",
+      "restoreButton": "Restaurar Foto",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "downloadButton": "Descargar",
+      "uploadPrompt": "Sube una foto para restaurar",
+      "dragDropPrompt": "Arrastra y suelta tu foto aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor, selecciona un archivo de foto",
+      "processingError": "Error al procesar la foto",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario de restauración de fotos. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "downloadError": "Error al descargar la imagen"
+    },
+    "AIPhotoRestorerPage": {
+      "metadata": {
+        "title": "Restaurador de Fotos con IA | Mejora y Restaura Fotos Antiguas",
+        "description": "Devuelve la vida a tus fotos antiguas o dañadas con nuestra herramienta de restauración de fotos potenciada por IA. Perfecto para preservar recuerdos y mejorar imágenes históricas."
+      }
+    },
+    "AIImageEnhancer": {
+      "title": "Mejorador de Imágenes con IA",
+      "description": "Mejora y aumenta la calidad de tus imágenes con IA",
+      "enhanceButton": "Mejorar Imagen",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "downloadButton": "Descargar",
+      "uploadPrompt": "Sube una imagen para mejorar",
+      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor, selecciona un archivo de imagen",
+      "processingError": "Error al procesar la imagen",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario de mejora de imágenes. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "downloadError": "Error al descargar la imagen"
+    },
+    "AIImageEnhancerPage": {
+      "metadata": {
+        "title": "Mejorador de Imágenes con IA | Mejora la Calidad de las Imágenes",
+        "description": "Mejora y aumenta la calidad de tus imágenes con nuestra herramienta de mejora de imágenes potenciada por IA. Perfecto para nitidez, reducción de ruido y ampliación de tus fotos."
+      }
+    },
+    "AIImageToTextConverter": {
+      "title": "Convertidor de Imagen a Texto con IA",
+      "description": "Extrae texto de imágenes usando OCR potenciado por IA",
+      "extractTextButton": "Extraer Texto",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "copyButton": "Copiar Texto",
+      "copiedButton": "¡Copiado!",
+      "uploadPrompt": "Sube una imagen para extraer texto",
+      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor selecciona un archivo de imagen",
+      "processingError": "Error al procesar la imagen",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario para OCR. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "extractedTextTitle": "Texto Extraído",
+      "extractedTextPlaceholder": "El texto extraído aparecerá aquí",
+      "noTextDetected": "No se detectó texto en la imagen. Por favor intenta con otra imagen."
+    },
+    "AIImageToTextConverterPage": {
+      "metadata": {
+        "title": "Convertidor de Imagen a Texto con IA | Extrae Texto de Imágenes",
+        "description": "Convierte imágenes a texto con nuestra herramienta de OCR potenciada por IA. Perfecto para digitalizar documentos, extraer texto de capturas de pantalla y más."
+      }
+    },
+    "AIImageCaptionGenerator": {
+      "title": "Generador de Subtítulos para Imágenes con IA",
+      "description": "Genera subtítulos para imágenes usando IA",
+      "generateCaptionButton": "Generar Subtítulo",
+      "processingButton": "Procesando...",
+      "resetButton": "Reiniciar",
+      "copyButton": "Copiar Subtítulo",
+      "copiedButton": "¡Copiado!",
+      "uploadPrompt": "Sube una imagen para generar un subtítulo",
+      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+      "selectFileButton": "Seleccionar Archivo",
+      "supportedFormats": "Formatos soportados: {formats}",
+      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+      "noFileError": "Por favor selecciona un archivo de imagen",
+      "processingError": "Error al procesar la imagen",
+      "limitReachedTitle": "Límite Diario Alcanzado",
+      "limitReachedDescription": "Has alcanzado el límite diario para generar subtítulos. ¡Inténtalo de nuevo mañana!",
+      "errorTitle": "Error",
+      "invalidFileType": "Tipo de archivo no válido. Por favor sube una imagen en formato JPEG, PNG o WebP.",
+      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+      "creditsUsed": "Créditos Usados Hoy",
+      "generatedCaptionTitle": "Subtítulo Generado",
+      "generatedCaptionPlaceholder": "El subtítulo generado aparecerá aquí",
+      "noCaptionGenerated": "No se pudo generar un subtítulo para esta imagen. Por favor intenta con otra imagen."
+    },
+    "AIImageCaptionGeneratorPage": {
+      "metadata": {
+        "title": "Generador de Subtítulos para Imágenes con IA | Genera Subtítulos para Imágenes",
+        "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
+      }
+    },
 
-"ImageComparisonSlider": {
-  "imageAltBefore": "Antes: Imagen de baja resolución",
-  "imageAltAfter": "Después: Imagen de alta resolución",
-  "beforeLabel": "Antes",
-  "afterLabel": "Después",
-  "heroTitle": "¿Por qué conformarse con imágenes de baja resolución?",
-  "heroParagraph1": "En un mundo donde el contenido visual es clave, la calidad de la imagen puede hacer o deshacer tu primera impresión. Ya sea para redes sociales, tu tienda en línea o un portafolio profesional, las imágenes nítidas de alta resolución capturan la atención y transmiten profesionalismo.",
-  "heroParagraph2": "Con Lexistock AI, no tienes que comprometer la calidad. Nuestro escalador de imágenes impulsado por IA transforma tus fotos de baja resolución en impresionantes imágenes en alta definición con solo unos pocos clics.",
-  "upscaleButton": "Mejorar tu imagen",
-  "featuresTitle": "Desbloquea el poder de la mejora de imágenes con IA",
-  "features": {
-    "highResolution": {
-      "title": "Salida en alta resolución",
-      "description": "Mejora instantáneamente tus imágenes a resolución 4K, asegurando que cada detalle brille."
-    },
-    "fastProcessing": {
-      "title": "Procesamiento rápido",
-      "description": "Nuestra IA trabaja a una velocidad vertiginosa, entregando imágenes mejoradas en segundos."
-    },
-    "userFriendly": {
-      "title": "Fácil de usar",
-      "description": "No se necesitan habilidades técnicas. Simplemente arrastra, suelta y deja que nuestra IA haga la magia."
-    },
-    "freeToUse": {
-      "title": "Gratis para usar",
-      "description": "Disfruta de la mejora de imágenes de alta calidad sin gastar un centavo."
-    }
-  },
-  "stepsTitle": "Tres sencillos pasos para mejorar tus imágenes",
-  "steps": {
-    "upload": {
-      "title": "Sube tu imagen",
-      "description": "Arrastra y suelta tu foto en nuestro cargador o selecciónala desde tu dispositivo."
-    },
-    "chooseLevel": {
-      "title": "Selecciona el nivel de mejora",
-      "description": "Elige el nivel de mejora que necesites: 2x o 4x, según los requisitos de tu proyecto."
-    },
-    "download": {
-      "title": "Descarga la imagen mejorada",
-      "description": "Descarga al instante tu imagen mejorada y utilízala donde quieras."
-    }
-  },
-  "useCasesTitle": "Perfecto para todas las necesidades",
-  "useCases": {
-    "photography": {
-      "title": "Fotografía",
-      "description": "Dale ventaja a tu portafolio mostrando cada detalle con imágenes en alta resolución."
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "description": "Impresiona a los compradores potenciales con imágenes nítidas de tus productos que destacan."
-    },
-    "personalUse": {
-      "title": "Uso personal",
-      "description": "Crea publicaciones llamativas en redes sociales con imágenes mejoradas."
-    },
-    "businessPresentations": {
-      "title": "Presentaciones de negocios",
-      "description": "Haz que tus presentaciones resalten con visuales de alta calidad que atraigan la atención."
-    }
-  },
-  "aiUpscalingTitle": "¿Qué es la mejora de imágenes con IA y cómo funciona?",
-  "aiUpscalingParagraph1": "La mejora de imágenes con IA se refiere al proceso de aumentar la resolución y calidad de una imagen utilizando inteligencia artificial. Los métodos tradicionales de mejora a menudo resultan en imágenes borrosas o pixeladas, pero las herramientas impulsadas por IA, como Lexistock AI, aprovechan los algoritmos de aprendizaje automático para predecir y mejorar los detalles en tus fotos. Esto significa que obtienes imágenes más nítidas y claras que se ven naturales y profesionales.",
-  "aiUpscalingParagraph2": "La mejora de imágenes con IA es especialmente útil para fotógrafos, diseñadores gráficos, negocios de comercio electrónico y cualquier persona que necesite visuales de alta calidad. Al analizar patrones y texturas en tus imágenes, la IA puede rellenar detalles faltantes, lo que da como resultado una imagen más nítida y definida.",
-  "benefitsTitle": "Beneficios de usar IA para mejorar imágenes",
-  "benefitsParagraph": "¿Por qué deberías considerar la IA para tus necesidades de mejora de imágenes? Aquí tienes algunas razones convincentes:",
-  "benefits": {
-    "benefit1": "Detalle y claridad mejorados: La tecnología de IA mejora la calidad de la imagen refinando los bordes, reduciendo el ruido y sacando a relucir los detalles ocultos.",
-    "benefit2": "Ahorro de tiempo: ¡Olvídate de la edición manual! La IA se encarga del trabajo pesado, permitiéndote concentrarte en lo que más importa.",
-    "benefit3": "Eficiencia de costos: Con herramientas gratuitas como Lexistock AI, puedes obtener resultados de calidad profesional sin invertir en software costoso.",
-    "benefit4": "Versatilidad: Ya sea que estés mejorando fotos para redes sociales, un sitio web o un proyecto de impresión, la mejora de imágenes con IA asegura que tus imágenes se vean lo mejor posible en cualquier contexto."
-  },
-  "misconceptionsTitle": "Conceptos erróneos comunes sobre la mejora de imágenes con IA",
-  "misconceptionsParagraph1": "Mucha gente piensa que la mejora de imágenes con IA es solo para usuarios expertos en tecnología o profesionales, pero eso está lejos de ser cierto. Lexistock AI está diseñado con la simplicidad en mente, lo que lo hace accesible para todos, sin importar su nivel técnico.",
-  "misconceptionsParagraph2": "Otro mito es que la mejora de imágenes con IA solo es beneficiosa para imágenes de baja resolución. En realidad, incluso las imágenes de alta calidad pueden beneficiarse de las mejoras de IA, ya que la tecnología puede refinar y agudizar los detalles que podrían no ser visibles a simple vista.",
-  "whyChooseTitle": "¿Por qué elegir Lexistock AI para tus necesidades de mejora de imágenes?",
-  "whyChooseParagraph1": "Lexistock AI destaca en el abarrotado mercado de herramientas de mejora de imágenes. Aquí tienes por qué:",
-  "whyChoose": {
-    "reason1": "Tecnología de IA de vanguardia: Nuestra herramienta utiliza los últimos avances en IA para ofrecer una calidad de imagen superior.",
-    "reason2": "Diseño centrado en el usuario: Creemos en mantener las cosas simples. Nuestra interfaz es intuitiva, lo que garantiza una experiencia fluida para cada usuario.",
-    "reason3": "Rápido y gratuito: Obtén mejoras de imágenes de calidad profesional en segundos, todo sin costo alguno."
-  },
-  "whyChooseParagraph2": "Ya seas un dueño de negocio que quiere mejorar las imágenes de productos o un aficionado que quiere mejorar fotos personales, Lexistock AI ofrece una solución confiable y eficiente.",
-  "faqTitle": "Preguntas frecuentes",
-  "faq": [
-    {
-      "question": "¿Qué es el escalador de imágenes Lexistock AI?",
-      "answer": "El escalador de imágenes Lexistock AI es una herramienta en línea gratuita que permite a los usuarios mejorar imágenes 2x o 4x manteniendo una alta precisión de calidad. Utiliza tecnología avanzada de IA para mejorar la resolución de las imágenes sin comprometer los detalles."
-    },
-    {
-      "question": "¿Cómo funciona el escalador de imágenes Lexistock AI?",
-      "answer": "La herramienta de escalado de Lexistock emplea algoritmos sofisticados que analizan la imagen original y agregan píxeles de manera inteligente para aumentar su resolución. Este proceso mejora la claridad y el detalle, resultando en una imagen más nítida y de alta resolución."
-    },
-    {
-      "question": "¿Qué tipos de imágenes puedo mejorar usando Lexistock?",
-      "answer": "Puedes mejorar varios tipos de imágenes usando Lexistock, incluidas fotografías, arte digital y gráficos. La herramienta es versátil y está diseñada para manejar diferentes formatos de manera efectiva."
-    },
-    {
-      "question": "¿Hay un límite para el tamaño de las imágenes que puedo subir?",
-      "answer": "Lexistock generalmente permite a los usuarios subir imágenes dentro de límites estándar de tamaño de archivo. Si bien las limitaciones específicas pueden variar, la mayoría de los formatos de imagen comunes como JPG y PNG son compatibles para la mejora."
-    },
-    {
-      "question": "¿Cuánto tiempo toma mejorar una imagen con Lexistock?",
-      "answer": "El proceso de mejora con Lexistock suele ser rápido, a menudo tomando solo unos segundos para completarse. Los usuarios pueden esperar que sus imágenes de alta resolución estén listas casi de inmediato después de la carga."
-    },
-    {
-      "question": "¿Puedo mejorar varias imágenes a la vez usando Lexistock?",
-      "answer": "Sí, Lexistock ofrece capacidades de procesamiento por lotes que permiten a los usuarios mejorar varias imágenes simultáneamente. Esta característica es especialmente útil para fotógrafos o diseñadores que trabajan con grandes conjuntos de imágenes."
-    },
-    {
-      "question": "¿Mejorará la calidad de una imagen el uso de Lexistock?",
-      "answer": "No, el escalador de imágenes Lexistock AI está diseñado para mejorar la calidad de las imágenes durante el proceso de escalado. Su objetivo es preservar los detalles originales y evitar la pixelación, resultando en un producto final más claro."
-    },
-    {
-      "question": "¿Necesito habilidades especiales para usar el escalador de imágenes Lexistock AI?",
-      "answer": "No se requieren habilidades especiales para usar la herramienta de escalado de Lexistock. La interfaz es fácil de usar, lo que permite a cualquier persona subir imágenes e iniciar el proceso de mejora con solo unos clics."
-    },
-    {
-      "question": "¿Hay un costo asociado con el uso del escalador de imágenes Lexistock AI?",
-      "answer": "Lexistock ofrece su servicio de mejora de imágenes de manera gratuita, lo que lo hace accesible para cualquiera que desee mejorar sus imágenes sin incurrir en costos."
-    },
-    {
-      "question": "¿Puedo descargar mis imágenes mejoradas directamente desde Lexistock?",
-      "answer": "Sí, una vez que el proceso de mejora se complete, los usuarios pueden descargar fácilmente sus imágenes mejoradas directamente desde la plataforma Lexistock para su uso inmediato."
-    }
-  ]
-},
-"ImageEnhancerContent": {
-  "imageAltBefore": "Antes: Imagen original de baja calidad",
-  "imageAltAfter": "Después: Imagen mejorada de alta calidad",
-  "beforeLabel": "Antes",
-  "afterLabel": "Después",
-  "heroTitle": "Dale Vida a Tus Imágenes con una Calidad Impresionante",
-  "heroParagraph1": "Las imágenes de alta calidad son clave para causar un gran impacto, pero las imágenes borrosas o de baja resolución pueden arruinar tu presentación. Ya sea para redes sociales, comercio electrónico o uso personal, las imágenes claras y nítidas marcan la diferencia.",
-  "heroParagraph2": "Nuestra herramienta gratuita de mejora de imágenes con IA te permite mejorar y escalar tus fotos con un solo clic. Mejora la resolución, aumenta los detalles y haz que tus imágenes brillen sin esfuerzo.",
-  "enhanceImageButton": "Mejorar Imagen Ahora",
-  "featuresTitle": "Características Clave de Nuestra Herramienta de Mejora de Imágenes con IA",
-  "features": {
-    "upscaleResolution": {
-      "title": "Aumentar Resolución",
-      "description": "Mejora la resolución de la imagen hasta 4X sin perder calidad."
-    },
-    "clarityBoost": {
-      "title": "Aumento de Claridad",
-      "description": "Aumenta automáticamente la nitidez y refina los detalles para obtener resultados claros como el cristal."
-    },
-    "hdOutput": {
-      "title": "Salida en HD",
-      "description": "Produce imágenes en alta definición aptas para uso profesional."
-    },
-    "freeToUse": {
-      "title": "Gratis",
-      "description": "Disfruta de mejoras ilimitadas sin costo."
-    }
-  },
-  "stepsTitle": "Tres Sencillos Pasos para Mejorar Tus Imágenes",
-  "steps": {
-    "upload": {
-      "title": "Sube Tu Imagen",
-      "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
-    },
-    "process": {
-      "title": "Mejorar Imagen",
-      "description": "Deja que nuestra IA analice y mejore automáticamente la imagen."
-    },
-    "download": {
-      "title": "Descarga Tu Imagen Mejorada",
-      "description": "Guarda la imagen de alta calidad y úsala según lo necesites."
-    }
-  },
-  "useCasesTitle": "Perfecto para Diversos Usos",
-  "useCases": {
-    "socialMedia": {
-      "title": "Redes Sociales",
-      "description": "Crea publicaciones cautivadoras y de alta calidad que destaquen."
-    },
-    "ecommerce": {
-      "title": "Comercio Electrónico",
-      "description": "Mejora las fotos de productos para aumentar las ventas."
-    },
-    "photography": {
-      "title": "Fotografía",
-      "description": "Mejora la resolución y los detalles de tus fotos sin esfuerzo."
-    },
-    "personalProjects": {
-      "title": "Proyectos Personales",
-      "description": "Convierte fotos cotidianas en imágenes de aspecto profesional."
-    }
-  },
-  "imageEnhancementTitle": "¿Qué es la Mejora de Imágenes y Cómo Funciona?",
-  "imageEnhancementParagraph1": "La mejora de imágenes mejora la calidad y la claridad de las fotos al aumentar la resolución, refinar los detalles y agudizar los visuales. Nuestra herramienta utiliza tecnología impulsada por IA para analizar y mejorar automáticamente tus imágenes, produciendo resultados nítidos y vibrantes.",
-  "imageEnhancementParagraph2": "Esta herramienta es perfecta para usuarios que desean mejorar la calidad de las imágenes para uso profesional y personal. Di adiós a las fotos borrosas y hola a visuales nítidos y de alta resolución.",
-  "benefitsTitle": "¿Por Qué Usar Nuestra Herramienta de Mejora de Imágenes con IA?",
-  "benefitsParagraph": "Aquí te explicamos por qué nuestra herramienta es esencial para mejorar tus imágenes:",
-  "benefits": {
-    "benefit1": "Mejor Impacto Visual: Las imágenes más claras atraen más atención y dejan una impresión duradera.",
-    "benefit2": "Ahorro de Tiempo: Obtén resultados de alta calidad en segundos sin edición manual.",
-    "benefit3": "Gratis y Accesible: Disfruta de una mejora de imágenes de calidad profesional sin gastar un centavo.",
-    "benefit4": "Versátil: Ideal para redes sociales, comercio electrónico, fotografía y proyectos personales."
-  },
-  "misconceptionsTitle": "Conceptos Erróneos Comunes sobre la Mejora de Imágenes",
-  "misconceptionsParagraph1": "Muchos asumen que mejorar la calidad de la imagen requiere software costoso y conocimientos técnicos. Nuestra herramienta de IA simplifica el proceso, ofreciendo resultados sobresalientes al instante.",
-  "misconceptionsParagraph2": "Otro concepto erróneo es que la mejora de imágenes altera significativamente el contenido original. En realidad, nuestra herramienta conserva la esencia de tu foto mientras mejora su claridad y resolución.",
-  "whyChooseTitle": "¿Por Qué Elegir Nuestra Herramienta de Mejora de Imágenes con IA?",
-  "whyChooseParagraph1": "Esto es lo que nos distingue:",
-  "whyChoose": {
-    "reason1": "Precisión Impulsada por IA: Experimenta una mejora sin igual con nuestros algoritmos avanzados de IA.",
-    "reason2": "Interfaz Fácil de Usar: Diseño simple e intuitivo para que cualquiera lo use.",
-    "reason3": "Rápido y Gratis: Obtén imágenes de calidad impresionante en segundos, sin costo."
-  },
-  "whyChooseParagraph2": "Ya seas un profesional buscando soluciones eficientes o un usuario casual queriendo mejores fotos, nuestra Herramienta de Mejora de Imágenes con IA es la herramienta perfecta para ti.",
-  "faqTitle": "Preguntas Frecuentes",
-  "faq": [
-    {
-      "question": "¿Qué es la Herramienta de Mejora de Imágenes con IA?",
-      "answer": "Es una herramienta en línea gratuita que mejora la calidad y la resolución de las imágenes usando tecnología avanzada de IA."
-    },
-    {
-      "question": "¿Cómo funciona la Herramienta de Mejora de Imágenes con IA?",
-      "answer": "Nuestra herramienta utiliza algoritmos sofisticados de IA para analizar y mejorar tu imagen, aumentando la resolución y agudizando los detalles."
-    },
-    {
-      "question": "¿Puedo usar la herramienta con cualquier tipo de imagen?",
-      "answer": "Sí, funciona con varios formatos de imagen como jpeg, png y webp."
-    },
-    {
-      "question": "¿Hay un límite en la cantidad de imágenes que puedo mejorar?",
-      "answer": "Sí, puedes mejorar hasta 3 imágenes diarias para asegurar un uso justo para todos."
-    },
-    {
-      "question": "¿Cuánto tiempo tarda el proceso de mejora?",
-      "answer": "Normalmente, solo toma unos segundos dependiendo del tamaño y la complejidad de la imagen."
-    },
-    {
-      "question": "¿Necesito habilidades especiales para usar la herramienta?",
-      "answer": "No, nuestra herramienta está diseñada para todos los usuarios. Simplemente sube tu imagen y la IA se encarga del resto."
-    },
-    {
-      "question": "¿La Herramienta de Mejora de Imágenes con IA es realmente gratuita?",
-      "answer": "Sí, la herramienta es completamente gratuita."
-    },
-    {
-      "question": "¿Puedo descargar las imágenes mejoradas?",
-      "answer": "¡Por supuesto! Puedes descargar la imagen mejorada de alta calidad al instante."
-    },
-    {
-      "question": "¿La herramienta es adecuada para propósitos profesionales?",
-      "answer": "Sí, es perfecta tanto para uso personal como profesional, incluyendo redes sociales, comercio electrónico y fotografía."
-    },
-    {
-      "question": "¿Se mantendrá la calidad de la imagen después de la mejora?",
-      "answer": "Sí, nuestra IA asegura que la imagen mejorada mantenga una calidad superior con visuales más nítidos y claros."
-    }
-  ]
-},
-"PhotoColorizerContent": {
-  "imageAltBefore": "Antes: Foto en blanco y negro",
-  "imageAltAfter": "Después: Foto en color",
-  "beforeLabel": "Antes",
-  "afterLabel": "Después",
-  "heroTitle": "Dale vida a tus fotos en blanco y negro",
-  "heroParagraph1": "Los recuerdos antiguos capturados en blanco y negro merecen un toque de color vibrante. Ya sea que estés restaurando reliquias familiares o agregando profundidad a imágenes históricas, la colorización de fotos crea una nueva perspectiva.",
-  "heroParagraph2": "Nuestro Colorizador de Fotos con IA utiliza aprendizaje automático avanzado para agregar inteligentemente color a fotos en blanco y negro. Experimenta la magia de ver tus fotos cobrar vida con colores ricos y realistas.",
-  "colorizeButton": "Colorizar Foto Ahora",
-  "featuresTitle": "Características clave de nuestro Colorizador de Fotos",
-  "features": {
-    "advancedAI": {
-      "title": "Tecnología avanzada de IA",
-      "description": "Utiliza aprendizaje profundo para ofrecer una colorización realista y natural."
-    },
-    "highResolution": {
-      "title": "Salida de alta resolución",
-      "description": "Coloriza fotos sin comprometer la calidad."
-    },
-    "quickProcessing": {
-      "title": "Procesamiento rápido",
-      "description": "Transforma tus imágenes en solo unos segundos."
-    },
-    "freeTool": {
-      "title": "Gratis para usar",
-      "description": "Disfruta de una colorización de fotos de nivel profesional sin costo."
-    }
-  },
-  "stepsTitle": "Cómo colorizar fotos en tres simples pasos",
-  "steps": {
-    "upload": {
-      "title": "Sube tu foto",
-      "description": "Arrastra y suelta tu imagen en blanco y negro o elige un archivo de tu dispositivo."
-    },
-    "process": {
-      "title": "Colorizar foto",
-      "description": "Nuestro algoritmo de IA agrega automáticamente colores vibrantes a tu imagen."
-    },
-    "download": {
-      "title": "Descarga tu imagen colorizada",
-      "description": "Guarda tu foto bellamente colorizada con un clic."
-    }
-  },
-  "useCasesTitle": "Perfecto para una variedad de usos",
-  "useCases": {
-    "familyPhotos": {
-      "title": "Fotos familiares",
-      "description": "Devuelve la vida a las fotos familiares antiguas con colores ricos."
-    },
-    "historicalImages": {
-      "title": "Imágenes históricas",
-      "description": "Mejora documentos y fotografías históricas para fines educativos."
-    },
-    "artProjects": {
-      "title": "Proyectos artísticos",
-      "description": "Crea representaciones artísticas añadiendo color a imágenes en blanco y negro."
-    },
-    "socialMedia": {
-      "title": "Redes sociales",
-      "description": "Impresiona a tus seguidores compartiendo fotos colorizadas sorprendentes."
-    }
-  },
-  "colorizationTitle": "¿Qué es la colorización de fotos y cómo funciona?",
-  "colorizationParagraph1": "La colorización de fotos es el proceso de añadir color a imágenes monocromáticas (blanco y negro). Trae fotos históricas o personales a la era moderna recreando tonos y matices realistas.",
-  "colorizationParagraph2": "Nuestro Colorizador de Fotos con IA utiliza aprendizaje profundo para analizar texturas, objetos y fondos, produciendo imágenes colorizadas precisas y vibrantes en solo unos momentos.",
-  "benefitsTitle": "¿Por qué usar nuestro Colorizador de Fotos con IA?",
-  "benefitsParagraph": "Aquí están las razones clave para probar nuestra herramienta de colorización de fotos:",
-  "benefits": {
-    "benefit1": "Recuerdos mejorados: Revive tus momentos preciados en color completo.",
-    "benefit2": "Ahorro de tiempo: No necesitas edición manual, nuestra herramienta automatiza todo el proceso.",
-    "benefit3": "Gratis y fácil: Obtén resultados profesionales sin gastar ni un centavo.",
-    "benefit4": "Uso versátil: Ideal para proyectos personales, educativos y creativos."
-  },
-  "misconceptionsTitle": "Conceptos erróneos comunes sobre la colorización de fotos",
-  "misconceptionsParagraph1": "Muchos creen que la colorización de fotos requiere habilidades artísticas o software costoso. Nuestra herramienta hace que el proceso sea simple y accesible para todos.",
-  "misconceptionsParagraph2": "Algunos piensan que la colorización solo es útil para profesionales. En realidad, cualquiera puede usarla para transformar recuerdos antiguos en imágenes vibrantes.",
-  "whyChooseTitle": "¿Por qué elegir nuestro Colorizador de Fotos con IA?",
-  "whyChooseParagraph1": "Aquí está por qué nuestra herramienta destaca:",
-  "whyChoose": {
-    "reason1": "IA de última generación: Logra una colorización realista y vívida sin esfuerzo.",
-    "reason2": "Interfaz fácil de usar: No se requiere experiencia técnica.",
-    "reason3": "Rápido y gratis: Obtén resultados en segundos sin costo."
-  },
-  "whyChooseParagraph2": "Ya sea que estés restaurando fotos familiares o trabajando en proyectos creativos, nuestra herramienta es la solución ideal para dar vida a imágenes en blanco y negro.",
-  "faqTitle": "Preguntas frecuentes",
-  "faq": [
-    {
-      "question": "¿Qué es la herramienta de Colorización de Fotos con IA?",
-      "answer": "Es una herramienta en línea gratuita que utiliza IA para colorizar fotos en blanco y negro de forma rápida y sencilla."
-    },
-    {
-      "question": "¿Cómo funciona la Colorización de Fotos con IA?",
-      "answer": "Nuestra herramienta analiza el contenido de tu imagen utilizando aprendizaje profundo para añadir colores realistas automáticamente."
-    },
-    {
-      "question": "¿La herramienta es adecuada para todo tipo de fotos?",
-      "answer": "Sí, funciona con fotos en blanco y negro de todo tipo, incluyendo retratos, paisajes e imágenes históricas."
-    },
-    {
-      "question": "¿Hay algún límite de uso?",
-      "answer": "Sí, puedes procesar hasta 3 imágenes por día para mantenerla gratuita y accesible para todos los usuarios."
-    },
-    {
-      "question": "¿Necesito habilidades especiales para usar esta herramienta?",
-      "answer": "No, nuestro Colorizador de Fotos con IA es fácil de usar y no requiere experiencia previa."
-    },
-    {
-      "question": "¿El servicio de colorización de fotos es realmente gratuito?",
-      "answer": "Sí, es completamente gratuito y sin cargos ocultos."
-    },
-    {
-      "question": "¿Puedo descargar mis imágenes colorizadas?",
-      "answer": "Sí, una vez que tu foto esté colorizada, puedes descargarla al instante."
-    },
-    {
-      "question": "¿Se almacenarán mis fotos después del procesamiento?",
-      "answer": "No, tus fotos no se almacenan. Priorizamos tu privacidad y seguridad."
-    },
-    {
-      "question": "¿Puedo usar las imágenes colorizadas para proyectos comerciales?",
-      "answer": "Sí, la herramienta es perfecta tanto para uso personal como comercial."
-    },
-    {
-      "question": "¿La Colorización de Fotos con IA afecta la calidad de la imagen?",
-      "answer": "No, nuestra herramienta mejora tus imágenes sin comprometer la calidad."
-    }
-  ]
-},
-"PhotoRestorerContent": {
-    "imageAltBefore": "Antes: Foto antigua descolorida y dañada",
-    "imageAltAfter": "Después: Foto restaurada y vibrante",
-    "beforeLabel": "Antes",
-    "afterLabel": "Después",
-    "heroTitle": "Devuelve a la Vida Tus Viejos Recuerdos",
-    "heroParagraph1": "El tiempo puede pasar factura a tus fotos preciosas, desvaneciendo colores y dejando grietas que oscurecen recuerdos entrañables. Con nuestro Restaurador de Fotos con IA, puedes dar nueva vida a imágenes antiguas, descoloridas y dañadas con solo unos clics.",
-    "heroParagraph2": "Experimenta la magia de la restauración de fotos impulsada por IA que mejora y repara tus imágenes, preservando tu historia con resultados sorprendentes, todo en línea y completamente gratis.",
-    "restoreButton": "Restaurar Fotos Ahora",
-    "featuresTitle": "Características Clave de Nuestro Restaurador de Fotos",
-    "features": {
-      "restoreDamage": {
-        "title": "Restaurar Fotos Deterioradas",
-        "description": "Repara grietas, arañazos y manchas para devolver tus imágenes a su gloria original."
+    "ImageComparisonSlider": {
+      "imageAltBefore": "Antes: Imagen de baja resolución",
+      "imageAltAfter": "Después: Imagen de alta resolución",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "¿Por qué conformarse con imágenes de baja resolución?",
+      "heroParagraph1": "En un mundo donde el contenido visual es clave, la calidad de la imagen puede hacer o deshacer tu primera impresión. Ya sea para redes sociales, tu tienda en línea o un portafolio profesional, las imágenes nítidas de alta resolución capturan la atención y transmiten profesionalismo.",
+      "heroParagraph2": "Con Lexistock AI, no tienes que comprometer la calidad. Nuestro escalador de imágenes impulsado por IA transforma tus fotos de baja resolución en impresionantes imágenes en alta definición con solo unos pocos clics.",
+      "upscaleButton": "Mejorar tu imagen",
+      "featuresTitle": "Desbloquea el poder de la mejora de imágenes con IA",
+      "features": {
+        "highResolution": {
+          "title": "Salida en alta resolución",
+          "description": "Mejora instantáneamente tus imágenes a resolución 4K, asegurando que cada detalle brille."
+        },
+        "fastProcessing": {
+          "title": "Procesamiento rápido",
+          "description": "Nuestra IA trabaja a una velocidad vertiginosa, entregando imágenes mejoradas en segundos."
+        },
+        "userFriendly": {
+          "title": "Fácil de usar",
+          "description": "No se necesitan habilidades técnicas. Simplemente arrastra, suelta y deja que nuestra IA haga la magia."
+        },
+        "freeToUse": {
+          "title": "Gratis para usar",
+          "description": "Disfruta de la mejora de imágenes de alta calidad sin gastar un centavo."
+        }
       },
-      "colorEnhancement": {
-        "title": "Mejora de Color y Contraste",
-        "description": "Aumenta la vitalidad y el contraste de las fotos descoloridas para una apariencia renovada y vívida."
+      "stepsTitle": "Tres sencillos pasos para mejorar tus imágenes",
+      "steps": {
+        "upload": {
+          "title": "Sube tu imagen",
+          "description": "Arrastra y suelta tu foto en nuestro cargador o selecciónala desde tu dispositivo."
+        },
+        "chooseLevel": {
+          "title": "Selecciona el nivel de mejora",
+          "description": "Elige el nivel de mejora que necesites: 2x o 4x, según los requisitos de tu proyecto."
+        },
+        "download": {
+          "title": "Descarga la imagen mejorada",
+          "description": "Descarga al instante tu imagen mejorada y utilízala donde quieras."
+        }
       },
-      "automaticRestoration": {
-        "title": "Restauración Automática",
-        "description": "No necesitas habilidades de edición manual, nuestra IA maneja el proceso de restauración automáticamente."
+      "useCasesTitle": "Perfecto para todas las necesidades",
+      "useCases": {
+        "photography": {
+          "title": "Fotografía",
+          "description": "Dale ventaja a tu portafolio mostrando cada detalle con imágenes en alta resolución."
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Impresiona a los compradores potenciales con imágenes nítidas de tus productos que destacan."
+        },
+        "personalUse": {
+          "title": "Uso personal",
+          "description": "Crea publicaciones llamativas en redes sociales con imágenes mejoradas."
+        },
+        "businessPresentations": {
+          "title": "Presentaciones de negocios",
+          "description": "Haz que tus presentaciones resalten con visuales de alta calidad que atraigan la atención."
+        }
       },
-      "freeToUse": {
-        "title": "Gratis y Fácil de Usar",
-        "description": "Disfruta de la restauración de fotos de primera calidad sin costo ni software complejo."
-      }
+      "aiUpscalingTitle": "¿Qué es la mejora de imágenes con IA y cómo funciona?",
+      "aiUpscalingParagraph1": "La mejora de imágenes con IA se refiere al proceso de aumentar la resolución y calidad de una imagen utilizando inteligencia artificial. Los métodos tradicionales de mejora a menudo resultan en imágenes borrosas o pixeladas, pero las herramientas impulsadas por IA, como Lexistock AI, aprovechan los algoritmos de aprendizaje automático para predecir y mejorar los detalles en tus fotos. Esto significa que obtienes imágenes más nítidas y claras que se ven naturales y profesionales.",
+      "aiUpscalingParagraph2": "La mejora de imágenes con IA es especialmente útil para fotógrafos, diseñadores gráficos, negocios de comercio electrónico y cualquier persona que necesite visuales de alta calidad. Al analizar patrones y texturas en tus imágenes, la IA puede rellenar detalles faltantes, lo que da como resultado una imagen más nítida y definida.",
+      "benefitsTitle": "Beneficios de usar IA para mejorar imágenes",
+      "benefitsParagraph": "¿Por qué deberías considerar la IA para tus necesidades de mejora de imágenes? Aquí tienes algunas razones convincentes:",
+      "benefits": {
+        "benefit1": "Detalle y claridad mejorados: La tecnología de IA mejora la calidad de la imagen refinando los bordes, reduciendo el ruido y sacando a relucir los detalles ocultos.",
+        "benefit2": "Ahorro de tiempo: ¡Olvídate de la edición manual! La IA se encarga del trabajo pesado, permitiéndote concentrarte en lo que más importa.",
+        "benefit3": "Eficiencia de costos: Con herramientas gratuitas como Lexistock AI, puedes obtener resultados de calidad profesional sin invertir en software costoso.",
+        "benefit4": "Versatilidad: Ya sea que estés mejorando fotos para redes sociales, un sitio web o un proyecto de impresión, la mejora de imágenes con IA asegura que tus imágenes se vean lo mejor posible en cualquier contexto."
+      },
+      "misconceptionsTitle": "Conceptos erróneos comunes sobre la mejora de imágenes con IA",
+      "misconceptionsParagraph1": "Mucha gente piensa que la mejora de imágenes con IA es solo para usuarios expertos en tecnología o profesionales, pero eso está lejos de ser cierto. Lexistock AI está diseñado con la simplicidad en mente, lo que lo hace accesible para todos, sin importar su nivel técnico.",
+      "misconceptionsParagraph2": "Otro mito es que la mejora de imágenes con IA solo es beneficiosa para imágenes de baja resolución. En realidad, incluso las imágenes de alta calidad pueden beneficiarse de las mejoras de IA, ya que la tecnología puede refinar y agudizar los detalles que podrían no ser visibles a simple vista.",
+      "whyChooseTitle": "¿Por qué elegir Lexistock AI para tus necesidades de mejora de imágenes?",
+      "whyChooseParagraph1": "Lexistock AI destaca en el abarrotado mercado de herramientas de mejora de imágenes. Aquí tienes por qué:",
+      "whyChoose": {
+        "reason1": "Tecnología de IA de vanguardia: Nuestra herramienta utiliza los últimos avances en IA para ofrecer una calidad de imagen superior.",
+        "reason2": "Diseño centrado en el usuario: Creemos en mantener las cosas simples. Nuestra interfaz es intuitiva, lo que garantiza una experiencia fluida para cada usuario.",
+        "reason3": "Rápido y gratuito: Obtén mejoras de imágenes de calidad profesional en segundos, todo sin costo alguno."
+      },
+      "whyChooseParagraph2": "Ya seas un dueño de negocio que quiere mejorar las imágenes de productos o un aficionado que quiere mejorar fotos personales, Lexistock AI ofrece una solución confiable y eficiente.",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es el escalador de imágenes Lexistock AI?",
+          "answer": "El escalador de imágenes Lexistock AI es una herramienta en línea gratuita que permite a los usuarios mejorar imágenes 2x o 4x manteniendo una alta precisión de calidad. Utiliza tecnología avanzada de IA para mejorar la resolución de las imágenes sin comprometer los detalles."
+        },
+        {
+          "question": "¿Cómo funciona el escalador de imágenes Lexistock AI?",
+          "answer": "La herramienta de escalado de Lexistock emplea algoritmos sofisticados que analizan la imagen original y agregan píxeles de manera inteligente para aumentar su resolución. Este proceso mejora la claridad y el detalle, resultando en una imagen más nítida y de alta resolución."
+        },
+        {
+          "question": "¿Qué tipos de imágenes puedo mejorar usando Lexistock?",
+          "answer": "Puedes mejorar varios tipos de imágenes usando Lexistock, incluidas fotografías, arte digital y gráficos. La herramienta es versátil y está diseñada para manejar diferentes formatos de manera efectiva."
+        },
+        {
+          "question": "¿Hay un límite para el tamaño de las imágenes que puedo subir?",
+          "answer": "Lexistock generalmente permite a los usuarios subir imágenes dentro de límites estándar de tamaño de archivo. Si bien las limitaciones específicas pueden variar, la mayoría de los formatos de imagen comunes como JPG y PNG son compatibles para la mejora."
+        },
+        {
+          "question": "¿Cuánto tiempo toma mejorar una imagen con Lexistock?",
+          "answer": "El proceso de mejora con Lexistock suele ser rápido, a menudo tomando solo unos segundos para completarse. Los usuarios pueden esperar que sus imágenes de alta resolución estén listas casi de inmediato después de la carga."
+        },
+        {
+          "question": "¿Puedo mejorar varias imágenes a la vez usando Lexistock?",
+          "answer": "Sí, Lexistock ofrece capacidades de procesamiento por lotes que permiten a los usuarios mejorar varias imágenes simultáneamente. Esta característica es especialmente útil para fotógrafos o diseñadores que trabajan con grandes conjuntos de imágenes."
+        },
+        {
+          "question": "¿Mejorará la calidad de una imagen el uso de Lexistock?",
+          "answer": "No, el escalador de imágenes Lexistock AI está diseñado para mejorar la calidad de las imágenes durante el proceso de escalado. Su objetivo es preservar los detalles originales y evitar la pixelación, resultando en un producto final más claro."
+        },
+        {
+          "question": "¿Necesito habilidades especiales para usar el escalador de imágenes Lexistock AI?",
+          "answer": "No se requieren habilidades especiales para usar la herramienta de escalado de Lexistock. La interfaz es fácil de usar, lo que permite a cualquier persona subir imágenes e iniciar el proceso de mejora con solo unos clics."
+        },
+        {
+          "question": "¿Hay un costo asociado con el uso del escalador de imágenes Lexistock AI?",
+          "answer": "Lexistock ofrece su servicio de mejora de imágenes de manera gratuita, lo que lo hace accesible para cualquiera que desee mejorar sus imágenes sin incurrir en costos."
+        },
+        {
+          "question": "¿Puedo descargar mis imágenes mejoradas directamente desde Lexistock?",
+          "answer": "Sí, una vez que el proceso de mejora se complete, los usuarios pueden descargar fácilmente sus imágenes mejoradas directamente desde la plataforma Lexistock para su uso inmediato."
+        }
+      ]
     },
-    "stepsTitle": "Cómo Restaurar Fotos en Tres Simples Pasos",
-    "steps": {
-      "upload": {
-        "title": "Sube Tu Foto Antigua",
-        "description": "Arrastra y suelta tu foto descolorida o dañada en el cargador o elígela desde tu dispositivo."
+    "ImageEnhancerContent": {
+      "imageAltBefore": "Antes: Imagen original de baja calidad",
+      "imageAltAfter": "Después: Imagen mejorada de alta calidad",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Dale Vida a Tus Imágenes con una Calidad Impresionante",
+      "heroParagraph1": "Las imágenes de alta calidad son clave para causar un gran impacto, pero las imágenes borrosas o de baja resolución pueden arruinar tu presentación. Ya sea para redes sociales, comercio electrónico o uso personal, las imágenes claras y nítidas marcan la diferencia.",
+      "heroParagraph2": "Nuestra herramienta gratuita de mejora de imágenes con IA te permite mejorar y escalar tus fotos con un solo clic. Mejora la resolución, aumenta los detalles y haz que tus imágenes brillen sin esfuerzo.",
+      "enhanceImageButton": "Mejorar Imagen Ahora",
+      "featuresTitle": "Características Clave de Nuestra Herramienta de Mejora de Imágenes con IA",
+      "features": {
+        "upscaleResolution": {
+          "title": "Aumentar Resolución",
+          "description": "Mejora la resolución de la imagen hasta 4X sin perder calidad."
+        },
+        "clarityBoost": {
+          "title": "Aumento de Claridad",
+          "description": "Aumenta automáticamente la nitidez y refina los detalles para obtener resultados claros como el cristal."
+        },
+        "hdOutput": {
+          "title": "Salida en HD",
+          "description": "Produce imágenes en alta definición aptas para uso profesional."
+        },
+        "freeToUse": {
+          "title": "Gratis",
+          "description": "Disfruta de mejoras ilimitadas sin costo."
+        }
       },
-      "process": {
-        "title": "Deja que la IA Haga Su Magia",
-        "description": "Nuestros algoritmos avanzados de IA analizan y reparan el daño automáticamente."
+      "stepsTitle": "Tres Sencillos Pasos para Mejorar Tus Imágenes",
+      "steps": {
+        "upload": {
+          "title": "Sube Tu Imagen",
+          "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
+        },
+        "process": {
+          "title": "Mejorar Imagen",
+          "description": "Deja que nuestra IA analice y mejore automáticamente la imagen."
+        },
+        "download": {
+          "title": "Descarga Tu Imagen Mejorada",
+          "description": "Guarda la imagen de alta calidad y úsala según lo necesites."
+        }
       },
-      "download": {
-        "title": "Descarga Tu Imagen Restaurada",
-        "description": "Guarda la foto recién mejorada y revive tus recuerdos con claridad vibrante."
-      }
+      "useCasesTitle": "Perfecto para Diversos Usos",
+      "useCases": {
+        "socialMedia": {
+          "title": "Redes Sociales",
+          "description": "Crea publicaciones cautivadoras y de alta calidad que destaquen."
+        },
+        "ecommerce": {
+          "title": "Comercio Electrónico",
+          "description": "Mejora las fotos de productos para aumentar las ventas."
+        },
+        "photography": {
+          "title": "Fotografía",
+          "description": "Mejora la resolución y los detalles de tus fotos sin esfuerzo."
+        },
+        "personalProjects": {
+          "title": "Proyectos Personales",
+          "description": "Convierte fotos cotidianas en imágenes de aspecto profesional."
+        }
+      },
+      "imageEnhancementTitle": "¿Qué es la Mejora de Imágenes y Cómo Funciona?",
+      "imageEnhancementParagraph1": "La mejora de imágenes mejora la calidad y la claridad de las fotos al aumentar la resolución, refinar los detalles y agudizar los visuales. Nuestra herramienta utiliza tecnología impulsada por IA para analizar y mejorar automáticamente tus imágenes, produciendo resultados nítidos y vibrantes.",
+      "imageEnhancementParagraph2": "Esta herramienta es perfecta para usuarios que desean mejorar la calidad de las imágenes para uso profesional y personal. Di adiós a las fotos borrosas y hola a visuales nítidos y de alta resolución.",
+      "benefitsTitle": "¿Por Qué Usar Nuestra Herramienta de Mejora de Imágenes con IA?",
+      "benefitsParagraph": "Aquí te explicamos por qué nuestra herramienta es esencial para mejorar tus imágenes:",
+      "benefits": {
+        "benefit1": "Mejor Impacto Visual: Las imágenes más claras atraen más atención y dejan una impresión duradera.",
+        "benefit2": "Ahorro de Tiempo: Obtén resultados de alta calidad en segundos sin edición manual.",
+        "benefit3": "Gratis y Accesible: Disfruta de una mejora de imágenes de calidad profesional sin gastar un centavo.",
+        "benefit4": "Versátil: Ideal para redes sociales, comercio electrónico, fotografía y proyectos personales."
+      },
+      "misconceptionsTitle": "Conceptos Erróneos Comunes sobre la Mejora de Imágenes",
+      "misconceptionsParagraph1": "Muchos asumen que mejorar la calidad de la imagen requiere software costoso y conocimientos técnicos. Nuestra herramienta de IA simplifica el proceso, ofreciendo resultados sobresalientes al instante.",
+      "misconceptionsParagraph2": "Otro concepto erróneo es que la mejora de imágenes altera significativamente el contenido original. En realidad, nuestra herramienta conserva la esencia de tu foto mientras mejora su claridad y resolución.",
+      "whyChooseTitle": "¿Por Qué Elegir Nuestra Herramienta de Mejora de Imágenes con IA?",
+      "whyChooseParagraph1": "Esto es lo que nos distingue:",
+      "whyChoose": {
+        "reason1": "Precisión Impulsada por IA: Experimenta una mejora sin igual con nuestros algoritmos avanzados de IA.",
+        "reason2": "Interfaz Fácil de Usar: Diseño simple e intuitivo para que cualquiera lo use.",
+        "reason3": "Rápido y Gratis: Obtén imágenes de calidad impresionante en segundos, sin costo."
+      },
+      "whyChooseParagraph2": "Ya seas un profesional buscando soluciones eficientes o un usuario casual queriendo mejores fotos, nuestra Herramienta de Mejora de Imágenes con IA es la herramienta perfecta para ti.",
+      "faqTitle": "Preguntas Frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es la Herramienta de Mejora de Imágenes con IA?",
+          "answer": "Es una herramienta en línea gratuita que mejora la calidad y la resolución de las imágenes usando tecnología avanzada de IA."
+        },
+        {
+          "question": "¿Cómo funciona la Herramienta de Mejora de Imágenes con IA?",
+          "answer": "Nuestra herramienta utiliza algoritmos sofisticados de IA para analizar y mejorar tu imagen, aumentando la resolución y agudizando los detalles."
+        },
+        {
+          "question": "¿Puedo usar la herramienta con cualquier tipo de imagen?",
+          "answer": "Sí, funciona con varios formatos de imagen como jpeg, png y webp."
+        },
+        {
+          "question": "¿Hay un límite en la cantidad de imágenes que puedo mejorar?",
+          "answer": "Sí, puedes mejorar hasta 3 imágenes diarias para asegurar un uso justo para todos."
+        },
+        {
+          "question": "¿Cuánto tiempo tarda el proceso de mejora?",
+          "answer": "Normalmente, solo toma unos segundos dependiendo del tamaño y la complejidad de la imagen."
+        },
+        {
+          "question": "¿Necesito habilidades especiales para usar la herramienta?",
+          "answer": "No, nuestra herramienta está diseñada para todos los usuarios. Simplemente sube tu imagen y la IA se encarga del resto."
+        },
+        {
+          "question": "¿La Herramienta de Mejora de Imágenes con IA es realmente gratuita?",
+          "answer": "Sí, la herramienta es completamente gratuita."
+        },
+        {
+          "question": "¿Puedo descargar las imágenes mejoradas?",
+          "answer": "¡Por supuesto! Puedes descargar la imagen mejorada de alta calidad al instante."
+        },
+        {
+          "question": "¿La herramienta es adecuada para propósitos profesionales?",
+          "answer": "Sí, es perfecta tanto para uso personal como profesional, incluyendo redes sociales, comercio electrónico y fotografía."
+        },
+        {
+          "question": "¿Se mantendrá la calidad de la imagen después de la mejora?",
+          "answer": "Sí, nuestra IA asegura que la imagen mejorada mantenga una calidad superior con visuales más nítidos y claros."
+        }
+      ]
     },
-    "useCasesTitle": "Perfecto para Diversas Necesidades de Restauración",
-    "useCases": {
-      "familyMemories": {
-        "title": "Recuerdos Familiares",
-        "description": "Preserva viejas fotos familiares y transmiételas por generaciones."
+    "PhotoColorizerContent": {
+      "imageAltBefore": "Antes: Foto en blanco y negro",
+      "imageAltAfter": "Después: Foto en color",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Dale vida a tus fotos en blanco y negro",
+      "heroParagraph1": "Los recuerdos antiguos capturados en blanco y negro merecen un toque de color vibrante. Ya sea que estés restaurando reliquias familiares o agregando profundidad a imágenes históricas, la colorización de fotos crea una nueva perspectiva.",
+      "heroParagraph2": "Nuestro Colorizador de Fotos con IA utiliza aprendizaje automático avanzado para agregar inteligentemente color a fotos en blanco y negro. Experimenta la magia de ver tus fotos cobrar vida con colores ricos y realistas.",
+      "colorizeButton": "Colorizar Foto Ahora",
+      "featuresTitle": "Características clave de nuestro Colorizador de Fotos",
+      "features": {
+        "advancedAI": {
+          "title": "Tecnología avanzada de IA",
+          "description": "Utiliza aprendizaje profundo para ofrecer una colorización realista y natural."
+        },
+        "highResolution": {
+          "title": "Salida de alta resolución",
+          "description": "Coloriza fotos sin comprometer la calidad."
+        },
+        "quickProcessing": {
+          "title": "Procesamiento rápido",
+          "description": "Transforma tus imágenes en solo unos segundos."
+        },
+        "freeTool": {
+          "title": "Gratis para usar",
+          "description": "Disfruta de una colorización de fotos de nivel profesional sin costo."
+        }
       },
-      "historicalImages": {
-        "title": "Fotos Históricas",
-        "description": "Restaura valiosas fotos históricas para archivos o colecciones personales."
+      "stepsTitle": "Cómo colorizar fotos en tres simples pasos",
+      "steps": {
+        "upload": {
+          "title": "Sube tu foto",
+          "description": "Arrastra y suelta tu imagen en blanco y negro o elige un archivo de tu dispositivo."
+        },
+        "process": {
+          "title": "Colorizar foto",
+          "description": "Nuestro algoritmo de IA agrega automáticamente colores vibrantes a tu imagen."
+        },
+        "download": {
+          "title": "Descarga tu imagen colorizada",
+          "description": "Guarda tu foto bellamente colorizada con un clic."
+        }
       },
-      "personalProjects": {
-        "title": "Proyectos Personales",
-        "description": "Usa imágenes restauradas para proyectos creativos de fotos y álbumes de recortes."
+      "useCasesTitle": "Perfecto para una variedad de usos",
+      "useCases": {
+        "familyPhotos": {
+          "title": "Fotos familiares",
+          "description": "Devuelve la vida a las fotos familiares antiguas con colores ricos."
+        },
+        "historicalImages": {
+          "title": "Imágenes históricas",
+          "description": "Mejora documentos y fotografías históricas para fines educativos."
+        },
+        "artProjects": {
+          "title": "Proyectos artísticos",
+          "description": "Crea representaciones artísticas añadiendo color a imágenes en blanco y negro."
+        },
+        "socialMedia": {
+          "title": "Redes sociales",
+          "description": "Impresiona a tus seguidores compartiendo fotos colorizadas sorprendentes."
+        }
       },
-      "gifts": {
-        "title": "Regalos Memorables",
-        "description": "Da el regalo de recuerdos restaurados mejorando fotos antiguas para tus seres queridos."
-      }
+      "colorizationTitle": "¿Qué es la colorización de fotos y cómo funciona?",
+      "colorizationParagraph1": "La colorización de fotos es el proceso de añadir color a imágenes monocromáticas (blanco y negro). Trae fotos históricas o personales a la era moderna recreando tonos y matices realistas.",
+      "colorizationParagraph2": "Nuestro Colorizador de Fotos con IA utiliza aprendizaje profundo para analizar texturas, objetos y fondos, produciendo imágenes colorizadas precisas y vibrantes en solo unos momentos.",
+      "benefitsTitle": "¿Por qué usar nuestro Colorizador de Fotos con IA?",
+      "benefitsParagraph": "Aquí están las razones clave para probar nuestra herramienta de colorización de fotos:",
+      "benefits": {
+        "benefit1": "Recuerdos mejorados: Revive tus momentos preciados en color completo.",
+        "benefit2": "Ahorro de tiempo: No necesitas edición manual, nuestra herramienta automatiza todo el proceso.",
+        "benefit3": "Gratis y fácil: Obtén resultados profesionales sin gastar ni un centavo.",
+        "benefit4": "Uso versátil: Ideal para proyectos personales, educativos y creativos."
+      },
+      "misconceptionsTitle": "Conceptos erróneos comunes sobre la colorización de fotos",
+      "misconceptionsParagraph1": "Muchos creen que la colorización de fotos requiere habilidades artísticas o software costoso. Nuestra herramienta hace que el proceso sea simple y accesible para todos.",
+      "misconceptionsParagraph2": "Algunos piensan que la colorización solo es útil para profesionales. En realidad, cualquiera puede usarla para transformar recuerdos antiguos en imágenes vibrantes.",
+      "whyChooseTitle": "¿Por qué elegir nuestro Colorizador de Fotos con IA?",
+      "whyChooseParagraph1": "Aquí está por qué nuestra herramienta destaca:",
+      "whyChoose": {
+        "reason1": "IA de última generación: Logra una colorización realista y vívida sin esfuerzo.",
+        "reason2": "Interfaz fácil de usar: No se requiere experiencia técnica.",
+        "reason3": "Rápido y gratis: Obtén resultados en segundos sin costo."
+      },
+      "whyChooseParagraph2": "Ya sea que estés restaurando fotos familiares o trabajando en proyectos creativos, nuestra herramienta es la solución ideal para dar vida a imágenes en blanco y negro.",
+      "faqTitle": "Preguntas frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es la herramienta de Colorización de Fotos con IA?",
+          "answer": "Es una herramienta en línea gratuita que utiliza IA para colorizar fotos en blanco y negro de forma rápida y sencilla."
+        },
+        {
+          "question": "¿Cómo funciona la Colorización de Fotos con IA?",
+          "answer": "Nuestra herramienta analiza el contenido de tu imagen utilizando aprendizaje profundo para añadir colores realistas automáticamente."
+        },
+        {
+          "question": "¿La herramienta es adecuada para todo tipo de fotos?",
+          "answer": "Sí, funciona con fotos en blanco y negro de todo tipo, incluyendo retratos, paisajes e imágenes históricas."
+        },
+        {
+          "question": "¿Hay algún límite de uso?",
+          "answer": "Sí, puedes procesar hasta 3 imágenes por día para mantenerla gratuita y accesible para todos los usuarios."
+        },
+        {
+          "question": "¿Necesito habilidades especiales para usar esta herramienta?",
+          "answer": "No, nuestro Colorizador de Fotos con IA es fácil de usar y no requiere experiencia previa."
+        },
+        {
+          "question": "¿El servicio de colorización de fotos es realmente gratuito?",
+          "answer": "Sí, es completamente gratuito y sin cargos ocultos."
+        },
+        {
+          "question": "¿Puedo descargar mis imágenes colorizadas?",
+          "answer": "Sí, una vez que tu foto esté colorizada, puedes descargarla al instante."
+        },
+        {
+          "question": "¿Se almacenarán mis fotos después del procesamiento?",
+          "answer": "No, tus fotos no se almacenan. Priorizamos tu privacidad y seguridad."
+        },
+        {
+          "question": "¿Puedo usar las imágenes colorizadas para proyectos comerciales?",
+          "answer": "Sí, la herramienta es perfecta tanto para uso personal como comercial."
+        },
+        {
+          "question": "¿La Colorización de Fotos con IA afecta la calidad de la imagen?",
+          "answer": "No, nuestra herramienta mejora tus imágenes sin comprometer la calidad."
+        }
+      ]
     },
-    "photoRestorationTitle": "¿Qué es la Restauración de Fotos y Por Qué es Importante?",
-    "photoRestorationParagraph1": "La restauración de fotos implica reparar y mejorar fotografías antiguas o dañadas para devolverles su calidad original. Desde arreglar roturas y arañazos hasta restaurar colores desvanecidos, la restauración de fotos te permite preservar momentos importantes y la historia familiar.",
-    "photoRestorationParagraph2": "Nuestro Restaurador de Fotos con IA simplifica este proceso tradicionalmente complejo, utilizando algoritmos de vanguardia para detectar y reparar imperfecciones de las fotos automáticamente, haciendo que tus recuerdos sean vivos y duraderos.",
-    "benefitsTitle": "¿Por Qué Usar Nuestro Restaurador de Fotos con IA?",
-    "benefitsParagraph": "Descubre las ventajas de restaurar tus fotos con nuestra herramienta de IA:",
-    "benefits": {
-      "benefit1": "Preserva Recuerdos Preciosos: Restaura fotos antiguas para mantener viva tu historia familiar.",
-      "benefit2": "Ahorra Tiempo y Esfuerzo: Deja que la IA haga el trabajo duro en lugar de la edición manual.",
-      "benefit3": "Gratis y Fácil de Usar: Mejora fotos sin tarifas ocultas ni software complejo.",
-      "benefit4": "Restauración de Alta Calidad: Disfruta de resultados de nivel profesional sin necesidad de habilidades técnicas."
+    "PhotoRestorerContent": {
+      "imageAltBefore": "Antes: Foto antigua descolorida y dañada",
+      "imageAltAfter": "Después: Foto restaurada y vibrante",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Devuelve a la Vida Tus Viejos Recuerdos",
+      "heroParagraph1": "El tiempo puede pasar factura a tus fotos preciosas, desvaneciendo colores y dejando grietas que oscurecen recuerdos entrañables. Con nuestro Restaurador de Fotos con IA, puedes dar nueva vida a imágenes antiguas, descoloridas y dañadas con solo unos clics.",
+      "heroParagraph2": "Experimenta la magia de la restauración de fotos impulsada por IA que mejora y repara tus imágenes, preservando tu historia con resultados sorprendentes, todo en línea y completamente gratis.",
+      "restoreButton": "Restaurar Fotos Ahora",
+      "featuresTitle": "Características Clave de Nuestro Restaurador de Fotos",
+      "features": {
+        "restoreDamage": {
+          "title": "Restaurar Fotos Deterioradas",
+          "description": "Repara grietas, arañazos y manchas para devolver tus imágenes a su gloria original."
+        },
+        "colorEnhancement": {
+          "title": "Mejora de Color y Contraste",
+          "description": "Aumenta la vitalidad y el contraste de las fotos descoloridas para una apariencia renovada y vívida."
+        },
+        "automaticRestoration": {
+          "title": "Restauración Automática",
+          "description": "No necesitas habilidades de edición manual, nuestra IA maneja el proceso de restauración automáticamente."
+        },
+        "freeToUse": {
+          "title": "Gratis y Fácil de Usar",
+          "description": "Disfruta de la restauración de fotos de primera calidad sin costo ni software complejo."
+        }
+      },
+      "stepsTitle": "Cómo Restaurar Fotos en Tres Simples Pasos",
+      "steps": {
+        "upload": {
+          "title": "Sube Tu Foto Antigua",
+          "description": "Arrastra y suelta tu foto descolorida o dañada en el cargador o elígela desde tu dispositivo."
+        },
+        "process": {
+          "title": "Deja que la IA Haga Su Magia",
+          "description": "Nuestros algoritmos avanzados de IA analizan y reparan el daño automáticamente."
+        },
+        "download": {
+          "title": "Descarga Tu Imagen Restaurada",
+          "description": "Guarda la foto recién mejorada y revive tus recuerdos con claridad vibrante."
+        }
+      },
+      "useCasesTitle": "Perfecto para Diversas Necesidades de Restauración",
+      "useCases": {
+        "familyMemories": {
+          "title": "Recuerdos Familiares",
+          "description": "Preserva viejas fotos familiares y transmiételas por generaciones."
+        },
+        "historicalImages": {
+          "title": "Fotos Históricas",
+          "description": "Restaura valiosas fotos históricas para archivos o colecciones personales."
+        },
+        "personalProjects": {
+          "title": "Proyectos Personales",
+          "description": "Usa imágenes restauradas para proyectos creativos de fotos y álbumes de recortes."
+        },
+        "gifts": {
+          "title": "Regalos Memorables",
+          "description": "Da el regalo de recuerdos restaurados mejorando fotos antiguas para tus seres queridos."
+        }
+      },
+      "photoRestorationTitle": "¿Qué es la Restauración de Fotos y Por Qué es Importante?",
+      "photoRestorationParagraph1": "La restauración de fotos implica reparar y mejorar fotografías antiguas o dañadas para devolverles su calidad original. Desde arreglar roturas y arañazos hasta restaurar colores desvanecidos, la restauración de fotos te permite preservar momentos importantes y la historia familiar.",
+      "photoRestorationParagraph2": "Nuestro Restaurador de Fotos con IA simplifica este proceso tradicionalmente complejo, utilizando algoritmos de vanguardia para detectar y reparar imperfecciones de las fotos automáticamente, haciendo que tus recuerdos sean vivos y duraderos.",
+      "benefitsTitle": "¿Por Qué Usar Nuestro Restaurador de Fotos con IA?",
+      "benefitsParagraph": "Descubre las ventajas de restaurar tus fotos con nuestra herramienta de IA:",
+      "benefits": {
+        "benefit1": "Preserva Recuerdos Preciosos: Restaura fotos antiguas para mantener viva tu historia familiar.",
+        "benefit2": "Ahorra Tiempo y Esfuerzo: Deja que la IA haga el trabajo duro en lugar de la edición manual.",
+        "benefit3": "Gratis y Fácil de Usar: Mejora fotos sin tarifas ocultas ni software complejo.",
+        "benefit4": "Restauración de Alta Calidad: Disfruta de resultados de nivel profesional sin necesidad de habilidades técnicas."
+      },
+      "misconceptionsTitle": "Ideas Erróneas Comunes Sobre la Restauración de Fotos",
+      "misconceptionsParagraph1": "Muchos creen que restaurar fotos antiguas requiere software costoso y habilidades técnicas avanzadas. Nuestra herramienta elimina esta barrera ofreciendo una solución automatizada y fácil de usar.",
+      "misconceptionsParagraph2": "Otra idea errónea común es que solo los profesionales pueden restaurar fotos de manera efectiva. Con nuestra tecnología impulsada por IA, cualquiera puede lograr resultados sorprendentes con un esfuerzo mínimo.",
+      "whyChooseTitle": "¿Por Qué Elegir Nuestro Restaurador de Fotos con IA?",
+      "whyChooseParagraph1": "Esto es lo que hace que nuestra herramienta se destaque del resto:",
+      "whyChoose": {
+        "reason1": "Tecnología Avanzada de IA: Nuestra herramienta restaura imágenes automáticamente con una precisión impresionante.",
+        "reason2": "No Se Necesita Experiencia: Disfruta de una experiencia intuitiva sin necesidad de habilidades de edición de fotos.",
+        "reason3": "Rápido, Gratis y En Línea: Mejora tus fotos en segundos, todo gratis."
+      },
+      "whyChooseParagraph2": "Ya sea que estés buscando restaurar fotos familiares sentimentales o imágenes históricas, nuestro Restaurador de Fotos con IA ofrece una solución poderosa y sin complicaciones.",
+      "faqTitle": "Preguntas Frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es el Restaurador de Fotos con IA?",
+          "answer": "Es una herramienta en línea que utiliza inteligencia artificial para reparar y mejorar fotos antiguas o dañadas de forma gratuita."
+        },
+        {
+          "question": "¿Cómo funciona el proceso de restauración de fotos?",
+          "answer": "Nuestra herramienta de IA detecta imperfecciones como grietas, arañazos y colores desvanecidos, y luego restaura la foto automáticamente."
+        },
+        {
+          "question": "¿Puedo usar la herramienta para cualquier tipo de foto?",
+          "answer": "Sí, nuestra herramienta funciona con varios tipos de fotos, desde imágenes en blanco y negro hasta fotografías a color."
+        },
+        {
+          "question": "¿Hay un límite en la cantidad de fotos que puedo restaurar?",
+          "answer": "Sí, hay un límite diario de 3 restauraciones de fotos para asegurar que todos puedan usar el servicio de forma gratuita."
+        },
+        {
+          "question": "¿Cuánto tiempo toma la restauración de una foto?",
+          "answer": "El proceso de restauración generalmente toma solo unos segundos, dependiendo del tamaño y la complejidad de la foto."
+        }
+      ]
     },
-    "misconceptionsTitle": "Ideas Erróneas Comunes Sobre la Restauración de Fotos",
-    "misconceptionsParagraph1": "Muchos creen que restaurar fotos antiguas requiere software costoso y habilidades técnicas avanzadas. Nuestra herramienta elimina esta barrera ofreciendo una solución automatizada y fácil de usar.",
-    "misconceptionsParagraph2": "Otra idea errónea común es que solo los profesionales pueden restaurar fotos de manera efectiva. Con nuestra tecnología impulsada por IA, cualquiera puede lograr resultados sorprendentes con un esfuerzo mínimo.",
-    "whyChooseTitle": "¿Por Qué Elegir Nuestro Restaurador de Fotos con IA?",
-    "whyChooseParagraph1": "Esto es lo que hace que nuestra herramienta se destaque del resto:",
-    "whyChoose": {
-      "reason1": "Tecnología Avanzada de IA: Nuestra herramienta restaura imágenes automáticamente con una precisión impresionante.",
-      "reason2": "No Se Necesita Experiencia: Disfruta de una experiencia intuitiva sin necesidad de habilidades de edición de fotos.",
-      "reason3": "Rápido, Gratis y En Línea: Mejora tus fotos en segundos, todo gratis."
+    "ImageCaptionGeneratorContent": {
+      "imageAltBefore": "Antes: Imagen lista para la generación de subtítulos",
+      "imageAltAfter": "Después: Subtítulo generado para la imagen",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Transforma Tus Imágenes con Subtítulos Generados por IA",
+      "heroParagraph1": "Un subtítulo convincente puede marcar la diferencia en tu publicación en redes sociales o presentación. Crear subtítulos perfectos manualmente requiere tiempo y creatividad. ¿Por qué no dejar que la IA lo haga por ti?",
+      "heroParagraph2": "Con nuestro Generador de Subtítulos para Imágenes con IA, crear subtítulos descriptivos y atractivos es sencillo. Sube tu imagen y deja que la IA la analice para generar un subtítulo cautivador en segundos.",
+      "generateCaptionButton": "Generar Subtítulo Ahora",
+      "featuresTitle": "Características Clave de Nuestro Generador de Subtítulos con IA",
+      "features": {
+        "smartRecognition": {
+          "title": "Reconocimiento de Imágenes Inteligente",
+          "description": "Utiliza IA avanzada para analizar objetos, emociones y escenarios en tu imagen."
+        },
+        "creativeCaptions": {
+          "title": "Subtítulos Creativos y Atractivos",
+          "description": "Genera subtítulos listos para usar en Instagram, Facebook y más."
+        },
+        "freeToUse": {
+          "title": "Completamente Gratis",
+          "description": "Sin costos, sin suscripciones: genera subtítulos sin límites."
+        },
+        "fastResults": {
+          "title": "Rápido y Preciso",
+          "description": "Los subtítulos se generan al instante, ahorrándote tiempo y esfuerzo."
+        }
+      },
+      "stepsTitle": "Cómo Generar Subtítulos en Tres Simples Pasos",
+      "steps": {
+        "upload": {
+          "title": "Sube Tu Imagen",
+          "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
+        },
+        "generate": {
+          "title": "Genera el Subtítulo",
+          "description": "Haz clic en 'Generar Subtítulo' y deja que la IA haga su magia."
+        },
+        "copy": {
+          "title": "Copia y Usa",
+          "description": "Copia el subtítulo generado y úsalo donde quieras."
+        }
+      },
+      "useCasesTitle": "Perfecto para Varias Necesidades",
+      "useCases": {
+        "socialMedia": {
+          "title": "Publicaciones en Redes Sociales",
+          "description": "Genera subtítulos ingeniosos o descriptivos para Instagram, Facebook y más."
+        },
+        "contentCreation": {
+          "title": "Creación de Contenido",
+          "description": "Ahorra tiempo en la redacción de subtítulos para blogs, artículos o contenido gráfico."
+        },
+        "presentations": {
+          "title": "Presentaciones Profesionales",
+          "description": "Añade contexto a tus visuales con subtítulos rápidos y precisos."
+        },
+        "marketing": {
+          "title": "Materiales de Marketing",
+          "description": "Crea subtítulos llamativos para anuncios y gráficos promocionales."
+        }
+      },
+      "captionGenerationTitle": "¿Qué es la Generación de Subtítulos y Cómo Funciona?",
+      "captionGenerationParagraph1": "La generación de subtítulos de imágenes es el proceso de crear descripciones de texto basadas en el contenido de una imagen. Nuestra herramienta utiliza IA avanzada para identificar objetos, actividades y contexto dentro de tu imagen para crear subtítulos relevantes.",
+      "captionGenerationParagraph2": "Esta tecnología es invaluable para quienes buscan mejorar el contenido visual, ya sea para redes sociales, marketing o proyectos personales. Dejar que la IA se encargue de los subtítulos te da más tiempo para concentrarte en la creatividad y el compromiso.",
+      "benefitsTitle": "¿Por Qué Usar Nuestro Generador de Subtítulos para Imágenes con IA?",
+      "benefitsParagraph": "Descubre los beneficios de usar nuestra herramienta:",
+      "benefits": {
+        "benefit1": "Ahorra Tiempo: No más rompecabezas ni luchas con ideas para subtítulos.",
+        "benefit2": "Aumento del Compromiso: Los subtítulos llamativos ayudan a aumentar los 'me gusta', las comparticiones y las interacciones.",
+        "benefit3": "Gratis e Ilimitado: Genera tantos subtítulos como necesites sin ningún costo.",
+        "benefit4": "Versátil: Ideal para uso profesional y personal en diversas plataformas."
+      },
+      "misconceptionsTitle": "Concepciones Erróneas Comunes sobre los Generadores de Subtítulos con IA",
+      "misconceptionsParagraph1": "Muchos creen que los subtítulos generados por IA son genéricos o irrelevantes. Sin embargo, nuestra herramienta utiliza algoritmos inteligentes que aseguran subtítulos creativos y contextualmente apropiados.",
+      "misconceptionsParagraph2": "Algunos piensan que los generadores de subtítulos son solo para usuarios casuales. En realidad, profesionales en marketing, diseño y creación de contenido también se benefician del subtitulado impulsado por IA.",
+      "whyChooseTitle": "¿Por Qué Elegir Nuestro Generador de Subtítulos para Imágenes con IA?",
+      "whyChooseParagraph1": "Esto es lo que hace que nuestro generador de subtítulos sea tu herramienta de referencia:",
+      "whyChoose": {
+        "reason1": "Tecnología de IA Avanzada: Genera subtítulos precisos y conscientes del contexto.",
+        "reason2": "Facilidad de Uso: Sin curva de aprendizaje: solo sube y genera.",
+        "reason3": "Gratis y Rápido: Sin costos, resultados instantáneos."
+      },
+      "whyChooseParagraph2": "Ya seas un influencer de redes sociales, un comercializador o un usuario casual, nuestra herramienta proporciona subtítulos de calidad profesional sin esfuerzo.",
+      "faqTitle": "Preguntas Frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es el Generador de Subtítulos para Imágenes con IA?",
+          "answer": "Es una herramienta gratuita que genera subtítulos para imágenes utilizando tecnología de IA."
+        },
+        {
+          "question": "¿Cómo funciona el generador de subtítulos?",
+          "answer": "La herramienta utiliza algoritmos avanzados para analizar imágenes y crear subtítulos relevantes."
+        },
+        {
+          "question": "¿Puedo usar la herramienta para subtítulos de Instagram?",
+          "answer": "Sí, la herramienta es perfecta para generar subtítulos listos para Instagram."
+        },
+        {
+          "question": "¿La herramienta es realmente gratuita?",
+          "answer": "Sí, nuestro Generador de Subtítulos con IA es completamente gratuito."
+        },
+        {
+          "question": "¿Hay un límite en la cantidad de subtítulos que puedo generar?",
+          "answer": "Actualmente, puedes generar hasta 3 subtítulos por día de forma gratuita."
+        },
+        {
+          "question": "¿Necesito descargar un software para usar la herramienta?",
+          "answer": "No, la herramienta funciona directamente en tu navegador, sin necesidad de descargas."
+        },
+        {
+          "question": "¿Puede la herramienta generar subtítulos para contenido profesional?",
+          "answer": "¡Absolutamente! Está diseñada tanto para uso profesional como personal."
+        },
+        {
+          "question": "¿Serán los subtítulos únicos?",
+          "answer": "Sí, cada subtítulo se genera en función del contenido específico de tu imagen subida."
+        },
+        {
+          "question": "¿Qué formatos de imagen son compatibles?",
+          "answer": "Nuestra herramienta admite formatos JPEG, PNG y WEBP para subir imágenes."
+        },
+        {
+          "question": "¿Puedo generar subtítulos para varias imágenes a la vez?",
+          "answer": "Actualmente, la herramienta procesa una imagen a la vez para asegurar la precisión en la generación de subtítulos."
+        }
+      ]
     },
-    "whyChooseParagraph2": "Ya sea que estés buscando restaurar fotos familiares sentimentales o imágenes históricas, nuestro Restaurador de Fotos con IA ofrece una solución poderosa y sin complicaciones.",
-    "faqTitle": "Preguntas Frecuentes",
-    "faq": [
-      {
-        "question": "¿Qué es el Restaurador de Fotos con IA?",
-        "answer": "Es una herramienta en línea que utiliza inteligencia artificial para reparar y mejorar fotos antiguas o dañadas de forma gratuita."
+    "BackgroundRemoverContent": {
+      "imageAltBefore": "Antes: Imagen original con fondo",
+      "imageAltAfter": "Después: Imagen con fondo eliminado",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Transforma Tus Fotos con un Clic",
+      "heroParagraph1": "Las visuales adecuadas pueden mejorar tu contenido, pero las distracciones en el fondo pueden arruinar el impacto. Ya sea que estés creando contenido para redes sociales, comercio electrónico o proyectos personales, un fondo limpio marca la diferencia.",
+      "heroParagraph2": "Con nuestra herramienta instantánea de eliminación de fondo, puedes eliminar los fondos de cualquier imagen fácilmente, dejándote con un aspecto limpio y profesional en segundos.",
+      "removeBGButton": "Eliminar Fondo Ahora",
+      "featuresTitle": "Características Clave de Nuestro Eliminador de Fondos",
+      "features": {
+        "precisionCut": {
+          "title": "Corte de Precisión",
+          "description": "Elimina con precisión los fondos mientras mantiene intacto tu sujeto."
+        },
+        "hdQuality": {
+          "title": "Calidad HD",
+          "description": "Asegura una salida en alta definición, perfecta para cualquier uso."
+        },
+        "fastProcessing": {
+          "title": "Procesamiento Rápido",
+          "description": "Obtén tu imagen sin fondo en segundos."
+        },
+        "freeToUse": {
+          "title": "Gratis para Usar",
+          "description": "Disfruta de una eliminación de fondo de alta calidad sin costo alguno."
+        }
       },
-      {
-        "question": "¿Cómo funciona el proceso de restauración de fotos?",
-        "answer": "Nuestra herramienta de IA detecta imperfecciones como grietas, arañazos y colores desvanecidos, y luego restaura la foto automáticamente."
+      "stepsTitle": "Tres Pasos Fáciles para Eliminar Fondos",
+      "steps": {
+        "upload": {
+          "title": "Sube Tu Imagen",
+          "description": "Arrastra y suelta tu foto en nuestro cargador o selecciona la imagen desde tu dispositivo."
+        },
+        "process": {
+          "title": "Eliminar Fondo",
+          "description": "Nuestra herramienta detecta y elimina automáticamente el fondo."
+        },
+        "download": {
+          "title": "Descarga Tu Imagen",
+          "description": "Guarda tu imagen sin fondo y úsala según sea necesario."
+        }
       },
-      {
-        "question": "¿Puedo usar la herramienta para cualquier tipo de foto?",
-        "answer": "Sí, nuestra herramienta funciona con varios tipos de fotos, desde imágenes en blanco y negro hasta fotografías a color."
+      "useCasesTitle": "Perfecto para Diversas Necesidades",
+      "useCases": {
+        "socialMedia": {
+          "title": "Redes Sociales",
+          "description": "Crea publicaciones limpias y profesionales que destaquen."
+        },
+        "ecommerce": {
+          "title": "Comercio Electrónico",
+          "description": "Mejora las imágenes de productos para aumentar las ventas."
+        },
+        "personalProjects": {
+          "title": "Proyectos Personales",
+          "description": "Haz que tus fotos personales se vean más pulidas."
+        },
+        "presentations": {
+          "title": "Presentaciones",
+          "description": "Eleva tus presentaciones de negocios con visuales profesionales."
+        }
       },
-      {
-        "question": "¿Hay un límite en la cantidad de fotos que puedo restaurar?",
-        "answer": "Sí, hay un límite diario de 3 restauraciones de fotos para asegurar que todos puedan usar el servicio de forma gratuita."
+      "bgRemovalTitle": "¿Qué es la Eliminación de Fondo y Cómo Funciona?",
+      "bgRemovalParagraph1": "La eliminación de fondo implica extraer el sujeto principal de una imagen y eliminar el fondo. Nuestra herramienta utiliza algoritmos avanzados para detectar y separar con precisión al sujeto, dándote un resultado limpio y nítido.",
+      "bgRemovalParagraph2": "Esta herramienta es increíblemente útil para cualquiera que quiera mejorar sus visuales, ya sea para redes sociales, comercio electrónico o uso personal. Al eliminar las distracciones, puedes centrar la atención del espectador en el sujeto de la imagen.",
+      "benefitsTitle": "¿Por Qué Usar Nuestro Eliminador de Fondos?",
+      "benefitsParagraph": "Aquí está el motivo por el cual nuestra herramienta es imprescindible para tus necesidades de edición de imágenes:",
+      "benefits": {
+        "benefit1": "Enfoque Claro: Eliminar el fondo resalta al sujeto, haciendo tus imágenes más impactantes.",
+        "benefit2": "Ahorro de Tiempo: Obtén imágenes limpias rápidamente sin pasar horas editando manualmente.",
+        "benefit3": "Gratis y Fácil: Disfruta de una eliminación de fondo de calidad profesional sin ningún costo ni complicación.",
+        "benefit4": "Versatilidad: Ideal para diversos propósitos como redes sociales, comercio electrónico y proyectos personales."
       },
-      {
-        "question": "¿Cuánto tiempo toma la restauración de una foto?",
-        "answer": "El proceso de restauración generalmente toma solo unos segundos, dependiendo del tamaño y la complejidad de la foto."
-      }
-    ]
-  },
-"ImageCaptionGeneratorContent": {
-  "imageAltBefore": "Antes: Imagen lista para la generación de subtítulos",
-  "imageAltAfter": "Después: Subtítulo generado para la imagen",
-  "beforeLabel": "Antes",
-  "afterLabel": "Después",
-  "heroTitle": "Transforma Tus Imágenes con Subtítulos Generados por IA",
-  "heroParagraph1": "Un subtítulo convincente puede marcar la diferencia en tu publicación en redes sociales o presentación. Crear subtítulos perfectos manualmente requiere tiempo y creatividad. ¿Por qué no dejar que la IA lo haga por ti?",
-  "heroParagraph2": "Con nuestro Generador de Subtítulos para Imágenes con IA, crear subtítulos descriptivos y atractivos es sencillo. Sube tu imagen y deja que la IA la analice para generar un subtítulo cautivador en segundos.",
-  "generateCaptionButton": "Generar Subtítulo Ahora",
-  "featuresTitle": "Características Clave de Nuestro Generador de Subtítulos con IA",
-  "features": {
-    "smartRecognition": {
-      "title": "Reconocimiento de Imágenes Inteligente",
-      "description": "Utiliza IA avanzada para analizar objetos, emociones y escenarios en tu imagen."
+      "misconceptionsTitle": "Conceptos Erróneos Comunes Sobre la Eliminación de Fondos",
+      "misconceptionsParagraph1": "Muchos piensan que la eliminación de fondos es una tarea compleja que requiere software costoso o habilidades técnicas. Nuestra herramienta simplifica el proceso, haciéndolo accesible para todos.",
+      "misconceptionsParagraph2": "Otro concepto erróneo es que la eliminación de fondos solo es útil para imágenes profesionales. En realidad, puede mejorar cualquier foto, haciéndola más atractiva y visualmente atractiva.",
+      "whyChooseTitle": "¿Por Qué Elegir Nuestro Eliminador de Fondos?",
+      "whyChooseParagraph1": "Esto es lo que distingue a nuestra herramienta:",
+      "whyChoose": {
+        "reason1": "Tecnología de Punta: Nuestra herramienta ofrece resultados precisos y de alta calidad.",
+        "reason2": "Diseño Intuitivo: Simple y fácil de usar, sin necesidad de curva de aprendizaje.",
+        "reason3": "Rápido y Gratis: Obtén tus imágenes listas en segundos, sin costo alguno."
+      },
+      "whyChooseParagraph2": "Ya seas un profesional buscando optimizar tu flujo de trabajo o un usuario casual queriendo mejorar tus fotos, nuestra herramienta es la solución perfecta.",
+      "faqTitle": "Preguntas Frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es la Herramienta Instantánea de Eliminación de Fondo?",
+          "answer": "Es una herramienta gratuita en línea que te permite eliminar el fondo de cualquier imagen de manera rápida y sencilla."
+        },
+        {
+          "question": "¿Cómo funciona el eliminador de fondo?",
+          "answer": "La herramienta usa algoritmos avanzados para detectar y separar el sujeto principal del fondo, dándote una imagen limpia."
+        },
+        {
+          "question": "¿Puedo usar la herramienta para cualquier tipo de imagen?",
+          "answer": "Sí, nuestra herramienta es versátil y funciona con varios tipos de imágenes, incluyendo fotos, gráficos e ilustraciones."
+        },
+        {
+          "question": "¿Hay un límite en la cantidad de imágenes que puedo procesar?",
+          "answer": "Sí, puedes usar la herramienta hasta 3 veces al día. Hemos implementado este límite para que todos puedan usar este servicio de manera gratuita y no se agoten los recursos."
+        },
+        {
+          "question": "¿Cuánto tiempo tarda en eliminarse el fondo?",
+          "answer": "El proceso generalmente se completa en unos segundos, dependiendo del tamaño y complejidad de la imagen."
+        },
+        {
+          "question": "¿Necesito habilidades especiales para usar la herramienta?",
+          "answer": "No, la herramienta está diseñada para todos, independientemente de su experiencia técnica. Simplemente sube tu imagen, y la herramienta hace el resto."
+        },
+        {
+          "question": "¿El servicio de eliminación de fondo es realmente gratuito?",
+          "answer": "Sí, nuestro eliminador de fondos es completamente gratuito."
+        },
+        {
+          "question": "¿Puedo descargar las imágenes editadas?",
+          "answer": "¡Absolutamente! Una vez que el fondo se haya eliminado, puedes descargar la imagen limpia de inmediato."
+        },
+        {
+          "question": "¿Puedo usar el Eliminador de Fondo AI para fines profesionales?",
+          "answer": "¡Claro! La herramienta es perfecta para uso personal y profesional, incluyendo imágenes de productos para comercio electrónico, publicaciones en redes sociales y portafolios profesionales."
+        },
+        {
+          "question": "¿La calidad de mi imagen se verá afectada después de eliminar el fondo?",
+          "answer": "No, el Eliminador de Fondo AI asegura que tu imagen mantenga su alta calidad incluso después de eliminar el fondo. El resultado es limpio y nítido."
+        }
+      ]
     },
-    "creativeCaptions": {
-      "title": "Subtítulos Creativos y Atractivos",
-      "description": "Genera subtítulos listos para usar en Instagram, Facebook y más."
+    "ImageTextConverterContent": {
+      "imageAltBefore": "Antes: Imagen lista para extracción de texto",
+      "imageAltAfter": "Después: Texto extraído de la imagen",
+      "beforeLabel": "Antes",
+      "afterLabel": "Después",
+      "heroTitle": "Convierte Imágenes a Texto con Precisión AI",
+      "heroParagraph1": "Extraer texto de imágenes nunca ha sido tan fácil. Ya sea que necesites copiar texto de un documento escaneado o capturar información de una foto, hacerlo manualmente es tedioso y consume mucho tiempo.",
+      "heroParagraph2": "Nuestro Convertidor de Imágenes a Texto con AI simplifica el proceso. Sube tu imagen y deja que la herramienta extraiga rápidamente el texto con una precisión incomparable, ideal para uso profesional y personal.",
+      "generateCaptionButton": "Extraer Texto Ahora",
+      "featuresTitle": "Características Clave de Nuestro Convertidor de Imágenes a Texto con AI",
+      "features": {
+        "smartRecognition": {
+          "title": "Tecnología OCR Avanzada",
+          "description": "Aprovecha la avanzada tecnología de Reconocimiento Óptico de Caracteres (OCR) impulsada por AI para detectar y extraer texto de imágenes con precisión."
+        },
+        "multiFormatSupport": {
+          "title": "Soporte para Múltiples Formatos de Imagen",
+          "description": "Compatible con formatos JPEG, PNG y WEBP para una extracción de texto sin problemas."
+        },
+        "freeToUse": {
+          "title": "Totalmente Gratis",
+          "description": "Sin cargos, sin suscripciones: extrae texto de imágenes sin costo."
+        },
+        "fastResults": {
+          "title": "Resultados Instantáneos",
+          "description": "Extrae texto en segundos, ahorrando tiempo y esfuerzo."
+        }
+      },
+      "stepsTitle": "Cómo Extraer Texto en Tres Simples Pasos",
+      "steps": {
+        "upload": {
+          "title": "Sube tu Imagen",
+          "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
+        },
+        "generate": {
+          "title": "Extraer Texto",
+          "description": "Haz clic en 'Extraer Texto' y deja que la AI haga su magia."
+        },
+        "copy": {
+          "title": "Copiar y Usar",
+          "description": "Copia el texto extraído y úsalo donde quieras."
+        }
+      },
+      "useCasesTitle": "Casos de Uso Versátiles para la Extracción de Texto de Imágenes",
+      "useCases": {
+        "documentScanning": {
+          "title": "Extrae Texto de Imágenes Escaneadas",
+          "description": "Convierte fácilmente imágenes escaneadas con texto en contenido editable."
+        },
+        "photoNotes": {
+          "title": "Copia Texto de Fotos",
+          "description": "Captura rápidamente texto de fotos de notas, señales y presentaciones sin necesidad de escribir manualmente."
+        },
+        "handwrittenText": {
+          "title": "Convierte Texto Manuscrito de Imágenes",
+          "description": "Extrae texto de notas manuscritas en imágenes y hazlas editables o buscables."
+        },
+        "businessDataEntry": {
+          "title": "Optimiza la Entrada de Datos desde Imágenes",
+          "description": "Convierte formularios impresos o escaneados en imágenes a texto para una entrada de datos más rápida y eficiente."
+        }
+      },
+      "captionGenerationTitle": "¿Qué es la Extracción de Texto y Cómo Funciona?",
+      "captionGenerationParagraph1": "La extracción de texto se refiere al proceso de obtener texto de una imagen o documento escaneado utilizando la tecnología de Reconocimiento Óptico de Caracteres (OCR). Nuestro Convertidor de Imágenes a Texto con AI identifica y convierte caracteres en texto codificado por máquina para facilitar la copia y edición.",
+      "captionGenerationParagraph2": "Esta tecnología es invaluable para estudiantes, profesionales y empresas que buscan digitalizar contenido, automatizar la entrada de datos o mejorar la accesibilidad. El OCR basado en AI garantiza alta precisión y ahorra tiempo valioso.",
+      "benefitsTitle": "¿Por Qué Usar Nuestro Convertidor de Imágenes a Texto con AI?",
+      "benefitsParagraph": "Descubre los beneficios de usar nuestra herramienta:",
+      "benefits": {
+        "benefit1": "Ahorro de Tiempo: Extrae texto en segundos sin necesidad de reescribir.",
+        "benefit2": "Resultados Precisos: La avanzada AI garantiza un reconocimiento de texto preciso.",
+        "benefit3": "Gratis para Usar: Disfruta de extracción de texto ilimitada sin costo.",
+        "benefit4": "Múltiples Aplicaciones: Ideal para notas, documentos, formularios y más."
+      },
+      "misconceptionsTitle": "Mitos Comunes Sobre la Extracción de Texto con AI",
+      "misconceptionsParagraph1": "Algunos creen que las herramientas de OCR basadas en AI son solo para texto impreso. Sin embargo, nuestra herramienta maneja tanto texto impreso como manuscrito con alta precisión.",
+      "misconceptionsParagraph2": "Otro mito es que las herramientas de extracción de texto requieren suscripciones costosas. Nuestra solución es completamente gratuita, haciéndola accesible para todos.",
+      "whyChooseTitle": "¿Por Qué Elegir Nuestro Convertidor de Imágenes a Texto con AI?",
+      "whyChooseParagraph1": "Aquí está lo que diferencia nuestra herramienta de extracción de texto:",
+      "whyChoose": {
+        "reason1": "OCR de Vanguardia: Extrae texto con precisión incomparable.",
+        "reason2": "Interfaz Fácil de Usar: Simple e intuitiva para cualquiera.",
+        "reason3": "Rápida y Gratuita: Resultados inmediatos sin costo."
+      },
+      "whyChooseParagraph2": "Ya seas un estudiante, profesional o usuario casual, nuestro Convertidor de Imágenes a Texto con AI ofrece un rendimiento fiable y sin complicaciones para todas tus necesidades de extracción de texto.",
+      "faqTitle": "Preguntas Frecuentes",
+      "faq": [
+        {
+          "question": "¿Qué es el Convertidor de Imágenes a Texto con AI?",
+          "answer": "Es una herramienta gratuita que extrae texto de imágenes utilizando avanzada tecnología OCR."
+        },
+        {
+          "question": "¿La herramienta es gratuita?",
+          "answer": "Sí, nuestro Convertidor de Imágenes a Texto con AI es completamente gratuito, sin cargos ocultos."
+        },
+        {
+          "question": "¿Qué formatos de imagen soporta la herramienta?",
+          "answer": "La herramienta soporta formatos JPEG, PNG y WEBP para subir imágenes."
+        },
+        {
+          "question": "¿Puede extraer texto manuscrito?",
+          "answer": "Sí, nuestra herramienta puede reconocer y extraer texto de notas manuscritas también."
+        },
+        {
+          "question": "¿Necesito instalar algún software?",
+          "answer": "No se requiere instalación. La herramienta funciona completamente en línea desde tu navegador."
+        },
+        {
+          "question": "¿Hay un límite en la cantidad de imágenes que puedo procesar?",
+          "answer": "Actualmente, puedes procesar hasta 3 imágenes por día de forma gratuita."
+        },
+        {
+          "question": "¿Qué tan precisa es la extracción de texto?",
+          "answer": "Nuestra herramienta utiliza avanzados algoritmos de AI para garantizar un reconocimiento de texto altamente preciso."
+        },
+        {
+          "question": "¿Puedo extraer texto en un documento Word?",
+          "answer": "Sí, puedes copiar el texto extraído y pegarlo en Word u otros editores de texto."
+        },
+        {
+          "question": "¿La herramienta es adecuada para uso profesional?",
+          "answer": "Absolutamente. La herramienta está diseñada para aplicaciones tanto casuales como profesionales."
+        },
+        {
+          "question": "¿Qué es OCR?",
+          "answer": "OCR significa Reconocimiento Óptico de Caracteres, una tecnología que convierte imágenes de texto en contenido legible por máquinas."
+        }
+      ]
     },
-    "freeToUse": {
-      "title": "Completamente Gratis",
-      "description": "Sin costos, sin suscripciones: genera subtítulos sin límites."
-    },
-    "fastResults": {
-      "title": "Rápido y Preciso",
-      "description": "Los subtítulos se generan al instante, ahorrándote tiempo y esfuerzo."
-    }
-  },
-  "stepsTitle": "Cómo Generar Subtítulos en Tres Simples Pasos",
-  "steps": {
-    "upload": {
-      "title": "Sube Tu Imagen",
-      "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
-    },
-    "generate": {
-      "title": "Genera el Subtítulo",
-      "description": "Haz clic en 'Generar Subtítulo' y deja que la IA haga su magia."
-    },
-    "copy": {
-      "title": "Copia y Usa",
-      "description": "Copia el subtítulo generado y úsalo donde quieras."
-    }
-  },
-  "useCasesTitle": "Perfecto para Varias Necesidades",
-  "useCases": {
-    "socialMedia": {
-      "title": "Publicaciones en Redes Sociales",
-      "description": "Genera subtítulos ingeniosos o descriptivos para Instagram, Facebook y más."
-    },
-    "contentCreation": {
-      "title": "Creación de Contenido",
-      "description": "Ahorra tiempo en la redacción de subtítulos para blogs, artículos o contenido gráfico."
-    },
-    "presentations": {
-      "title": "Presentaciones Profesionales",
-      "description": "Añade contexto a tus visuales con subtítulos rápidos y precisos."
-    },
-    "marketing": {
-      "title": "Materiales de Marketing",
-      "description": "Crea subtítulos llamativos para anuncios y gráficos promocionales."
-    }
-  },
-  "captionGenerationTitle": "¿Qué es la Generación de Subtítulos y Cómo Funciona?",
-  "captionGenerationParagraph1": "La generación de subtítulos de imágenes es el proceso de crear descripciones de texto basadas en el contenido de una imagen. Nuestra herramienta utiliza IA avanzada para identificar objetos, actividades y contexto dentro de tu imagen para crear subtítulos relevantes.",
-  "captionGenerationParagraph2": "Esta tecnología es invaluable para quienes buscan mejorar el contenido visual, ya sea para redes sociales, marketing o proyectos personales. Dejar que la IA se encargue de los subtítulos te da más tiempo para concentrarte en la creatividad y el compromiso.",
-  "benefitsTitle": "¿Por Qué Usar Nuestro Generador de Subtítulos para Imágenes con IA?",
-  "benefitsParagraph": "Descubre los beneficios de usar nuestra herramienta:",
-  "benefits": {
-    "benefit1": "Ahorra Tiempo: No más rompecabezas ni luchas con ideas para subtítulos.",
-    "benefit2": "Aumento del Compromiso: Los subtítulos llamativos ayudan a aumentar los 'me gusta', las comparticiones y las interacciones.",
-    "benefit3": "Gratis e Ilimitado: Genera tantos subtítulos como necesites sin ningún costo.",
-    "benefit4": "Versátil: Ideal para uso profesional y personal en diversas plataformas."
-  },
-  "misconceptionsTitle": "Concepciones Erróneas Comunes sobre los Generadores de Subtítulos con IA",
-  "misconceptionsParagraph1": "Muchos creen que los subtítulos generados por IA son genéricos o irrelevantes. Sin embargo, nuestra herramienta utiliza algoritmos inteligentes que aseguran subtítulos creativos y contextualmente apropiados.",
-  "misconceptionsParagraph2": "Algunos piensan que los generadores de subtítulos son solo para usuarios casuales. En realidad, profesionales en marketing, diseño y creación de contenido también se benefician del subtitulado impulsado por IA.",
-  "whyChooseTitle": "¿Por Qué Elegir Nuestro Generador de Subtítulos para Imágenes con IA?",
-  "whyChooseParagraph1": "Esto es lo que hace que nuestro generador de subtítulos sea tu herramienta de referencia:",
-  "whyChoose": {
-    "reason1": "Tecnología de IA Avanzada: Genera subtítulos precisos y conscientes del contexto.",
-    "reason2": "Facilidad de Uso: Sin curva de aprendizaje: solo sube y genera.",
-    "reason3": "Gratis y Rápido: Sin costos, resultados instantáneos."
-  },
-  "whyChooseParagraph2": "Ya seas un influencer de redes sociales, un comercializador o un usuario casual, nuestra herramienta proporciona subtítulos de calidad profesional sin esfuerzo.",
-  "faqTitle": "Preguntas Frecuentes",
-  "faq": [
-    {
-      "question": "¿Qué es el Generador de Subtítulos para Imágenes con IA?",
-      "answer": "Es una herramienta gratuita que genera subtítulos para imágenes utilizando tecnología de IA."
-    },
-    {
-      "question": "¿Cómo funciona el generador de subtítulos?",
-      "answer": "La herramienta utiliza algoritmos avanzados para analizar imágenes y crear subtítulos relevantes."
-    },
-    {
-      "question": "¿Puedo usar la herramienta para subtítulos de Instagram?",
-      "answer": "Sí, la herramienta es perfecta para generar subtítulos listos para Instagram."
-    },
-    {
-      "question": "¿La herramienta es realmente gratuita?",
-      "answer": "Sí, nuestro Generador de Subtítulos con IA es completamente gratuito."
-    },
-    {
-      "question": "¿Hay un límite en la cantidad de subtítulos que puedo generar?",
-      "answer": "Actualmente, puedes generar hasta 3 subtítulos por día de forma gratuita."
-    },
-    {
-      "question": "¿Necesito descargar un software para usar la herramienta?",
-      "answer": "No, la herramienta funciona directamente en tu navegador, sin necesidad de descargas."
-    },
-    {
-      "question": "¿Puede la herramienta generar subtítulos para contenido profesional?",
-      "answer": "¡Absolutamente! Está diseñada tanto para uso profesional como personal."
-    },
-    {
-      "question": "¿Serán los subtítulos únicos?",
-      "answer": "Sí, cada subtítulo se genera en función del contenido específico de tu imagen subida."
-    },
-    {
-      "question": "¿Qué formatos de imagen son compatibles?",
-      "answer": "Nuestra herramienta admite formatos JPEG, PNG y WEBP para subir imágenes."
-    },
-    {
-      "question": "¿Puedo generar subtítulos para varias imágenes a la vez?",
-      "answer": "Actualmente, la herramienta procesa una imagen a la vez para asegurar la precisión en la generación de subtítulos."
-    }
-  ]
-},
-"BackgroundRemoverContent": {
-    "imageAltBefore": "Antes: Imagen original con fondo",
-    "imageAltAfter": "Después: Imagen con fondo eliminado",
-    "beforeLabel": "Antes",
-    "afterLabel": "Después",
-    "heroTitle": "Transforma Tus Fotos con un Clic",
-    "heroParagraph1": "Las visuales adecuadas pueden mejorar tu contenido, pero las distracciones en el fondo pueden arruinar el impacto. Ya sea que estés creando contenido para redes sociales, comercio electrónico o proyectos personales, un fondo limpio marca la diferencia.",
-    "heroParagraph2": "Con nuestra herramienta instantánea de eliminación de fondo, puedes eliminar los fondos de cualquier imagen fácilmente, dejándote con un aspecto limpio y profesional en segundos.",
-    "removeBGButton": "Eliminar Fondo Ahora",
-    "featuresTitle": "Características Clave de Nuestro Eliminador de Fondos",
-    "features": {
-      "precisionCut": {
-        "title": "Corte de Precisión",
-        "description": "Elimina con precisión los fondos mientras mantiene intacto tu sujeto."
-      },
-      "hdQuality": {
-        "title": "Calidad HD",
-        "description": "Asegura una salida en alta definición, perfecta para cualquier uso."
-      },
-      "fastProcessing": {
-        "title": "Procesamiento Rápido",
-        "description": "Obtén tu imagen sin fondo en segundos."
-      },
-      "freeToUse": {
-        "title": "Gratis para Usar",
-        "description": "Disfruta de una eliminación de fondo de alta calidad sin costo alguno."
-      }
-    },
-    "stepsTitle": "Tres Pasos Fáciles para Eliminar Fondos",
-    "steps": {
-      "upload": {
-        "title": "Sube Tu Imagen",
-        "description": "Arrastra y suelta tu foto en nuestro cargador o selecciona la imagen desde tu dispositivo."
-      },
-      "process": {
-        "title": "Eliminar Fondo",
-        "description": "Nuestra herramienta detecta y elimina automáticamente el fondo."
-      },
-      "download": {
-        "title": "Descarga Tu Imagen",
-        "description": "Guarda tu imagen sin fondo y úsala según sea necesario."
-      }
-    },
-    "useCasesTitle": "Perfecto para Diversas Necesidades",
-    "useCases": {
-      "socialMedia": {
-        "title": "Redes Sociales",
-        "description": "Crea publicaciones limpias y profesionales que destaquen."
-      },
-      "ecommerce": {
-        "title": "Comercio Electrónico",
-        "description": "Mejora las imágenes de productos para aumentar las ventas."
-      },
-      "personalProjects": {
-        "title": "Proyectos Personales",
-        "description": "Haz que tus fotos personales se vean más pulidas."
-      },
-      "presentations": {
-        "title": "Presentaciones",
-        "description": "Eleva tus presentaciones de negocios con visuales profesionales."
-      }
-    },
-    "bgRemovalTitle": "¿Qué es la Eliminación de Fondo y Cómo Funciona?",
-    "bgRemovalParagraph1": "La eliminación de fondo implica extraer el sujeto principal de una imagen y eliminar el fondo. Nuestra herramienta utiliza algoritmos avanzados para detectar y separar con precisión al sujeto, dándote un resultado limpio y nítido.",
-    "bgRemovalParagraph2": "Esta herramienta es increíblemente útil para cualquiera que quiera mejorar sus visuales, ya sea para redes sociales, comercio electrónico o uso personal. Al eliminar las distracciones, puedes centrar la atención del espectador en el sujeto de la imagen.",
-    "benefitsTitle": "¿Por Qué Usar Nuestro Eliminador de Fondos?",
-    "benefitsParagraph": "Aquí está el motivo por el cual nuestra herramienta es imprescindible para tus necesidades de edición de imágenes:",
-    "benefits": {
-      "benefit1": "Enfoque Claro: Eliminar el fondo resalta al sujeto, haciendo tus imágenes más impactantes.",
-      "benefit2": "Ahorro de Tiempo: Obtén imágenes limpias rápidamente sin pasar horas editando manualmente.",
-      "benefit3": "Gratis y Fácil: Disfruta de una eliminación de fondo de calidad profesional sin ningún costo ni complicación.",
-      "benefit4": "Versatilidad: Ideal para diversos propósitos como redes sociales, comercio electrónico y proyectos personales."
-    },
-    "misconceptionsTitle": "Conceptos Erróneos Comunes Sobre la Eliminación de Fondos",
-    "misconceptionsParagraph1": "Muchos piensan que la eliminación de fondos es una tarea compleja que requiere software costoso o habilidades técnicas. Nuestra herramienta simplifica el proceso, haciéndolo accesible para todos.",
-    "misconceptionsParagraph2": "Otro concepto erróneo es que la eliminación de fondos solo es útil para imágenes profesionales. En realidad, puede mejorar cualquier foto, haciéndola más atractiva y visualmente atractiva.",
-    "whyChooseTitle": "¿Por Qué Elegir Nuestro Eliminador de Fondos?",
-    "whyChooseParagraph1": "Esto es lo que distingue a nuestra herramienta:",
-    "whyChoose": {
-      "reason1": "Tecnología de Punta: Nuestra herramienta ofrece resultados precisos y de alta calidad.",
-      "reason2": "Diseño Intuitivo: Simple y fácil de usar, sin necesidad de curva de aprendizaje.",
-      "reason3": "Rápido y Gratis: Obtén tus imágenes listas en segundos, sin costo alguno."
-    },
-    "whyChooseParagraph2": "Ya seas un profesional buscando optimizar tu flujo de trabajo o un usuario casual queriendo mejorar tus fotos, nuestra herramienta es la solución perfecta.",
-    "faqTitle": "Preguntas Frecuentes",
-    "faq": [
-      {
-        "question": "¿Qué es la Herramienta Instantánea de Eliminación de Fondo?",
-        "answer": "Es una herramienta gratuita en línea que te permite eliminar el fondo de cualquier imagen de manera rápida y sencilla."
-      },
-      {
-        "question": "¿Cómo funciona el eliminador de fondo?",
-        "answer": "La herramienta usa algoritmos avanzados para detectar y separar el sujeto principal del fondo, dándote una imagen limpia."
-      },
-      {
-        "question": "¿Puedo usar la herramienta para cualquier tipo de imagen?",
-        "answer": "Sí, nuestra herramienta es versátil y funciona con varios tipos de imágenes, incluyendo fotos, gráficos e ilustraciones."
-      },
-      {
-        "question": "¿Hay un límite en la cantidad de imágenes que puedo procesar?",
-        "answer": "Sí, puedes usar la herramienta hasta 3 veces al día. Hemos implementado este límite para que todos puedan usar este servicio de manera gratuita y no se agoten los recursos."
-      },
-      {
-        "question": "¿Cuánto tiempo tarda en eliminarse el fondo?",
-        "answer": "El proceso generalmente se completa en unos segundos, dependiendo del tamaño y complejidad de la imagen."
-      },
-      {
-        "question": "¿Necesito habilidades especiales para usar la herramienta?",
-        "answer": "No, la herramienta está diseñada para todos, independientemente de su experiencia técnica. Simplemente sube tu imagen, y la herramienta hace el resto."
-      },
-      {
-        "question": "¿El servicio de eliminación de fondo es realmente gratuito?",
-        "answer": "Sí, nuestro eliminador de fondos es completamente gratuito."
-      },
-      {
-        "question": "¿Puedo descargar las imágenes editadas?",
-        "answer": "¡Absolutamente! Una vez que el fondo se haya eliminado, puedes descargar la imagen limpia de inmediato."
-      },
-      {
-        "question": "¿Puedo usar el Eliminador de Fondo AI para fines profesionales?",
-        "answer": "¡Claro! La herramienta es perfecta para uso personal y profesional, incluyendo imágenes de productos para comercio electrónico, publicaciones en redes sociales y portafolios profesionales."
-      },
-      {
-        "question": "¿La calidad de mi imagen se verá afectada después de eliminar el fondo?",
-        "answer": "No, el Eliminador de Fondo AI asegura que tu imagen mantenga su alta calidad incluso después de eliminar el fondo. El resultado es limpio y nítido."
-      }
-    ]
-  },
-"ImageTextConverterContent": {
-    "imageAltBefore": "Antes: Imagen lista para extracción de texto",
-    "imageAltAfter": "Después: Texto extraído de la imagen",
-    "beforeLabel": "Antes",
-    "afterLabel": "Después",
-    "heroTitle": "Convierte Imágenes a Texto con Precisión AI",
-    "heroParagraph1": "Extraer texto de imágenes nunca ha sido tan fácil. Ya sea que necesites copiar texto de un documento escaneado o capturar información de una foto, hacerlo manualmente es tedioso y consume mucho tiempo.",
-    "heroParagraph2": "Nuestro Convertidor de Imágenes a Texto con AI simplifica el proceso. Sube tu imagen y deja que la herramienta extraiga rápidamente el texto con una precisión incomparable, ideal para uso profesional y personal.",
-    "generateCaptionButton": "Extraer Texto Ahora",
-    "featuresTitle": "Características Clave de Nuestro Convertidor de Imágenes a Texto con AI",
-    "features": {
-      "smartRecognition": {
-        "title": "Tecnología OCR Avanzada",
-        "description": "Aprovecha la avanzada tecnología de Reconocimiento Óptico de Caracteres (OCR) impulsada por AI para detectar y extraer texto de imágenes con precisión."
-      },
-      "multiFormatSupport": {
-        "title": "Soporte para Múltiples Formatos de Imagen",
-        "description": "Compatible con formatos JPEG, PNG y WEBP para una extracción de texto sin problemas."
-      },
-      "freeToUse": {
-        "title": "Totalmente Gratis",
-        "description": "Sin cargos, sin suscripciones: extrae texto de imágenes sin costo."
-      },
-      "fastResults": {
-        "title": "Resultados Instantáneos",
-        "description": "Extrae texto en segundos, ahorrando tiempo y esfuerzo."
-      }
-    },
-    "stepsTitle": "Cómo Extraer Texto en Tres Simples Pasos",
-    "steps": {
-      "upload": {
-        "title": "Sube tu Imagen",
-        "description": "Arrastra y suelta tu imagen o selecciónala desde tu dispositivo."
-      },
-      "generate": {
-        "title": "Extraer Texto",
-        "description": "Haz clic en 'Extraer Texto' y deja que la AI haga su magia."
-      },
-      "copy": {
-        "title": "Copiar y Usar",
-        "description": "Copia el texto extraído y úsalo donde quieras."
-      }
-    },
-    "useCasesTitle": "Casos de Uso Versátiles para la Extracción de Texto de Imágenes",
-    "useCases": {
-      "documentScanning": {
-        "title": "Extrae Texto de Imágenes Escaneadas",
-        "description": "Convierte fácilmente imágenes escaneadas con texto en contenido editable."
-      },
-      "photoNotes": {
-        "title": "Copia Texto de Fotos",
-        "description": "Captura rápidamente texto de fotos de notas, señales y presentaciones sin necesidad de escribir manualmente."
-      },
-      "handwrittenText": {
-        "title": "Convierte Texto Manuscrito de Imágenes",
-        "description": "Extrae texto de notas manuscritas en imágenes y hazlas editables o buscables."
-      },
-      "businessDataEntry": {
-        "title": "Optimiza la Entrada de Datos desde Imágenes",
-        "description": "Convierte formularios impresos o escaneados en imágenes a texto para una entrada de datos más rápida y eficiente."
-      }
-    },
-    "captionGenerationTitle": "¿Qué es la Extracción de Texto y Cómo Funciona?",
-    "captionGenerationParagraph1": "La extracción de texto se refiere al proceso de obtener texto de una imagen o documento escaneado utilizando la tecnología de Reconocimiento Óptico de Caracteres (OCR). Nuestro Convertidor de Imágenes a Texto con AI identifica y convierte caracteres en texto codificado por máquina para facilitar la copia y edición.",
-    "captionGenerationParagraph2": "Esta tecnología es invaluable para estudiantes, profesionales y empresas que buscan digitalizar contenido, automatizar la entrada de datos o mejorar la accesibilidad. El OCR basado en AI garantiza alta precisión y ahorra tiempo valioso.",
-    "benefitsTitle": "¿Por Qué Usar Nuestro Convertidor de Imágenes a Texto con AI?",
-    "benefitsParagraph": "Descubre los beneficios de usar nuestra herramienta:",
-    "benefits": {
-      "benefit1": "Ahorro de Tiempo: Extrae texto en segundos sin necesidad de reescribir.",
-      "benefit2": "Resultados Precisos: La avanzada AI garantiza un reconocimiento de texto preciso.",
-      "benefit3": "Gratis para Usar: Disfruta de extracción de texto ilimitada sin costo.",
-      "benefit4": "Múltiples Aplicaciones: Ideal para notas, documentos, formularios y más."
-    },
-    "misconceptionsTitle": "Mitos Comunes Sobre la Extracción de Texto con AI",
-    "misconceptionsParagraph1": "Algunos creen que las herramientas de OCR basadas en AI son solo para texto impreso. Sin embargo, nuestra herramienta maneja tanto texto impreso como manuscrito con alta precisión.",
-    "misconceptionsParagraph2": "Otro mito es que las herramientas de extracción de texto requieren suscripciones costosas. Nuestra solución es completamente gratuita, haciéndola accesible para todos.",
-    "whyChooseTitle": "¿Por Qué Elegir Nuestro Convertidor de Imágenes a Texto con AI?",
-    "whyChooseParagraph1": "Aquí está lo que diferencia nuestra herramienta de extracción de texto:",
-    "whyChoose": {
-      "reason1": "OCR de Vanguardia: Extrae texto con precisión incomparable.",
-      "reason2": "Interfaz Fácil de Usar: Simple e intuitiva para cualquiera.",
-      "reason3": "Rápida y Gratuita: Resultados inmediatos sin costo."
-    },
-    "whyChooseParagraph2": "Ya seas un estudiante, profesional o usuario casual, nuestro Convertidor de Imágenes a Texto con AI ofrece un rendimiento fiable y sin complicaciones para todas tus necesidades de extracción de texto.",
-    "faqTitle": "Preguntas Frecuentes",
-    "faq": [
-      {
-        "question": "¿Qué es el Convertidor de Imágenes a Texto con AI?",
-        "answer": "Es una herramienta gratuita que extrae texto de imágenes utilizando avanzada tecnología OCR."
-      },
-      {
-        "question": "¿La herramienta es gratuita?",
-        "answer": "Sí, nuestro Convertidor de Imágenes a Texto con AI es completamente gratuito, sin cargos ocultos."
-      },
-      {
-        "question": "¿Qué formatos de imagen soporta la herramienta?",
-        "answer": "La herramienta soporta formatos JPEG, PNG y WEBP para subir imágenes."
-      },
-      {
-        "question": "¿Puede extraer texto manuscrito?",
-        "answer": "Sí, nuestra herramienta puede reconocer y extraer texto de notas manuscritas también."
-      },
-      {
-        "question": "¿Necesito instalar algún software?",
-        "answer": "No se requiere instalación. La herramienta funciona completamente en línea desde tu navegador."
-      },
-      {
-        "question": "¿Hay un límite en la cantidad de imágenes que puedo procesar?",
-        "answer": "Actualmente, puedes procesar hasta 3 imágenes por día de forma gratuita."
-      },
-      {
-        "question": "¿Qué tan precisa es la extracción de texto?",
-        "answer": "Nuestra herramienta utiliza avanzados algoritmos de AI para garantizar un reconocimiento de texto altamente preciso."
-      },
-      {
-        "question": "¿Puedo extraer texto en un documento Word?",
-        "answer": "Sí, puedes copiar el texto extraído y pegarlo en Word u otros editores de texto."
-      },
-      {
-        "question": "¿La herramienta es adecuada para uso profesional?",
-        "answer": "Absolutamente. La herramienta está diseñada para aplicaciones tanto casuales como profesionales."
-      },
-      {
-        "question": "¿Qué es OCR?",
-        "answer": "OCR significa Reconocimiento Óptico de Caracteres, una tecnología que convierte imágenes de texto en contenido legible por máquinas."
-      }
-    ]
-},
-"TestimonialsSection": {
+    "TestimonialsSection": {
       "title": "¿Qué dicen los usuarios sobre Lexistock AI?",
       "averageRating": "Calificación promedio de 4.5 de más de 1200 usuarios en todo el mundo.",
       "testimonials": [

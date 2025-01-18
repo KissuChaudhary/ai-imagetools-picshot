@@ -11,18 +11,15 @@ export default function AITools() {
   const t = useTranslations('Index.aiTool')
   
   const tools = [
-    { key: 'backgroundRemover', link: '/tools/ai-background-remover' },
-    { key: 'photoColorizer', link: '/tools/ai-photo-colorizer' },
-    { key: 'photoEnhancer', link: '/tools/ai-image-enhancer' }
+    { key: 'backgroundRemover', link: '/tools/background-remover' },
+    { key: 'photoColorizer', link: '/tools/photo-colorizer' },
+    { key: 'photoEnhancer', link: '/tools/photo-enhancer' }
   ]
 
   // Helper function to safely get features array
-  const getFeatures = (toolKey: string) => {
-    const features = t.raw(`${toolKey}.features`)
-    if (Array.isArray(features)) {
-      return features as string[]
-    }
-    return []
+  const getFeatures = (toolKey: string): string[] => {
+    const features = t.raw(`${toolKey}.features`) as Array<{text: string}>
+    return features.map(feature => feature.text)
   }
 
   return (
@@ -98,7 +95,7 @@ export default function AITools() {
                   {/* Tool Preview */}
                   <div className="relative rounded-xl overflow-hidden" style={{ paddingTop: '75%' }}>
                     <Image
-                      src={`${tool === 'backgroundRemover' ? 'hero-image.png' : tool === 'photoColorizer' ? 'hero-image.png' : 'hero-image.png'}`}
+                      src={`/tool-previews/${tool === 'backgroundRemover' ? 'ai-bg.jpeg' : tool === 'photoColorizer' ? 'ai-colorize.jpeg' : 'ai-enhancer.jpeg'}`}
                       alt={t(`${tool}.title`)}
                       fill
                       className="object-cover"
