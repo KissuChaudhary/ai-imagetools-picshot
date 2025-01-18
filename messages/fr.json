@@ -41,12 +41,12 @@
     },
     "Layout": {
       "metadata": {
-        "title": "LexiStock - Outils d'Image Alimentés par l'IA",
-        "description": "LexiStock propose des outils d'IA de pointe pour le traitement, la génération et l'amélioration d'images. Transformez vos visuels avec notre plateforme facile à utiliser."
+        "title": "Lexistock AI – Outils d'IA pour une Édition d'Images Plus Intelligente",
+        "description": "Lexistock AI propose des outils simples et puissants pour tous vos besoins en images. Que ce soit pour supprimer des arrière-plans ou restaurer des photos, créez des visuels époustouflants facilement grâce à la technologie IA conçue pour vous faire gagner du temps et des efforts."
       },
       "schema": {
-        "name": "LexiStock",
-        "description": "LexiStock propose des outils alimentés par l'IA pour le traitement, la génération et l'amélioration d'images. Créez, éditez et transformez des images facilement en utilisant notre technologie d'IA de pointe."
+        "name": "Lexistock AI – Outils d'IA pour une Édition d'Images Plus Intelligente",
+        "description": "Lexistock AI propose des outils simples et puissants pour tous vos besoins en images. Que ce soit pour supprimer des arrière-plans ou restaurer des photos, créez des visuels époustouflants facilement grâce à la technologie IA conçue pour vous faire gagner du temps et des efforts."
       }
     },
     "aiTool": {
