@@ -299,8 +299,24 @@ export default function AIBackgroundRemover() {
         </CardContent>
       </Card>
 
-      <div className="w-full lg:flex-1 lexi-gradient bg-background flex flex-col justify-center items-center p-6">
-        <div className="w-full max-w-xl aspect-square relative rounded-lg overflow-hidden shadow">
+      <div className="w-full lg:flex-1 bg-background flex flex-col justify-center items-center p-6 relative overflow-hidden">
+      {/* Particle background */}
+      
+      <div className="absolute inset-0 opacity-10 pointer-events-none">
+        <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="particle-pattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="1" fill="#FF8C00" />
+              <circle cx="12" cy="12" r="1.5" fill="#22d3ee" />
+              <circle cx="22" cy="22" r="1" fill="#FF8C00" />
+              <circle cx="32" cy="32" r="1.5" fill="#22d3ee" />
+              <circle cx="42" cy="42" r="1" fill="#FF8C00" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#particle-pattern)" />
+        </svg>
+      </div>
+        <div className="w-full max-w-xl aspect-square relative rounded-lg overflow-hidden shadow bg-white">
           {isProcessing && (
             <div className="absolute inset-0 flex items-center justify-center bg-background/50 z-10">
               <AIImageLoader progress={processingProgress} />

@@ -3,7 +3,7 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
-import { ChevronDown } from 'lucide-react'
+
 import {
   Accordion,
   AccordionContent,
