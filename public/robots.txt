@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Allow all languages
+Allow: /en/
+Allow: /es/
+Allow: /fr/
+
+# Allow all tool pages
+Allow: /*/tools/
+
+# Disallow any potential admin or private areas
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap locations
+Sitemap: https://lexistock.com/sitemap.xml
+Sitemap: https://lexistock.com/sitemap-en.xml
+Sitemap: https://lexistock.com/sitemap-es.xml
+Sitemap: https://lexistock.com/sitemap-fr.xml
+
