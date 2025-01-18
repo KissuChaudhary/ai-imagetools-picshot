@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import AIBackgroundRemover from '@/components/AIBackgroundRemover'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import BackgroundRemoverContent from '@/components/BackGroundRemoverContent'
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +27,7 @@ export default async function BackgroundRemoverPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIBackgroundRemover />
+            <BackgroundRemoverContent />
     </div>
   )
 }

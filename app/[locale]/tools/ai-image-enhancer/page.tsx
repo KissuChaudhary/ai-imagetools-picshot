@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import AIImageEnhancer from '@/components/AIImageEnhancer'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import ImageEnhancerContent from '@/components/ImageEnhancerContent'
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +27,7 @@ export default async function ImageEnhancerPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIImageEnhancer />
+      <ImageEnhancerContent />
     </div>
   )
 }

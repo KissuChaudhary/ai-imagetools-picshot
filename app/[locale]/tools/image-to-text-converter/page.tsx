@@ -1,6 +1,9 @@
 import { Metadata } from 'next'
 import AIImageToTextConverter from '@/components/AIImageToTextConverter'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import ImageToTextContent from '@/components/ImageToTextContent'
+
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +28,7 @@ export default async function ImageToTextPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIImageToTextConverter />
+      <ImageToTextContent />
     </div>
   )
 }

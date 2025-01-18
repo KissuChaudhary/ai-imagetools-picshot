@@ -20,7 +20,7 @@
     "termsOfService": "Terms of Service",
     "followUs": "Follow Us"
   },
-  
+
   "Index": {
     "hero": {
       "title": "Let AI Take Your Photos to the Next Level",
@@ -74,7 +74,7 @@
     },
     "aiTools": {
       "title": "AI-Powered ",
-      "titleHighlight1": "Tools" ,
+      "titleHighlight1": "Tools",
       "description": "Transform your creative workflow with our suite of AI-powered tools. Each tool is designed to help you achieve professional results in seconds.",
       "exploreMore": "Explore More",
       "tools": {
@@ -109,12 +109,7 @@
         "image-to-text": {
           "title": "AI Image to Text Converter",
           "description": "Best free OCR tool to extract text from your images."
-        },
-        "headshot-generator": {
-          "title": "Headshot Generator",
-          "description": "Generate professional headshots with AI technology."
         }
-        
       }
     },
     "features": {
@@ -271,33 +266,33 @@
       "step4Description": "Once generated, you can download your image and use it for your projects."
     },
     "AIBackgroundRemover": {
-    "title": "AI Background Remover",
-    "description": "Remove backgrounds from your images with AI precision",
-    "removeBackgroundButton": "Remove Background",
-    "processingButton": "Processing...",
-    "resetButton": "Reset",
-    "downloadButton": "Download",
-    "uploadPrompt": "Upload an image to remove its background",
-    "dragDropPrompt": "Drag and drop your image here, or click to select",
-    "selectFileButton": "Select File",
-    "supportedFormats": "Supported formats: {formats}",
-    "maxFileSize": "Max file size: {size}MB",
-    "noFileError": "Please select an image file",
-    "processingError": "Error processing the image",
-    "limitReachedTitle": "Daily Limit Reached",
-    "limitReachedDescription": "You've reached the daily limit for background removal. Try again tomorrow!",
-    "errorTitle": "Error",
-    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
-    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
-    "creditsUsed": "Credits Used Today"
-  },
-  "AIBackgroundRemoverPage": {
-    "metadata": {
-      "title": "AI Background Remover | Remove Image Backgrounds Instantly",
-      "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more."
-    }
-  },
-  "AIImageUpscaler": {
+      "title": "AI Background Remover",
+      "description": "Remove backgrounds from your images with AI precision",
+      "removeBackgroundButton": "Remove Background",
+      "processingButton": "Processing...",
+      "resetButton": "Reset",
+      "downloadButton": "Download",
+      "uploadPrompt": "Upload an image to remove its background",
+      "dragDropPrompt": "Drag and drop your image here, or click to select",
+      "selectFileButton": "Select File",
+      "supportedFormats": "Supported formats: {formats}",
+      "maxFileSize": "Max file size: {size}MB",
+      "noFileError": "Please select an image file",
+      "processingError": "Error processing the image",
+      "limitReachedTitle": "Daily Limit Reached",
+      "limitReachedDescription": "You've reached the daily limit for background removal. Try again tomorrow!",
+      "errorTitle": "Error",
+      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+      "creditsUsed": "Credits Used Today"
+    },
+    "AIBackgroundRemoverPage": {
+      "metadata": {
+        "title": "AI Background Remover | Remove Image Backgrounds Instantly",
+        "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more."
+      }
+    },
+    "AIImageUpscaler": {
       "title": "AI Image Upscaler",
       "description": "Enhance your images with AI-powered upscaling",
       "upscaleButton": "Upscale Image",
@@ -473,7 +468,7 @@
         "description": "Generate accurate and descriptive captions for your images using our AI-powered tool. Perfect for content creators, social media managers, and more."
       }
     },
-  "ImageComparisonSlider": {
+    "ImageComparisonSlider": {
       "imageAltBefore": "Before: Low resolution image",
       "imageAltAfter": "After: High resolution image",
       "beforeLabel": "Before",
@@ -601,6 +596,774 @@
         }
       ]
     },
+    "BackgroundRemoverContent": {
+      "imageAltBefore": "Before: Original image with background",
+      "imageAltAfter": "After: Image with background removed",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Transform Your Photos with a Click",
+      "heroParagraph1": "The right visuals can elevate your content, but distractions in the background can ruin the impact. Whether you're creating content for social media, e-commerce, or personal projects, a clean background makes all the difference.",
+      "heroParagraph2": "With our Instant Photo Background Remover Tool, you can effortlessly remove backgrounds from any image, leaving you with a clean and professional look in seconds.",
+      "removeBGButton": "Remove Background Now",
+      "featuresTitle": "Key Features of Our Background Remover",
+      "features": {
+        "precisionCut": {
+          "title": "Precision Cut",
+          "description": "Accurately removes backgrounds while keeping your subject intact."
+        },
+        "hdQuality": {
+          "title": "HD Quality",
+          "description": "Ensures high-definition output, perfect for any use."
+        },
+        "fastProcessing": {
+          "title": "Fast Processing",
+          "description": "Get your background-free image in seconds."
+        },
+        "freeToUse": {
+          "title": "Free to Use",
+          "description": "Enjoy top-notch background removal without any cost."
+        }
+      },
+      "stepsTitle": "Three Easy Steps to Remove Backgrounds",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Image",
+          "description": "Drag and drop your photo into our uploader or select it from your device."
+        },
+        "process": {
+          "title": "Remove Background",
+          "description": "Our tool automatically detects and removes the background."
+        },
+        "download": {
+          "title": "Download Your Image",
+          "description": "Save your background-free image and use it as needed."
+        }
+      },
+      "useCasesTitle": "Perfect for Various Needs",
+      "useCases": {
+        "socialMedia": {
+          "title": "Social Media",
+          "description": "Create clean, professional posts that stand out."
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Enhance product images to boost sales."
+        },
+        "personalProjects": {
+          "title": "Personal Projects",
+          "description": "Make your personal photos look more polished."
+        },
+        "presentations": {
+          "title": "Presentations",
+          "description": "Elevate your business presentations with professional visuals."
+        }
+      },
+      "bgRemovalTitle": "What is Background Removal and How Does It Work?",
+      "bgRemovalParagraph1": "Background removal involves extracting the main subject from an image and eliminating the background. Our tool uses advanced algorithms to accurately detect and separate the subject, giving you a clean and sharp result.",
+      "bgRemovalParagraph2": "This tool is incredibly useful for anyone looking to enhance their visuals—whether it's for social media, e-commerce, or personal use. By removing distractions, you can focus the viewer’s attention on the subject of the image.",
+      "benefitsTitle": "Why Use Our Background Remover?",
+      "benefitsParagraph": "Here's why our tool is a must-have for your image editing needs:",
+      "benefits": {
+        "benefit1": "Clear Focus: Removing the background highlights the subject, making your images more impactful.",
+        "benefit2": "Time-Saving: Quickly get clean images without spending hours on manual editing.",
+        "benefit3": "Free and Easy: Enjoy professional-grade background removal without any cost or hassle.",
+        "benefit4": "Versatility: Ideal for various purposes like social media, e-commerce, and personal projects."
+      },
+      "misconceptionsTitle": "Common Misconceptions About Background Removal",
+      "misconceptionsParagraph1": "Many think background removal is a complex task requiring expensive software or technical skills. Our tool simplifies the process, making it accessible to everyone.",
+      "misconceptionsParagraph2": "Another misconception is that background removal is only for professional images. In reality, it can enhance any photo, making it more engaging and visually appealing.",
+      "whyChooseTitle": "Why Choose Our Background Remover?",
+      "whyChooseParagraph1": "Here's what sets our tool apart:",
+      "whyChoose": {
+        "reason1": "State-of-the-Art Technology: Our tool delivers accurate and high-quality results.",
+        "reason2": "User-Friendly Design: Simple and intuitive, no learning curve required.",
+        "reason3": "Quick and Free: Get your images ready in seconds, at no cost."
+      },
+      "whyChooseParagraph2": "Whether you're a professional looking to streamline your workflow or a casual user wanting better photos, our tool is the perfect solution.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the Instant Photo Background Remover Tool?",
+          "answer": "It's a free online tool that allows you to remove the background from any image quickly and easily."
+        },
+        {
+          "question": "How does the background remover work?",
+          "answer": "The tool uses advanced algorithms to detect and separate the main subject from the background, giving you a clean image."
+        },
+        {
+          "question": "Can I use the tool for any type of image?",
+          "answer": "Yes, our tool is versatile and works with various types of images, including photos, graphics, and illustrations."
+        },
+        {
+          "question": "Is there a limit to the number of images I can process?",
+          "answer": "Yes, you can only use the tool 3 times a day. We have implemented this limit so that everyone can use this service for free and is not limited to one person taking all the resources."
+        },
+        {
+          "question": "How long does it take to remove a background?",
+          "answer": "The process is usually completed in a few seconds, depending on the size and complexity of the image."
+        },
+        {
+          "question": "Do I need any special skills to use the tool?",
+          "answer": "No, the tool is designed for everyone, regardless of technical expertise. Simply upload your image, and the tool does the rest."
+        },
+        {
+          "question": "Is the background removal service really free?",
+          "answer": "Yes, our background remover is completely free to use."
+        },
+        {
+          "question": "Can I download the edited images?",
+          "answer": "Absolutely! Once the background is removed, you can download the clean image immediately."
+        },
+        {
+          "question": "Can I use the AI Background Remover for professional purposes?",
+          "answer": "Absolutely! The tool is perfect for personal and professional use, including e-commerce product images, social media posts, and professional portfolios."
+        },
+        {
+          "question": "Will the quality of my image be affected after removing the background?",
+          "answer": "No, the AI Background Remover ensures that your image remains high quality even after the background is removed. The output is clean and sharp."
+        }
+      ]
+    },
+    "ImageEnhancerContent": {
+      "imageAltBefore": "Before: Original low-quality image",
+      "imageAltAfter": "After: Enhanced high-quality image",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Bring Your Images to Life with Stunning Quality",
+      "heroParagraph1": "High-quality visuals are the key to making a strong impact, but blurry or low-resolution images can ruin your presentation. Whether it’s for social media, e-commerce, or personal use, clear and sharp images make a difference.",
+      "heroParagraph2": "Our Free AI Image Enhancer tool lets you upscale and enhance your photos with just one click. Improve resolution, boost details, and make your images shine effortlessly.",
+      "enhanceImageButton": "Enhance Image Now",
+      "featuresTitle": "Key Features of Our AI Image Enhancer",
+      "features": {
+        "upscaleResolution": {
+          "title": "Upscale Resolution",
+          "description": "Enhance image resolution up to 4X without losing quality."
+        },
+        "clarityBoost": {
+          "title": "Clarity Boost",
+          "description": "Automatically sharpen and refine details for crystal-clear results."
+        },
+        "hdOutput": {
+          "title": "HD Output",
+          "description": "Produce high-definition images suitable for professional use."
+        },
+        "freeToUse": {
+          "title": "Free to Use",
+          "description": "Enjoy unlimited enhancements with no cost."
+        }
+      },
+      "stepsTitle": "Three Simple Steps to Enhance Your Images",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Image",
+          "description": "Drag and drop your image or select it from your device."
+        },
+        "process": {
+          "title": "Enhance Image",
+          "description": "Let our AI analyze and enhance the image automatically."
+        },
+        "download": {
+          "title": "Download Your Enhanced Image",
+          "description": "Save the high-quality image and use it as needed."
+        }
+      },
+      "useCasesTitle": "Perfect for Various Uses",
+      "useCases": {
+        "socialMedia": {
+          "title": "Social Media",
+          "description": "Create captivating, high-quality posts that stand out."
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Improve product photos to drive more sales."
+        },
+        "photography": {
+          "title": "Photography",
+          "description": "Enhance the resolution and details of your shots effortlessly."
+        },
+        "personalProjects": {
+          "title": "Personal Projects",
+          "description": "Turn everyday photos into professional-looking images."
+        }
+      },
+      "imageEnhancementTitle": "What is Image Enhancement and How Does It Work?",
+      "imageEnhancementParagraph1": "Image enhancement improves the quality and clarity of photos by upscaling resolution, refining details, and sharpening visuals. Our tool uses AI-driven technology to automatically analyze and enhance your images, producing sharp and vibrant results.",
+      "imageEnhancementParagraph2": "This tool is perfect for users who want to improve image quality for professional and personal use. Say goodbye to blurry photos and hello to crisp, high-resolution visuals.",
+      "benefitsTitle": "Why Use Our AI Image Enhancer?",
+      "benefitsParagraph": "Here's why our tool is essential for enhancing your images:",
+      "benefits": {
+        "benefit1": "Better Visual Impact: Clearer images grab more attention and leave a lasting impression.",
+        "benefit2": "Time-Saving: Achieve high-quality results in seconds without manual editing.",
+        "benefit3": "Free and Accessible: Enjoy professional-grade image enhancement without spending a dime.",
+        "benefit4": "Versatile: Ideal for social media, e-commerce, photography, and personal projects."
+      },
+      "misconceptionsTitle": "Common Misconceptions About Image Enhancement",
+      "misconceptionsParagraph1": "Many assume that enhancing image quality requires expensive software and technical know-how. Our AI tool simplifies the process, delivering outstanding results instantly.",
+      "misconceptionsParagraph2": "Another misconception is that image enhancement significantly alters the original content. In reality, our tool preserves the essence of your photo while improving its clarity and resolution.",
+      "whyChooseTitle": "Why Choose Our AI Image Enhancer?",
+      "whyChooseParagraph1": "Here's what sets us apart:",
+      "whyChoose": {
+        "reason1": "AI-Powered Precision: Experience unparalleled enhancement with our cutting-edge AI algorithms.",
+        "reason2": "User-Friendly Interface: Simple and intuitive design for anyone to use.",
+        "reason3": "Fast and Free: Get stunning image quality in seconds, at no cost."
+      },
+      "whyChooseParagraph2": "Whether you're a professional looking for efficient solutions or a casual user aiming for better photos, our AI Image Enhancer is the perfect tool for you.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the AI Image Enhancer Tool?",
+          "answer": "It's a free online tool that improves image quality and resolution using advanced AI technology."
+        },
+        {
+          "question": "How does the AI Image Enhancer work?",
+          "answer": "Our tool uses sophisticated AI algorithms to analyze and enhance your image, boosting resolution and sharpening details."
+        },
+        {
+          "question": "Can I use the tool on any type of image?",
+          "answer": "Yes, it works on various image formats like jpeg, png, and webp."
+        },
+        {
+          "question": "Is there a limit on how many images I can enhance?",
+          "answer": "Yes, you can enhance up to 3 images daily to ensure fair use for everyone."
+        },
+        {
+          "question": "How long does the enhancement process take?",
+          "answer": "Typically, it only takes a few seconds depending on image size and complexity."
+        },
+        {
+          "question": "Do I need any special skills to use the tool?",
+          "answer": "No, our tool is designed for all users. Simply upload your image, and the AI does the rest."
+        },
+        {
+          "question": "Is the AI Image Enhancer really free?",
+          "answer": "Yes, the tool is completely free to use."
+        },
+        {
+          "question": "Can I download the enhanced images?",
+          "answer": "Absolutely! You can download the high-quality enhanced image instantly."
+        },
+        {
+          "question": "Is the tool suitable for professional purposes?",
+          "answer": "Yes, it's perfect for both personal and professional use, including social media, e-commerce, and photography."
+        },
+        {
+          "question": "Will the image quality be maintained after enhancement?",
+          "answer": "Yes, our AI ensures that the enhanced image retains superior quality with sharper and clearer visuals."
+        }
+      ]
+    },
+    "PhotoColorizerContent": {
+      "imageAltBefore": "Before: Black and white photo",
+      "imageAltAfter": "After: Colorized photo",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Bring Your Black and White Photos to Life",
+      "heroParagraph1": "Old memories captured in black and white deserve a touch of vibrant color. Whether you're restoring family heirlooms or adding depth to historical images, colorizing photos creates a fresh perspective.",
+      "heroParagraph2": "Our AI Photo Colorizer uses advanced machine learning to intelligently add color to black and white photos. Experience the magic of seeing your photos come to life in rich, realistic color.",
+      "colorizeButton": "Colorize Photo Now",
+      "featuresTitle": "Key Features of Our Photo Colorizer",
+      "features": {
+        "advancedAI": {
+          "title": "Advanced AI Technology",
+          "description": "Leverages deep learning to deliver realistic and natural colorization."
+        },
+        "highResolution": {
+          "title": "High-Resolution Output",
+          "description": "Colorize photos without compromising on quality."
+        },
+        "quickProcessing": {
+          "title": "Quick Processing",
+          "description": "Transform your images in just a few seconds."
+        },
+        "freeTool": {
+          "title": "Free to Use",
+          "description": "Enjoy professional-grade photo colorization without any cost."
+        }
+      },
+      "stepsTitle": "How to Colorize Photos in Three Simple Steps",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Photo",
+          "description": "Drag and drop your black and white image or choose a file from your device."
+        },
+        "process": {
+          "title": "Colorize Photo",
+          "description": "Our AI algorithm automatically adds vibrant color to your image."
+        },
+        "download": {
+          "title": "Download Your Colorized Image",
+          "description": "Save your beautifully colorized photo with one click."
+        }
+      },
+      "useCasesTitle": "Perfect for a Variety of Uses",
+      "useCases": {
+        "familyPhotos": {
+          "title": "Family Photos",
+          "description": "Bring old family pictures back to life with rich colors."
+        },
+        "historicalImages": {
+          "title": "Historical Images",
+          "description": "Enhance historical documents and photographs for educational purposes."
+        },
+        "artProjects": {
+          "title": "Art Projects",
+          "description": "Create artistic renditions by adding color to black and white images."
+        },
+        "socialMedia": {
+          "title": "Social Media",
+          "description": "Impress your followers by sharing stunning colorized photos."
+        }
+      },
+      "colorizationTitle": "What is Photo Colorization and How Does It Work?",
+      "colorizationParagraph1": "Photo colorization is the process of adding color to monochrome (black and white) images. It brings historical or personal photos into the modern age by recreating realistic hues and tones.",
+      "colorizationParagraph2": "Our AI Photo Colorizer uses deep learning to analyze textures, objects, and backgrounds, producing accurate and vibrant colorized images in just a few moments.",
+      "benefitsTitle": "Why Use Our AI Photo Colorizer?",
+      "benefitsParagraph": "Here are the key reasons to try our photo colorization tool:",
+      "benefits": {
+        "benefit1": "Enhanced Memories: Relive your treasured moments in full color.",
+        "benefit2": "Time-Saving: No need for manual editing—our tool automates the entire process.",
+        "benefit3": "Free and Easy: Get professional results without spending a dime.",
+        "benefit4": "Versatile Usage: Ideal for personal, educational, and creative projects."
+      },
+      "misconceptionsTitle": "Common Misconceptions About Photo Colorization",
+      "misconceptionsParagraph1": "Many believe that photo colorization requires artistic skills or expensive software. Our tool makes the process simple and accessible to everyone.",
+      "misconceptionsParagraph2": "Some think colorization is only useful for professionals. In reality, anyone can use it to transform old memories into vibrant images.",
+      "whyChooseTitle": "Why Choose Our AI Photo Colorizer?",
+      "whyChooseParagraph1": "Here’s why our tool stands out:",
+      "whyChoose": {
+        "reason1": "Cutting-Edge AI: Achieve realistic and vivid colorization effortlessly.",
+        "reason2": "User-Friendly Interface: No technical expertise required.",
+        "reason3": "Fast and Free: Get results in seconds at no cost."
+      },
+      "whyChooseParagraph2": "Whether you’re restoring family photos or working on creative projects, our tool is the ideal solution for adding life to black and white images.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the AI Photo Colorizer Tool?",
+          "answer": "It's a free online tool that uses AI to colorize black and white photos quickly and easily."
+        },
+        {
+          "question": "How does the AI Photo Colorizer work?",
+          "answer": "Our tool analyzes the content of your image using deep learning to add realistic colors automatically."
+        },
+        {
+          "question": "Is the tool suitable for all types of photos?",
+          "answer": "Yes, it works with black and white photos of all kinds, including portraits, landscapes, and historical images."
+        },
+        {
+          "question": "Are there any usage limits?",
+          "answer": "Yes, you can process up to 3 images per day to keep it free and accessible for all users."
+        },
+        {
+          "question": "Do I need any special skills to use this tool?",
+          "answer": "No, our AI Photo Colorizer is easy to use and requires no prior experience."
+        },
+        {
+          "question": "Is the photo colorization service really free?",
+          "answer": "Yes, it is completely free to use with no hidden charges."
+        },
+        {
+          "question": "Can I download my colorized images?",
+          "answer": "Yes, once your photo is colorized, you can download it instantly."
+        },
+        {
+          "question": "Will my photos be stored after processing?",
+          "answer": "No, your photos are not stored. We prioritize your privacy and security."
+        },
+        {
+          "question": "Can I use the colorized images for commercial projects?",
+          "answer": "Yes, the tool is perfect for both personal and commercial use."
+        },
+        {
+          "question": "Does the AI Photo Colorizer affect image quality?",
+          "answer": "No, our tool enhances your images without compromising quality."
+        }
+      ]
+    },
+    "PhotoRestorerContent": {
+      "imageAltBefore": "Before: Faded and damaged old photo",
+      "imageAltAfter": "After: Restored and vibrant photo",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Bring Old Memories Back to Life",
+      "heroParagraph1": "Time may take a toll on your precious photos, fading colors and leaving cracks that obscure cherished memories. With our AI Photo Restorer, you can breathe new life into old, faded, and damaged images with just a few clicks.",
+      "heroParagraph2": "Experience the magic of AI-powered photo restoration that enhances and repairs your images, preserving your history with stunning results, all online and completely free.",
+      "restoreButton": "Restore Photos Now",
+      "featuresTitle": "Key Features of Our Photo Restorer",
+      "features": {
+        "restoreDamage": {
+          "title": "Restore Damaged Photos",
+          "description": "Repair cracks, scratches, and spots to bring your images back to their original glory."
+        },
+        "colorEnhancement": {
+          "title": "Color and Contrast Enhancement",
+          "description": "Boost the vibrance and contrast of faded photos for a refreshed and vivid appearance."
+        },
+        "automaticRestoration": {
+          "title": "Automatic Restoration",
+          "description": "No need for manual editing skills—our AI handles the restoration process automatically."
+        },
+        "freeToUse": {
+          "title": "Free and Easy to Use",
+          "description": "Enjoy top-tier photo restoration without any cost or complex software."
+        }
+      },
+      "stepsTitle": "How to Restore Photos in Three Simple Steps",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Old Photo",
+          "description": "Drag and drop your faded or damaged photo into the uploader or choose it from your device."
+        },
+        "process": {
+          "title": "Let AI Work Its Magic",
+          "description": "Our advanced AI algorithms analyze and repair damage automatically."
+        },
+        "download": {
+          "title": "Download Your Restored Image",
+          "description": "Save the newly enhanced photo and relive your memories in vibrant clarity."
+        }
+      },
+      "useCasesTitle": "Perfect for Various Restoration Needs",
+      "useCases": {
+        "familyMemories": {
+          "title": "Family Memories",
+          "description": "Preserve old family photos and pass them down for generations."
+        },
+        "historicalImages": {
+          "title": "Historical Photos",
+          "description": "Restore valuable historical photos for archives or personal collections."
+        },
+        "personalProjects": {
+          "title": "Personal Projects",
+          "description": "Use restored images for creative photo projects and scrapbooks."
+        },
+        "gifts": {
+          "title": "Memorable Gifts",
+          "description": "Give the gift of restored memories by enhancing old photos for loved ones."
+        }
+      },
+      "photoRestorationTitle": "What is Photo Restoration and Why is it Important?",
+      "photoRestorationParagraph1": "Photo restoration involves repairing and enhancing old or damaged photographs to bring back their original quality. From fixing tears and scratches to restoring faded colors, photo restoration allows you to preserve important moments and family history.",
+      "photoRestorationParagraph2": "Our AI Photo Restorer simplifies this traditionally complex process, using cutting-edge algorithms to automatically detect and repair photo imperfections, making your memories vivid and long-lasting.",
+      "benefitsTitle": "Why Use Our AI Photo Restorer?",
+      "benefitsParagraph": "Discover the advantages of restoring your photos with our AI tool:",
+      "benefits": {
+        "benefit1": "Preserve Precious Memories: Restore old photos to keep your family history alive.",
+        "benefit2": "Save Time and Effort: Let AI do the hard work instead of manual editing.",
+        "benefit3": "Free and User-Friendly: Enhance photos without any hidden fees or complex software.",
+        "benefit4": "High-Quality Restoration: Experience professional-level results with no technical skills required."
+      },
+      "misconceptionsTitle": "Common Misconceptions About Photo Restoration",
+      "misconceptionsParagraph1": "Many believe that restoring old photos requires expensive software and advanced technical skills. Our tool eliminates this barrier by offering an easy-to-use, automated solution.",
+      "misconceptionsParagraph2": "Another common misconception is that only professionals can restore photos effectively. With our AI-powered technology, anyone can achieve stunning results with minimal effort.",
+      "whyChooseTitle": "Why Choose Our AI Photo Restorer?",
+      "whyChooseParagraph1": "Here’s what makes our tool stand out from the rest:",
+      "whyChoose": {
+        "reason1": "Advanced AI Technology: Our tool automatically restores images with impressive accuracy.",
+        "reason2": "No Expertise Needed: Enjoy an intuitive experience without the need for photo-editing skills.",
+        "reason3": "Fast, Free, and Online: Enhance your photos in seconds, all for free."
+      },
+      "whyChooseParagraph2": "Whether you’re looking to restore sentimental family photos or historical images, our AI Photo Restorer offers a seamless and powerful solution.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the AI Photo Restorer?",
+          "answer": "It’s an online tool that uses artificial intelligence to repair and enhance old or damaged photos for free."
+        },
+        {
+          "question": "How does the photo restoration process work?",
+          "answer": "Our AI tool detects imperfections such as cracks, scratches, and faded colors, then automatically restores the photo."
+        },
+        {
+          "question": "Can I use the tool for any type of photo?",
+          "answer": "Yes, our tool works on various types of photos, from black-and-white images to color photographs."
+        },
+        {
+          "question": "Is there a limit to how many photos I can restore?",
+          "answer": "Yes, there’s a daily limit of 3 photo restorations to ensure everyone can use the service for free."
+        },
+        {
+          "question": "How long does it take to restore a photo?",
+          "answer": "Most photos are restored in seconds, depending on the image size and complexity."
+        },
+        {
+          "question": "Do I need special skills to use the tool?",
+          "answer": "No, the tool is designed for users of all skill levels. Simply upload your image, and the tool does the rest."
+        },
+        {
+          "question": "Is the AI Photo Restorer really free?",
+          "answer": "Yes, the tool is completely free to use with no hidden charges."
+        },
+        {
+          "question": "Can I download my restored photo?",
+          "answer": "Yes, you can download your restored photo immediately after the process is complete."
+        },
+        {
+          "question": "Is the tool suitable for professional use?",
+          "answer": "Absolutely! Our AI Photo Restorer delivers high-quality results suitable for both personal and professional projects."
+        },
+        {
+          "question": "Will restoring my photo affect its resolution?",
+          "answer": "No, our tool enhances and restores your photo while preserving its original resolution and quality."
+        }
+      ]
+    },
+    "ImageCaptionGeneratorContent": {
+      "imageAltBefore": "Before: Image ready for caption generation",
+      "imageAltAfter": "After: Generated caption for the image",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Transform Your Images with AI-Powered Captions",
+      "heroParagraph1": "A compelling caption can make or break your social media post or presentation. Manually crafting perfect captions takes time and creativity. Why not let AI handle it for you?",
+      "heroParagraph2": "With our AI Image Caption Generator, creating descriptive and engaging captions is effortless. Upload your image and let AI analyze it to generate a captivating caption within seconds.",
+      "generateCaptionButton": "Generate Caption Now",
+      "featuresTitle": "Key Features of Our AI Caption Generator",
+      "features": {
+        "smartRecognition": {
+          "title": "Smart Image Recognition",
+          "description": "Leverages advanced AI to analyze objects, emotions, and settings in your image."
+        },
+        "creativeCaptions": {
+          "title": "Creative and Engaging Captions",
+          "description": "Generates captions that are ready to use on Instagram, Facebook, and more."
+        },
+        "freeToUse": {
+          "title": "Completely Free",
+          "description": "No fees, no subscriptions—generate captions without limits."
+        },
+        "fastResults": {
+          "title": "Fast and Accurate",
+          "description": "Captions are generated instantly, saving you time and effort."
+        }
+      },
+      "stepsTitle": "How to Generate Captions in Three Simple Steps",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Image",
+          "description": "Drag and drop your image or select it from your device."
+        },
+        "generate": {
+          "title": "Generate Caption",
+          "description": "Click 'Generate Caption' and let the AI do its magic."
+        },
+        "copy": {
+          "title": "Copy and Use",
+          "description": "Copy the generated caption and use it wherever you like."
+        }
+      },
+      "useCasesTitle": "Perfect for Various Needs",
+      "useCases": {
+        "socialMedia": {
+          "title": "Social Media Posts",
+          "description": "Generate witty or descriptive captions for Instagram, Facebook, and more."
+        },
+        "contentCreation": {
+          "title": "Content Creation",
+          "description": "Save time on caption writing for blogs, articles, or graphic content."
+        },
+        "presentations": {
+          "title": "Professional Presentations",
+          "description": "Add context to your visuals with quick, accurate captions."
+        },
+        "marketing": {
+          "title": "Marketing Materials",
+          "description": "Create attention-grabbing captions for ads and promotional graphics."
+        }
+      },
+      "captionGenerationTitle": "What is Caption Generation and How Does It Work?",
+      "captionGenerationParagraph1": "Image caption generation is the process of creating text descriptions based on the content of an image. Our tool uses advanced AI to identify objects, activities, and context within your image to craft relevant captions.",
+      "captionGenerationParagraph2": "This technology is invaluable for anyone looking to enhance visual content, whether for social media, marketing, or personal projects. Letting AI handle the captions gives you more time to focus on creativity and engagement.",
+      "benefitsTitle": "Why Use Our AI Image Caption Generator?",
+      "benefitsParagraph": "Discover the benefits of using our tool:",
+      "benefits": {
+        "benefit1": "Save Time: No more brainstorming or struggling with caption ideas.",
+        "benefit2": "Engagement Boost: Catchy captions help increase likes, shares, and interactions.",
+        "benefit3": "Free and Unlimited: Generate as many captions as you need without any cost.",
+        "benefit4": "Versatile: Ideal for professional and personal use across various platforms."
+      },
+      "misconceptionsTitle": "Common Misconceptions About AI Caption Generators",
+      "misconceptionsParagraph1": "Many believe AI captions are generic or irrelevant. However, our tool uses smart algorithms that ensure creativity and context-appropriate captions.",
+      "misconceptionsParagraph2": "Some think caption generators are only for casual users. In reality, professionals in marketing, design, and content creation also benefit from AI-powered captioning.",
+      "whyChooseTitle": "Why Choose Our AI Image Caption Generator?",
+      "whyChooseParagraph1": "Here’s what makes our caption generator your go-to tool:",
+      "whyChoose": {
+        "reason1": "Advanced AI Technology: Generates accurate, context-aware captions.",
+        "reason2": "Ease of Use: No learning curve—just upload and generate.",
+        "reason3": "Free and Fast: No fees, instant results."
+      },
+      "whyChooseParagraph2": "Whether you're a social media influencer, marketer, or casual user, our tool delivers professional-grade captions effortlessly.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the AI Image Caption Generator?",
+          "answer": "It's a free tool that generates captions for images using AI technology."
+        },
+        {
+          "question": "How does the caption generator work?",
+          "answer": "The tool uses advanced algorithms to analyze images and create relevant captions."
+        },
+        {
+          "question": "Can I use the tool for Instagram captions?",
+          "answer": "Yes, the tool is perfect for generating Instagram-ready captions."
+        },
+        {
+          "question": "Is the tool really free?",
+          "answer": "Yes, our AI Caption Generator is completely free to use."
+        },
+        {
+          "question": "Is there a limit to how many captions I can generate?",
+          "answer": "Currently, you can generate up to 3 captions per day for free."
+        },
+        {
+          "question": "Do I need to download software to use the tool?",
+          "answer": "No, the tool works directly in your browser—no downloads required."
+        },
+        {
+          "question": "Can the tool generate captions for professional content?",
+          "answer": "Absolutely! It's designed for both professional and personal use."
+        },
+        {
+          "question": "Will the captions be unique?",
+          "answer": "Yes, each caption is generated based on the specific content of your uploaded image."
+        },
+        {
+          "question": "What image formats are supported?",
+          "answer": "Our tool supports JPEG, PNG, and WEBP formats for uploading images."
+        },
+        {
+          "question": "Can I generate captions for multiple images at once?",
+          "answer": "Currently, the tool processes one image at a time to ensure precise caption generation."
+        }
+      ]
+    },
+    "ImageTextConverterContent": {
+      "imageAltBefore": "Before: Image ready for text extraction",
+      "imageAltAfter": "After: Extracted text from image",
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "heroTitle": "Convert Images to Text with AI Precision",
+      "heroParagraph1": "Extracting text from images has never been easier. Whether you need to copy text from a scanned document or capture information from a photo, doing it manually is tedious and time-consuming.",
+      "heroParagraph2": "Our AI Image to Text Converter simplifies the process. Upload your image, and let the tool quickly extract text with unparalleled accuracy—perfect for professional and personal use.",
+      "generateCaptionButton": "Extract Text Now",
+      "featuresTitle": "Key Features of Our AI Image to Text Converter",
+      "features": {
+        "smartRecognition": {
+          "title": "Advanced OCR Technology",
+          "description": "Leverages cutting-edge AI-powered Optical Character Recognition (OCR) to accurately detect and extract text from images."
+        },
+        "multiFormatSupport": {
+          "title": "Supports Multiple Image Formats",
+          "description": "Compatible with JPEG, PNG, and WEBP formats for seamless text extraction."
+        },
+        "freeToUse": {
+          "title": "Completely Free",
+          "description": "No charges, no subscriptions—extract text from images at no cost."
+        },
+        "fastResults": {
+          "title": "Instant Results",
+          "description": "Extract text within seconds, saving time and effort."
+        }
+      },
+      "stepsTitle": "How to Extract Text in Three Simple Steps",
+      "steps": {
+        "upload": {
+          "title": "Upload Your Image",
+          "description": "Drag and drop your image or select it from your device."
+        },
+        "generate": {
+          "title": "Extract Text",
+          "description": "Click 'Extract Text' and let the AI do its magic."
+        },
+        "copy": {
+          "title": "Copy and Use",
+          "description": "Copy the extracted text and use it wherever you like."
+        }
+      },
+      "useCasesTitle": "Versatile Use Cases for Text Extraction from Images",
+      "useCases": {
+        "documentScanning": {
+          "title": "Extract Text from Scanned Images",
+          "description": "Easily convert scanned images containing text into editable content."
+        },
+        "photoNotes": {
+          "title": "Copy Text from Photos",
+          "description": "Quickly capture text from pictures of notes, signs, and presentations without manual typing."
+        },
+        "handwrittenText": {
+          "title": "Convert Handwritten Text from Images",
+          "description": "Extract text from handwritten notes in images and make them editable or searchable."
+        },
+        "businessDataEntry": {
+          "title": "Streamline Data Entry from Images",
+          "description": "Convert printed or scanned forms in images into text for faster data entry and processing."
+        }
+      },
+      "captionGenerationTitle": "What is Text Extraction and How Does It Work?",
+      "captionGenerationParagraph1": "Text extraction refers to the process of pulling text from an image or scanned document using Optical Character Recognition (OCR) technology. Our AI Image to Text Converter identifies and converts characters into machine-encoded text for easy copying and editing.",
+      "captionGenerationParagraph2": "This technology is invaluable for students, professionals, and businesses seeking to digitize content, automate data entry, or enhance accessibility. AI-based OCR ensures high accuracy and saves valuable time.",
+      "benefitsTitle": "Why Use Our AI Image to Text Converter?",
+      "benefitsParagraph": "Discover the benefits of using our tool:",
+      "benefits": {
+        "benefit1": "Time-Saving: Extract text in seconds without retyping.",
+        "benefit2": "Accurate Results: Advanced AI ensures precise text recognition.",
+        "benefit3": "Free to Use: Enjoy unlimited text extraction at no cost.",
+        "benefit4": "Multiple Applications: Ideal for notes, documents, forms, and more."
+      },
+      "misconceptionsTitle": "Common Misconceptions About AI Text Extraction",
+      "misconceptionsParagraph1": "Some believe AI-based OCR tools are only for printed text. However, our tool handles both printed and handwritten text with high accuracy.",
+      "misconceptionsParagraph2": "Another misconception is that text extraction tools require expensive subscriptions. Our solution is entirely free to use, making it accessible to everyone.",
+      "whyChooseTitle": "Why Choose Our AI Image to Text Converter?",
+      "whyChooseParagraph1": "Here’s what sets our text extraction tool apart:",
+      "whyChoose": {
+        "reason1": "Cutting-Edge OCR: Extracts text with unmatched precision.",
+        "reason2": "User-Friendly Interface: Simple and intuitive for anyone.",
+        "reason3": "Fast and Free: Immediate results without any cost."
+      },
+      "whyChooseParagraph2": "Whether you’re a student, professional, or casual user, our AI Image to Text Converter offers seamless, reliable performance for all your text extraction needs.",
+      "faqTitle": "Frequently Asked Questions",
+      "faq": [
+        {
+          "question": "What is the AI Image to Text Converter?",
+          "answer": "It’s a free tool that extracts text from images using advanced OCR technology."
+        },
+        {
+          "question": "Is the tool free to use?",
+          "answer": "Yes, our AI Image to Text Converter is completely free with no hidden charges."
+        },
+        {
+          "question": "What image formats does the tool support?",
+          "answer": "The tool supports JPEG, PNG, and WEBP formats for uploading images."
+        },
+        {
+          "question": "Can it extract handwritten text?",
+          "answer": "Yes, our tool can recognize and extract text from handwritten notes as well."
+        },
+        {
+          "question": "Do I need to install software?",
+          "answer": "No installation is required. The tool works entirely online from your browser."
+        },
+        {
+          "question": "Is there a limit to how many images I can process?",
+          "answer": "Currently, you can process up to 3 images per day for free."
+        },
+        {
+          "question": "How accurate is the text extraction?",
+          "answer": "Our tool uses advanced AI algorithms to ensure highly accurate text recognition."
+        },
+        {
+          "question": "Can I extract text into a Word document?",
+          "answer": "Yes, you can copy the extracted text and paste it into Word or other text editors."
+        },
+        {
+          "question": "Is the tool suitable for professional use?",
+          "answer": "Absolutely. The tool is designed for both casual and professional applications."
+        },
+        {
+          "question": "What is OCR?",
+          "answer": "OCR stands for Optical Character Recognition, a technology that converts images of text into machine-readable content."
+        }
+      ]
+    },
     "TestimonialsSection": {
       "title": "What Users Are Saying About Lexistock AI",
       "averageRating": "4.5 average rating from 1200+ users worldwide.",
@@ -639,4 +1402,3 @@
     }
   }
 }
-

@@ -81,14 +81,6 @@ const tools: Tool[] = [
     glowColor: 'from-orange-500',
     href: '/tools/image-to-text-converter',
   },
-  {
-    id: 'headshot-generator',
-    title: 'Headshot Generator',
-    description: 'Generate professional headshots with AI technology.',
-    icon: <User className="w-8 h-8" />,
-    glowColor: 'from-teal-500',
-    href: '/tools/headshot-generator',
-  },
 ]
 
 export function AIToolsSection() {

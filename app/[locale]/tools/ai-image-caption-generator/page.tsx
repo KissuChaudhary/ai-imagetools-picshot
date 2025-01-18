@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import AIImageCaptionGenerator from '@/components/AIImageCaptionGenerator'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import ImageCaptionContent from '@/components/ImageCaptionContent'
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +27,7 @@ export default async function ImageCaptionGeneratorPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIImageCaptionGenerator />
+      <ImageCaptionContent />
     </div>
   )
 }

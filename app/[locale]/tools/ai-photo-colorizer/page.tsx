@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import AIPhotoColorizer from '@/components/AIPhotoColorizer'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import PhotoColorizerContent from '@/components/PhotoColorizerContent'
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +27,7 @@ export default async function PhotoColorizerPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIPhotoColorizer />
+      <PhotoColorizerContent />
     </div>
   )
 }

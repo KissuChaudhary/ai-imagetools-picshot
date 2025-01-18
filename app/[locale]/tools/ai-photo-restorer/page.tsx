@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import AIPhotoRestorer from '@/components/AIPhotoRestorer'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
+import PhotoRestorerContent from '@/components/PhotoRestorerContent'
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -25,6 +27,7 @@ export default async function PhotoRestorerPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <AIPhotoRestorer />
+        <PhotoRestorerContent />
     </div>
   )
 }

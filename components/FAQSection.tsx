@@ -54,7 +54,6 @@ export function FAQSection() {
                 <li>{t('categories.general.items.tools.answer.items.artGenerator')}</li>
                 <li>{t('categories.general.items.tools.answer.items.restorer')}</li>
                 <li>{t('categories.general.items.tools.answer.items.avatarGenerator')}</li>
-                <li>{t('categories.general.items.tools.answer.items.objectRemover')}</li>
               </ul>
             </div>
           ),
