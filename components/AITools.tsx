@@ -23,10 +23,10 @@ export default function AITools() {
   }
 
   return (
-    <div className="bg-[#0B0F17]">
+    <div className="w-full overflow-hidden bg-[#0B0F17]">
       {tools.map(({ key: tool, link }, index) => (
-        <section key={tool} className="py-24 border-b border-gray-800 last:border-0">
-          <div className="max-w-7xl px-4 mx-auto">
+        <section key={tool} className="w-full py-16 sm:py-24 border-b border-gray-800 last:border-0">
+          <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Content */}
               <motion.div

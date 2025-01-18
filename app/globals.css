@@ -81,3 +81,11 @@
   }
 }
 
+.lexi-gradient{
+
+  background-image: url(/bg-gradient-lexi.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 150% 600px;
+}
