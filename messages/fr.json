@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Outils d'IA pour Images",
+    "title": "Lexistock AI",
     "allTools": "Tous les Outils",
     "colorize": "Colorisateur de Photos IA",
     "enhance": "Améliorateur d'Images IA",
@@ -12,18 +12,24 @@
     "imageToText": "Convertisseur d'Image en Texte IA"
   },
   "Footer": {
-    "product": "Produit",
-    "colorize": "Coloriser",
-    "enhance": "Améliorer",
-    "removeBg": "Supprimer l'Arrière-plan",
+    "allTools": "Tous les Outils",
+    "AIimageGenerator": "Générateur d'Images IA",
+    "removeBg": "Suppresseur d'Arrière-plan IA",
+    "upscaler": "Agrandisseur d'Images IA",
+    "colorize": "Colorisateur de Photos IA",
+    "restorer": "Restaurateur de Photos IA",
+    "enhance": "Améliorateur d'Images IA",
+    "captionGenerator": "Générateur de Légendes d'Images IA",
+    "imageToText": "Convertisseur d'Image en Texte IA",
     "company": "Entreprise",
-    "about": "À propos",
+    "about": "À Propos",
     "blog": "Blog",
     "contact": "Contact",
-    "legal": "Mentions légales",
+    "legal": "Mentions Légales",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions d'Utilisation",
-    "followUs": "Suivez-nous"
+    "copyright": "© {year} Lexistock AI. Tous droits réservés.",
+    "madeInIndia": "#FaitEnInde"
   },
   
   "Index": {

@@ -8,6 +8,8 @@ import dynamic from 'next/dynamic'
 import { useTranslations } from 'next-intl'
 import { Menu as HeadlessMenu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
+import { Logo } from './logo'
+
 
 const LocaleSwitcher = dynamic(() => import("./locale-switcher"), { ssr: false })
 
@@ -70,8 +72,9 @@ export function Header() {
         <nav className="flex justify-between items-center w-full max-w-7xl mx-auto">
           <Link 
             href="/" 
-            className="font-semibold transition-colors duration-300 text-white"
+            className="flex text-lg items-center gap-2 font-semibold transition-colors duration-300 text-white"
           >
+            <Logo />
             {t('title')}
           </Link>
           

@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "AI Image Tools",
+    "title": "Lexistock AI",
     "allTools": "All Tools",
     "colorize": "AI Photo Colorizer",
     "enhance": "AI Image Enhancer",
@@ -12,10 +12,15 @@
     "imageToText": "AI Image to Text Converter"
   },
   "Footer": {
-    "product": "Product",
-    "colorize": "Colorize",
-    "enhance": "Enhance",
-    "removeBg": "Remove Background",
+    "allTools": "All Tools",
+    "AIimageGenerator": "AI Image Generator",
+    "removeBg": "AI Background Remover",
+    "upscaler": "AI Image Upscaler",
+    "colorize": "AI Photo Colorizer",
+    "restorer": "AI Photo Restorer",
+    "enhance": "AI Image Enhancer",
+    "captionGenerator": "AI Image Caption Generator",
+    "imageToText": "AI Image to Text Converter",
     "company": "Company",
     "about": "About",
     "blog": "Blog",
@@ -23,7 +28,8 @@
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
-    "followUs": "Follow Us"
+    "copyright": "© {year} Lexistock AI. All rights reserved.",
+    "madeInIndia": "#MadeInIndia"
   },
 
   "Index": {
