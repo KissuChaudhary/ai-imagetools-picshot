@@ -8,7 +8,7 @@ export async function generateWebApplicationSchema(locale: string, toolPage: str
     "@type": "WebApplication",
     "name": t('name'),
     "description": t('description'),
-    "url": `https://lexistock.com/${locale}/tools/${toolPage.toLowerCase().replace('page', '')}`,
+    "url": `https://lexistock.com/${locale}/tools/${toolPage.toLowerCase().replace('page', '').replace(/([A-Z])/g, '-$1').substring(1)}`,
     "applicationCategory": t('applicationCategory'),
     "operatingSystem": t('operatingSystem'),
     "offers": {
