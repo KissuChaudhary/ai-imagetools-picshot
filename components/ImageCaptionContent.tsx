@@ -1,9 +1,7 @@
 'use client'
 
-import { useRef, useState, useCallback } from 'react'
-import { ArrowLeftRight, Zap, Maximize, MousePointer, DollarSign, Upload, Sliders, Download, Camera, ShoppingBag, Share2, PieChart } from 'lucide-react'
+import {  Zap, Maximize, MousePointer, DollarSign, Upload, Sliders, Download, Camera, ShoppingBag, Share2, PieChart } from 'lucide-react'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { TestimonialsSection } from '@/components/testimonials'
 import {

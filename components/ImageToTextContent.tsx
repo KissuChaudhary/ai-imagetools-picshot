@@ -1,8 +1,6 @@
 "use client";
 
-import { useRef, useState, useCallback } from "react";
 import {
-  ArrowLeftRight,
   Zap,
   Maximize,
   MousePointer,
@@ -16,7 +14,6 @@ import {
   PieChart,
 } from "lucide-react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TestimonialsSection } from "@/components/testimonials";
 import {
