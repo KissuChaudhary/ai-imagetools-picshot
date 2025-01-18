@@ -79,23 +79,23 @@
       }
     },
     "whyChoose": {
-      "title": "Pourquoi Choisir Lexistock AI",
+      "title": "Pourquoi choisir Lexistock AI",
       "features": {
         "fastImage": {
-          "title": "Génération Rapide d'Images",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "title": "Outils de retouche d'images instantanés alimentés par IA",
+          "description": "Découvrez la génération d'images, la suppression d'arrière-plan et l'agrandissement ultrarapides sans compromettre la qualité, le tout en quelques secondes."
         },
         "quality": {
-          "title": "Contenu de Haute Qualité",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "title": "Amélioration de la qualité d'image supérieure",
+          "description": "Améliorez la résolution, restaurez les photos anciennes et ajoutez des couleurs vibrantes aux images en noir et blanc sans effort grâce à la technologie avancée de l'IA."
         },
         "language": {
-          "title": "Plus de 30 Langues Ajoutées",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "title": "Entièrement gratuit, sans limites",
+          "description": "Accédez à tous les outils de retouche d'images IA gratuitement, y compris notre générateur de légendes d'images et d'améliorateur de photos, sans abonnements ni frais cachés."
         },
         "support": {
-          "title": "Support 24/7",
-          "description": "Trouvez votre contenu de rêve et générez avec des outils magiques d'IA"
+          "title": "Légendes d'images et texte optimisés pour le SEO",
+          "description": "Boostez votre stratégie de contenu avec des outils générateurs de légendes d'images et d'extraction de texte alimentés par IA qui améliorent la visibilité sur les moteurs de recherche."
         }
       }
     },

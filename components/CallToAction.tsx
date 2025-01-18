@@ -9,39 +9,65 @@ export default function CallToAction() {
   const t = useTranslations('Index.cta')
   
   return (
-    <section className="py-24 sm:py-32 bg-gradient-to-br from-white via-[#e6fbfe] to-[#f0fdff]">
-      <div className="container px-4 mx-auto">
+<section className="py-24 sm:py-32 bg-gradient-to-br from-gray-950 via-gray-900 to-black overflow-hidden relative">
+        {/* Animated background elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -inset-[10px] opacity-30">
+          <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="hero-pattern" width="100" height="100" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="1" fill="#22d3ee" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#hero-pattern)" />
+          </svg>
+        </div>
+      </div>
+
+      <div className="container px-4 mx-auto relative z-10">
         <motion.div 
           className="max-w-4xl mx-auto text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black space-y-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white space-y-4">
             <div className="inline-flex flex-wrap items-center justify-center gap-3">
               {t('headingPart1')}
-              <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#0066FF] text-white">
+              <motion.span 
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#0066FF] text-white"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <Wand2 className="w-5 h-5" />
                 {t('headingAIPowered')}
-              </span>
+              </motion.span>
               {t('headingPart2')}
             </div>
             <div className="inline-flex flex-wrap items-center justify-center gap-3 mt-2">
               {t('headingPart3')}
-              <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#34C759] text-white">
+              <motion.span 
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#34C759] text-white"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <Image className="w-5 h-5" />
                 {t('headingCreative')}
-              </span>
+              </motion.span>
               {t('headingPart4')}
-              <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#FF3B30] text-white">
+              <motion.span 
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-[#FF3B30] text-white"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <Zap className="w-5 h-5" />
                 {t('headingEfficient')}
-              </span>
+              </motion.span>
               {t('headingPart5')}
             </div>
-          </h1>
+          </h2>
           
-          <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-6 text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
           
@@ -53,7 +79,7 @@ export default function CallToAction() {
           >
             <Button 
               size="lg" 
-              className="bg-[#22d3ee] text-black hover:bg-[#22d3ee]/90 text-lg px-4 py-3 h-auto font-semibold"
+              className="bg-[#22d3ee] text-black hover:bg-[#22d3ee]/90 text-lg px-6 py-4 h-auto font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#22d3ee]/50"
             >
               {t('button')}
             </Button>
@@ -70,16 +96,23 @@ export default function CallToAction() {
               { icon: Users, value: t('stats.users'), label: t('stats.usersLabel') },
               { icon: Image, value: t('stats.assets'), label: t('stats.assetsLabel') },
               { icon: Star, value: t('stats.satisfaction'), label: t('stats.satisfactionLabel') },
-            ].map((stat) => (
+            ].map((stat, index) => (
               <motion.div 
                 key={stat.label}
-                className="flex flex-col items-center gap-2"
-                whileHover={{ scale: 1.05 }}
-                transition={{ type: "spring", stiffness: 300 }}
+                className="flex flex-col items-center gap-2 bg-gray-800/50 p-6 rounded-xl backdrop-blur-sm"
+                whileHover={{ scale: 1.05, backgroundColor: 'rgba(34, 211, 238, 0.1)' }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 300,
+                  delay: 0.3 + index * 0.1,
+                  duration: 0.6
+                }}
               >
-                <stat.icon className="h-6 w-6 text-[#22d3ee] mb-2" />
-                <dt className="text-3xl font-bold tracking-tight text-black">{stat.value}</dt>
-                <dd className="text-sm text-gray-600">{stat.label}</dd>
+                <stat.icon className="h-8 w-8 text-[#22d3ee] mb-2" />
+                <dt className="text-3xl font-bold tracking-tight text-white">{stat.value}</dt>
+                <dd className="text-sm text-gray-400">{stat.label}</dd>
               </motion.div>
             ))}
           </motion.dl>
@@ -88,3 +121,4 @@ export default function CallToAction() {
     </section>
   )
 }
+

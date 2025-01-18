@@ -79,23 +79,23 @@
       }
     },
     "whyChoose": {
-      "title": "Por qué Elegir Lexistock AI",
+      "title": "Por qué elegir Lexistock AI",
       "features": {
         "fastImage": {
-          "title": "Generación Rápida de Imágenes",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "title": "Herramientas de edición de imágenes instantáneas impulsadas por IA",
+          "description": "Experimenta la generación de imágenes, eliminación de fondos y aumento de resolución ultrarrápidos sin comprometer la calidad, todo en cuestión de segundos."
         },
         "quality": {
-          "title": "Contenido de Alta Calidad",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "title": "Mejora de calidad de imagen superior",
+          "description": "Mejora la resolución, restaura fotos antiguas y agrega colores vibrantes a imágenes en blanco y negro sin esfuerzo con tecnología avanzada de IA."
         },
         "language": {
-          "title": "Más de 30 Idiomas Añadidos",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "title": "Totalmente gratis, sin límites",
+          "description": "Accede a todas las herramientas de edición de imágenes con IA sin costo alguno, incluyendo nuestro generador de subtítulos de imágenes y mejorador de fotos, sin suscripciones ni cargos ocultos."
         },
         "support": {
-          "title": "Soporte 24/7",
-          "description": "Encuentra tu contenido soñado y genera con herramientas mágicas de IA"
+          "title": "Subtítulos e texto de imágenes amigables con SEO",
+          "description": "Impulsa tu estrategia de contenido con herramientas generadoras de subtítulos de imágenes y extracción de texto impulsadas por IA que mejoran la visibilidad en los motores de búsqueda."
         }
       }
     },

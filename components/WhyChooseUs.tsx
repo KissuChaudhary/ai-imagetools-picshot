@@ -46,39 +46,59 @@ export function WhyChooseUs() {
   }
 
   return (
-    <section className="py-24 bg-background">
-      <div className="container mx-auto px-3 sm:px-4 md:px-6 max-w-7xl">
-        <motion.h2
+    <section className="py-24 bg-[#0B0F17] relative overflow-hidden">
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#22d3ee]/5 via-transparent to-transparent" />
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
+        <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-2xl sm:text-3xl sm:text-5xl font-bold text-center mb-16 text-primary"
+          className="max-w-3xl mx-auto text-center mb-16"
         >
-          {t('title')}
-        </motion.h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6">
+            {t('title')}
+          </h2>
+          <div className="w-20 h-1 bg-[#22d3ee] mx-auto rounded-full" />
+        </motion.div>
 
         <motion.div
           ref={ref}
           variants={containerVariants}
           initial="hidden"
           animate={controls}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
           {features.map(({ icon: Icon, key }) => (
             <motion.div
               key={key}
               variants={itemVariants}
-              className="group"
+              className="group relative"
             >
-              <div className="relative p-6 bg-card rounded-lg overflow-hidden transition-all duration-300 group-hover:shadow-lg border border-border">
-                <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
-                <Icon className="w-12 h-12 mb-4 text-primary group-hover:text-secondary transition-colors duration-300" />
-                <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-colors duration-300">
-                  {t(`features.${key}.title`)}
-                </h3>
-                <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">
-                  {t(`features.${key}.description`)}
-                </p>
+              <div className="relative p-8 rounded-2xl bg-[#1A1F2D] border border-gray-800 overflow-hidden transition-all duration-500 hover:border-[#22d3ee]/50">
+                {/* Hover Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#22d3ee]/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                
+                {/* Content */}
+                <div className="relative z-10">
+                  <div className="mb-6 inline-block">
+                    <div className="p-3 rounded-xl bg-[#22d3ee]/10 group-hover:bg-[#22d3ee]/20 transition-colors duration-500">
+                      <Icon className="w-8 h-8 text-[#22d3ee]" />
+                    </div>
+                  </div>
+                  
+                  <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-[#22d3ee] transition-colors duration-500">
+                    {t(`features.${key}.title`)}
+                  </h3>
+                  
+                  <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-500 text-sm leading-relaxed">
+                    {t(`features.${key}.description`)}
+                  </p>
+                </div>
+
+                {/* Decorative Corner */}
+                <div className="absolute -top-1 -right-1 w-16 h-16 bg-gradient-to-br from-[#22d3ee]/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
               </div>
             </motion.div>
           ))}
