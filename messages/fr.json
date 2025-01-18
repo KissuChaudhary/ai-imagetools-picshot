@@ -1,10 +1,15 @@
 {
   "Header": {
-    "title": "Outils d'Image IA",
-    "colorize": "Coloriser",
-    "enhance": "Améliorer",
-    "removeBg": "Supprimer l'Arrière-plan",
-    "AIimageGenerator": "Générateur d'Images IA"
+    "title": "Outils d'IA pour Images",
+    "allTools": "Tous les Outils",
+    "colorize": "Colorisateur de Photos IA",
+    "enhance": "Améliorateur d'Images IA",
+    "removeBg": "Suppresseur d'Arrière-plan IA",
+    "AIimageGenerator": "Générateur d'Images IA",
+    "upscaler": "Agrandisseur d'Images IA",
+    "restorer": "Restaurateur de Photos IA",
+    "captionGenerator": "Générateur de Légendes d'Images IA",
+    "imageToText": "Convertisseur d'Image en Texte IA"
   },
   "Footer": {
     "product": "Produit",

@@ -1,10 +1,15 @@
 {
   "Header": {
     "title": "AI Image Tools",
-    "colorize": "Colorize",
-    "enhance": "Enhance",
-    "removeBg": "Remove Background",
-    "AIimageGenerator": "AI Image Generator"
+    "allTools": "All Tools",
+    "colorize": "AI Photo Colorizer",
+    "enhance": "AI Image Enhancer",
+    "removeBg": "AI Background Remover",
+    "AIimageGenerator": "AI Image Generator",
+    "upscaler": "AI Image Upscaler",
+    "restorer": "AI Photo Restorer",
+    "captionGenerator": "AI Image Caption Generator",
+    "imageToText": "AI Image to Text Converter"
   },
   "Footer": {
     "product": "Product",
