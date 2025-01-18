@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer"
 import { ToastProvider } from "@/components/ui/toast"
 import "@/app/globals.css"
 import {getMessages} from '@/lib/get-messages'
-import {setRequestLocale} from 'next-intl/server';
+import {setRequestLocale, getTranslations} from 'next-intl/server';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -31,8 +31,33 @@ export default async function LocaleLayout({
     notFound();
   }
 
+  const t = await getTranslations('WebsiteSchema');
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": t('name'),
+    "description": t('description'),
+    "url": `https://lexistock.com/${locale}`,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `https://lexistock.com/${locale}/search?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
   return (
     <html lang={locale} className={`${inter.className}`} suppressHydrationWarning>
+      <head>
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body className="min-h-screen bg-background antialiased">
         <Script
           async
@@ -56,3 +81,4 @@ export default async function LocaleLayout({
     </html>
   )
 }
+

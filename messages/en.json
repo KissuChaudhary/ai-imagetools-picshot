@@ -29,6 +29,10 @@
     "copyright": "© {year} Lexistock AI. All rights reserved.",
     "madeInIndia": "#MadeInIndia"
   },
+  "WebsiteSchema": {
+    "name": "LexiStock AI",
+    "description": "LexiStock offers AI-powered tools for image processing, generation, and enhancement. Create, edit, and transform images with ease using our cutting-edge AI technology."
+  },
 
   "Index": {
     "hero": {
@@ -300,8 +304,14 @@
     },
     "AIImageGeneratorPage": {
       "metadata": {
-        "title": "AI Image Generator | Create Stunning AI-Generated Images",
-        "description": "Generate high-quality, AI-driven images effortlessly with our AI Image Generator. Perfect for artists, marketers, and content creators."
+        "title": "AI Image Generator | Create Unique Images with AI",
+        "description": "Generate unique and creative images using our AI-powered image generator. Perfect for artists, designers, and content creators."
+      },
+      "schema": {
+        "name": "AI Image Generator",
+        "description": "Create unique and creative images using AI technology",
+        "applicationCategory": "ImageGeneration",
+        "operatingSystem": "Any"
       },
       "whatIsTitle": "What is AI Image Generator?",
       "whatIsDescription": "Our AI Image Generator is a cutting-edge tool that uses advanced artificial intelligence to create unique, high-quality images based on your text descriptions. It's perfect for artists, designers, marketers, and anyone looking to bring their ideas to life visually.",
@@ -327,31 +337,38 @@
       "step4Description": "Once generated, you can download your image and use it for your projects."
     },
     "AIBackgroundRemover": {
-      "title": "AI Background Remover",
-      "description": "Remove backgrounds from your images with AI precision",
-      "removeBackgroundButton": "Remove Background",
-      "processingButton": "Processing...",
-      "resetButton": "Reset",
-      "downloadButton": "Download",
-      "uploadPrompt": "Upload an image to remove its background",
-      "dragDropPrompt": "Drag and drop your image here, or click to select",
-      "selectFileButton": "Select File",
-      "supportedFormats": "Supported formats: {formats}",
-      "maxFileSize": "Max file size: {size}MB",
-      "noFileError": "Please select an image file",
-      "processingError": "Error processing the image",
-      "limitReachedTitle": "Daily Limit Reached",
-      "limitReachedDescription": "You've reached the daily limit for background removal. Try again tomorrow!",
-      "errorTitle": "Error",
-      "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
-      "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
-      "creditsUsed": "Credits Used Today"
-    },
+    "title": "AI Background Remover",
+    "description": "Remove backgrounds from your images with AI precision",
+    "removeBackgroundButton": "Remove Background",
+    "processingButton": "Processing...",
+    "resetButton": "Reset",
+    "downloadButton": "Download",
+    "uploadPrompt": "Upload an image to remove its background",
+    "dragDropPrompt": "Drag and drop your image here, or click to select",
+    "selectFileButton": "Select File",
+    "supportedFormats": "Supported formats: {formats}",
+    "maxFileSize": "Max file size: {size}MB",
+    "noFileError": "Please select an image file",
+    "processingError": "Error processing the image",
+    "limitReachedTitle": "Daily Limit Reached",
+    "limitReachedDescription": "You've reached the daily limit for background removal. Try again tomorrow!",
+    "errorTitle": "Error",
+    "invalidFileType": "Invalid file type. Please upload a JPEG, PNG, or WebP image.",
+    "fileTooLarge": "File is too large. Maximum size is {maxSize}MB.",
+    "creditsUsed": "Credits Used Today"
+    
+  },
     "AIBackgroundRemoverPage": {
       "metadata": {
         "title": "AI Background Remover | Remove Image Backgrounds Instantly",
         "description": "Effortlessly remove backgrounds from your images with our AI-powered tool. Perfect for e-commerce, graphic design, and more."
-      }
+      },
+      "schema": {
+      "name": "AI Background Remover",
+      "description": "Remove backgrounds from your images with AI precision",
+      "applicationCategory": "ImageEditing",
+      "operatingSystem": "Any"
+    }
     },
     "AIImageUpscaler": {
       "title": "AI Image Upscaler",
@@ -379,8 +396,14 @@
     },
     "AIImageUpscalerPage": {
       "metadata": {
-        "title": "AI Image Upscaler | Enhance Image Resolution Instantly",
-        "description": "Upscale and enhance your images with our AI-powered tool. Perfect for improving low-resolution photos and creating high-quality prints."
+        "title": "AI Image Upscaler | Enhance Image Resolution",
+        "description": "Increase the resolution and quality of your images with our AI-powered image upscaling tool. Perfect for enlarging photos without losing quality."
+      },
+      "schema": {
+        "name": "AI Image Upscaler",
+        "description": "Increase the resolution and quality of your images with AI precision",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "AIPhotoColorizer": {
@@ -407,8 +430,14 @@
     },
     "AIPhotoColorizerPage": {
       "metadata": {
-        "title": "AI Photo Colorizer | Bring Black and White Photos to Life",
-        "description": "Transform your black and white photos into vibrant, colorful images with our AI-powered colorization tool. Perfect for restoring old photos and adding new life to historical images."
+        "title": "AI Photo Colorizer | Colorize Black and White Photos",
+        "description": "Transform your black and white photos into vibrant, colorful images with our AI-powered photo colorization tool. Bring your old memories to life."
+      },
+      "schema": {
+        "name": "AI Photo Colorizer",
+        "description": "Transform black and white photos into colorful images with AI precision",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "AIPhotoRestorer": {
@@ -435,8 +464,14 @@
     },
     "AIPhotoRestorerPage": {
       "metadata": {
-        "title": "AI Photo Restorer | Enhance and Restore Old Photos",
-        "description": "Bring your old or damaged photos back to life with our AI-powered photo restoration tool. Perfect for preserving memories and enhancing historical images."
+        "title": "AI Photo Restorer | Repair and Enhance Old Photos",
+        "description": "Restore and enhance your old or damaged photos with our AI-powered photo restoration tool. Bring your cherished memories back to life."
+      },
+      "schema": {
+        "name": "AI Photo Restorer",
+        "description": "Restore and enhance old or damaged photos with AI precision",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "AIImageEnhancer": {
@@ -461,10 +496,16 @@
       "creditsUsed": "Credits Used Today",
       "downloadError": "Error downloading the image"
     },
-    "AIImageEnhancerPage": {
+   "AIImageEnhancerPage": {
       "metadata": {
         "title": "AI Image Enhancer | Improve Image Quality",
         "description": "Enhance and improve the quality of your images with our AI-powered image enhancement tool. Perfect for sharpening, denoising, and upscaling your photos."
+      },
+      "schema": {
+        "name": "AI Image Enhancer",
+        "description": "Enhance and improve the quality of your images with AI precision",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "AIImageToTextConverter": {
@@ -495,7 +536,13 @@
     "AIImageToTextConverterPage": {
       "metadata": {
         "title": "AI Image to Text Converter | Extract Text from Images",
-        "description": "Convert images to text with our AI-powered OCR tool. Perfect for digitizing documents, extracting text from screenshots, and more."
+        "description": "Convert images to text with our AI-powered OCR tool. Easily extract text from photos, screenshots, and documents."
+      },
+      "schema": {
+        "name": "AI Image to Text Converter",
+        "description": "Extract text from images with AI-powered OCR technology",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "AIImageCaptionGenerator": {
@@ -527,6 +574,12 @@
       "metadata": {
         "title": "AI Image Caption Generator | Generate Captions for Images",
         "description": "Generate accurate and descriptive captions for your images using our AI-powered tool. Perfect for content creators, social media managers, and more."
+      },
+      "schema": {
+        "name": "AI Image Caption Generator",
+        "description": "Generate accurate and descriptive captions for your images using AI",
+        "applicationCategory": "ImageProcessing",
+        "operatingSystem": "Any"
       }
     },
     "ImageComparisonSlider": {

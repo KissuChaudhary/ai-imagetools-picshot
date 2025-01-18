@@ -300,7 +300,7 @@ export default function AIImageEnhancer() {
       </Card>
 
       <div className="w-full lg:flex-1 bg-background flex flex-col justify-center items-center p-6">
-        <div className="w-full max-w-xl aspect-square relative rounded-lg overflow-hidden shadow-lg">
+        <div className="w-full max-w-xl aspect-square relative rounded-lg overflow-hidden shadow">
           {isProcessing && (
             <div className="absolute inset-0 flex items-center justify-center bg-background/50 z-10">
               <AIImageLoader progress={processingProgress} />

@@ -29,6 +29,10 @@
     "copyright": "© {year} Lexistock IA. Tous droits réservés.",
     "madeInIndia": "#FabriquéEnInde"
   },
+  "WebsiteSchema": {
+    "name": "LexiStock AI",
+    "description": "LexiStock propose des outils alimentés par l'IA pour le traitement, la génération et l'amélioration d'images. Créez, éditez et transformez des images facilement en utilisant notre technologie d'IA de pointe."
+  },
 
   "Index": {
     "hero": {
@@ -298,8 +302,14 @@
     },
     "AIImageGeneratorPage": {
       "metadata": {
-        "title": "Générateur d'Images IA | Créez des Images Époustouflantes Générées par l'IA",
-        "description": "Générez sans effort des images de haute qualité alimentées par l'IA avec notre Générateur d'Images IA. Parfait pour les artistes, les marketeurs et les créateurs de contenu."
+        "title": "Générateur d'Images IA | Créez des Images Uniques avec l'IA",
+        "description": "Générez des images uniques et créatives en utilisant notre générateur d'images alimenté par l'IA. Parfait pour les artistes, les designers et les créateurs de contenu."
+      },
+      "schema": {
+        "name": "Générateur d'Images IA",
+        "description": "Créez des images uniques et créatives en utilisant la technologie de l'IA",
+        "applicationCategory": "GénérationD'Images",
+        "operatingSystem": "Tout"
       },
       "whatIsTitle": "Qu'est-ce que le Générateur d'Images IA ?",
       "whatIsDescription": "Notre Générateur d'Images IA est un outil de pointe qui utilise une intelligence artificielle avancée pour créer des images uniques et de haute qualité basées sur vos descriptions textuelles. Il est parfait pour les artistes, les designers, les marketeurs et tous ceux qui cherchent à donner vie visuellement à leurs idées.",
@@ -325,13 +335,13 @@
       "step4Description": "Une fois générée, vous pouvez télécharger votre image et l'utiliser pour vos projets."
     },
     "AIBackgroundRemover": {
-      "title": "Suppresseur d'Arrière-plan IA",
-      "description": "Supprimez les arrière-plans de vos images avec une précision IA",
+      "title": "Suppresseur d'arrière-plan IA",
+      "description": "Supprimez les arrière-plans de vos images avec la précision de l'IA",
       "removeBackgroundButton": "Supprimer l'Arrière-plan",
       "processingButton": "Traitement en cours...",
       "resetButton": "Réinitialiser",
       "downloadButton": "Télécharger",
-      "uploadPrompt": "Téléversez une image pour supprimer son arrière-plan",
+      "uploadPrompt": "Téléchargez une image pour supprimer son arrière-plan",
       "dragDropPrompt": "Glissez et déposez votre image ici, ou cliquez pour sélectionner",
       "selectFileButton": "Sélectionner un Fichier",
       "supportedFormats": "Formats pris en charge : {formats}",
@@ -339,11 +349,17 @@
       "noFileError": "Veuillez sélectionner un fichier image",
       "processingError": "Erreur lors du traitement de l'image",
       "limitReachedTitle": "Limite Quotidienne Atteinte",
-      "limitReachedDescription": "Vous avez atteint la limite quotidienne pour la suppression d'arrière-plan. Réessayez demain !",
+      "limitReachedDescription": "Vous avez atteint la limite quotidienne de suppression d'arrière-plan. Réessayez demain !",
       "errorTitle": "Erreur",
-      "invalidFileType": "Type de fichier invalide. Veuillez téléverser une image JPEG, PNG ou WebP.",
+      "invalidFileType": "Type de fichier invalide. Veuillez télécharger une image JPEG, PNG ou WebP.",
       "fileTooLarge": "Le fichier est trop volumineux. La taille maximale est de {maxSize}MB.",
-      "creditsUsed": "Crédits Utilisés Aujourd'hui"
+      "creditsUsed": "Crédits Utilisés Aujourd'hui",
+      "schema": {
+        "name": "Suppression de Fond par IA",
+        "description": "Supprimez les arrière-plans de vos images avec la précision de l'IA",
+        "applicationCategory": "ÉditionD'Image",
+        "operatingSystem": "Tout"
+      }
     },
     "AIBackgroundRemoverPage": {
       "metadata": {
@@ -377,8 +393,14 @@
     },
     "AIImageUpscalerPage": {
       "metadata": {
-        "title": "Agrandisseur d'Images IA | Améliorez la Résolution des Images Instantanément",
-        "description": "Agrandissez et améliorez vos images avec notre outil alimenté par l'IA. Parfait pour améliorer les photos de basse résolution et créer des impressions de haute qualité."
+        "title": "Agrandisseur d'Images IA | Améliorez la Résolution des Images",
+        "description": "Augmentez la résolution et la qualité de vos images avec notre outil d'agrandissement d'image alimenté par l'IA. Parfait pour agrandir des photos sans perdre en qualité."
+      },
+      "schema": {
+        "name": "Agrandisseur d'Images IA",
+        "description": "Augmentez la résolution et la qualité de vos images avec la précision de l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
     "AIPhotoColorizer": {
@@ -405,8 +427,14 @@
     },
     "AIPhotoColorizerPage": {
       "metadata": {
-        "title": "Colorisateur de Photos IA | Donnez Vie aux Photos en Noir et Blanc",
-        "description": "Transformez vos photos en noir et blanc en images vibrantes et colorées grâce à notre outil de colorisation alimenté par l'IA. Parfait pour restaurer de vieilles photos et donner une nouvelle vie aux images historiques."
+        "title": "Colorisateur de Photos IA | Colorisez des Photos en Noir et Blanc",
+        "description": "Transformez vos photos en noir et blanc en images vibrantes et colorées avec notre outil de colorisation de photos alimenté par l'IA. Donnez vie à vos anciens souvenirs."
+      },
+      "schema": {
+        "name": "Colorisateur de Photos IA",
+        "description": "Transformez des photos en noir et blanc en images colorées avec la précision de l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
     "AIPhotoRestorer": {
@@ -433,8 +461,14 @@
     },
     "AIPhotoRestorerPage": {
       "metadata": {
-        "title": "Restaurateur de Photos IA | Améliorez et Restaurez les Photos Anciennes",
-        "description": "Redonnez vie à vos photos anciennes ou endommagées grâce à notre outil de restauration de photos alimenté par l'IA. Parfait pour préserver les souvenirs et améliorer les images historiques."
+        "title": "Restaurateur de Photos IA | Réparez et Améliorez les Vieilles Photos",
+        "description": "Restaurez et améliorez vos vieilles photos ou photos endommagées avec notre outil de restauration de photos alimenté par l'IA. Redonnez vie à vos précieux souvenirs."
+      },
+      "schema": {
+        "name": "Restaurateur de Photos IA",
+        "description": "Restaurez et améliorez les vieilles photos ou photos endommagées avec la précision de l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
     "AIImageEnhancer": {
@@ -462,7 +496,13 @@
     "AIImageEnhancerPage": {
       "metadata": {
         "title": "Améliorateur d'Images IA | Améliorez la Qualité des Images",
-        "description": "Améliorez et augmentez la qualité de vos images avec notre outil d'amélioration d'images alimenté par l'IA. Parfait pour la netteté, la réduction du bruit et l'agrandissement de vos photos."
+        "description": "Améliorez et augmentez la qualité de vos images avec notre outil d'amélioration d'image alimenté par l'IA. Parfait pour l'accentuation, la réduction du bruit et l'agrandissement de vos photos."
+      },
+      "schema": {
+        "name": "Améliorateur d'Images IA",
+        "description": "Améliorez et augmentez la qualité de vos images avec la précision de l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
     "AIImageToTextConverter": {
@@ -492,8 +532,14 @@
     },
     "AIImageToTextConverterPage": {
       "metadata": {
-        "title": "Convertisseur d'Image en Texte avec IA | Extraire du Texte à partir d'Images",
-        "description": "Convertissez des images en texte avec notre outil OCR alimenté par IA. Parfait pour numériser des documents, extraire du texte à partir de captures d'écran, et plus encore."
+        "title": "Convertisseur d'Image en Texte IA | Extrayez du Texte à partir d'Images",
+        "description": "Convertissez des images en texte avec notre outil OCR alimenté par l'IA. Extrayez facilement du texte à partir de photos, captures d'écran et documents."
+      },
+      "schema": {
+        "name": "Convertisseur d'Image en Texte IA",
+        "description": "Extrayez du texte à partir d'images avec la technologie OCR alimentée par l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
     "AIImageCaptionGenerator": {
@@ -523,8 +569,14 @@
     },
     "AIImageCaptionGeneratorPage": {
       "metadata": {
-        "title": "Générateur de Légendes pour Images avec IA | Générer des Légendes pour Images",
-        "description": "Générez des légendes précises et descriptives pour vos images avec notre outil alimenté par IA. Parfait pour les créateurs de contenu, les gestionnaires de réseaux sociaux et plus encore."
+        "title": "Générateur de Légendes d'Images IA | Générez des Légendes pour les Images",
+        "description": "Générez des légendes précises et descriptives pour vos images à l'aide de notre outil alimenté par l'IA. Parfait pour les créateurs de contenu, les gestionnaires de médias sociaux et plus encore."
+      },
+      "schema": {
+        "name": "Générateur de Légendes d'Images IA",
+        "description": "Générez des légendes précises et descriptives pour vos images en utilisant l'IA",
+        "applicationCategory": "TraitementD'Image",
+        "operatingSystem": "Tout"
       }
     },
 

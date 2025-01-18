@@ -1,9 +1,10 @@
 import { Metadata } from 'next'
+import Script from 'next/script'
 import AIImageGenerator from '@/components/AIImageGenerator'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { Camera, Brush, Clock, Sparkles, Layers } from 'lucide-react'
-import AmazingArt from '@/components/amazing-art';
-
+import AmazingArt from '@/components/amazing-art'
+import { generateWebApplicationSchema } from '@/utils/schemaGenerator'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -62,11 +63,17 @@ export default async function AIImageGeneratorPage({ params }: Props) {
   unstable_setRequestLocale(locale);
 
   const t = await getTranslations('Index.AIImageGeneratorPage')
+  const schema = await generateWebApplicationSchema(locale, 'AIImageGeneratorPage')
 
   return (
     <div className="min-h-screen bg-background text-foreground" style={{ paddingBottom: '3rem' }}>
+      <Script
+        id="image-generator-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <AIImageGenerator />
-             <AmazingArt />
+      <AmazingArt />
      
       {/* What is AI Image Generator Section */}
       <section className="py-12 bg-muted">
@@ -145,4 +152,3 @@ export default async function AIImageGeneratorPage({ params }: Props) {
     </div>
   )
 }
-

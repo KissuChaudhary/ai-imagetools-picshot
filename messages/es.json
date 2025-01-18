@@ -29,7 +29,10 @@
     "copyright": "© {year} Lexistock IA. Todos los derechos reservados.",
     "madeInIndia": "#HechoEnIndia"
   },
-
+"WebsiteSchema": {
+    "name": "LexiStock AI",
+    "description": "LexiStock ofrece herramientas impulsadas por IA para el procesamiento, generación y mejora de imágenes. Crea, edita y transforma imágenes con facilidad utilizando nuestra tecnología de IA de vanguardia."
+  },
   "Index": {
     "hero": {
       "title": "Deja que la IA Lleve tus Fotos al Siguiente Nivel",
@@ -298,8 +301,14 @@
     },
     "AIImageGeneratorPage": {
       "metadata": {
-        "title": "Generador de Imágenes IA | Crea Impresionantes Imágenes Generadas por IA",
-        "description": "Genera imágenes de alta calidad impulsadas por IA sin esfuerzo con nuestro Generador de Imágenes IA. Perfecto para artistas, marketers y creadores de contenido."
+        "title": "Generador de Imágenes con IA | Crea Imágenes Únicas con IA",
+        "description": "Genera imágenes únicas y creativas utilizando nuestro generador de imágenes impulsado por IA. Perfecto para artistas, diseñadores y creadores de contenido."
+      },
+      "schema": {
+        "name": "Generador de Imágenes con IA",
+        "description": "Crea imágenes únicas y creativas utilizando tecnología de IA",
+        "applicationCategory": "GeneraciónDeImágenes",
+        "operatingSystem": "Cualquiera"
       },
       "whatIsTitle": "¿Qué es el Generador de Imágenes IA?",
       "whatIsDescription": "Nuestro Generador de Imágenes IA es una herramienta de vanguardia que utiliza inteligencia artificial avanzada para crear imágenes únicas y de alta calidad basadas en tus descripciones de texto. Es perfecto para artistas, diseñadores, marketers y cualquiera que busque dar vida visualmente a sus ideas.",
@@ -325,26 +334,32 @@
       "step4Description": "Una vez generada, puedes descargar tu imagen y usarla para tus proyectos."
     },
     "AIBackgroundRemover": {
-      "title": "Eliminador de Fondos IA",
-      "description": "Elimina fondos de tus imágenes con precisión IA",
-      "removeBackgroundButton": "Eliminar Fondo",
-      "processingButton": "Procesando...",
-      "resetButton": "Reiniciar",
-      "downloadButton": "Descargar",
-      "uploadPrompt": "Sube una imagen para eliminar su fondo",
-      "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
-      "selectFileButton": "Seleccionar Archivo",
-      "supportedFormats": "Formatos soportados: {formats}",
-      "maxFileSize": "Tamaño máximo de archivo: {size}MB",
-      "noFileError": "Por favor, selecciona un archivo de imagen",
-      "processingError": "Error al procesar la imagen",
-      "limitReachedTitle": "Límite Diario Alcanzado",
-      "limitReachedDescription": "Has alcanzado el límite diario para la eliminación de fondos. ¡Inténtalo de nuevo mañana!",
-      "errorTitle": "Error",
-      "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
-      "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
-      "creditsUsed": "Créditos Usados Hoy"
-    },
+    "title": "Eliminador de fondo de IA",
+    "description": "Elimina fondos de tus imágenes con precisión de IA",
+    "removeBackgroundButton": "Eliminar Fondo",
+    "processingButton": "Procesando...",
+    "resetButton": "Reiniciar",
+    "downloadButton": "Descargar",
+    "uploadPrompt": "Sube una imagen para eliminar su fondo",
+    "dragDropPrompt": "Arrastra y suelta tu imagen aquí, o haz clic para seleccionar",
+    "selectFileButton": "Seleccionar Archivo",
+    "supportedFormats": "Formatos soportados: {formats}",
+    "maxFileSize": "Tamaño máximo de archivo: {size}MB",
+    "noFileError": "Por favor, selecciona un archivo de imagen",
+    "processingError": "Error al procesar la imagen",
+    "limitReachedTitle": "Límite Diario Alcanzado",
+    "limitReachedDescription": "Has alcanzado el límite diario para eliminar fondos. ¡Inténtalo de nuevo mañana!",
+    "errorTitle": "Error",
+    "invalidFileType": "Tipo de archivo inválido. Por favor, sube una imagen JPEG, PNG o WebP.",
+    "fileTooLarge": "El archivo es demasiado grande. El tamaño máximo es {maxSize}MB.",
+    "creditsUsed": "Créditos Usados Hoy",
+    "schema": {
+      "name": "Eliminador de Fondos con IA",
+      "description": "Elimina fondos de tus imágenes con precisión de IA",
+      "applicationCategory": "EdiciónDeImágenes",
+      "operatingSystem": "Cualquiera"
+    }
+  },
     "AIBackgroundRemoverPage": {
       "metadata": {
         "title": "Eliminador de Fondos IA | Elimina Fondos de Imágenes Instantáneamente",
@@ -377,8 +392,14 @@
     },
     "AIImageUpscalerPage": {
       "metadata": {
-        "title": "Amplificador de Imágenes con IA | Mejora la Resolución de Imágenes Instantáneamente",
-        "description": "Amplía y mejora tus imágenes con nuestra herramienta potenciada por IA. Perfecto para mejorar fotos de baja resolución y crear impresiones de alta calidad."
+        "title": "Ampliador de Imágenes con IA | Mejora la Resolución de Imágenes",
+        "description": "Aumenta la resolución y calidad de tus imágenes con nuestra herramienta de ampliación de imágenes impulsada por IA. Perfecto para agrandar fotos sin perder calidad."
+      },
+      "schema": {
+        "name": "Ampliador de Imágenes con IA",
+        "description": "Aumenta la resolución y calidad de tus imágenes con precisión de IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
     "AIPhotoColorizer": {
@@ -405,8 +426,14 @@
     },
     "AIPhotoColorizerPage": {
       "metadata": {
-        "title": "Colorizador de Fotos con IA | Da Vida a las Fotos en Blanco y Negro",
-        "description": "Transforma tus fotos en blanco y negro en imágenes vibrantes y coloridas con nuestra herramienta de colorización potenciada por IA. Perfecto para restaurar fotos antiguas y dar nueva vida a imágenes históricas."
+        "title": "Colorizador de Fotos con IA | Colorea Fotos en Blanco y Negro",
+        "description": "Transforma tus fotos en blanco y negro en imágenes vibrantes y coloridas con nuestra herramienta de colorización de fotos impulsada por IA. Da vida a tus viejos recuerdos."
+      },
+      "schema": {
+        "name": "Colorizador de Fotos con IA",
+        "description": "Transforma fotos en blanco y negro en imágenes coloridas con precisión de IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
     "AIPhotoRestorer": {
@@ -433,8 +460,14 @@
     },
     "AIPhotoRestorerPage": {
       "metadata": {
-        "title": "Restaurador de Fotos con IA | Mejora y Restaura Fotos Antiguas",
-        "description": "Devuelve la vida a tus fotos antiguas o dañadas con nuestra herramienta de restauración de fotos potenciada por IA. Perfecto para preservar recuerdos y mejorar imágenes históricas."
+        "title": "Restaurador de Fotos con IA | Repara y Mejora Fotos Antiguas",
+        "description": "Restaura y mejora tus fotos antiguas o dañadas con nuestra herramienta de restauración de fotos impulsada por IA. Devuelve la vida a tus recuerdos más preciados."
+      },
+      "schema": {
+        "name": "Restaurador de Fotos con IA",
+        "description": "Restaura y mejora fotos antiguas o dañadas con precisión de IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
     "AIImageEnhancer": {
@@ -462,7 +495,13 @@
     "AIImageEnhancerPage": {
       "metadata": {
         "title": "Mejorador de Imágenes con IA | Mejora la Calidad de las Imágenes",
-        "description": "Mejora y aumenta la calidad de tus imágenes con nuestra herramienta de mejora de imágenes potenciada por IA. Perfecto para nitidez, reducción de ruido y ampliación de tus fotos."
+        "description": "Mejora y aumenta la calidad de tus imágenes con nuestra herramienta de mejora de imágenes impulsada por IA. Perfecto para nitidez, reducción de ruido y ampliación de tus fotos."
+      },
+      "schema": {
+        "name": "Mejorador de Imágenes con IA",
+        "description": "Mejora y aumenta la calidad de tus imágenes con precisión de IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
     "AIImageToTextConverter": {
@@ -492,8 +531,14 @@
     },
     "AIImageToTextConverterPage": {
       "metadata": {
-        "title": "Convertidor de Imagen a Texto con IA | Extrae Texto de Imágenes",
-        "description": "Convierte imágenes a texto con nuestra herramienta de OCR potenciada por IA. Perfecto para digitalizar documentos, extraer texto de capturas de pantalla y más."
+        "title": "Conversor de Imagen a Texto con IA | Extrae Texto de Imágenes",
+        "description": "Convierte imágenes a texto con nuestra herramienta de OCR impulsada por IA. Extrae fácilmente texto de fotos, capturas de pantalla y documentos."
+      },
+      "schema": {
+        "name": "Conversor de Imagen a Texto con IA",
+        "description": "Extrae texto de imágenes con tecnología OCR impulsada por IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
     "AIImageCaptionGenerator": {
@@ -523,8 +568,14 @@
     },
     "AIImageCaptionGeneratorPage": {
       "metadata": {
-        "title": "Generador de Subtítulos para Imágenes con IA | Genera Subtítulos para Imágenes",
-        "description": "Genera subtítulos precisos y descriptivos para tus imágenes con nuestra herramienta potenciada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
+        "title": "Generador de Subtítulos de Imágenes con IA | Genera Subtítulos para Imágenes",
+        "description": "Genera subtítulos precisos y descriptivos para tus imágenes utilizando nuestra herramienta impulsada por IA. Perfecto para creadores de contenido, gestores de redes sociales y más."
+      },
+      "schema": {
+        "name": "Generador de Subtítulos de Imágenes con IA",
+        "description": "Genera subtítulos precisos y descriptivos para tus imágenes utilizando IA",
+        "applicationCategory": "ProcesamientoDeImágenes",
+        "operatingSystem": "Cualquiera"
       }
     },
 
