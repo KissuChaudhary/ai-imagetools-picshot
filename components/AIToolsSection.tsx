@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { ImageIcon, Eraser, Maximize, Palette, History, Sparkles, UserCircle, SwitchCameraIcon as Switch, User } from 'lucide-react'
+import { ImageIcon, Eraser, Maximize, Palette, History, Sparkles, UserCircle, SwitchCameraIcon as Switch } from 'lucide-react'
 
 interface Tool {
   id: string
