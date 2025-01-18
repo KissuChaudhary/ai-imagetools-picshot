@@ -22,7 +22,8 @@ export default function LocaleSwitcher() {
     { code: 'fr', name: 'Français' },
   ];
 
-  const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
+  // Remove the unused currentLanguage variable
+  // const currentLanguage = languages.find(lang => lang.code === locale) || languages[0];
 
   function onSelectChange(newLocale: string) {
     const pathnameWithoutLocale = pathname.replace(`/${locale}`, '');
@@ -52,3 +53,4 @@ export default function LocaleSwitcher() {
     </DropdownMenu>
   );
 }
+
