@@ -29,10 +29,7 @@
     "copyright": "© {year} Lexistock IA. Todos los derechos reservados.",
     "madeInIndia": "#HechoEnIndia"
   },
-"WebsiteSchema": {
-    "name": "LexiStock AI",
-    "description": "LexiStock ofrece herramientas impulsadas por IA para el procesamiento, generación y mejora de imágenes. Crea, edita y transforma imágenes con facilidad utilizando nuestra tecnología de IA de vanguardia."
-  },
+
   "Index": {
     "hero": {
       "title": "Deja que la IA Lleve tus Fotos al Siguiente Nivel",
@@ -40,6 +37,16 @@
       "newFeature": "Generador de Arte IA Gratuito",
       "lovedBy": "Amada por 2k + usuarios",
       "cta": "Crea tu Primer Arte IA"
+    },
+    "Layout": {
+      "metadata": {
+        "title": "LexiStock - Herramientas de Imagen Impulsadas por IA",
+        "description": "LexiStock ofrece herramientas de IA de vanguardia para el procesamiento, generación y mejora de imágenes. Transforma tus visuales con nuestra plataforma fácil de usar."
+      },
+      "schema": {
+        "name": "LexiStock",
+        "description": "LexiStock ofrece herramientas impulsadas por IA para el procesamiento, generación y mejora de imágenes. Crea, edita y transforma imágenes con facilidad utilizando nuestra tecnología de IA de vanguardia."
+      }
     },
     "aiTool": {
       "backgroundRemover": {

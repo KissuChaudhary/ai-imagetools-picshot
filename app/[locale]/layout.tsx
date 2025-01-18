@@ -9,11 +9,26 @@ import { ToastProvider } from "@/components/ui/toast"
 import "@/app/globals.css"
 import {getMessages} from '@/lib/get-messages'
 import {setRequestLocale, getTranslations} from 'next-intl/server';
+import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ["latin"] })
 
 export function generateStaticParams() {
   return [{locale: 'en'}, {locale: 'es'}, {locale: 'fr'}];
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Index.Layout.metadata' });
+
+  return {
+    title: {
+      default: t('title'),
+      template: `%s | ${t('title')}`,
+    },
+    description: t('description'),
+    metadataBase: new URL('https://lexistock.com'),
+  }
 }
 
 export default async function LocaleLayout({
@@ -31,7 +46,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  const t = await getTranslations('WebsiteSchema');
+  const t = await getTranslations({ locale, namespace: 'Index.Layout.schema' });
 
   const websiteSchema = {
     "@context": "https://schema.org",
@@ -81,4 +96,3 @@ export default async function LocaleLayout({
     </html>
   )
 }
-

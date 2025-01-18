@@ -29,10 +29,7 @@
     "copyright": "© {year} Lexistock AI. All rights reserved.",
     "madeInIndia": "#MadeInIndia"
   },
-  "WebsiteSchema": {
-    "name": "LexiStock AI",
-    "description": "LexiStock offers AI-powered tools for image processing, generation, and enhancement. Create, edit, and transform images with ease using our cutting-edge AI technology."
-  },
+
 
   "Index": {
     "hero": {
@@ -41,6 +38,16 @@
       "newFeature": "Free AI Art Generator",
       "lovedBy": "Loved by 2k+ users",
       "cta": "Create Your First AI Art"
+    },
+    "Layout": {
+      "metadata": {
+        "title": "LexiStock - AI-Powered Image Tools",
+        "description": "LexiStock offers cutting-edge AI tools for image processing, generation, and enhancement. Transform your visuals with our easy-to-use platform."
+      },
+      "schema": {
+        "name": "LexiStock",
+        "description": "LexiStock offers AI-powered tools for image processing, generation, and enhancement. Create, edit, and transform images with ease using our cutting-edge AI technology."
+      }
     },
     "aiTool": {
       "backgroundRemover": {
