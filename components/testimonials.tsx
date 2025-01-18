@@ -73,7 +73,7 @@ export function TestimonialsSection() {
   return (
     <section className="bg-[#1a1a1a] py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl font-bold text-white mb-6">
+        <h2 className="text-3xl font-bold text-white mb-6">
           {t('title')}
         </h2>
         

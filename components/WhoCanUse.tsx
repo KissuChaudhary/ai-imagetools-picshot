@@ -40,7 +40,7 @@ export default function WhoCanUse() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-cyan-400 font-medium">{t('welcome')}</p>
-          <h2 className="text-2xl sm:text-3xl sm:text-5xl font-bold">
+          <h2 className="text-3xl tracking-tighter sm:text-4xl md:text-4xl lg:text-5xl font-bold text-white">
             {t('title')} <span className="text-cyan-400">{t('titleHighlight')}</span>
           </h2>
           <p className="text-gray-400 text-lg md:text-xl">

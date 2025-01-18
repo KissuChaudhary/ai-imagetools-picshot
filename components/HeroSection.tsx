@@ -112,7 +112,7 @@ const HeroSection = () => {
           {t('title')} 
         </h1>
 
-        <p className="mx-auto max-w-3xl text-gray-700 text-sm xs:text-base sm:text-lg md:text-xl mb-8">
+        <p className="mx-auto max-w-3xl text-gray-800 text-sm xs:text-base sm:text-lg md:text-xl mb-8">
           {t('description')}
         </p>
         <div className="flex items-center space-x-2 mb-4">

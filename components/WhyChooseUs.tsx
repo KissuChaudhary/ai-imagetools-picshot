@@ -57,7 +57,7 @@ export function WhyChooseUs() {
           transition={{ duration: 0.6 }}
           className="max-w-3xl mx-auto text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6">
+          <h2 className="text-3xl tracking-tighter sm:text-4xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent mb-6">
             {t('title')}
           </h2>
           <div className="w-20 h-1 bg-[#22d3ee] mx-auto rounded-full" />

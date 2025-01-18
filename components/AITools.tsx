@@ -39,7 +39,7 @@ export default function AITools() {
                 <div className="text-[#22d3ee] text-sm font-medium mb-4">
                   {t(`${tool}.category`)}
                 </div>
-                <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
+                <h2 className="text-3xl tracking-tighter sm:text-4xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                   {t(`${tool}.title`)}
                 </h2>
                 <p className="text-2xl text-gray-400 mb-4">

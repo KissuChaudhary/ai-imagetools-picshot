@@ -12,7 +12,8 @@
     "imageToText": "AI Image to Text Converter"
   },
   "Footer": {
-    "allTools": "All Tools",
+    "title": "Lexistock AI",
+    "siteDescription": "Unleash your creativity with our AI-powered image tools. Transform, enhance, and create stunning visuals effortlessly.",
     "AIimageGenerator": "AI Image Generator",
     "removeBg": "AI Background Remover",
     "upscaler": "AI Image Upscaler",
@@ -21,9 +22,6 @@
     "enhance": "AI Image Enhancer",
     "captionGenerator": "AI Image Caption Generator",
     "imageToText": "AI Image to Text Converter",
-    "company": "Company",
-    "about": "About",
-    "blog": "Blog",
     "contact": "Contact",
     "legal": "Legal",
     "privacyPolicy": "Privacy Policy",
@@ -37,7 +35,7 @@
       "title": "Let AI Take Your Photos to the Next Level",
       "description": "Create, edit, and transform your visuals effortlessly with our AI-powered tools. From removing backgrounds to enhancing image quality and generating stunning artwork, we provide everything you need to bring your creativity to life.",
       "newFeature": "Free AI Art Generator",
-      "lovedBy": "Loved by 2k+ customers",
+      "lovedBy": "Loved by 2k+ users",
       "cta": "Create Your First AI Art"
     },
     "aiTool": {
@@ -181,15 +179,8 @@
       "headingEfficient": "efficient",
       "headingPart5": "way",
       "subtitle": "Join thousands of creators who are already using our platform to bring their ideas to life. Use everything for Free.",
-      "button": "Enhance Your Photos Now",
-      "stats": {
-        "users": "1.2K+",
-        "assets": "18K+",
-        "satisfaction": "99.9%",
-        "usersLabel": "Active users",
-        "assetsLabel": "Assets created",
-        "satisfactionLabel": "User satisfaction"
-      }
+      "button": "Enhance Your Photos Now"
+    
     },
     "amazingArt": {
       "title": "100% Free Realistic AI Image Generator",
@@ -1179,14 +1170,10 @@
       ]
     },
     "ImageCaptionGeneratorContent": {
-      "imageAltBefore": "Before: Image ready for caption generation",
-      "imageAltAfter": "After: Generated caption for the image",
-      "beforeLabel": "Before",
-      "afterLabel": "After",
+
       "heroTitle": "Transform Your Images with AI-Powered Captions",
       "heroParagraph1": "A compelling caption can make or break your social media post or presentation. Manually crafting perfect captions takes time and creativity. Why not let AI handle it for you?",
       "heroParagraph2": "With our AI Image Caption Generator, creating descriptive and engaging captions is effortless. Upload your image and let AI analyze it to generate a captivating caption within seconds.",
-      "generateCaptionButton": "Generate Caption Now",
       "featuresTitle": "Key Features of Our AI Caption Generator",
       "features": {
         "smartRecognition": {
@@ -1307,14 +1294,10 @@
       ]
     },
     "ImageTextConverterContent": {
-      "imageAltBefore": "Before: Image ready for text extraction",
-      "imageAltAfter": "After: Extracted text from image",
-      "beforeLabel": "Before",
-      "afterLabel": "After",
+
       "heroTitle": "Convert Images to Text with AI Precision",
       "heroParagraph1": "Extracting text from images has never been easier. Whether you need to copy text from a scanned document or capture information from a photo, doing it manually is tedious and time-consuming.",
       "heroParagraph2": "Our AI Image to Text Converter simplifies the process. Upload your image, and let the tool quickly extract text with unparalleled accuracy—perfect for professional and personal use.",
-      "generateCaptionButton": "Extract Text Now",
       "featuresTitle": "Key Features of Our AI Image to Text Converter",
       "features": {
         "smartRecognition": {
@@ -1434,6 +1417,7 @@
         }
       ]
     },
+
     "TestimonialsSection": {
       "title": "What Users Are Saying About Lexistock AI",
       "averageRating": "4.5 average rating from 1200+ users worldwide.",
@@ -1469,6 +1453,101 @@
           "content": "Lexistock AI is the best platform I've used for quick and clean edits!"
         }
       ]
+    }
+  },
+"Terms": {
+    "title": "Terms of Service",
+    "subtitle": "Simple, transparent terms for our free AI image tools",
+    "lastUpdated": "Last Updated: {date}",
+    "sections": {
+      "service": {
+        "title": "Service Usage",
+        "description": "Lexistock provides AI-powered image processing tools completely free of charge. Here's what you need to know:",
+        "items": {
+          "free": "All tools are free to use with no hidden costs or premium features",
+          "noAccount": "No account creation or registration required - just upload and process",
+          "fairUse": "Fair use policy applies to ensure service availability for everyone"
+        }
+      },
+      "privacy": {
+        "title": "Image Processing & Privacy",
+        "description": "We take your privacy seriously. Here's how we handle your images:",
+        "items": {
+          "retention": "Images are temporarily stored for processing (maximum 24 hours)",
+          "deletion": "All images are automatically and permanently deleted after 24 hours",
+          "noData": "We don't collect or store any personal data or usage information"
+        }
+      },
+      "guidelines": {
+        "title": "User Guidelines",
+        "description": "To maintain a safe and reliable service, please follow these guidelines:",
+        "items": {
+          "legal": "Only upload images you have the legal right to use and process",
+          "appropriate": "Use the service for its intended purpose of image enhancement and editing",
+          "safe": "Don't process or generate harmful, offensive, or inappropriate content"
+        }
+      },
+      "monetization": {
+        "title": "Site Monetization",
+        "description": "To keep our services free, we use advertising. Here's what you need to know:",
+        "items": {
+          "adSupported": "Lexistock is supported by advertisements provided by Google AdSense",
+          "userAgreement": "By using our service, you agree to view non-intrusive advertisements",
+          "optionalClicks": "Clicking on advertisements is entirely optional and at your discretion"
+        }
+      }
+    }
+  },
+  "Policy": {
+    "title": "Privacy & Usage Policy",
+    "subtitle": "Our commitment to your privacy and responsible AI use",
+    "lastUpdated": "Last Updated- {date}",
+    "sections": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "At Lexistock, we prioritize your privacy. Here's how we handle your information:",
+        "items": {
+          "noCollection": "We do not collect or store any personal information",
+          "tempStorage": "Uploaded images are temporarily stored for processing (max 24 hours)",
+          "noCookies": "We do not use cookies or tracking technologies"
+        }
+      },
+      "security": {
+        "title": "Data Security",
+        "description": "We take the security of your data seriously:",
+        "items": {
+          "encryption": "All data transmissions are encrypted using industry-standard protocols",
+          "deletion": "Automatic deletion of all processed images after 24 hours",
+          "noSharing": "We never share or sell any user data or processed images"
+        }
+      },
+      "usage": {
+        "title": "Acceptable Use Policy",
+        "description": "To ensure a safe and fair environment for all users:",
+        "items": {
+          "legalUse": "Only upload and process images you have the legal right to use",
+          "fairUse": "Respect our fair use policy to ensure service availability for everyone",
+          "noHarmful": "Do not use our tools to create or process harmful or inappropriate content"
+        }
+      },
+      "disclaimer": {
+        "title": "AI Disclaimer",
+        "description": "While we strive for accuracy, please be aware of the following:",
+        "items": {
+          "aiLimitations": "AI models have limitations and may produce unexpected results",
+          "noLiability": "We are not liable for any consequences arising from the use of our AI-generated content",
+          "userResponsibility": "Users are responsible for reviewing and validating AI-processed images"
+        }
+      },
+      "advertising": {
+        "title": "Advertising",
+        "description": "We use Google AdSense to display advertisements. Here's how it affects your privacy:",
+        "items": {
+          "thirdParty": "Third-party vendors, including Google, use cookies to serve ads based on your prior visits to our website or other websites",
+          "cookies": "Google's use of advertising cookies enables it and its partners to serve ads based on your visit to our site and/or other sites on the Internet",
+          "optOut": "You may opt out of personalized advertising by visiting Ads Settings (https://www.google.com/settings/ads)"
+        }
+      }
     }
   }
 }

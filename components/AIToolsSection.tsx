@@ -96,7 +96,7 @@ export function AIToolsSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+          <h2 className="text-3xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
             <span className="text-cyan-400">{t('title')}</span> {t('titleHighlight1')}
           </h2>
           <p className="max-w-[900px] text-sm sm:text-base text-zinc-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">

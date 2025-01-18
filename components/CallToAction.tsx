@@ -3,7 +3,8 @@
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
 import { useTranslations } from 'next-intl'
-import { Wand2, Image, Zap, Users, Star } from 'lucide-react'
+import { Wand2, Image, Zap } from 'lucide-react'
+import NextLink from 'next/link'
 
 export default function CallToAction() {
   const t = useTranslations('Index.cta')
@@ -77,48 +78,17 @@ export default function CallToAction() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <Button 
-              size="lg" 
-              className="bg-[#22d3ee] text-black hover:bg-[#22d3ee]/90 text-lg px-6 py-4 h-auto font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#22d3ee]/50"
-            >
-              {t('button')}
-            </Button>
-          </motion.div>
-
-          {/* Stats */}
-          <motion.dl 
-            className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-3"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-          >
-            {[
-              { icon: Users, value: t('stats.users'), label: t('stats.usersLabel') },
-              { icon: Image, value: t('stats.assets'), label: t('stats.assetsLabel') },
-              { icon: Star, value: t('stats.satisfaction'), label: t('stats.satisfactionLabel') },
-            ].map((stat, index) => (
-              <motion.div 
-                key={stat.label}
-                className="flex flex-col items-center gap-2 bg-gray-800/50 p-6 rounded-xl backdrop-blur-sm"
-                whileHover={{ scale: 1.05, backgroundColor: 'rgba(34, 211, 238, 0.1)' }}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "spring",
-                  stiffness: 300,
-                  delay: 0.3 + index * 0.1,
-                  duration: 0.6
-                }}
+            <NextLink href="/tools/ai-image-enhancer" passHref>
+              <Button 
+                size="lg" 
+                className="bg-[#22d3ee] text-black hover:bg-[#22d3ee]/90 text-lg px-4 py-2 h-auto font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-[#22d3ee]/50"
               >
-                <stat.icon className="h-8 w-8 text-[#22d3ee] mb-2" />
-                <dt className="text-3xl font-bold tracking-tight text-white">{stat.value}</dt>
-                <dd className="text-sm text-gray-400">{stat.label}</dd>
-              </motion.div>
-            ))}
-          </motion.dl>
+                {t('button')}
+              </Button>
+            </NextLink>
+          </motion.div>
         </motion.div>
       </div>
     </section>
   )
 }
-

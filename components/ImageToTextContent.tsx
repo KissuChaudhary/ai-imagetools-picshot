@@ -1,177 +1,128 @@
-'use client'
+"use client";
 
-import { useRef, useState, useCallback } from 'react'
-import { ArrowLeftRight, Zap, Maximize, MousePointer, DollarSign, Upload, Sliders, Download, Camera, ShoppingBag, Share2, PieChart } from 'lucide-react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { TestimonialsSection } from '@/components/testimonials'
+import { useRef, useState, useCallback } from "react";
+import {
+  ArrowLeftRight,
+  Zap,
+  Maximize,
+  MousePointer,
+  DollarSign,
+  Upload,
+  Sliders,
+  Download,
+  Camera,
+  ShoppingBag,
+  Share2,
+  PieChart,
+} from "lucide-react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { TestimonialsSection } from "@/components/testimonials";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { useTranslations } from 'next-intl'
+} from "@/components/ui/accordion";
+import { useTranslations } from "next-intl";
 
 const features = [
   {
     icon: Maximize,
-    color: 'text-blue-500',
-    titleKey: 'features.smartRecognition.title',
-    descriptionKey: 'features.smartRecognition.description',
+    color: "text-blue-500",
+    titleKey: "features.smartRecognition.title",
+    descriptionKey: "features.smartRecognition.description",
   },
   {
     icon: Zap,
-    color: 'text-yellow-500',
-    titleKey: 'features.multiFormatSupport.title',
-    descriptionKey: 'features.multiFormatSupport.description',
+    color: "text-yellow-500",
+    titleKey: "features.multiFormatSupport.title",
+    descriptionKey: "features.multiFormatSupport.description",
   },
   {
     icon: MousePointer,
-    color: 'text-green-500',
-    titleKey: 'features.freeToUse.title',
-    descriptionKey: 'features.freeToUse.description',
+    color: "text-green-500",
+    titleKey: "features.freeToUse.title",
+    descriptionKey: "features.freeToUse.description",
   },
   {
     icon: DollarSign,
-    color: 'text-purple-500',
-    titleKey: 'features.fastResults.title',
-    descriptionKey: 'features.fastResults.description',
-  }
-]
+    color: "text-purple-500",
+    titleKey: "features.fastResults.title",
+    descriptionKey: "features.fastResults.description",
+  },
+];
 
 const steps = [
   {
     icon: Upload,
-    titleKey: 'steps.upload.title',
-    descriptionKey: 'steps.upload.description',
-    image: '/placeholder.svg?height=200&width=300'
+    titleKey: "steps.upload.title",
+    descriptionKey: "steps.upload.description",
+    image: "/placeholder.svg?height=200&width=300",
   },
   {
     icon: Sliders,
-    titleKey: 'steps.generate.title',
-    descriptionKey: 'steps.generate.description',
-    image: '/placeholder.svg?height=200&width=300'
+    titleKey: "steps.generate.title",
+    descriptionKey: "steps.generate.description",
+    image: "/placeholder.svg?height=200&width=300",
   },
   {
     icon: Download,
-    titleKey: 'steps.copy.title',
-    descriptionKey: 'steps.copy.description',
-    image: '/placeholder.svg?height=200&width=300'
-  }
-]
+    titleKey: "steps.copy.title",
+    descriptionKey: "steps.copy.description",
+    image: "/placeholder.svg?height=200&width=300",
+  },
+];
 
 const useCases = [
   {
     icon: Camera,
-    titleKey: 'useCases.documentScanning.title',
-    descriptionKey: 'useCases.documentScanning.description',
+    titleKey: "useCases.documentScanning.title",
+    descriptionKey: "useCases.documentScanning.description",
   },
   {
     icon: ShoppingBag,
-    titleKey: 'useCases.photoNotes.title',
-    descriptionKey: 'useCases.photoNotes.description',
+    titleKey: "useCases.photoNotes.title",
+    descriptionKey: "useCases.photoNotes.description",
   },
   {
     icon: Share2,
-    titleKey: 'useCases.handwrittenText.title',
-    descriptionKey: 'useCases.handwrittenText.description',
+    titleKey: "useCases.handwrittenText.title",
+    descriptionKey: "useCases.handwrittenText.description",
   },
   {
     icon: PieChart,
-    titleKey: 'useCases.businessDataEntry.title',
-    descriptionKey: 'useCases.businessDataEntry.description',
-  }
-]
+    titleKey: "useCases.businessDataEntry.title",
+    descriptionKey: "useCases.businessDataEntry.description",
+  },
+];
 
 export default function ImageToTextContent() {
-  const t = useTranslations('Index.ImageTextConverterContent')
-  const [sliderPosition, setSliderPosition] = useState(50)
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  const handleMove = useCallback((event: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>) => {
-    if (containerRef.current) {
-      const containerRect = containerRef.current.getBoundingClientRect()
-      const x = 'touches' in event ? event.touches[0].clientX : event.clientX
-      const relativeX = x - containerRect.left
-      const newPosition = (relativeX / containerRect.width) * 100
-      setSliderPosition(Math.min(Math.max(0, newPosition), 100))
-    }
-  }, [])
+  const t = useTranslations("Index.ImageTextConverterContent");
 
   return (
     <div className="bg-background text-foreground">
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-8">
-          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <div
-              ref={containerRef}
-              className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted cursor-col-resize shadow-lg"
-              onMouseMove={handleMove}
-              onTouchMove={handleMove}
-              role="slider"
-              aria-valuemin={0}
-              aria-valuemax={100}
-              aria-valuenow={sliderPosition}
-              tabIndex={0}
-            >
-              <Image
-                src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
-                alt={t('imageAltBefore')}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                priority
-                className="object-cover"
-              />
-              <div
-                className="absolute top-0 bottom-0 right-0 w-full overflow-hidden"
-                style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
-              >
-                <Image
-                  src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2880&q=100"
-                  alt={t('imageAltAfter')}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  priority
-                  className="object-cover"
-                />
-              </div>
-              <div
-                className="absolute top-0 bottom-0 w-1 bg-white cursor-col-resize"
-                style={{ left: `${sliderPosition}%` }}
-              >
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full shadow-md flex items-center justify-center">
-                  <ArrowLeftRight className="w-5 h-5 text-muted-foreground" />
-                </div>
-              </div>
-              <div className="absolute top-4 left-4 bg-black/50 px-3 py-1 rounded-full text-white text-sm font-medium">
-                {t('beforeLabel')}
-              </div>
-              <div className="absolute top-4 right-4 bg-black/50 px-3 py-1 rounded-full text-white text-sm font-medium">
-                {t('afterLabel')}
-              </div>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
+      <section className="bg-black text-white mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-7xl px-4 flex flex-col mx-auto justify-center lg:flex-row lg:items-center lg:space-x-8">
+        
+          <div className="max-w-7xl ">
             <h1 className="text-3xl sm:text-4xl font-bold mb-6">
-              {t('heroTitle')}
+              {t("heroTitle")}
             </h1>
             <div className="space-y-4">
-              <p>{t('heroParagraph1')}</p>
-              <p>{t('heroParagraph2')}</p>
+              <p>{t("heroParagraph1")}</p>
+              <p>{t("heroParagraph2")}</p>
             </div>
-            <div className="mt-8">
-              <Button size="lg">{t('generateCaptionButton')}</Button>
-            </div>
+
           </div>
         </div>
       </section>
-      
+
       <section className="bg-secondary text-secondary-foreground py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
-            {t('featuresTitle')}
+            {t("featuresTitle")}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
@@ -196,7 +147,7 @@ export default function ImageToTextContent() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
-            {t('stepsTitle')}
+            {t("stepsTitle")}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
@@ -228,7 +179,7 @@ export default function ImageToTextContent() {
       <section className="bg-secondary text-secondary-foreground py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">
-            {t('useCasesTitle')}
+            {t("useCasesTitle")}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {useCases.map((useCase, index) => (
@@ -245,7 +196,7 @@ export default function ImageToTextContent() {
                   <p className="text-center">{t(useCase.descriptionKey)}</p>
                 </CardContent>
               </Card>
-            ))} 
+            ))}
           </div>
         </div>
       </section>
@@ -253,44 +204,46 @@ export default function ImageToTextContent() {
       <section className="py-16 bg-background">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-8">
-            {t('captionGenerationTitle')}
+            {t("captionGenerationTitle")}
           </h2>
           <div className="space-y-6">
-            <p>{t('captionGenerationParagraph1')}</p>
-            <p>{t('captionGenerationParagraph2')}</p>
+            <p>{t("captionGenerationParagraph1")}</p>
+            <p>{t("captionGenerationParagraph2")}</p>
           </div>
 
           <h2 className="text-3xl font-bold mt-12 mb-8">
-            {t('benefitsTitle')}
+            {t("benefitsTitle")}
           </h2>
           <div className="space-y-6 ">
-            <p>{t('benefitsParagraph')}</p>
+            <p>{t("benefitsParagraph")}</p>
             <ul className="list-disc pl-6 space-y-2">
-              {['benefit1', 'benefit2', 'benefit3', 'benefit4'].map((key, index) => (
-                <li key={index}>{t(`benefits.${key}`)}</li>
-              ))}
+              {["benefit1", "benefit2", "benefit3", "benefit4"].map(
+                (key, index) => (
+                  <li key={index}>{t(`benefits.${key}`)}</li>
+                )
+              )}
             </ul>
           </div>
 
           <h2 className="text-3xl font-bold mt-12 mb-8">
-            {t('misconceptionsTitle')}
+            {t("misconceptionsTitle")}
           </h2>
           <div className="space-y-6 ">
-            <p>{t('misconceptionsParagraph1')}</p>
-            <p>{t('misconceptionsParagraph2')}</p>
+            <p>{t("misconceptionsParagraph1")}</p>
+            <p>{t("misconceptionsParagraph2")}</p>
           </div>
 
           <h2 className="text-3xl font-bold mt-12 mb-8">
-            {t('whyChooseTitle')}
+            {t("whyChooseTitle")}
           </h2>
           <div className="space-y-6">
-            <p>{t('whyChooseParagraph1')}</p>
+            <p>{t("whyChooseParagraph1")}</p>
             <ul className="list-disc pl-6 space-y-2">
-              {['reason1', 'reason2', 'reason3'].map((key, index) => (
+              {["reason1", "reason2", "reason3"].map((key, index) => (
                 <li key={index}>{t(`whyChoose.${key}`)}</li>
               ))}
             </ul>
-            <p>{t('whyChooseParagraph2')}</p>
+            <p>{t("whyChooseParagraph2")}</p>
           </div>
         </div>
       </section>
@@ -300,7 +253,7 @@ export default function ImageToTextContent() {
       <section className="py-16 bg-secondary">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-8">
-            {t('faqTitle')}
+            {t("faqTitle")}
           </h2>
           <Accordion type="single" collapsible className="w-full">
             {Array.from({ length: 10 }).map((_, index) => (
@@ -308,14 +261,12 @@ export default function ImageToTextContent() {
                 <AccordionTrigger>
                   {t(`faq.${index}.question`)}
                 </AccordionTrigger>
-                <AccordionContent>
-                  {t(`faq.${index}.answer`)}
-                </AccordionContent>
+                <AccordionContent>{t(`faq.${index}.answer`)}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
         </div>
       </section>
     </div>
-  )
+  );
 }

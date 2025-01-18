@@ -87,73 +87,14 @@ const useCases = [
 
 export default function ImageCaptionContent() {
   const t = useTranslations('Index.ImageCaptionGeneratorContent')
-  const [sliderPosition, setSliderPosition] = useState(50)
-  const containerRef = useRef<HTMLDivElement>(null)
 
-  const handleMove = useCallback((event: React.MouseEvent<HTMLDivElement> | React.TouchEvent<HTMLDivElement>) => {
-    if (containerRef.current) {
-      const containerRect = containerRef.current.getBoundingClientRect()
-      const x = 'touches' in event ? event.touches[0].clientX : event.clientX
-      const relativeX = x - containerRect.left
-      const newPosition = (relativeX / containerRect.width) * 100
-      setSliderPosition(Math.min(Math.max(0, newPosition), 100))
-    }
-  }, [])
 
   return (
     <div className="bg-background text-foreground">
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-8">
-          <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-            <div
-              ref={containerRef}
-              className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted cursor-col-resize shadow-lg"
-              onMouseMove={handleMove}
-              onTouchMove={handleMove}
-              role="slider"
-              aria-valuemin={0}
-              aria-valuemax={100}
-              aria-valuenow={sliderPosition}
-              tabIndex={0}
-            >
-              <Image
-                src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
-                alt={t('imageAltBefore')}
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                priority
-                className="object-cover"
-              />
-              <div
-                className="absolute top-0 bottom-0 right-0 w-full overflow-hidden"
-                style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
-              >
-                <Image
-                  src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2880&q=100"
-                  alt={t('imageAltAfter')}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  priority
-                  className="object-cover"
-                />
-              </div>
-              <div
-                className="absolute top-0 bottom-0 w-1 bg-white cursor-col-resize"
-                style={{ left: `${sliderPosition}%` }}
-              >
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full shadow-md flex items-center justify-center">
-                  <ArrowLeftRight className="w-5 h-5 text-muted-foreground" />
-                </div>
-              </div>
-              <div className="absolute top-4 left-4 bg-black/50 px-3 py-1 rounded-full text-white text-sm font-medium">
-                {t('beforeLabel')}
-              </div>
-              <div className="absolute top-4 right-4 bg-black/50 px-3 py-1 rounded-full text-white text-sm font-medium">
-                {t('afterLabel')}
-              </div>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
+            <section className="bg-black text-white mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className="max-w-7xl px-4 flex flex-col mx-auto justify-center lg:flex-row lg:items-center lg:space-x-8">
+
+          <div className="w-full">
             <h1 className="text-3xl sm:text-4xl font-bold mb-6">
               {t('heroTitle')}
             </h1>
@@ -161,9 +102,7 @@ export default function ImageCaptionContent() {
               <p>{t('heroParagraph1')}</p>
               <p>{t('heroParagraph2')}</p>
             </div>
-            <div className="mt-8">
-              <Button size="lg">{t('generateCaptionButton')}</Button>
-            </div>
+
           </div>
         </div>
       </section>

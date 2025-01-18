@@ -1,5 +1,7 @@
 import Link from "next/link"
 import { useTranslations } from 'next-intl'
+import { Mail } from 'lucide-react'
+import { Logo } from "@/components/logo"
 
 export function Footer() {
   const t = useTranslations('Footer')
@@ -16,55 +18,58 @@ export function Footer() {
   ]
 
   return (
-    <footer className="bg-black text-white">
-      <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
-          <div className="md:col-span-6">
-            <h3 className="font-bold mb-6 text-xl text-white/90">{t('allTools')}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {tools.map((tool) => (
-                <Link
-                  key={tool.href}
-                  href={tool.href}
-                  className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
-                >
-                  {tool.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-          <div className="md:col-span-3">
-            <h3 className="font-bold mb-6 text-xl text-white/90">{t('company')}</h3>
-            <div className="space-y-4">
-              <Link href="/about" className="block text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                {t('about')}
-              </Link>
-              <Link href="/blog" className="block text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                {t('blog')}
-              </Link>
-              <Link href="/contact" className="block text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                {t('contact')}
-              </Link>
-            </div>
-          </div>
-          <div className="md:col-span-3">
-            <h3 className="font-bold mb-6 text-xl text-white/90">{t('legal')}</h3>
-            <div className="space-y-4">
-              <Link href="/privacy" className="block text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                {t('privacyPolicy')}
-              </Link>
-              <Link href="/terms" className="block text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                {t('termsOfService')}
-              </Link>
-            </div>
-          </div>
+    <footer className="bg-gray-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        {/* Logo and Tagline */}
+        <div className="flex flex-col items-center mb-8">
+          <Link 
+            href="/" 
+            className="flex text-lg items-center gap-2 font-semibold transition-colors duration-300 text-white mb-2"
+          >
+            <Logo />
+            {t('title')}
+          </Link>
+          <p className="text-gray-400 text-sm text-center max-w-md">
+            {t('siteDescription')}
+          </p>
         </div>
-        <div className="mt-12 pt-8 border-t border-white/10">
+
+        {/* Horizontal Navigation Links */}
+        <div className="border-t border-gray-800 pt-8">
+          <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8">
+            {tools.map((tool) => (
+              <Link
+                key={tool.href}
+                href={tool.href}
+                className="text-gray-300 hover:text-white transition-colors duration-200 text-sm"
+              >
+                {tool.label}
+              </Link>
+            ))}
+            <Link href="/policy" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
+              {t('privacyPolicy')}
+            </Link>
+            <Link href="/terms" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm">
+              {t('termsOfService')}
+            </Link>
+          </nav>
+        </div>
+
+        {/* Email (Centered) */}
+        <div className="border-t border-gray-800 pt-8 flex justify-center">
+          <a href="mailto:contact@lexistock.com" className="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center gap-2">
+            <Mail className="w-4 h-4" />
+            contact@lexistock.com
+          </a>
+        </div>
+
+        {/* Copyright Section */}
+        <div className="border-t border-gray-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm order-2 md:order-1">
+            <p className="text-gray-400 text-sm">
               {t('copyright', { year: new Date().getFullYear() })}
             </p>
-            <p className="text-gray-400 text-sm order-1 md:order-2">
+            <p className="text-gray-400 text-sm">
               {t('madeInIndia')} 💗
             </p>
           </div>

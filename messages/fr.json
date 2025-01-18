@@ -12,24 +12,22 @@
     "imageToText": "Convertisseur d'Image en Texte IA"
   },
   "Footer": {
-    "allTools": "Tous les Outils",
-    "AIimageGenerator": "Générateur d'Images IA",
-    "removeBg": "Suppresseur d'Arrière-plan IA",
-    "upscaler": "Agrandisseur d'Images IA",
-    "colorize": "Colorisateur de Photos IA",
-    "restorer": "Restaurateur de Photos IA",
-    "enhance": "Améliorateur d'Images IA",
-    "captionGenerator": "Générateur de Légendes d'Images IA",
-    "imageToText": "Convertisseur d'Image en Texte IA",
-    "company": "Entreprise",
-    "about": "À Propos",
-    "blog": "Blog",
+ "title": "Lexistock AI",
+    "siteDescription": "Libérez votre créativité avec nos outils d'images alimentés par l'IA. Transformez, améliorez et créez des visuels époustouflants sans effort.",
+    "AIimageGenerator": "Générateur d'Images avec IA",
+    "removeBg": "Suppresseur d'Arrière-Plan avec IA",
+    "upscaler": "Améliorateur d'Images avec IA",
+    "colorize": "Colorisateur de Photos avec IA",
+    "restorer": "Restaurateur de Photos avec IA",
+    "enhance": "Optimiseur d'Images avec IA",
+    "captionGenerator": "Générateur de Légendes avec IA",
+    "imageToText": "Convertisseur d'Images en Texte avec IA",
     "contact": "Contact",
     "legal": "Mentions Légales",
     "privacyPolicy": "Politique de Confidentialité",
-    "termsOfService": "Conditions d'Utilisation",
-    "copyright": "© {year} Lexistock AI. Tous droits réservés.",
-    "madeInIndia": "#FaitEnInde"
+    "termsOfService": "Conditions de Service",
+    "copyright": "© {year} Lexistock IA. Tous droits réservés.",
+    "madeInIndia": "#FabriquéEnInde"
   },
 
   "Index": {
@@ -37,7 +35,7 @@
       "title": "Laissez l'IA Amener vos Photos au Niveau Supérieur",
       "description": "Créez, éditez et transformez vos visuels sans effort avec nos outils alimentés par l'IA. De la suppression d'arrière-plans à l'amélioration de la qualité d'image et à la génération d'œuvres d'art époustouflantes, nous fournissons tout ce dont vous avez besoin pour donner vie à votre créativité.",
       "newFeature": "Générateur d'Art IA Gratuit",
-      "lovedBy": "Aimé par plus de 2000 clients",
+      "lovedBy": "Aimé par plus de 2 000 utilisateurs",
       "cta": "Créez votre Premier Art IA"
     },
     "aiTool": {
@@ -180,15 +178,7 @@
       "headingEfficient": "efficace",
       "headingPart5": "",
       "subtitle": "Rejoignez des milliers de créateurs qui utilisent déjà notre plateforme pour donner vie à leurs idées. Utilisez tout gratuitement.",
-      "button": "Améliorez vos photos maintenant",
-      "stats": {
-        "users": "1.2K+",
-        "assets": "18K+",
-        "satisfaction": "99,9%",
-        "usersLabel": "Utilisateurs actifs",
-        "assetsLabel": "Actifs créés",
-        "satisfactionLabel": "Satisfaction des utilisateurs"
-      }
+      "button": "Améliorez vos photos maintenant"
     },
     "amazingArt": {
       "title": "100% Générateur d’Images Réalistes avec IA Gratuit",
@@ -1179,14 +1169,9 @@
       ]
     },
     "ImageCaptionGeneratorContent": {
-      "imageAltBefore": "Avant : Image prête pour la génération de légendes",
-      "imageAltAfter": "Après : Légende générée pour l'image",
-      "beforeLabel": "Avant",
-      "afterLabel": "Après",
       "heroTitle": "Transformez vos images avec des légendes alimentées par l'IA",
       "heroParagraph1": "Une légende convaincante peut faire ou défaire votre publication sur les réseaux sociaux ou votre présentation. Créer manuellement des légendes parfaites prend du temps et de la créativité. Pourquoi ne pas laisser l'IA s'en occuper pour vous ?",
       "heroParagraph2": "Avec notre générateur de légendes pour images alimenté par IA, créer des légendes descriptives et engageantes est un jeu d'enfant. Téléchargez votre image et laissez l'IA l'analyser pour générer une légende captivante en quelques secondes.",
-      "generateCaptionButton": "Générer la légende maintenant",
       "featuresTitle": "Fonctionnalités clés de notre générateur de légendes IA",
       "features": {
         "smartRecognition": {
@@ -1307,14 +1292,9 @@
       ]
     },
     "ImageTextConverterContent": {
-      "imageAltBefore": "Avant : Image prête pour l'extraction de texte",
-      "imageAltAfter": "Après : Texte extrait de l'image",
-      "beforeLabel": "Avant",
-      "afterLabel": "Après",
       "heroTitle": "Convertissez vos images en texte avec une précision alimentée par l'IA",
       "heroParagraph1": "L'extraction de texte à partir d'images n'a jamais été aussi facile. Que vous ayez besoin de copier du texte à partir d'un document scanné ou de capturer des informations d'une photo, le faire manuellement est fastidieux et long.",
       "heroParagraph2": "Notre convertisseur d'image en texte IA simplifie le processus. Téléchargez votre image et laissez l'outil extraire rapidement le texte avec une précision inégalée, idéal pour un usage professionnel et personnel.",
-      "generateCaptionButton": "Extraire le texte maintenant",
       "featuresTitle": "Principales fonctionnalités de notre convertisseur d'image en texte IA",
       "features": {
         "smartRecognition": {
@@ -1469,6 +1449,102 @@
           "content": "Lexistock AI est la meilleure plateforme que j'ai utilisée pour des retouches rapides et propres !"
         }
       ]
+    }
+  },
+  "Terms": {
+    "title": "Conditions de Service",
+    "subtitle": "Conditions simples et transparentes pour nos outils d'image IA gratuits",
+    "lastUpdated": "Dernière Mise à Jour : {date}",
+    "sections": {
+      "service": {
+        "title": "Utilisation du Service",
+        "description": "Lexistock fournit des outils de traitement d'images basés sur l'IA entièrement gratuits. Voici ce que vous devez savoir :",
+        "items": {
+          "free": "Tous les outils sont gratuits sans coûts cachés ni fonctionnalités premium",
+          "noAccount": "Aucune création de compte ou inscription requise : téléchargez et traitez simplement",
+          "fairUse": "Une politique d'utilisation équitable s'applique pour garantir la disponibilité du service à tous"
+        }
+      },
+      "privacy": {
+        "title": "Traitement des Images et Confidentialité",
+        "description": "Nous prenons votre confidentialité au sérieux. Voici comment nous gérons vos images :",
+        "items": {
+          "retention": "Les images sont temporairement stockées pour le traitement (maximum 24 heures)",
+          "deletion": "Toutes les images sont automatiquement et définitivement supprimées après 24 heures",
+          "noData": "Nous ne collectons ni ne stockons de données personnelles ou d'informations d'utilisation"
+        }
+      },
+      "guidelines": {
+        "title": "Directives Utilisateurs",
+        "description": "Pour maintenir un service sûr et fiable, veuillez suivre ces directives :",
+        "items": {
+          "legal": "Téléchargez uniquement des images que vous avez le droit légal d'utiliser et de traiter",
+          "appropriate": "Utilisez le service à des fins prévues d'amélioration et de retouche d'images",
+          "safe": "Ne traitez pas ou ne générez pas de contenu nuisible, offensant ou inapproprié"
+        }
+      },
+      "monetization": {
+        "title": "Monétisation du Site",
+        "description": "Pour maintenir nos services gratuits, nous utilisons la publicité. Voici ce que vous devez savoir :",
+        "items": {
+          "adSupported": "Lexistock est soutenu par des publicités fournies par Google AdSense",
+          "userAgreement": "En utilisant notre service, vous acceptez de voir des publicités non intrusives",
+          "optionalClicks": "Cliquer sur les publicités est entièrement facultatif et à votre discrétion"
+        }
+      }
+    }
+  },
+  "Policy": {
+    "title": "Politique de Confidentialité et d'Utilisation",
+    "subtitle": "Notre engagement envers votre confidentialité et l'utilisation responsable de l'IA",
+    "lastUpdated": "Dernière Mise à Jour : {date}",
+    "sections": {
+      "privacy": {
+        "title": "Politique de Confidentialité",
+        "description": "Chez Lexistock, nous accordons la priorité à votre confidentialité. Voici comment nous gérons vos informations :",
+        "items": {
+          "noCollection": "Nous ne collectons ni ne stockons aucune information personnelle",
+          "tempStorage": "Les images téléchargées sont temporairement stockées pour le traitement (maximum 24 heures)",
+          "noCookies": "Nous n'utilisons pas de cookies ni de technologies de suivi"
+        }
+      },
+      "security": {
+        "title": "Sécurité des Données",
+        "description": "Nous prenons la sécurité de vos données très au sérieux :",
+        "items": {
+          "encryption": "Toutes les transmissions de données sont cryptées en utilisant des protocoles standards de l'industrie",
+          "deletion": "Suppression automatique de toutes les images traitées après 24 heures",
+          "noSharing": "Nous ne partageons ni ne vendons jamais les données des utilisateurs ou les images traitées"
+        }
+      },
+      "usage": {
+        "title": "Politique d'Utilisation Acceptable",
+        "description": "Pour garantir un environnement sûr et équitable pour tous les utilisateurs :",
+        "items": {
+          "legalUse": "Téléchargez et traitez uniquement des images que vous avez le droit légal d'utiliser",
+          "fairUse": "Respectez notre politique d'utilisation équitable pour garantir la disponibilité du service à tous",
+          "noHarmful": "N'utilisez pas nos outils pour créer ou traiter du contenu nuisible ou inapproprié"
+        }
+      },
+      "disclaimer": {
+        "title": "Clause de Non-Responsabilité relative à l'IA",
+        "description": "Bien que nous visons l'exactitude, veuillez noter les points suivants :",
+        "items": {
+          "aiLimitations": "Les modèles d'IA ont des limites et peuvent produire des résultats inattendus",
+          "noLiability": "Nous ne sommes pas responsables des conséquences découlant de l'utilisation du contenu généré par notre IA",
+          "userResponsibility": "Les utilisateurs sont responsables de la révision et de la validation des images traitées par l'IA"
+        }
+      },
+      "advertising": {
+    "title": "Publicité",
+    "description": "Nous utilisons Google AdSense pour afficher des annonces. Voici comment cela affecte votre confidentialité :",
+    "items": {
+        "thirdParty": "Des fournisseurs tiers, y compris Google, utilisent des cookies pour diffuser des annonces basées sur vos visites précédentes sur notre site web ou d'autres sites web",
+        "cookies": "L'utilisation de cookies publicitaires par Google permet à Google et à ses partenaires de diffuser des annonces basées sur votre visite sur notre site et/ou sur d'autres sites sur Internet",
+        "optOut": "Vous pouvez refuser la publicité personnalisée en visitant les Paramètres des annonces (https://www.google.com/settings/ads)"
+    }
+}
+
     }
   }
 }

@@ -60,14 +60,14 @@ export function Header() {
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ease-in-out ${
         isScrolled 
-          ? 'bg-transparent px-2 py-1 mt-2' 
+          ? 'bg-transparent px-4 py-1 mt-2' 
           : 'bg-[#0B0F17]'
       }`}
     >
       <div className={`max-w-7xl mx-auto flex items-center ${
         isScrolled 
-          ? 'bg-[#0B0F17] backdrop-blur-md shadow-sm rounded-lg px-6 h-16' 
-          : 'px-2 h-14'
+          ? 'bg-[#0B0F17] backdrop-blur-md shadow-sm rounded-lg px-6 h-14' 
+          : 'px-4 h-16'
       }`}>
         <nav className="flex justify-between items-center w-full max-w-7xl mx-auto">
           <Link 

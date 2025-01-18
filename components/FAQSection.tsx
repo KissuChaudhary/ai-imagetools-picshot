@@ -106,7 +106,7 @@ export function FAQSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-200">
+          <h2 className="text-3xl tracking-tighter sm:text-4xl md:text-4xl lg:text-5xl font-bold text-white">
             {t('title')}
           </h2>
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto">

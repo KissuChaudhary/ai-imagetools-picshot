@@ -12,23 +12,21 @@
     "imageToText": "Conversor de Imagen a Texto IA"
   },
   "Footer": {
-    "allTools": "Todas las Herramientas",
-    "AIimageGenerator": "Generador de Imágenes IA",
-    "removeBg": "Eliminador de Fondo IA",
-    "upscaler": "Amplificador de Imágenes IA",
-    "colorize": "Colorizador de Fotos IA",
-    "restorer": "Restaurador de Fotos IA",
-    "enhance": "Mejorador de Imágenes IA",
-    "captionGenerator": "Generador de Subtítulos de Imágenes IA",
-    "imageToText": "Conversor de Imagen a Texto IA",
-    "company": "Empresa",
-    "about": "Acerca de",
-    "blog": "Blog",
+    "title": "Lexistock AI",
+    "siteDescription": "Desata tu creatividad con nuestras herramientas de imágenes impulsadas por IA. Transforma, mejora y crea visuales impresionantes sin esfuerzo.",
+    "AIimageGenerator": "Generador de Imágenes con IA",
+    "removeBg": "Eliminador de Fondos con IA",
+    "upscaler": "Mejorador de Imágenes con IA",
+    "colorize": "Coloreador de Fotos con IA",
+    "restorer": "Restaurador de Fotos con IA",
+    "enhance": "Potenciador de Imágenes con IA",
+    "captionGenerator": "Generador de Subtítulos con IA",
+    "imageToText": "Convertidor de Imágenes a Texto con IA",
     "contact": "Contacto",
     "legal": "Legal",
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio",
-    "copyright": "© {year} Lexistock AI. Todos los derechos reservados.",
+    "copyright": "© {year} Lexistock IA. Todos los derechos reservados.",
     "madeInIndia": "#HechoEnIndia"
   },
 
@@ -37,7 +35,7 @@
       "title": "Deja que la IA Lleve tus Fotos al Siguiente Nivel",
       "description": "Crea, edita y transforma tus imágenes sin esfuerzo con nuestras herramientas impulsadas por IA. Desde eliminar fondos hasta mejorar la calidad de la imagen y generar impresionantes obras de arte, proporcionamos todo lo que necesitas para dar vida a tu creatividad.",
       "newFeature": "Generador de Arte IA Gratuito",
-      "lovedBy": "Amado por más de 2000 clientes",
+      "lovedBy": "Amada por 2k + usuarios",
       "cta": "Crea tu Primer Arte IA"
     },
     "aiTool": {
@@ -180,15 +178,7 @@
       "headingEfficient": "eficiente",
       "headingPart5": "",
       "subtitle": "Únete a miles de creadores que ya están usando nuestra plataforma para dar vida a sus ideas. Usa todo gratis.",
-      "button": "Mejora tus fotos ahora",
-      "stats": {
-        "users": "1.2K+",
-        "assets": "18K+",
-        "satisfaction": "99.9%",
-        "usersLabel": "Usuarios activos",
-        "assetsLabel": "Activos creados",
-        "satisfactionLabel": "Satisfacción del usuario"
-      }
+      "button": "Mejora tus fotos ahora"
     },
     "amazingArt": {
       "title": "100% Generador de Imágenes Realistas con IA Gratis",
@@ -1031,14 +1021,10 @@
       ]
     },
     "ImageCaptionGeneratorContent": {
-      "imageAltBefore": "Antes: Imagen lista para la generación de subtítulos",
-      "imageAltAfter": "Después: Subtítulo generado para la imagen",
-      "beforeLabel": "Antes",
-      "afterLabel": "Después",
+
       "heroTitle": "Transforma Tus Imágenes con Subtítulos Generados por IA",
       "heroParagraph1": "Un subtítulo convincente puede marcar la diferencia en tu publicación en redes sociales o presentación. Crear subtítulos perfectos manualmente requiere tiempo y creatividad. ¿Por qué no dejar que la IA lo haga por ti?",
       "heroParagraph2": "Con nuestro Generador de Subtítulos para Imágenes con IA, crear subtítulos descriptivos y atractivos es sencillo. Sube tu imagen y deja que la IA la analice para generar un subtítulo cautivador en segundos.",
-      "generateCaptionButton": "Generar Subtítulo Ahora",
       "featuresTitle": "Características Clave de Nuestro Generador de Subtítulos con IA",
       "features": {
         "smartRecognition": {
@@ -1287,14 +1273,10 @@
       ]
     },
     "ImageTextConverterContent": {
-      "imageAltBefore": "Antes: Imagen lista para extracción de texto",
-      "imageAltAfter": "Después: Texto extraído de la imagen",
-      "beforeLabel": "Antes",
-      "afterLabel": "Después",
+
       "heroTitle": "Convierte Imágenes a Texto con Precisión AI",
       "heroParagraph1": "Extraer texto de imágenes nunca ha sido tan fácil. Ya sea que necesites copiar texto de un documento escaneado o capturar información de una foto, hacerlo manualmente es tedioso y consume mucho tiempo.",
       "heroParagraph2": "Nuestro Convertidor de Imágenes a Texto con AI simplifica el proceso. Sube tu imagen y deja que la herramienta extraiga rápidamente el texto con una precisión incomparable, ideal para uso profesional y personal.",
-      "generateCaptionButton": "Extraer Texto Ahora",
       "featuresTitle": "Características Clave de Nuestro Convertidor de Imágenes a Texto con AI",
       "features": {
         "smartRecognition": {
@@ -1450,5 +1432,103 @@
         }
       ]
     }
+  },
+  "Terms": {
+    "title": "Términos de Servicio",
+    "subtitle": "Términos simples y transparentes para nuestras herramientas gratuitas de imágenes con IA",
+    "lastUpdated": "Última Actualización: {date}",
+    "sections": {
+      "service": {
+        "title": "Uso del Servicio",
+        "description": "Lexistock proporciona herramientas de procesamiento de imágenes impulsadas por IA completamente gratuitas. Esto es lo que necesitas saber:",
+        "items": {
+          "free": "Todas las herramientas son gratuitas sin costos ocultos ni funciones premium",
+          "noAccount": "No se requiere creación de cuenta ni registro: solo sube y procesa",
+          "fairUse": "Se aplica una política de uso justo para garantizar la disponibilidad del servicio para todos"
+        }
+      },
+      "privacy": {
+        "title": "Procesamiento de Imágenes y Privacidad",
+        "description": "Nos tomamos tu privacidad en serio. Así es como manejamos tus imágenes:",
+        "items": {
+          "retention": "Las imágenes se almacenan temporalmente para su procesamiento (máximo 24 horas)",
+          "deletion": "Todas las imágenes se eliminan automáticamente y de forma permanente después de 24 horas",
+          "noData": "No recopilamos ni almacenamos datos personales o información de uso"
+        }
+      },
+      "guidelines": {
+        "title": "Guías para Usuarios",
+        "description": "Para mantener un servicio seguro y confiable, sigue estas pautas:",
+        "items": {
+          "legal": "Solo sube imágenes que tengas el derecho legal de usar y procesar",
+          "appropriate": "Usa el servicio para su propósito previsto de mejora y edición de imágenes",
+          "safe": "No proceses ni generes contenido dañino, ofensivo o inapropiado"
+        }
+      },
+      "monetization": {
+    "title": "Monetización del Sitio",
+    "description": "Para mantener nuestros servicios gratuitos, utilizamos publicidad. Esto es lo que necesitas saber:",
+    "items": {
+        "adSupported": "Lexistock está respaldado por anuncios proporcionados por Google AdSense",
+        "userAgreement": "Al usar nuestro servicio, aceptas ver anuncios no intrusivos",
+        "optionalClicks": "Hacer clic en los anuncios es completamente opcional y queda a tu discreción"
+    }
+}
+    }
+  },
+  "Policy": {
+    "title": "Política de Privacidad y Uso",
+    "subtitle": "Nuestro compromiso con tu privacidad y el uso responsable de la IA",
+    "lastUpdated": "Última Actualización: {date}",
+    "sections": {
+      "privacy": {
+        "title": "Política de Privacidad",
+        "description": "En Lexistock, priorizamos tu privacidad. Así manejamos tu información:",
+        "items": {
+          "noCollection": "No recopilamos ni almacenamos ninguna información personal",
+          "tempStorage": "Las imágenes subidas se almacenan temporalmente para su procesamiento (máximo 24 horas)",
+          "noCookies": "No utilizamos cookies ni tecnologías de seguimiento"
+        }
+      },
+      "security": {
+        "title": "Seguridad de los Datos",
+        "description": "Nos tomamos en serio la seguridad de tus datos:",
+        "items": {
+          "encryption": "Todas las transmisiones de datos están encriptadas utilizando protocolos estándar de la industria",
+          "deletion": "Eliminación automática de todas las imágenes procesadas después de 24 horas",
+          "noSharing": "Nunca compartimos ni vendemos datos de usuarios ni imágenes procesadas"
+        }
+      },
+      "usage": {
+        "title": "Política de Uso Aceptable",
+        "description": "Para garantizar un entorno seguro y equitativo para todos los usuarios:",
+        "items": {
+          "legalUse": "Solo sube y procesa imágenes que tengas el derecho legal de usar",
+          "fairUse": "Respeta nuestra política de uso justo para garantizar la disponibilidad del servicio para todos",
+          "noHarmful": "No utilices nuestras herramientas para crear o procesar contenido dañino o inapropiado"
+        }
+      },
+      "disclaimer": {
+        "title": "Descargo de Responsabilidad sobre la IA",
+        "description": "Aunque nos esforzamos por ser precisos, ten en cuenta lo siguiente:",
+        "items": {
+          "aiLimitations": "Los modelos de IA tienen limitaciones y pueden producir resultados inesperados",
+          "noLiability": "No somos responsables de las consecuencias derivadas del uso de contenido generado por nuestra IA",
+          "userResponsibility": "Los usuarios son responsables de revisar y validar las imágenes procesadas por la IA"
+        }
+      },
+      "advertising": {
+    "title": "Publicidad",
+    "description": "Utilizamos Google AdSense para mostrar anuncios. Así es como afecta tu privacidad:",
+    "items": {
+        "thirdParty": "Proveedores externos, incluido Google, utilizan cookies para mostrar anuncios basados en tus visitas previas a nuestro sitio web u otros sitios web",
+        "cookies": "El uso de cookies publicitarias por parte de Google le permite a él y a sus socios mostrar anuncios basados en tu visita a nuestro sitio y/o a otros sitios en Internet",
+        "optOut": "Puedes optar por no recibir publicidad personalizada visitando Configuración de Anuncios (https://www.google.com/settings/ads)"
+    }
+}
+
+    }
   }
+
+
 }
