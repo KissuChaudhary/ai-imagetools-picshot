@@ -133,18 +133,38 @@
       "removeBgDesc": "Elimina fácilmente fondos de cualquier imagen"
     },
     "cta": {
-      "title": "¿Listo para transformar tu proceso creativo?",
+      "headingPart1": "Transforma",
+      "headingAIPowered": "impulsadas por IA",
+      "headingPart2": "imágenes",
+      "headingPart3": "de manera",
+      "headingCreative": "creativa",
+      "headingPart4": "y",
+      "headingEfficient": "eficiente",
+      "headingPart5": "",
       "subtitle": "Únete a miles de creadores que ya están usando nuestra plataforma para dar vida a sus ideas. Usa todo gratis.",
-      "button": "Mejora tus Fotos Ahora",
+      "button": "Mejora tus fotos ahora",
       "stats": {
-        "users": "10K+",
-        "assets": "500K+",
+        "users": "1.2K+",
+        "assets": "18K+",
         "satisfaction": "99.9%",
         "usersLabel": "Usuarios activos",
         "assetsLabel": "Activos creados",
         "satisfactionLabel": "Satisfacción del usuario"
       }
     },
+    "amazingArt": {
+    "title": "100% Generador de Imágenes Realistas con IA Gratis",
+    "subtitle": "Crea imágenes impresionantes generadas por IA con simples indicaciones de texto. Controla los resultados con indicaciones negativas y elige entre múltiples tamaños.",
+    "features": {
+      "aiPoweredCreativity": "Convierte indicaciones de texto en Arte AI",
+      "customizableParameters": "Ajusta indicaciones, tamaño y proporción",
+      "speedEfficiency": "Crea imágenes en segundos.",
+      "flexibleUsage": "Perfecto para todos",
+      "costEfficiency": "Completamente gratis de usar",
+      "userFriendly": "Fácil para principiantes y profesionales"
+    },
+    "button": "Comienza a Crear"
+  },
     "faq": {
       "title": "Preguntas Frecuentes",
       "description": "Encuentra respuestas a preguntas comunes sobre nuestras herramientas de imagen impulsadas por IA.",

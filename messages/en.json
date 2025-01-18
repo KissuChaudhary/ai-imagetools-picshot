@@ -123,6 +123,40 @@
         }
       }
     },
+    "aiTool": {
+      "backgroundRemover": {
+        "category": "AI Background Remover",
+        "title": "Remove Background 🎯",
+        "subtitle": "Instantly Remove Background from Images",
+        "description": "Advanced AI technology that precisely removes backgrounds from any image in seconds",
+        "features": [
+          "Process images in bulk with one click",
+          "Perfect for product photos & portraits",
+          "Download in PNG with transparent background"
+        ],
+        "button": "Remove Background"
+      },
+      "photoColorizer": {
+        "category": "AI Photo Colorizer",
+        "title": "Colorize Photos 🎨",
+        "subtitle": "Bring Black & White Photos to Life",
+        "description": "Transform your old black and white photos into vibrant, colorful memories",
+        "features": [
+          "Authentic & natural-looking colors",
+          "Preserve original image quality",
+          "Batch process multiple photos"
+        ],
+        "button": "Colorize Photos"
+      },
+      "photoEnhancer": {
+        "category": "AI Photo Enhancer",
+        "title": "Enhance Photos ✨",
+        "subtitle": "Make Every Photo Perfect",
+        "description": "Automatically enhance your photos with AI-powered tools for professional results",
+        "features": ["Improve clarity and sharpness", "Fix lighting and exposure", "Remove noise and artifacts"],
+        "button": "Enhance Photos"
+      }
+    },
     "features": {
       "title": "Our AI-Powered Tools",
       "colorize": "Colorize",
@@ -133,18 +167,38 @@
       "removeBgDesc": "Easily remove backgrounds from any image"
     },
     "cta": {
-      "title": "Ready to transform your creative process?",
+      "headingPart1": "Transform",
+      "headingAIPowered": "AI-powered",
+      "headingPart2": "images",
+      "headingPart3": "in a",
+      "headingCreative": "creative",
+      "headingPart4": "and",
+      "headingEfficient": "efficient",
+      "headingPart5": "way",
       "subtitle": "Join thousands of creators who are already using our platform to bring their ideas to life. Use everything for Free.",
       "button": "Enhance Your Photos Now",
       "stats": {
-        "users": "10K+",
-        "assets": "500K+",
+        "users": "1.2K+",
+        "assets": "18K+",
         "satisfaction": "99.9%",
         "usersLabel": "Active users",
         "assetsLabel": "Assets created",
         "satisfactionLabel": "User satisfaction"
       }
     },
+    "amazingArt": {
+    "title": "100% Free Realistic AI Image Generator",
+    "subtitle": "Create stunning AI-generated images with simple text prompts. Control your output with negative prompts and choose from multiple size options.",
+    "features": {
+      "aiPoweredCreativity": "Turn text prompts into AI Art",
+      "customizableParameters": "Adjust prompts, size, and ratio",
+      "speedEfficiency": "Create images in seconds.",
+      "flexibleUsage": "Perfect for Everyone",
+      "costEfficiency": "Completely Free to use",
+      "userFriendly": "Easy for beginners and pros"
+    },
+    "button": "Start Creating"
+  },
     "faq": {
       "title": "Frequently Asked Questions",
       "description": "Find answers to common questions about our AI-powered image tools.",

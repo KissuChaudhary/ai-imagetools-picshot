@@ -133,18 +133,38 @@
       "removeBgDesc": "Supprimez facilement les arrière-plans de n'importe quelle image"
     },
     "cta": {
-      "title": "Prêt à transformer votre processus créatif ?",
+      "headingPart1": "Transformez",
+      "headingAIPowered": "alimentées par l'IA",
+      "headingPart2": "images",
+      "headingPart3": "de manière",
+      "headingCreative": "créative",
+      "headingPart4": "et",
+      "headingEfficient": "efficace",
+      "headingPart5": "",
       "subtitle": "Rejoignez des milliers de créateurs qui utilisent déjà notre plateforme pour donner vie à leurs idées. Utilisez tout gratuitement.",
-      "button": "Améliorez vos Photos Maintenant",
+      "button": "Améliorez vos photos maintenant",
       "stats": {
-        "users": "10K+",
-        "assets": "500K+",
+        "users": "1.2K+",
+        "assets": "18K+",
         "satisfaction": "99,9%",
         "usersLabel": "Utilisateurs actifs",
         "assetsLabel": "Actifs créés",
         "satisfactionLabel": "Satisfaction des utilisateurs"
       }
     },
+    "amazingArt": {
+    "title": "100% Générateur d’Images Réalistes avec IA Gratuit",
+    "subtitle": "Créez des images incroyables générées par IA avec des invites textuelles simples. Contrôlez le résultat avec des invites négatives et choisissez parmi plusieurs tailles.",
+    "features": {
+      "aiPoweredCreativity": "Transformez des indications textuelles en Art IA",
+      "customizableParameters": "Ajustez les indications, la taille et la proportion",
+      "speedEfficiency": "Créez des images en quelques secondes.",
+      "flexibleUsage": "Parfait pour tout le monde",
+      "costEfficiency": "Entièrement gratuit à utiliser",
+      "userFriendly": "Facile pour les débutants et les professionnels"
+    },
+    "button": "Commencer à Créer"
+  },
     "faq": {
       "title": "Questions Fréquemment Posées",
       "description": "Trouvez des réponses aux questions courantes sur nos outils d'image alimentés par l'IA.",

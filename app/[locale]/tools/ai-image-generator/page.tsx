@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import AIImageGenerator from '@/components/AIImageGenerator'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { Camera, Brush, Clock, Sparkles, Layers } from 'lucide-react'
+import AmazingArt from '@/components/amazing-art';
+
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -64,6 +66,7 @@ export default async function AIImageGeneratorPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-background text-foreground" style={{ paddingBottom: '3rem' }}>
       <AIImageGenerator />
+             <AmazingArt />
      
       {/* What is AI Image Generator Section */}
       <section className="py-12 bg-muted">

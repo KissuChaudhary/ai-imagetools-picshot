@@ -66,7 +66,7 @@ export function Header() {
     >
       <div className={`max-w-7xl mx-auto flex items-center ${
         isScrolled 
-          ? 'bg-[#0B0F17] backdrop-blur-md shadow-sm rounded-lg px-6 h-14' 
+          ? 'bg-[#0B0F17] backdrop-blur-md shadow-sm rounded-lg px-6 h-16' 
           : 'px-2 h-14'
       }`}>
         <nav className="flex justify-between items-center w-full max-w-7xl mx-auto">

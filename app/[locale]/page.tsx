@@ -5,6 +5,9 @@ import CallToAction from "@/components/CallToAction";
 import { AIToolsSection } from '@/components/AIToolsSection';
 import { FAQSection } from '@/components/FAQSection';
 import WhoCanUse from '@/components/WhoCanUse';
+import AITools from '@/components/AITools';
+
+
 
 
 export default async function Page() {
@@ -21,8 +24,11 @@ function HomeContent() {
         <AIToolsSection />
         <WhyChooseUs />
         <WhoCanUse />
+        <AITools />
         <FAQSection />
         <CallToAction />
+
+        
       </main>
     </div>
   );
