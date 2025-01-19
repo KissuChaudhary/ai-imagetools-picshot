@@ -52,7 +52,7 @@ const steps = [
     icon: Sliders,
     titleKey: 'steps.process.title',
     descriptionKey: 'steps.process.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/colorized.png'
   },
   {
     icon: Download,

@@ -1,7 +1,6 @@
 'use client'
 
 import {  Zap, Maximize, MousePointer, DollarSign, Upload, Sliders, Download, Camera, ShoppingBag, Share2, PieChart } from 'lucide-react'
-import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { TestimonialsSection } from '@/components/testimonials'
 import {
