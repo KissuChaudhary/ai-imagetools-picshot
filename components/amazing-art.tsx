@@ -16,12 +16,12 @@ export default function AmazingArt() {
   ]
 
   const images = [
-    '/hero-images/image1.jpeg',
-    '/hero-images/image2.jpeg',
-    '/hero-images/image3.jpeg',
-    '/hero-images/image4.jpeg',
-    '/hero-images/image5.jpeg',
-    '/hero-images/image6.jpeg',
+    "/hero-images/image1.webp",
+    "/hero-images/image2.webp",
+    "/hero-images/image3.webp",
+    "/hero-images/image4.webp",
+    "/hero-images/image5.webp",
+    "/hero-images/image6.webp",
   ]
 
   return (
