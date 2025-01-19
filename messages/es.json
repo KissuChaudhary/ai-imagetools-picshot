@@ -41,7 +41,10 @@
     "Layout": {
       "metadata": {
         "title": "Lexistock AI – Herramientas de IA para Edición de Imágenes Más Inteligente",
-        "description": "Lexistock AI ofrece herramientas simples y potentes para todas tus necesidades de imágenes. Ya sea eliminación de fondos o restauración de fotos, crea imágenes impresionantes fácilmente con tecnología de IA diseñada para ahorrarte tiempo y esfuerzo."
+        "description": "Lexistock AI ofrece herramientas simples y potentes para todas tus necesidades de imágenes. Ya sea eliminación de fondos o restauración de fotos, crea imágenes impresionantes fácilmente con tecnología de IA diseñada para ahorrarte tiempo y esfuerzo.",
+        "keywords": "herramientas de imagen IA, eliminador de fondos, mejorador de imágenes, colorizador de fotos, escalador de imágenes, editor de fotos IA",
+        "siteName": "LexiStock AI",
+        "ogImageAlt": "Vista Previa de Herramientas de Imagen IA LexiStock"
       },
       "schema": {
         "name": "Lexistock AI – Herramientas de IA para Edición de Imágenes Más Inteligente",

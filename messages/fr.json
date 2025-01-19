@@ -42,7 +42,10 @@
     "Layout": {
       "metadata": {
         "title": "Lexistock AI – Outils d'IA pour une Édition d'Images Plus Intelligente",
-        "description": "Lexistock AI propose des outils simples et puissants pour tous vos besoins en images. Que ce soit pour supprimer des arrière-plans ou restaurer des photos, créez des visuels époustouflants facilement grâce à la technologie IA conçue pour vous faire gagner du temps et des efforts."
+        "description": "Lexistock AI propose des outils simples et puissants pour tous vos besoins en images. Que ce soit pour supprimer des arrière-plans ou restaurer des photos, créez des visuels époustouflants facilement grâce à la technologie IA conçue pour vous faire gagner du temps et des efforts.",
+        "keywords": "outils d'image IA, suppression d'arrière-plan, amélioration d'image, colorisation de photos, mise à l'échelle d'images, éditeur de photos IA",
+        "siteName": "LexiStock AI",
+        "ogImageAlt": "Aperçu des Outils d'Image IA LexiStock"
       },
       "schema": {
         "name": "Lexistock AI – Outils d'IA pour une Édition d'Images Plus Intelligente",

@@ -42,7 +42,10 @@
     "Layout": {
       "metadata": {
         "title": "Lexistock AI – AI Tools for Smarter Image Editing",
-        "description": "Lexistock AI offers simple, powerful tools for all your image needs. Whether it's background removal or photo restoration, create stunning visuals with ease using AI technology designed to save you time and effort."
+        "description": "Lexistock AI offers simple, powerful tools for all your image needs. Whether it's background removal or photo restoration, create stunning visuals with ease using AI technology designed to save you time and effort.",
+        "keywords": "AI image tools, background remover, image enhancer, photo colorizer, image upscaler, AI photo editor",
+        "siteName": "LexiStock AI",
+        "ogImageAlt": "LexiStock AI Image Tools Preview"
       },
       "schema": {
         "name": "Lexistock AI – AI Tools for Smarter Image Editing",

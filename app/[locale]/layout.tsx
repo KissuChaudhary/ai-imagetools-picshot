@@ -9,7 +9,7 @@ import { ToastProvider } from "@/components/ui/toast"
 import "@/app/globals.css"
 import {getMessages} from '@/lib/get-messages'
 import {setRequestLocale, getTranslations} from 'next-intl/server';
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -17,17 +17,106 @@ export function generateStaticParams() {
   return [{locale: 'en'}, {locale: 'es'}, {locale: 'fr'}];
 }
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#ffffff',
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Index.Layout.metadata' });
 
   return {
+    metadataBase: new URL('https://lexistock.com'),
     title: {
       default: t('title'),
       template: `%s | ${t('title')}`,
     },
     description: t('description'),
-    metadataBase: new URL('https://lexistock.com'),
+    keywords: t('keywords'),
+    authors: [{ name: 'LexiStock' }],
+    creator: 'LexiStock',
+    publisher: 'LexiStock',
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon-16x16.png',
+      apple: '/apple-touch-icon.png',
+      other: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          url: '/favicon-32x32.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '16x16',
+          url: '/favicon-16x16.png',
+        },
+        {
+          rel: 'mask-icon',
+          url: '/safari-pinned-tab.svg',
+          color: '#5bbad5',
+        },
+      ],
+    },
+    manifest: '/site.webmanifest',
+    openGraph: {
+      type: 'website',
+      locale: locale,
+      alternateLocale: ['en', 'es', 'fr'].filter(l => l !== locale),
+      url: 'https://lexistock.com',
+      title: t('title'),
+      description: t('description'),
+      siteName: t('siteName'),
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: t('ogImageAlt'),
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('title'),
+      description: t('description'),
+      images: ['/twitter-image.png'],
+      creator: '@lexistock',
+      site: '@lexistock',
+    },
+    verification: {
+      google: 'EqsIGgrrtMrNtRauKOgeKufv6Z3dUBAaa48Fh6fhzS0',
+      yandex: 'your-yandex-verification',
+      other: {
+        'msvalidate.01': 'your-bing-verification',
+      },
+    },
+    category: 'technology',
+    classification: 'AI Image Tools',
+    other: {
+      'apple-mobile-web-app-capable': 'yes',
+      'apple-mobile-web-app-status-bar-style': 'black',
+      'apple-mobile-web-app-title': t('title'),
+      'format-detection': 'telephone=no',
+      'msapplication-TileColor': '#ffffff',
+      'msapplication-config': '/browserconfig.xml',
+    }
   }
 }
 
@@ -53,15 +142,7 @@ export default async function LocaleLayout({
     "@type": "WebSite",
     "name": t('name'),
     "description": t('description'),
-    "url": `https://lexistock.com/${locale}`,
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": `https://lexistock.com/${locale}/search?q={search_term_string}`
-      },
-      "query-input": "required name=search_term_string"
-    }
+    "url": `https://lexistock.com/${locale}`
   };
 
   return (
@@ -72,6 +153,18 @@ export default async function LocaleLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-NES5QWSTPZ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NES5QWSTPZ');
+          `}
+        </Script>
       </head>
       <body className="min-h-screen bg-background antialiased">
         <Script
@@ -96,3 +189,4 @@ export default async function LocaleLayout({
     </html>
   )
 }
+
