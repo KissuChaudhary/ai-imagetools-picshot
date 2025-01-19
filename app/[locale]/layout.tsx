@@ -169,7 +169,7 @@ export default async function LocaleLayout({
       <body className="min-h-screen bg-background antialiased">
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_CLIENT_ID"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7915372771416695"
           crossOrigin="anonymous"
           strategy="lazyOnload"
         />
