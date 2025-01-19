@@ -119,7 +119,7 @@ export default function BackgroundRemoverContent() {
               tabIndex={0}
             >
               <Image
-                src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                src="/aibgbefore.png"
                 alt={t('imageAltBefore')}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -131,7 +131,7 @@ export default function BackgroundRemoverContent() {
                 style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2880&q=100"
+                  src="/aibgafter.png"
                   alt={t('imageAltAfter')}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
