@@ -95,7 +95,7 @@ export default function AITools() {
                   {/* Tool Preview */}
                   <div className="relative rounded-xl overflow-hidden" style={{ paddingTop: '75%' }}>
                     <Image
-                      src={`${tool === 'backgroundRemover' ? 'ai-bg.jpeg' : tool === 'photoColorizer' ? 'ai-colorize.jpeg' : 'ai-enhancer.jpeg'}`}
+                      src={`${tool === 'backgroundRemover' ? 'ai-bg.webp' : tool === 'photoColorizer' ? 'ai-colorize.webp' : 'ai-enhancer.webp'}`}
                       alt={t(`${tool}.title`)}
                       fill
                       className="object-cover"
