@@ -13,7 +13,6 @@ import {
   Share2,
   PieChart,
 } from "lucide-react";
-import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TestimonialsSection } from "@/components/testimonials";
 import {
@@ -56,19 +55,16 @@ const steps = [
     icon: Upload,
     titleKey: "steps.upload.title",
     descriptionKey: "steps.upload.description",
-    image: "/placeholder.svg?height=200&width=300",
   },
   {
     icon: Sliders,
     titleKey: "steps.generate.title",
     descriptionKey: "steps.generate.description",
-    image: "/placeholder.svg?height=200&width=300",
   },
   {
     icon: Download,
     titleKey: "steps.copy.title",
     descriptionKey: "steps.copy.description",
-    image: "/placeholder.svg?height=200&width=300",
   },
 ];
 
@@ -157,15 +153,7 @@ export default function ImageToTextContent() {
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4">{t(step.descriptionKey)}</p>
-                  <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
-                    <Image
-                      src={step.image}
-                      alt={t(step.titleKey)}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover"
-                    />
-                  </div>
+                
                 </CardContent>
               </Card>
             ))}

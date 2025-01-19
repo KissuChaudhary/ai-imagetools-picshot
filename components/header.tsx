@@ -135,7 +135,7 @@ export function Header() {
 
         {isMenuOpen && (
           <div
-            className="md:hidden absolute top-14 left-0 right-0 rounded-lg mt-2 border-t bg-[#0B0F17] backdrop-blur-md shadow-sm bg-transparent border-gray-800 transition-all duration-300 ease-in-out"
+            className="md:hidden absolute top-14 left-0 right-0 rounded-lg mt-2 border-t bg-[#0B0F17] backdrop-blur-md shadow-sm border-gray-800 transition-all duration-300 ease-in-out"
           >
             {navItems.map((item) => (
               <Link

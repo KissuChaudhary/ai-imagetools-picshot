@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef, useState, useCallback } from 'react'
+import Link from 'next/link'
 import { ArrowLeftRight, Zap, Maximize, MousePointer, DollarSign, Upload, Sliders, Download, Camera, ShoppingBag, Share2, PieChart } from 'lucide-react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
@@ -46,7 +47,7 @@ const steps = [
     icon: Upload,
     titleKey: 'steps.upload.title',
     descriptionKey: 'steps.upload.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/upload.png'
   },
   {
     icon: Sliders,
@@ -58,7 +59,7 @@ const steps = [
     icon: Download,
     titleKey: 'steps.download.title',
     descriptionKey: 'steps.download.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/download.png'
   }
 ]
 
@@ -117,7 +118,7 @@ export default function PhotoRestorerContent() {
               tabIndex={0}
             >
               <Image
-                src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+                src="/tools/before-restore.png"
                 alt={t('imageAltBefore')}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -129,7 +130,7 @@ export default function PhotoRestorerContent() {
                 style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2880&q=100"
+                  src="/tools/after-restore.png"
                   alt={t('imageAltAfter')}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -162,7 +163,9 @@ export default function PhotoRestorerContent() {
               <p>{t('heroParagraph2')}</p>
             </div>
             <div className="mt-8">
+              <Link href="/tools/ai-photo-restorer">
               <Button size="lg">{t('restoreButton')}</Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -209,7 +212,7 @@ export default function PhotoRestorerContent() {
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4">{t(step.descriptionKey)}</p>
-                  <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow">
                     <Image
                       src={step.image}
                       alt={t(step.titleKey)}

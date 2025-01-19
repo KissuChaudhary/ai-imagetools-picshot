@@ -48,19 +48,19 @@ const steps = [
     icon: Upload,
     titleKey: 'steps.upload.title',
     descriptionKey: 'steps.upload.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/upload.png'
   },
   {
     icon: Sliders,
     titleKey: 'steps.process.title',
     descriptionKey: 'steps.process.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/remove-bg.png'
   },
   {
     icon: Download,
     titleKey: 'steps.download.title',
     descriptionKey: 'steps.download.description',
-    image: '/placeholder.svg?height=200&width=300'
+    image: '/tools/download.png'
   }
 ]
 
@@ -215,7 +215,7 @@ export default function BackgroundRemoverContent() {
                 </CardHeader>
                 <CardContent>
                   <p className="mb-4">{t(step.descriptionKey)}</p>
-                  <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow ">
                     <Image
                       src={step.image}
                       alt={t(step.titleKey)}
