@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { cn } from "@/lib/utils";
 
 interface MarqueeProps {
@@ -8,6 +7,7 @@ interface MarqueeProps {
   children?: React.ReactNode;
   vertical?: boolean;
   repeat?: number;
+  duration?: string;
   [key: string]: any;
 }
 
@@ -18,13 +18,15 @@ export default function Marquee({
   children,
   vertical = false,
   repeat = 4,
+  duration = "80s",
   ...props
 }: MarqueeProps) {
   return (
     <div
       {...props}
+      style={{ "--duration": duration } as React.CSSProperties}
       className={cn(
-        "group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]",
+        "group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)]",
         {
           "flex-row": !vertical,
           "flex-col": vertical,

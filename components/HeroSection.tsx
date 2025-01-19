@@ -57,42 +57,21 @@ const initialImages = [
   "/hero-images/image20.webp",
 ];
 
-const shuffleArray = (array: string[]) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-};
-
 const MarqueeColumn = ({
   reverse,
   duration,
   className,
-  columnIndex,
 }: {
   reverse: boolean;
   duration: string;
   className?: string;
-  columnIndex: number;
 }) => {
-  const [images, setImages] = useState<string[]>([]);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [images, setImages] = useState(initialImages);
 
   useEffect(() => {
-    const shuffledImages = shuffleArray([...initialImages]);
-    const columnImages = shuffledImages.slice(columnIndex * 3, (columnIndex * 3) + 3);
-    setImages(columnImages);
-    
-    // Simulate dynamic loading of more images
-    const timer = setTimeout(() => {
-      const moreImages = shuffledImages.slice((columnIndex * 3) + 3, (columnIndex * 3) + 5);
-      setImages(prev => [...prev, ...moreImages]);
-      setIsLoaded(true);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, [columnIndex]);
+    // Only shuffle images on the client side
+    setImages([...initialImages].sort(() => Math.random() - 0.5));
+  }, []);
 
   return (
     <Marquee
@@ -108,19 +87,13 @@ const MarqueeColumn = ({
       {images.map((image, index) => (
         <Image
           key={`${image}-${index}`}
-          src={image || "/placeholder.svg"}
+          src={image}
           alt="AI generated image"
           width={300}
           height={400}
-          priority={index < 2}
-          loading={index < 2 ? "eager" : "lazy"}
-          className={cn(
-            "w-full h-full object-cover rounded opacity-[.25] hover:opacity-100 transition-opacity duration-300 ease-in-out",
-            !isLoaded && index > 2 && "hidden"
-          )}
+          priority={index < 4}
+          className="w-full h-full object-cover rounded opacity-[.25] hover:opacity-100 transition-opacity duration-300 ease-in-out"
           sizes="(max-width: 768px) 40vw, (max-width: 1200px) 50vw, 33vw"
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg=="
         />
       ))}
     </Marquee>
@@ -167,12 +140,25 @@ const HeroSection = () => {
           </Button>
         </Link>
       </div>
-      <div className="absolute top-0 w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 z-10">
-        <MarqueeColumn reverse={false} duration="180s" columnIndex={0} />
-        <MarqueeColumn reverse={true} duration="180s" columnIndex={1} />
-        <MarqueeColumn reverse={false} duration="180s" columnIndex={2} className="hidden sm:flex" />
-        <MarqueeColumn reverse={true} duration="180s" columnIndex={3} className="hidden lg:flex" />
-        <MarqueeColumn reverse={false} duration="180s" columnIndex={4} className="hidden xl:flex" />
+      <div className="absolute top-0 w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 z-10">
+        <MarqueeColumn reverse={false} duration="180s" />
+        <MarqueeColumn reverse={true} duration="180s" />
+        <MarqueeColumn reverse={false} duration="180s" />
+        <MarqueeColumn
+          reverse={true}
+          duration="180s"
+          className="hidden md:flex"
+        />
+        <MarqueeColumn
+          reverse={false}
+          duration="180s"
+          className="hidden lg:flex"
+        />
+        <MarqueeColumn
+          reverse={true}
+          duration="180s"
+          className="hidden lg:flex"
+        />
       </div>
     </section>
   );

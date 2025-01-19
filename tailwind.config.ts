@@ -107,12 +107,12 @@ const config: Config = {
   			}
   		},
   		animation: {
-  			marquee: 'marquee 40s linear infinite',
-  			'marquee-reverse': 'marquee-reverse 40s linear infinite',
-  			'marquee-vertical': 'marquee-vertical 40s linear infinite',
-  			'marquee-vertical-reverse': 'marquee-vertical-reverse 40s linear infinite',
-  			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			marquee: 'marquee var(--duration) linear infinite',
+  			'marquee-reverse': 'marquee-reverse var(--duration) linear infinite',
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+  			'marquee-vertical-reverse': 'marquee-vertical-reverse var(--duration) linear infinite',
+  			'accordion-down': 'accordion-down 0.5s ease-out',
+  			'accordion-up': 'accordion-up 0.5s ease-out'
   		}
   	}
   },

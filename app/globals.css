@@ -89,3 +89,21 @@
   background-size: cover;
   background-size: 150% 600px;
 }
+
+@keyframes marquee_vertical_scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes marquee_horizontal_scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
