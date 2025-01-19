@@ -11,9 +11,9 @@ export default function AITools() {
   const t = useTranslations('Index.aiTool')
   
   const tools = [
-    { key: 'backgroundRemover', link: '/tools/background-remover' },
-    { key: 'photoColorizer', link: '/tools/photo-colorizer' },
-    { key: 'photoEnhancer', link: '/tools/photo-enhancer' }
+    { key: 'backgroundRemover', link: '/tools/ai-background-remover' },
+    { key: 'photoColorizer', link: '/tools/ai-photo-colorizer' },
+    { key: 'photoEnhancer', link: '/tools/ai-image-enhancer' }
   ]
 
   // Helper function to safely get features array
